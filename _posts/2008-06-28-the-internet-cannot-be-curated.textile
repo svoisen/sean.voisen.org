@@ -3,10 +3,6 @@ layout: post
 title: The internet cannot be curated
 ---
 
-h2. {{ page.title }}
-
-p(meta). 28 Jun 2008
-
 There is a hypothesis that says that the purpose of sleep is to reinforce certain memories, or rather, neural connections, that were created during the previous day. Sleep does this not in a way that one might expect &mdash; by actually strengthening the connections &mdash; but rather by subtly washing away the neural connections created during the day that are deemed trivial or unimportant. Leaving only the most important ones remaining. A bit like waves washing gently on a rocky beach over thousands of years &mdash; eventually most of the rocks are turned to sand and only the largest rocks remain.
 
 When it comes to the preservation of culture, time, I think, works quite similarly. Take literature, for instance. Of the many millions of bodies of text that have been created over the thousands of years since man first invented writing, only a very few have been continually preserved and set aside as &ldquo;classics.&rdquo; The rest were beaten into sand and washed away by the ocean of time.
