@@ -18,17 +18,20 @@ blockquote:before, blockquote:after, q:before, q:after{content:'';content: none;
 hr{display:none;}
 
 /* Styles */
-body{margin:0;padding:0;border-top:20px solid #000;background-color:#fff;font:80%/115% "Liberation Sans", arial, verdana, sans-serif;line-height:150%;color:#000;}
+body{margin:0;padding:0;border-top:20px solid #000;background-color:#fff;font:80%/115% arial, verdana, sans-serif;line-height:150%;color:#000;}
 a{color:#cc0000;text-decoration:none;background-color:#f2f2f2;border-bottom:1px solid #ccc;}
 a:hover{background-color:#ffffcc;}
+acronym, abbr{cursor:help;border-bottom:1px dotted #ccc;}
+blockquote{border-left:1px solid #ccc;padding-left:15px;color:#666;margin:0;}
 #wrapper{width:656px;margin:0 auto 0 auto;padding:0;}
 #header{background-color:#000;color:#fff;padding:0;margin:0;}
 #header h1{margin:0;padding:50px 15px 15px 15px;font-weight:normal;}
 #header h1 a{background-color:transparent;color:#fff;border:none;text-decoration:none;}
 #content{margin:10px 0 0 0;border-top:1px solid #ccc;padding:0 15px 15px 15px;}
 #content h2{font-weight:bold;margin:2em 0 0.5em 0;padding:0;}
-#content p, blockquote, ul, ol{font-size:110%;}
+#content p, #content blockquote, #content ul, #content ol{font-size:1.1em;line-height:150%;}
 #content ul{list-style:dot;}
 #content ul li, #content ol li{padding-bottom:10px;}
-#footer{border-top:1px solid #ccc;font-size:110%;}
-.meta, .date{color:#999;font-family:"Liberation Mono", courier, monospace;}
+#footer{border-top:1px solid #ccc;font-size:110%;padding: 0 15px 15px 15px;}
+.meta, .date{color:#999;}
+p.meta{padding-left:15px;margin:0;}
