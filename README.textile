@@ -1,0 +1,12 @@
+h1. sean.voisen.org
+
+This is the code and data for my personal site and blog. It is statically generated using "Jekyll":http://github.com/mojombo/jekyll, a Ruby-based site generator.
+
+h2. License
+
+The following directories and their contents are copyright Sean Voisen.
+
+* _posts/
+* images/
+
+All other directories and files are licensed under the MIT license.
