@@ -1,0 +1,17 @@
+---
+layout: post
+title: The belated ETech wrap-up
+---
+
+Obviously, this is a blog post long overdue.
+
+My notes from the last two days at ETech are sparse. This is partially because of my own growing laziness during the latter days of the conference, and partially because I (like to think) I was making a concerted effort to spend more time listening and absorbing, and less time trying to capture it all. Though note-taking certainly improves retention, its distractions can also lead to a lot of missed visual and auditory intake.
+
+ETech is a hacker’s conference. It is a conference for technologists and programmers and designers and people who spend their days making things. At least, it certainly felt that way. The number of sessions with titles containing words like “hacks” or “hacking” or “do-it-yourself” seemed to far outweigh those that did not. But perhaps that’s just biased retrospection. On the first day, Tim O’Reilly delivered a rousing keynote that essentially boiled down to a 30-minute praise of hackers and makers and geeks in the trenches. My sense was that about half the people there were actually hackers, and the other half were people just trying to keep tabs on what the hacker/technologist community is up to.
+
+Now, technology for technology’s sake is all well and good, but it’s not my primary interest, and I was happy to find that there were several presenters at the conference attempting to push the hackers to create technology for social good. “Green” technology was a big theme this year. Saul Griffith delivered a massively in-depth keynote on calculating personal energy consumption, the contents of which can now be found at [wattzon.org](http://wattzon.org). Even more rousing, however, was [Larry Lessig’s](http://www.lessig.org/) special evening keynote on government corruption — an impassioned plea for hackers to start using technology to help expose what’s really going on in Washington. The [Sunlight Foundation](http://www.sunlightfoundation.com/) is a good first step in the right direction. Also, if you’ve never seen Lessig deliver a Powerpoint presentation, you should — it’s a brilliant example of how to turn the typical idiocy of Powerpoint on its head.
+
+It was a lot to assimilate in a mere four days, and I was mentally exhausted by the end of it all. This was a conference jam-packed with a lot of smart people; some with egos to match their IQs, and others far more humble. I walked away with more project ideas than I could feasibly implement, and a larger network of people who know how to make some of those ideas a reality.
+
+Was it worth it? For some, ETech can be prohibitively expensive. But if you really want to know where the next wave of technology is heading, and you pay attention and talk to enough people at the conference, it is possible to justify the cost. For me, it was just nice to have so many inspiring conversations with so many smart and like-minded people. Also, it doesn’t hurt to note that events like this are never without their unexpected surprises. Case in point: I spent my last few minutes at ETech learning how to pick locks during an impromptu lock-picking session delivered by a local San Diego hacker (and self-described “random douchebag”) — something that was definitely not on the official schedule. The maxim holds true again: the true value of any conference lies not in the speeches and sessions, but in the chance encounters and random hallway conversations with people you’ve never met before.
+
