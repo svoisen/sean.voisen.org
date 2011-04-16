@@ -1,23 +1,3 @@
-/* Reset */
-html, body, div, span, applet, object, iframe,
-dfn, em, font, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center, dl, dt, dd, fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td
-{
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	vertical-align: baseline;
-	background: transparent;
-}
-body{line-height: 1;}
-blockquote, q{quotes: none;}
-blockquote:before, blockquote:after, q:before, q:after{content:'';content: none;}
-hr{display:none;}
-
-/* Styles */
 body{margin:0;padding:0;border-top:20px solid #000;background-color:#fff;font:80%/115% arial, verdana, sans-serif;line-height:150%;color:#000;}
 a{color:#cc0000;text-decoration:none;background-color:#f2f2f2;border-bottom:1px solid #ccc;}
 a:hover{background-color:#ffffcc;}
@@ -29,9 +9,13 @@ blockquote{border-left:1px solid #ccc;padding-left:15px;color:#666;margin:0;}
 #header h1 a{background-color:transparent;color:#fff;border:none;text-decoration:none;}
 #content{margin:10px 0 0 0;border-top:1px solid #ccc;padding:0 15px 15px 15px;}
 #content h2{font-weight:bold;margin:2em 0 0.5em 0;padding:0;}
+#content h3{font-weight:bold;margin:2em 0 0.5em 0;padding:0;}
 #content p, #content blockquote, #content ul, #content ol{font-size:1.1em;line-height:150%;}
 #content ul{list-style:dot;}
 #content ul li, #content ol li{padding-bottom:10px;}
-#footer{border-top:1px solid #ccc;font-size:110%;padding: 0 15px 15px 15px;}
+#footer{border-top:1px solid #ccc;font-size:110%;padding: 0 15px 15px 15px;text-align:right;}
 .meta, .date{color:#999;}
 p.meta{padding-left:15px;margin:0;}
+ul.posts{list-style:none;padding-left:0;margin-left:0;}
+div.video{padding:2px;border:1px solid #ccc;}
+img.framed{padding:2px;border:1px solid #ccc;}
