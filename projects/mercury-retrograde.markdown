@@ -1,0 +1,21 @@
+---
+layout: project
+title: Mercury Retrograde
+---
+
+Mercury Retrograde is a hand-built [nixie tube](http://en.wikipedia.org/wiki/Nixie_tube) alarm clock that is controlled, set and manipulated using a 3-axis accelerometer. The clock is an exploration of the role of intentionality in everyday objects, as well as an experiment in [resistentialist](http://en.wikipedia.org/wiki/Resistentialism) behavior. In order to function correctly, it demands physical attention. Ignore it for too long and it begins to rebel, intentionally slowing its internal oscillations and waking its owner at inconvenient hours of the night.
+
+Originally a first-year master’s degree project for UCI’s [ACE program](http://ace.uci.edu), the clock now sits, faithfully ticking the seconds away, on my father’s desk.
+
+Features include: Backup power supply, alarm functionality with programmable melodies, audible alerts during mode changes, and setting of clock/alarm through simple shake and rotate gestures. Case is constructed of plexiglass, red oak and walnut.
+
+### Video
+
+<div class="video"><object width="620" height="349"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=5267251&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=5267251&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="620" height="349"></embed></object></div> 
+
+### Photos
+
+<img src="/images/mercury_retrograde_1.jpg" alt="Photo 1" class="framed" />
+
+<img src="/images/mercury_retrograde_2.jpg" alt="Photo 2" class="framed" />
+
