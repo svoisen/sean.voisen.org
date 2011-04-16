@@ -1,2 +1,4 @@
+markdown: rdiscount
 pygments: true
 permalink: /blog/:year/:month/:title
+title: Sean Voisen
