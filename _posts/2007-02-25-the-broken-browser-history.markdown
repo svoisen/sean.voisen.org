@@ -1,0 +1,15 @@
+---
+layout: post
+title: The broken browser history
+---
+
+**Problem:** Browser history, in its current state of technological evolution, is not usable. In fact, it is, as far as I’m concerned, broken.
+
+And here’s why: This is what I do when I’m trying to find a web page that I may have visited either earlier in the day or earlier in the week, but can’t remember what it was called or what site it was on and, of course, neglected to bookmark it. I use the same procedure I would use if I had misplaced my house keys or my wallet or (gasp) my Blackberry. Namely, I take a few moments to try and recall what I was doing before and after I last saw the item (or web page), and then retrace my steps forwards or backwards as necessary. The thought processes that are involved in the retracing are not linear. They do not involve times or dates or names of things necessarily. I do not think to myself, “Did I last use those keys at 1:00 PM or 2:00 PM? Did I use my phone yesterday, or this morning?” Instead, the retracing involves recalling images of events and sensory-based memories — psychological landmarks, if you will — and piecing together their network of relationships. I ask myself, “What was I doing? What was I thinking about? What was I responding to? How did I move from one task to the next?”
+
+If what I do on my computer is browse a web — that is, traverse a series of hyperlinks over time in a non-linear fashion — then how come my web browser insists on presenting the the history of my browsing in a very linear, and thus very unusable, way? Opening the browser history in Firefox presents me with a list of pages I have visited in the past. I can sort them by date. I can sort them by site. I can sort them by date and site. But what I cannot do is get an actual visual representation of the browsing as it actually happened. There is no graph, no map, and thus no way for me to determine the actual conceptual relationships between all the pages I’ve viewed. All I have is a list, and a not very useful one at that.
+
+[Pathway](http://pathway.screenager.be/download/) is the first step I’ve seen towards browser history done right. A Mac application designed for navigating Wikipedia, Pathway records your browsing history as a traversable spring graph, making it easy to see and immediately remember how you moved from one article in Wikipedia to another. Nodes are added to the graph as pages are loaded, with lines between nodes representing the path followed from one page to the next. Relationships are made obvious. History becomes visual and intuitive. You can even save your graph and load it again at a later date, making it possible to rethink browser history not as a throwaway list, but as a reusable map of information about a specific idea or concept.
+
+Why hasn’t a feature that works like Pathway replaced the tired, list-based browser history implementation found in supposedly modern web browsers like Firefox or Safari? I don’t know why. The idea is [not new](http://asi-www.informatik.uni-hamburg.de/personen/mayer/hcilproject/visualizingHistory.html). But it’s about time we did something about it.
+
