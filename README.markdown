@@ -11,5 +11,6 @@ The following directories and their contents are copyright Sean Voisen.
 * _posts/
 * projects/
 * images/
+* audio/
 
 All other directories and files are licensed under the [MIT license](http://www.opensource.org/licenses/mit-license.php).
