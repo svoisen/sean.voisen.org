@@ -16,6 +16,4 @@ Features include: Backup power supply, alarm functionality with programmable mel
 ### Photos
 
 <img src="/images/mercury_retrograde_1.jpg" alt="Photo 1" class="framed" />
-
 <img src="/images/mercury_retrograde_2.jpg" alt="Photo 2" class="framed" />
-

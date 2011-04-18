@@ -1,0 +1,15 @@
+---
+layout: post
+title: Startups &mdash; Companies or long-term ad-hoc teams?
+---
+
+Here’s an interesting question on matters of semantics for you: Are most Web 2.0 startups actually companies, or are they simply ad-hoc teams of free agents working on 36-month long projects? And what, if anything, is the difference?
+
+It seems that [Dan Pink](http://www.amazon.com/gp/redirect.html%3FASIN=0446678791%26tag=eatorange-20%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0446678791%253FSubscriptionId=0EMV44A9A5YT1RVDGZ82) was on to something. The rise of the free agent ecosystem and the Internet is forcing us to redefine what we mean by the word “company.” Most of the new technology “companies” I hear about these days aren’t really “companies” at all in the old-economy sense of the word — the people who form them almost never intend for them to last more than 5 years before being bought out by some larger firm. They are short-term enterprises founded on the venture capitalist mentality. They’re not supposed to last long; they have “exit strategies.”
+
+Almost every investor we have ever met with regarding the Maestro project has asked us: “What is your exit strategy?” Besides knowing how we’re going to make money, this seems to be the number one thing that every single investor wants to know. “When are you going to cease being a company? And when are we going to get our money back?” The fact that I even refer to “Maestro” a project and not a company is telling in itself. Though I may have helped to start the whole thing, I went into it with the attitude of a free agent, knowing full well that while it would consume most of my time, it would not be my sole occupational focus. I have other, just as equally as interesting projects.
+
+It’s an interesting social commentary on the future of employment and the philosophy of business. As Dan Pink speculates in his book [Free Agent Nation](http://www.amazon.com/gp/redirect.html%3FASIN=0446678791%26tag=eatorange-20%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0446678791%253FSubscriptionId=0EMV44A9A5YT1RVDGZ82), we’re all going “Hollywood.” We’re forming ad-hoc teams to work on interesting, high-tech projects and then disbanding them after launch and buy-out. And while it’s true that there are some groups out there (like 37Signals or Craigslist) sticking to the traditional idea of a company, there are far more (Flickr, del.icio.us, MySpace) that form and are later either absorbed or scattered by larger enterprises.
+
+With Web 2.0, loyalties seem to lie with ideas and with the people who work on those ideas rather than the organizations that form as a result of them. “Companies” — which are really just ad-hoc teams of both specialists and generalists — appear and disappear in the blink of an eye. Which is why I don’t think we need to concern ourselves too much over the hype and cheesiness of the shiny Web 2.0 logo with its “beta” superscript — it seems we’ve entered the age of the disposable company and disposable brand. They’ll be gone soon enough anyway.
+
