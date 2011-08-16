@@ -9,6 +9,10 @@ Originally a first-year master’s degree project for UCI’s [ACE program](http
 
 Features include: Backup power supply, alarm functionality with programmable melodies, audible alerts during mode changes, and setting of clock/alarm through simple shake and rotate gestures. Case is constructed of plexiglass, red oak and walnut.
 
+### Code and Schematics
+
+Microcontroller code and schematics for the clock are [available on Github.](https://github.com/svoisen/mercury_retrograde)
+
 ### Video
 
 <div class="video"><object width="620" height="349"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=5267251&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=5267251&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="620" height="349"></embed></object></div> 
