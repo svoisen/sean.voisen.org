@@ -3,7 +3,7 @@ layout: post
 title: The belated ETech wrap-up
 ---
 
-Obviously, this is a blog post long overdue.
+This is a blog post long overdue.
 
 My notes from the last two days at ETech are sparse. This is partially because of my own growing laziness during the latter days of the conference, and partially because I (like to think) I was making a concerted effort to spend more time listening and absorbing, and less time trying to capture it all. Though note-taking certainly improves retention, its distractions can also lead to a lot of missed visual and auditory intake.
 
