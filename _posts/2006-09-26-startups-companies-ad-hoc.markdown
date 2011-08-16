@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Startups &mdash; Companies or long-term ad-hoc teams?
+title: Startups - Companies or long-term ad-hoc teams?
 ---
 
 Here’s an interesting question on matters of semantics for you: Are most Web 2.0 startups actually companies, or are they simply ad-hoc teams of free agents working on 36-month long projects? And what, if anything, is the difference?
