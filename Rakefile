@@ -24,21 +24,30 @@ namespace :site do
     end
   end
 
-  desc "Synchronize site to remote production server"
-  task :rsync => :"build:pro" do
-    puts "Synchronizing with remote production server"
-    system('rsync -avrz -e "ssh -i /home/svoisen/.ssh/rsync_key" _site/ svoisen@voisen.org:sean.voisen.org')
+  desc "Synchronize with servers"
+  namespace :rsync do
+    desc "Synchronize site to remote production server"
+    task :pro => :"build:pro" do
+      puts "Synchronizing with remote production server"
+      system('rsync -avrz -e "ssh -i /home/svoisen/.ssh/rsync_key" _site/ svoisen@voisen.org:sean.voisen.org')
+    end
+
+    desc "Synchronize site to local server"
+    task :dev => :"build:dev" do
+      puts "Synchronizing with local server"
+      system('sudo rsync -avrz _site /var/www')
+    end
   end
 
   desc "Deploy"
   namespace :deploy do
     desc "Builds and deploys locally"
-    task :dev => [:"build:dev"] do
+    task :dev => [:"build:dev", :"rsync:dev"] do
       puts "Local site deployed!"
     end
 
     desc "Builds and deploys to remote production server"
-    task :pro => [:"build:pro",:rsync] do
+    task :pro => [:"build:pro",:"rsync:pro"] do
       puts "Production site deployed!"
     end
   end
@@ -58,8 +67,9 @@ namespace :site do
           :clean => 1,
           :indent => 1,
           :wrap => 0,
-          :drop_empty_paras => 1,
-          :literal_attributes => 1).clean
+          :drop_empty_paras => 0,
+          :literal_attributes => 1,
+          :char_encoding => 'utf8').clean
       }
     end
   end
