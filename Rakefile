@@ -9,7 +9,7 @@ namespace :site do
 
   desc "Generate content"
   namespace :build do
-    desc "Generate and deploy locally"
+    desc "Generate content for local testing"
     task :dev => :delete do
       puts "Generating content for local testing"
       system('jekyll')
@@ -21,6 +21,25 @@ namespace :site do
       puts "Generating content for production"
       system('jekyll --lsi')
       tidy
+    end
+  end
+
+  desc "Synchronize site to remote production server"
+  task :rsync => :"build:pro" do
+    puts "Synchronizing with remote production server"
+    system('rsync -avrz -e "ssh -i /home/svoisen/.ssh/rsync_key" _site/ svoisen@voisen.org:sean.voisen.org')
+  end
+
+  desc "Deploy"
+  namespace :deploy do
+    desc "Builds and deploys locally"
+    task :dev => [:"build:dev"] do
+      puts "Local site deployed!"
+    end
+
+    desc "Builds and deploys to remote production server"
+    task :pro => [:"build:pro",:rsync] do
+      puts "Production site deployed!"
     end
   end
 
