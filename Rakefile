@@ -35,7 +35,7 @@ namespace :site do
     desc "Synchronize site to local server"
     task :dev => :"build:dev" do
       puts "Synchronizing with local server"
-      system('sudo rsync -avrz _site /var/www')
+      system('sudo rsync -avr _site/ /var/www/')
     end
   end
 
@@ -60,14 +60,14 @@ namespace :site do
       File.open(path, 'w') {|file|
         file.write TidyFFI::Tidy.new(content,
           :numeric_entities => 1,
-          :output_html => 1,
+          :output_xhtml => 1,
           :merge_divs => 0,
           :merge_spans => 0,
           :join_styles => 0,
           :clean => 1,
           :indent => 1,
           :wrap => 0,
-          :drop_empty_paras => 0,
+          :drop_empty_paras => 1,
           :literal_attributes => 1,
           :char_encoding => 'utf8').clean
       }

@@ -4,21 +4,22 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Sean Voisen</title>
- <link href="http://voisen.org/atom.xml" rel="self"/>
- <link href="http://voisen.org/"/>
+ <title type="text" xml:lang="en">Sean Voisen</title>
+ <link href="http://sean.voisen.org/atom.xml" rel="self"/>
+ <link href="http://sean.voisen.org/" type="text" rel="alternate"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://voisen.org/</id>
+ <id>http://sean.voisen.org/</id>
  <author>
    <name>Sean Voisen</name>
  </author>
+ <rights>Copyright (C) 2005-2011 Sean Voisen</rights>
 
- {% for post in site.posts %}
+ {% for post in site.posts limit:20 %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://voisen.org{{ post.url }}"/>
+   <link href="http://sean.voisen.org{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://voisen.org{{ post.id }}</id>
+   <id>http://sean.voisen.org{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}

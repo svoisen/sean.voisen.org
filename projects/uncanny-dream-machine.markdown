@@ -3,6 +3,11 @@ layout: project
 title: The Uncanny Dream Machine
 ---
 
+<script type="text/javascript" src="/scripts/audio-player.js"></script>
+<script type="text/javascript">
+  AudioPlayer.setup("/swfs/audio_player.swf", {width:620});
+</script>
+
 The Uncanny Dream Machine is an exploration in computer-generated dreamlike narrative. An artificial intelligence (AI) system conceived as a project of “expressive AI,” The Uncanny Dream Machine uses various databases and natural language processing algorithms to “re-mix” a collection of dream transcripts into novel dream narratives in real-time. Embodied as a 1940′s-era wooden Philco radio, viewers listen to the machine as it reads its dreams over the airwaves. Knobs on the radio allow viewers to “tune in” to streams of consciousness delineated by various emotions — fear, anger, curiosity, joy, anxiety, worry, etc. — provoking conversations about the nature of emotion and consciousness in an otherwise unemotional, unconscious, and disembodied machine.
 
 **Note:** Tinkerers, geeks, artists and other curious folks may wish to read [this in-depth technical explanation of The Uncanny Dream Machine’s construction and inner workings.](/projects/uncanny-dream-machine-technical)
