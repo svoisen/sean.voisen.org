@@ -6,6 +6,13 @@
     <meta name="author" content="Sean Voisen" />
     <link href="http://feeds.feedburner.com/voisen" rel="alternate" title="Sean Voisen" type="application/rss+xml" />
     <link href="/styles/screen.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+    <script type="text/javascript">
+      function getEmail(text) {
+        return ("<n uers=\"znvygb:frna@ibvfra.bet\" ery=\"absbyybj\">" + text + "</n>").replace(/[a-zA-Z]/g, 
+        function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
+      }
+    </script>
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-1034944-1']);
@@ -28,10 +35,9 @@
         {{ content }}
       </div>
       <div id="footer">
-        <p>&copy; 2005-2011 Sean Voisen. <span id="mail">E-mail me</span> or find me on <a href="http://twitter.com/svoisen">Twitter.</a></p>
+        <p>&copy; 2005-2011 Sean Voisen. <span id="footer_email">E-mail me</span> or find me on <a href="http://twitter.com/svoisen">Twitter.</a></p>
         <script type="text/javascript">
-         document.getElementById('mail').innerHTML="<n uers=\"znvygb:frna@ibvfra.bet\" ery=\"absbyybj\">R-znvy zr</n>".replace(/[a-zA-Z]/g, 
-            function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
+          document.getElementById('footer_email').innerHTML=getEmail("R-znvy zr");
         </script>
       </div>
     </div>

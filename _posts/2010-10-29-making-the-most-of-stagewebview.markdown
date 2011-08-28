@@ -11,7 +11,7 @@ And in the interim, all is not lost. For many use cases, StageWebView probably a
 
 Finally, albeit the fact that bi-directional ActionScript/JavaScript communication is difficult, it is not impossible. This is a useful feature that may be non-obvious to some developers (it was to me!) so I will document it here:
 
-### ActionScript &rarr; JavaScript
+### ActionScript to JavaScript
 
 ActionScript to JavaScript communication is fairly straightforward. Simply use the “javascript:” protocol. For instance:
 
@@ -28,7 +28,7 @@ swv.loadURL("javascript:var myFunction="
   + "function(){alert('Hello world!');}");
 {% endhighlight %}
 
-### JavaScript &rarr; ActionScript
+### JavaScript to ActionScript
 
 JavaScript to ActionScript communication requires a bit more hacking. Presently, the best means of passing data from JavaScript to ActionScript is through encoded strings in the StageWebView’s location. Using JavaScript to set <code>document.location</code> will cause the StageWebView to dispatch a <code>LocationChangeEvent.LOCATION_CHANGING</code>. From here, we can use preventDefault() on the event to prevent the location from actually changing, while still extracting the data from the location. I typically use JSON as the data format, and make use of [as3corelib](http://github.com/mikechambers/as3corelib)‘s JSON deserialization methods to handle the data on the ActionScript side. For instance, to get the HTML content width and height inside a StageWebView instance, on the JavaScript side you can use:
 

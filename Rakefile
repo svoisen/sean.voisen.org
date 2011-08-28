@@ -5,6 +5,7 @@ namespace :site do
   task :delete do
     puts "Deleting content in _site"
     system('rm -r _site')
+    system('mkdir _site')
   end
 
   desc "Generate content"
