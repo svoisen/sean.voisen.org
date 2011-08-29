@@ -30,13 +30,13 @@ namespace :site do
     desc "Synchronize site to remote production server"
     task :pro => :"build:pro" do
       puts "Synchronizing with remote production server"
-      system('rsync -avrz -e "ssh -i /home/svoisen/.ssh/rsync_key" _site/ svoisen@voisen.org:sean.voisen.org')
+      system('rsync -avrz --delete -e "ssh -i /home/svoisen/.ssh/rsync_key" _site/ svoisen@voisen.org:sean.voisen.org')
     end
 
     desc "Synchronize site to local server"
     task :dev => :"build:dev" do
       puts "Synchronizing with local server"
-      system('sudo rsync -avr _site/ /var/www/')
+      system('sudo rsync -avr --delete _site/ /var/www/')
     end
   end
 
