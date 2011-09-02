@@ -26,3 +26,7 @@ Recently, our team at Adobe XD invited Uncle Bob over to our office to spend thr
 Writing tests is not fun. Anyone who tells you otherwise is a liar. But, getting tests to pass is surprisingly addictive. And therein lies the power of TDD: it offers a kind of IV drip of continous daily victories.
 
 But would I use TDD for every project I work on? Probably not. For personal &ldquo;one-off&rdquo; projects or projects I know will not see much future maintenance, the slower development time is simply not worth it. For serious, long-term projects however, TDD is now a must.
+
+### Responses
+
+* My friend Daniel Wanja [takes issue with me calling him a liar](http://www.onrails.org/2011/08/30/writing-tests-is-not-fun-anyone-who-tells-you-otherwise-is-a-liar) :)
