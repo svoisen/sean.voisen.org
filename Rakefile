@@ -36,7 +36,7 @@ namespace :site do
     desc "Synchronize site to local server"
     task :dev => :"build:dev" do
       puts "Synchronizing with local server"
-      system('sudo rsync -avr --delete _site/ /var/www/')
+      system('sudo rsync -avr --delete _site/ /Users/svoisen/Sites/sean.voisen.local/')
     end
   end
 
