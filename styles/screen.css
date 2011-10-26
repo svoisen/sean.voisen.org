@@ -8,6 +8,7 @@ strong{font-weight:bold;}
 em{font-style:italic;}
 pre{margin:1em 0 1.5em 0;background-color:#f2f2f2;border-top:1px solid #ccc;border-bottom:1px solid #ccc;padding:1.5em 1em 0 1em;font-family:courier,monospace;font-size:0.9em;letter-spacing:1px;line-height:150%;}
 code{font-family:courier,monospace;letter-spacing:1px;}
+img.framed{border:1px solid #ccc;padding:5px;}
 #wrapper{width:656px;margin:0 auto 0 auto;padding:0;}
 #header{background-color:#000;color:#fff;padding:0;margin:0;}
 #header h1{margin:0;padding:50px 15px 15px 15px;font-weight:normal;font-size:197%;}
