@@ -10,11 +10,11 @@ Introduction
 
 Once you have the Sifteo SDK installed and working on your system, and you're ready to build your first game, you may find yourself asking: "Where do I go from here?"
 
-Moving from "Hello, World!" to real-life application development on a new platform is always a daunting task. To add to the challenge, consider the uniqueness and idiosyncrasies of the Sifteo platform:
+Moving from "Hello, World!" to real-life application development on a new platform is always a daunting task. To add to the challenge, consider the uniqueness and idiosyncrasies of the [Sifteo](http://www.sifteo.com) platform:
 
-1. **The cubes are multi-faceted.** Traditionally, software developers are accustomed to handling mouse clicks and keyboard input.  A Sifteo cube is an entirely new I/O device with its own strengths, weaknesses, and quirks. The multi-faceted nature of the cube, for instance, means that not only must you account for the four different sides of the cube, but also (depending on the complexity of your application) orientation, tilt, and adjacency to other cubes.
+1. **The cubes are multi-faceted.** Traditionally, software developers are accustomed to handling mouse clicks and keyboard input.  A Sifteo cube is an entirely new I/O device with its own strengths, weaknesses, and quirks. The multi-faceted nature of the cube  means that not only must you account for the four different sides of the cube, but also (depending on the complexity of your application) orientation, tilt, and adjacency to other cubes.
 
-2. **Communication with the cubes is wireless.** The wireless connection is low-latency, but not zero-latency. Every command you send to the cubes (for instance, to draw a rectangle or paint an image) costs time, and too many commands can reduce the framerate and introduce flicker.  Furthermore, because the cubes are wirelessly connected, you must also account for any unexpected connectivity events that may happen. That is, cubes may be introduced to or removed from game play at any time.
+2. **Communication with the cubes is wireless.** The wireless connection is low-latency, but not zero-latency. Every command you send to the cubes (for instance, to draw a rectangle or paint an image) costs time, and too many commands can reduce the frame rate and introduce flicker.  Furthermore, because the cubes are wirelessly connected, you must also account for any unexpected connectivity events that may happen. That is, cubes may be introduced to or removed from game play at any time.
 
 3. **Everything image displayed on the cubes is a raster graphic.** All imagery, including text, that appears on the cubes must be an image or computationally drawn using the `Cube.FillRect` or `Cube.FillScreen` methods. Vectors don't exist, and there is no drawing API. Arbitrary text rendering is a particular challenge, and must be accomplished by generating sprite sheets of font glyphs and manually placing those glyphs to create words or sentences.
 
@@ -32,24 +32,27 @@ The Sifteo SDK includes `Sifteo.Util.StateMachine`, a handy class for managing c
 Consider a simple sorting game with three states as an example. You might set up the state machine in the main application class as follows:
 
 {% highlight csharp %}
-StateMachine sm = new StateMachine();
-sm.State("Title", titleController);
-sm.State("Menu", menuController);
-sm.State("Game", gameController);
+override public void Setup
+{
+  StateMachine sm = new StateMachine();
+  sm.State("Title", titleController);
+  sm.State("Menu", menuController);
+  sm.State("Game", gameController);
 
-sm.Transition("Title", "TitleToMenu", "Menu");
-sm.Transition("Menu", "MenuToGame", "Game");
-sm.Transition("Game", "GameToMenu", "Menu");
+  sm.Transition("Title", "TitleToMenu", "Menu");
+  sm.Transition("Menu", "MenuToGame", "Game");
+  sm.Transition("Game", "GameToMenu", "Menu");
+}
 
 {% endhighlight %}
 
-This results in a small state machine that allows you to move from title screen to menu, and back and forth between the menu and game states. This is, of course, a simplistic example &mdash; string literals should be made constants, the StateMachine should be a field, etc. &mdash; but this should illustrate the basic idea.
+This results in a small state machine that allows you to move from title screen to menu, and back and forth between the menu and game states. This is, of course, a simplistic example &mdash; string literals should be made constants, the StateMachine should be a field, etc. &mdash; but this should illustrate the basic idea and allow you to get started.
 
 A few things to note about the `StateMachine` class: 
 
 * Every controller must implement the `IStateController` interface. 
-* The `OnTick` and `OnPaint` methods in the controllers will not be called unless you call the `Tick` and `Paint` methods on the StateMachine itself. I do this within the `Tick` and `Paint` methods in the amain application class.
-* Calling `Tick` on the StateMachine will call `OnTick` in every controller, whether it is the controller that currently owns control flow or not.
+* The `OnTick` and `OnPaint` methods in the controllers will not be called unless you call the `Tick` and `Paint` methods on the StateMachine itself. I do this within the `Tick` and `Paint` methods in the main application class. (Though, because all control logic is in the controllers, I have never needed to call `Paint` from there.)
+* Calling `Tick` on the StateMachine will call `OnTick` in every controller, whether it is the controller that currently owns control flow or not. You can check which state is currently in control by checking the `Current` property on the StateMachine.
 
 ### Views
 
@@ -104,7 +107,9 @@ It's possible, and likely, that different game states will have different painti
 
 ### Models
 
-There's little to say about models except the fact that every application should have at least one. Because Sifteo games tend to be small, most data models will likely not be very complex. I tend to have a main application model, and sub-models that correspond with each controller. Your milage may vary.
+There's little to say about models except the fact that every application should have at least one. Because Sifteo games tend to be small, most data models will likely not be very complex. I tend to have a main application model, and sub-models that correspond with each controller. I've found it necessary for each cube wrapper to have a reference to its own model, or listen for events on its own dedicated model. 
+
+To maintain loose coupling, models should dispatch events whenever a property changes that needs to be monitored, and the view should update accordingly. Presently, I don't do this. Instead, I look at the state of the model whenever the `Paint` method on my wrapper is called. Your milage may vary.
 
 
 Architecture: Wiring It Together with Ninject
@@ -176,7 +181,7 @@ Other Helpful Patterns
 
 ### CubeSet Injection
 
-Oftentimes, I found that my controllers required a reference to the main application `CubeSet`. Because the CubeSet instance is a property of `BaseApp` it cannot be bound as for injection in the module likethe models, controllers, services, etc. In order to still make the `CubeSet` available for injection into my controllers, I created a custom method provider in the `Setup` function of my main application like so:
+Oftentimes, I found that my controllers required a reference to the main application `CubeSet`. Because the `CubeSet` instance is a property of `BaseApp` it cannot be bound as for injection in the module likethe models, controllers, services, etc. In order to still make the `CubeSet` available for injection into my controllers, I created a custom method provider in the `Setup` function of my main application like so:
 
 {% highlight csharp %}
 override public void Setup()
@@ -244,3 +249,7 @@ public class StateMachineLock
 
 {% endhighlight %}
 
+Conclusion
+----------
+
+Though it's by no means exhaustive, I hope this small collection of tips and techniques will help a few developers in the nascent Sifteo development community.
