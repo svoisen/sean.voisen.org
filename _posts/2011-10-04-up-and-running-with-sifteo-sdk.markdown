@@ -38,7 +38,7 @@ mono [SDK_HOME]/tools/project_gen/project_gen.exe MyFirstApp
 
 </pre>
 
-On Windows, use a similar command from the Mono command prompt, replacing &ldquo;/&rdquo; with &ldquo;\\&rdquo;, etc.
+On Windows, use a similar command from the Mono command prompt, replacing &ldquo;/&rdquo; with &ldquo;\\&rdquo;, etc. Some users on Windows have reported having to use the `-t` flag to specify the location of the project template, as in: `-t [SDK_HOME]/tools/project_gen/template`.
 
 Opening Your Project
 --------------------
