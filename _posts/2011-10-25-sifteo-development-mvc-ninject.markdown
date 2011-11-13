@@ -3,7 +3,7 @@ layout: post
 title: Sifteo development with MVC and Ninject
 ---
 
-_This is a [follow-up to previous tutorial](http://sean.voisen.org/blog/2011/10/up-and-running-with-sifteo-sdk/) on getting started with the Sifteo SDK. If you haven't at least managed to get the example applications from the SDK running, I suggest you start there first._
+_This is a [follow-up to a previous tutorial](http://sean.voisen.org/blog/2011/10/up-and-running-with-sifteo-sdk/) on getting started with the Sifteo SDK. If you haven't at least managed to get the example applications from the SDK running, I suggest you start there first._
 
 Introduction
 ------------
