@@ -12,5 +12,7 @@ PigeonBlog 2.0 is the second iteration of Professor Beatriz da Costa’s [Pigeon
 ### Photos
 
 <img src="/images/pigeonblog_1.jpg" alt="Photo 1" class="framed" />
+
 <img src="/images/pigeonblog_2.jpg" alt="Photo 2" class="framed" />
+
 <img src="/images/pigeonblog_3.jpg" alt="Photo 3" class="framed" />

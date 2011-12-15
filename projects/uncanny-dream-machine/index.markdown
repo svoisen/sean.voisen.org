@@ -44,6 +44,8 @@ The following is collection of sample dreams, chosen at random. The Uncanny Drea
 ### Photos
 
 <img src="/images/uncanny_dream_photo1.jpg" alt="Photo 1" class="framed" />
+
 <img src="/images/uncanny_dream_photo2.jpg" alt="Photo 2" class="framed" />
+
 <img src="/images/uncanny_dream_photo3.jpg" alt="Photo 3" class="framed" />
 
