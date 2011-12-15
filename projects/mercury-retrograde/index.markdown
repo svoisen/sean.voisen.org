@@ -20,4 +20,5 @@ Microcontroller code and schematics for the clock are [available on Github.](htt
 ### Photos
 
 <img src="/images/mercury_retrograde_1.jpg" alt="Photo 1" class="framed" />
+
 <img src="/images/mercury_retrograde_2.jpg" alt="Photo 2" class="framed" />
