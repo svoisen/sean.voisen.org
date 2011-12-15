@@ -18,6 +18,8 @@ The Bluenumi will be available for sale as a kit, as well as in limited pre-asse
 * 100% open source hardware and software
 * Arduino programming compatibility using standard TTL serial
 
+The firmware source code and schematics for Bluenumi are [hosted on Github](http://github.com/svoisen/bluenumi).
+
 ### Photos
 
 <img src="/images/bluenumi_1.jpg" alt="photo 1" class="framed" />
