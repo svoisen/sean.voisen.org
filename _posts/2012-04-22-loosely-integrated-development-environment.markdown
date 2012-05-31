@@ -1,0 +1,14 @@
+---
+layout: post
+title: Loosely integrated development environment
+---
+
+Small pieces loosely joined. It was the title of a book written by David Weinberger back in 2002, but one could say it&rsquo;s also become something of a mantra for software development for the 21st century. Good software is not monolithic; rather it is composed of small pieces, easily testable, loosely joined. At least, that&rsquo;s the present consensus.
+
+[Light Table](http://www.chris-granger.com/2012/04/12/light-table---a-new-ide-concept/) attempts to suffuse this idea at the core of the software development experience, reinventing what it means to edit code, presenting software not as a monolithic "project," but rather as a kind of visual web of functions. Code disembodied from the file. The ideas behind [Light Table](http://www.chris-granger.com/2012/04/12/light-table---a-new-ide-concept/) are not new, but they&rsquo;re nevertheless still forward-thinking. With the growing popularity of dynamically-typed languages, the time is right to reinvent the entire programming experience from the ground up. 
+
+Yet, I wonder if Light Table is radical _enough_. Nomenclature can lead the design process astray in mysterious ways; words both comprise and limit our thinking. IDE (integrated development environment) is one such word (ok well, it&rsquo;s a phrase really). Is there such a thing as a great IDE? In 15 years of software development, I&rsquo;ve yet to encounter one. The best is perhaps Visual Studio. Xcode and IntelliJ are just OK, and it all goes downhill from there. The problem with the IDE is that it&rsquo;s somewhat of a paradigmatic skeuomorphism, a monolith for developing software in the age of the web. We don&rsquo;t need more IDEs, and Light Table may do wise to avoid calling itself such.
+
+Consider: When a carpenter arrives at a house to build cabinetry, he doesn&rsquo;t arrive with a combination circular saw/hammer/nailgun/glue dispenser. He comes with a tool chest full of individual, special-purpose tools. Why should software development be any different? Rather than an IDE, how about a loose collection of special-purpose tools &mdash; a text editor, a function browser, a compiler, a search tool, a whatever  &mdash; made easily available from a common "tool chest." This is no different than how any Unix-style command line works. And it&rsquo;s no different than how software development "used" to work (in the "heyday" of Vim and Emacs) before the IDE became the dominant paradigm. The difference being that the tool chest is smarter, and makes it easier to invoke said tools with fewer keystrokes than possible via the command line. And maybe, for those people who like icons and buttons, it&rsquo;s graphical too. 
+
+Call it a LIDE &mdash; a Loosely Integrated Development Environment. Or simply, that collection of tools that just gets out of the way and lets us get our work done.
