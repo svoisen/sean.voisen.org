@@ -22,9 +22,9 @@ The firmware source code and schematics for Bluenumi are [hosted on Github](http
 
 ### Photos
 
-<img src="/images/bluenumi_1.jpg" alt="photo 1" class="framed" />
+<img src="/images/bluenumi_1.jpg" alt="Photo 1" class="framed" />
 
-<img src="/images/bluenumi_2.jpg" alt="photo 1" class="framed" />
+<img src="/images/bluenumi_2.jpg" alt="Photo 2" class="framed" />
 
-<img src="/images/bluenumi_3.jpg" alt="photo 1" class="framed" />
+<img src="/images/bluenumi_3.jpg" alt="Photo 3" class="framed" />
 
