@@ -13,6 +13,7 @@ code{font-family:courier,monospace;letter-spacing:1px;}
 #header{background-color:#000;color:#fff;padding:0;margin:0;}
 #header h1{margin:0;padding:50px 15px 15px 15px;font-weight:normal;font-size:197%;}
 #header h1 a{background-color:transparent;color:#fff;border:none;text-decoration:none;}
+#header h1 a:hover{border-bottom:1px solid #fff;}
 #content{margin:10px 0 0 0;border-top:1px solid #ccc;padding:15px;}
 #content h2{font-weight:bold;margin:2em 0 0.5em 0;padding:0;font-size:138.5%;}
 #content h2.title{margin-bottom:0;}
@@ -28,8 +29,9 @@ code{font-family:courier,monospace;letter-spacing:1px;}
 #content p.meta{color:#999;padding-left:15px;margin:0 0 1.5em 0;}
 #content ul.posts{padding-left:0;margin-left:0;}
 #content ul.posts li{list-style:none;}
-div.video{padding:2px;border:1px solid #ccc;}
-div.framed, img.framed{padding:2px;border:1px solid #ccc;}
+.return{margin:0 0 10px 0;font-size:108%;}
+.video{padding:2px;border:1px solid #ccc;}
+.framed{padding:2px;border:1px solid #ccc;}
 .date{color:#999;font-family:monospace;}
 
 /* Pygments */

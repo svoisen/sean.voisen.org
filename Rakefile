@@ -33,12 +33,6 @@ namespace :site do
       puts "Synchronizing with remote production server"
       system('rsync -avrz --delete -e "ssh -i /Users/svoisen/.ssh/id_rsa" _site/ svoisen@voisen.org:sean.voisen.org')
     end
-
-    desc "Synchronize site to local server"
-    task :dev => :"build:dev" do
-      puts "Synchronizing with local server"
-      #system('sudo rsync -avr --delete _site/ /Users/svoisen/Sites/sean.voisen.local/')
-    end
   end
 
   desc "Deploy"
@@ -49,7 +43,7 @@ namespace :site do
     end
 
     desc "Builds and deploys to remote production server"
-    task :pro => [:"build:pro",:"rsync:pro"] do
+    task :pro => [:"build:pro", :"rsync:pro"] do
       puts "Production site deployed!"
     end
   end
