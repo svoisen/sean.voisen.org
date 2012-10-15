@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Invaders Generator
+title: Invader Generator
 ---
 
 <script type="text/javascript" src="js/Three.js"></script>

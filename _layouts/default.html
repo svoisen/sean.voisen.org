@@ -1,31 +1,17 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html>
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>{{ site.title }} &raquo; {{ page.title }}</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="author" content="Sean Voisen" />
+    <meta name="description" content="Sean Voisen's compendium of projects and musings." />
+    <meta name="viewport" content="width=device-width">
     <link href="http://feeds.feedburner.com/voisen" rel="alternate" title="Sean Voisen" type="application/rss+xml" />
-    <link href="/styles/screen.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="/styles/normalize.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="/styles/main.css" rel="stylesheet" type="text/css" media="screen" />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
-    <script type="text/javascript">
-      function getEmail(text) {
-        return ("<n uers=\"znvygb:frna@ibvfra.bet\" ery=\"absbyybj\">" + text + "</n>").replace(/[a-zA-Z]/g, 
-        function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
-      }
-    </script>
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-1034944-1']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
   </head>
-
   <body>
     <div id="wrapper">
       <div id="header">
@@ -37,9 +23,20 @@
       <div id="footer">
         <p>&copy; 2005-2012 Sean Voisen. <span id="footer_email">E-mail me</span> or find me on <a href="http://twitter.com/svoisen">Twitter.</a></p>
         <script type="text/javascript">
+          function getEmail(text) {
+            return ("<n uers=\"znvygb:frna@ibvfra.bet\" ery=\"absbyybj\">" + text + "</n>").replace(/[a-zA-Z]/g, 
+            function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
+          }
+
           document.getElementById('footer_email').innerHTML=getEmail("R-znvy zr");
         </script>
       </div>
     </div>
+    <script>
+        var _gaq=[['_setAccount','UA-1034944-1'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
   </body>
 </html>
