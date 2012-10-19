@@ -1,17 +1,5 @@
-/* html {color:#000;
-background:#fff}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,select,p,blockquote,th,td {margin:0;
-padding:0}table {border-collapse:collapse;
-border-spacing:0}fieldset,img {border:0}address,button,caption,cite,code,dfn,em,input,optgroup,option,select,strong,textarea,th,var {font:inherit}del,ins {text-decoration:none}li {list-style:none}caption,th {text-align:left}h1,h2,h3,h4,h5,h6 {font-size:100%;
-font-weight:normal}q:before,q:after {content:''}abbr,acronym {border:0;
-font-variant:normal}sup {vertical-align:baseline}sub {vertical-align:baseline}legend {color:#000}body {font:13px/1.231 'Open Sans',arial,helvetica,clean,sans-serif;
-*font-size:small;
-*font:x-small}select,input,textarea,button {font:99% arial,helvetica,clean,sans-serif}table {font-size:inherit;
-font:100%}pre,code,kbd,samp,tt {font-family:monospace;
-*font-size:108%;
-line-height:100%}body {text-align:left} */
-
 html  {
-  font-size:0.8em;
+  font:normal 90%/1.5 'Open Sans', arial, helvetica, clean, sans-serif;
 }
 
 body  {
@@ -72,98 +60,178 @@ code {
   letter-spacing:1px;
 }
 
-#wrapper {
+.wrapper {
   width:656px;
   margin:0 auto 0 auto;
   padding:0;
 }
 
-#header {
+.header {
   background-color:#000;
   color:#fff;
   padding:0;
   margin:0;
 }
 
-#header h1 {
+.header h1 {
   margin:0;
   padding:50px 15px 15px 15px;
   font-weight:normal;
 }
 
-#header h1 a {
+.header h1 a {
   background-color:transparent;
   color:#fff;
   border:none;
   text-decoration:none;
 }
 
-#header h1 a:hover {
+.header h1 a:hover {
   border-bottom:1px solid #fff;
 }
 
-#content {
-  margin:10px 0 0 0;
+.content {
+  margin-top:10px;
   border-top:1px solid #ccc;
   padding:15px;
 }
 
-#content h2 {
+h2 {
   font-weight:bold;
-  margin:2em 0 0.5em 0;
+  margin:1.8em 0 0 0;
   padding:0;
 }
 
-#content h2.title {
-  margin-bottom:0;
+h3 {
+  font-weight:bold;
+  margin:1.8em 0 0 0;
+  padding:0;
 }
 
-#content h3 {font-weight:bold;
-margin:2em 0 0.5em 0;
-padding:0;
+h4 {
+  font-weight:normal;
+  font-style:italic;
+  margin:1.5em 0 0.5em;
 }
-#content h4 {font-weight:normal;
-font-style:italic;
-margin:1.5em 0 0.5em;
+
+ul, ol {
+  padding-left:15px;
+  margin-left:15px;
 }
-#content p, #content blockquote, #content ul, #content ol {line-height:150%;
+
+ul li {
+  list-style:disc outside none;
 }
-#content p {margin-bottom:1.5em;
+
+ol li {
+  list-style:decimal outside none;
 }
-#content ul, #content ol {padding-left:15px;
-margin-left:15px;
-margin-bottom:1.5em;
+
+ul li, ol li {
+  margin-bottom:1em;
 }
-#content ul li {list-style:disc outside none;
+
+.footer {
+  border-top:1px solid #ccc;
+  padding:15px;
+  text-align:right;
 }
-#content ol li {list-style:decimal outside none;
+
+.footer p {
+  margin:0;
+  padding:0;
 }
-#content ul li, #content ol li {margin-bottom:0.5em;
+
+.meta {
+  color:#999;
+  padding-left:15px;
+  margin:0 0 1.5em 0;
 }
-#footer {border-top:1px solid #ccc;
-padding:15px;
-text-align:right;
+
+.posts {
+  padding-left:0;
+  margin-left:0;
 }
-#content p.meta {color:#999;
-padding-left:15px;
-margin:0 0 1.5em 0;
+
+.posts li {
+  list-style:none;
+  margin-bottom:0.5em;
 }
-#content ul.posts {padding-left:0;
-margin-left:0;
+
+.return {
+  margin:0 0 10px 0;
 }
-#content ul.posts li {list-style:none;
+
+.framed, .video {
+  padding:2px;
+  border:1px solid #ccc;
+  overflow:hidden;
 }
-.return {margin:0 0 10px 0;
-font-size:108%;
+
+.video {
+  margin-top: 1em;
 }
-.video {padding:2px;
-border:1px solid #ccc;
+
+.date {
+  color:#999;
+  font-family:monospace;
+  font-size:1.2em;
 }
-.framed {padding:2px;
-border:1px solid #ccc;
+
+.summary {
+  margin-top:0;
+  padding-top:0;
 }
-.date {color:#999;
-font-family:monospace;
+
+.title {
+  margin-top:1em;
+}
+
+.links li {
+  margin-bottom:0.5em;
+}
+
+.arrow {
+  padding:0 0.3em 0 0.3em;
+}
+
+.about-link {
+  display: inline-block;
+}
+
+@media screen and (max-width: 656px) {
+  body {
+    border-top:none;
+  }
+
+  .wrapper {
+    width:100%;
+  }
+
+  .header h1 {
+    padding:15px;
+  }
+
+  .date {
+    display:none;
+  }
+
+  .arrow {
+    display:none;
+  }
+
+  .posts {
+    padding-left:15px;
+    margin-left:15px
+  }
+
+  .posts li {
+    list-style:disc outside none;
+  }
+
+  .framed, .video {
+    max-width:100%;
+  }
 }
 
 /* Pygments */

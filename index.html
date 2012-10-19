@@ -3,9 +3,9 @@ layout: default
 title: Projects and Musings 
 ---
 <div id="home">
-  <p><strong>Hello!</strong> My name is Sean. I make software and electronics with a focus on <em>engaging interactions</em> and <em>rich user experiences.</em> Currently, I work as a Sr. Experience Developer at <a href="http://www.adobe.com">Adobe</a> XD.<br /><a href="/about">Learn more &rarr;</a><p>
+  <p class="summary"><strong>Hello!</strong> My name is Sean. I make software and electronics with a focus on <em>engaging interactions</em> and <em>rich user experiences.</em> Currently, I work as a Sr. Experience Developer at <a href="http://www.adobe.com">Adobe</a> XD. <a class="about-link" href="/about">Learn more &rarr;</a><p>
   <h2>Open Source Code</h2>
-  <ul>
+  <ul class="links">
     <li><a href="http://www.igniterealtime.org/projects/xiff">XIFF:</a> An ActionScript 3 library for <abbr title="eXtensible Messaging and Presence Protocol">XMPP</abbr> development</li>
     <li><a href="http://github.com/svoisen/crayon">Crayon:</a> A simple programming language for Flash and the HTML 5 canvas</li>
     <li><a href="http://github.com/svoisen/c329">Arduino C329:</a> An Arduino library in C++ for the Electronics123 C329 serial camera</li>
@@ -14,7 +14,7 @@ title: Projects and Musings
   </ul>
 
   <h2>&ldquo;Art&rdquo; and Electronics Projects</h2>
-  <ul>
+  <ul class="links">
     <li><a href="/projects/webgl">WebGL Sketches:</a> Random experiments with WebGL</li>
     <li><a href="/projects/bluenumi">Bluenumi Clock:</a> An open-source numitron clock kit</li>
     <li><a href="/projects/uncanny-dream-machine">The Uncanny Dream Machine:</a> A dreaming AI system embodied as a 1940s radio</li>
@@ -23,12 +23,12 @@ title: Projects and Musings
   </ul>
 
   <h2>Selected Writings</h2>
-  <ul>
+  <ul class="links">
     <li><a href="/writing/voisen_computational_dream_narrative.pdf">Computational Generation of Dream-like Narrative</a> [Master&rsquo;s Thesis, UC Irvine, 2010]</li>
   </ul>
 
   <h2>Selected Professional Work</h2>
-  <ul>
+  <ul class="links">
     <li><a href="/projects/adobe-dps">Adobe&reg; Digital Publishing Suite:</a> Digital magazine publishing for tablets</li>
     <li><a href="/projects/compassionate-communications">Compassionate Communications:</a> Greeting cards for those facing life-threatening illness</li>
     <li><a href="/projects/digital-seed">Digital Seed:</a> A hybrid (online/offline) e-learning system for personal development</li>
@@ -37,8 +37,8 @@ title: Projects and Musings
   <h2>Recent Blog Posts</h2>
   <ul class="posts">
     {% for post in site.posts limit:10 %}
-    <li><span class="date">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    <li><span class="date">{{ post.date | date_to_string }}</span> <span class="arrow">&raquo;</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
-  <p>More blog posts in the <a href="/blog">archives</a> &rarr;</p>
+  <p>More blog posts in the <a href="/blog">archives &rarr;</a></p>
 </div>
