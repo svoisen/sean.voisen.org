@@ -43,7 +43,7 @@ def tidy
     File.open(path, 'w') {|file|
       file.write TidyFFI::Tidy.new(content,
         :numeric_entities => 1,
-        :output_xhtml => 1,
+        :output_xhtml => 0,
         :merge_divs => 0,
         :merge_spans => 0,
         :join_styles => 0,
