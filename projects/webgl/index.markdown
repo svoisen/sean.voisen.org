@@ -9,5 +9,7 @@ Content is continually curated, and will grow and change as time and energy perm
 
 ### Sketches
 
-* <span class="date">04 Apr 2012</span> &raquo; [Wolfram 154 Cellular Automata](http://sean.voisen.org/projects/webgl/3dca)
-* <span class="date">07 Jun 2012</span> &raquo; [Invader Generator](http://sean.voisen.org/projects/webgl/invader_generator)
+<ul class="posts">
+  <li><span class="date">04 Apr 2012</span> <span class="arrow">&raquo;</span> <a href="3dca">Wolfram 154 Cellular Automata</a></li>
+  <li><span class="date">07 Jun 2012</span> <span class="arrow">&raquo;</span> <a href="invader_generator">Invader Generator</a></li>
+</ul>
