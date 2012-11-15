@@ -3,7 +3,9 @@ layout: project
 title: Digital Seed
 ---
 
-[Digital Seed](http://www.digital-seed.com) was a hybrid e-learning system that combined online learning experiences with offline, face-to-face group collaboration and sharing. The system began from my father's need &mdash; working as a management consultant &mdash; to better facilitate leadership training, personal growth programs and team building exercises for disparate teams in large organizations. As an alpha-version working prototype, Digital Seed piqued the interest of a variety of potential customers, but failing to gain necessary funding, continues to remain just that: a prototype.
+<p class="meta">Year: 2007</p>
+
+[Digital Seed](http://www.digital-seed.com) was a hybrid e-learning system that combined online learning experiences with offline, face-to-face group collaboration and sharing. The system began from our consulting practice's need to better facilitate leadership training, personal growth programs and team building exercises for disparate teams in large organizations. As an alpha-version working prototype, Digital Seed piqued the interest of a variety of potential customers, but remains a prototype only.
 
 The conceptualization, information architecture, and front-end programming for Digital Seed was primarily undertaken by me. [Dolores Joya](http://www.doloresjoya.com) provided much of the visual design, while [Daniel Wanja](http://www.n-so.com) and Lee Marlow assisted with Ruby on Rails development and deployment.
 
