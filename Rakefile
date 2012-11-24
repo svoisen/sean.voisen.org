@@ -1,14 +1,14 @@
 require 'rubygems'
 require 'tidy_ffi'
 
-desc "Delete generated content"
-task :clean do
-  puts "Deleting content in _site"
-  system('rm -r _site/*')
-end
-
 desc "Generate content"
-namespace :build do
+namespace :content do
+  desc "Delete generated content"
+  task :clean do
+    puts "Deleting content in _site"
+    system('rm -r _site/*')
+  end
+
   desc "Generate content for local testing"
   task :development => :clean do
     puts "Generating content for local testing"
@@ -22,6 +22,32 @@ namespace :build do
     system('jekyll --lsi')
     tidy
   end
+end
+
+desc "Generate styles"
+namespace :styles do
+  task :clean do
+    puts "Deleting generated styles"
+    system('rm styles/main.css styles/screen.css')
+  end
+
+  task :compile do
+    puts "Compiling Sass"
+    system('compass compile styles/main.sass')
+  end
+
+  task :concatenate do
+    puts "Concatenating CSS"
+    system('cat normalize.css main.css pygments.css > screen.css')
+  end
+
+  task :build => [:clean, :compile, :concatenate]
+end
+
+desc "Complete build"
+namespace :build do
+  task :development => [:"styles:build", :"content:development"]
+  task :production => [:"styles:build", :"content:production"]
 end
 
 desc "Start development server"
