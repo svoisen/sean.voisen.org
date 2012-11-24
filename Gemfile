@@ -6,5 +6,6 @@ group :development do
   gem 'tidy_ffi'
   gem 'jammit'
   gem 'jekyll'
+  gem 'gsl'
   gem 'rdiscount'
 end
