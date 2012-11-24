@@ -4,6 +4,7 @@ group :development do
   gem 'rake'
   gem 'compass'
   gem 'tidy_ffi'
+  gem 'jammit'
   gem 'jekyll'
   gem 'rdiscount'
 end

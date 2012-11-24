@@ -1,0 +1,7 @@
+gzip_assets: off
+
+stylesheets:
+  screen:
+    - styles/normalize.css
+    - styles/main.css
+    - styles/pygments.css
