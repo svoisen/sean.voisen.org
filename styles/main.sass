@@ -1,0 +1,194 @@
+$red: #cc0000
+$light-grey: #ccc
+$faint-grey: #f2f2f2
+$regular-font-family: open-sans, arial, helvetica, clean, sans-serif
+$code-font-family: source-code-pro, courier, monospace
+
+html
+  font: normal 90%/1.5 $regular-font-family
+
+body
+  margin: 0
+  padding: 0
+  border-top: 20px solid black
+
+a
+  color: $red
+  text-decoration: none
+  background-color: $faint-grey
+  border-bottom: 1px solid $light-grey
+
+a:hover
+  background-color: #ffffcc
+
+acronym, abbr 
+  cursor: help
+  border-bottom: 1px dotted $light-grey
+
+blockquote
+  border-left: 1px solid $light-grey
+  padding-left: 15px
+  color: #666
+  margin: 0
+
+strong
+  font-weight: bold
+
+em
+  font-style: italic
+
+sup
+  vertical-align: super
+
+pre
+  margin: 1em 0 1.5em 0
+  background-color: $faint-grey
+  border-top: 1px solid $light-grey
+  border-bottom: 1px solid $light-grey
+  padding: 1.5em 1em 0 1em
+  font-family: $code-font-family
+  font-size: 0.9em
+  line-height: 150%
+
+code
+  font-family: $code-font-family
+
+h2
+  font-weight: bold
+  margin: 1.4em 0 0 0
+  padding: 0
+
+h2 + p
+  margin-top: 0.2em
+
+h2 + ul, h2 + ol
+  margin-top: 0.5em
+
+h3
+  font-weight: bold
+  margin: 1.4em 0 0 0
+  padding: 0
+
+h4
+  font-weight: normal
+  font-style: italic
+  margin: 1.5em 0 0.5em
+
+ul, ol 
+  padding-left: 15px
+  margin-left: 15px
+
+ul li
+  list-style: disc outside none
+
+ol li
+  list-style: decimal outside none
+
+ul li, ol li
+  margin-bottom: 1em
+
+.wrapper
+  width: 656px
+  margin: 0 auto 0 auto
+  padding: 0
+
+.header
+  background-color: black
+  color: white
+  padding: 0
+  margin: 0
+  h1
+    margin: 0
+    padding: 50px 15px 15px 15px
+    font-weight: normal
+    a
+      background-color: transparent
+      color: white
+      border: none
+      text-decoration: none
+    a:hover
+      border-bottom: 1px solid white
+
+.content
+  margin-top: 10px
+  border-top: 1px solid $light-grey
+  padding: 15px
+
+.footer
+  border-top: 1px solid $light-grey
+  padding: 15px
+  text-align: right;
+  p
+    margin: 0
+    padding: 0
+
+.meta
+  color: #999
+  padding-left: 15px
+  margin: 0 0 1.5em 0
+
+.posts 
+  padding-left: 0
+  margin-left: 0
+  li
+    list-style: none;
+    margin-bottom: 0.5em;
+
+.return
+  margin: 0 0 10px 0
+
+.framed, .video 
+  padding: 2px;
+  border: 1px solid $light-grey
+  overflow: hidden
+
+.video
+  margin-top: 1em
+
+.date
+  color: #999
+  font-family: $code-font-family
+  font-size: 1.2em
+
+.summary
+  margin-top: 0
+  padding-top: 0
+
+.title
+  margin-top: 1em
+
+.links 
+  li
+    margin-bottom: 0.5em;
+
+.arrow
+  padding: 0 0.3em 0 0.3em
+
+.contact, .about-link
+  display: inline-block
+
+@media screen and (max-width: 656px)
+  body
+    border-top: none
+
+  .wrapper
+    width: 100%
+
+  .header h1
+    padding: 15px;
+
+  .date
+    display: none
+
+  .arrow
+    display: none
+
+  .posts
+    padding-left: 15px
+    margin-left: 15px
+
+  .posts li
+    list-style: disc outside none
+
+  .framed, .video
+    max-width: 100%;
