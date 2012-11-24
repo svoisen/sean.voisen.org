@@ -5,4 +5,5 @@ group :development do
   gem 'compass'
   gem 'tidy_ffi'
   gem 'jekyll'
+  gem 'rdiscount'
 end

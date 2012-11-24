@@ -33,12 +33,12 @@ namespace :styles do
 
   task :compile do
     puts "Compiling Sass"
-    system('compass compile styles/main.sass')
+    system('compass compile --sass-dir styles --css-dir styles')
   end
 
   task :concatenate do
     puts "Concatenating CSS"
-    system('cat normalize.css main.css pygments.css > screen.css')
+    system('cat styles/normalize.css styles/main.css styles/pygments.css > styles/screen.css')
   end
 
   task :build => [:clean, :compile, :concatenate]
