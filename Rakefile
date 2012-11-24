@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'tidy_ffi'
+require 'jammit'
 
 desc "Generate content"
 namespace :content do
@@ -38,7 +39,7 @@ namespace :styles do
 
   task :concatenate do
     puts "Concatenating CSS"
-    system('cat styles/normalize.css styles/main.css styles/pygments.css > styles/screen.css')
+    Jammit.package!({:config_path => '_assets.yml', :output_folder => 'styles'})
   end
 
   task :build => [:clean, :compile, :concatenate]
