@@ -93,6 +93,7 @@ ul li, ol li
   padding: 0
 
 .header
+  position: relative
   background-color: black
   color: white
   padding: 0
@@ -108,6 +109,26 @@ ul li, ol li
       text-decoration: none
     a:hover
       border-bottom: 1px solid white
+  .social
+    position: absolute
+    bottom: 10px
+    right: 15px
+    text-align: right
+    font-size: 2em
+    list-style: none
+    margin: 0
+    padding: 0
+    li
+      display: inline
+      padding: 0
+      margin: 0 0.1em 0 0
+    a
+      color: #666
+      background: none
+      border: none
+      text-decoration: none
+    a:hover
+      color: $light-grey
 
 .content
   margin-top: 10px
@@ -148,7 +169,7 @@ ul li, ol li
 .date
   color: #999
   font-family: $code-font-family
-  font-size: 1.2em
+  font-size: 1em
 
 .summary
   margin-top: 0
