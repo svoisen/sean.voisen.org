@@ -1,17 +1,19 @@
 ---
 layout: default
 ---
+<nav id="nav" class="nav post-nav">
+  <ul>
+    <li class="back"><a href="/">&larr; Home</a></li>
+    <li class="forward"><a href="/blog">Archives &rarr;</a></li>
+  </ul>
+</nav>
 
 <div id="post" class="post">
-  <h2 class="title">{{ page.title }}</h2>
-  <p class="meta">{{ page.date | date_to_string }}</p>
+  <hgroup class="post-title">
+    <h2 class="title">{{ page.title }}</h2>
+    <h3 class="meta">{{ page.date | date: "%B %d, %Y" }}</h3>
+  </hgroup>
   {{ content }}
-</div>
-
-<div id="comments">
-  <h2>Comments? Links? Tweets?</h2>
-  <p>Comments are disabled. I limit the number of communications sources I monitor to two: <a href="http://twitter.com/svoisen">Twitter</a> and <span id="post_email">e-mail</span>. Feel free to contact me on either.</p>
-  <p>If you feel compelled to publish a response to this post &mdash; neutral, positive, negative, or whatever &mdash; I&rsquo;ll be happy to link to it here.</p>
 </div>
 
 <div id="related">
@@ -21,9 +23,5 @@ layout: default
     <li><span class="date">{{ post.date | date_to_string }}</span> <span class="arrow">&raquo;</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
-  <p>More blog posts in the <a href="/blog">archives</a> &rarr;</p>
+  <p>More blog posts in the <a href="/blog">archives &rarr;</a></p>
 </div>
-
-<script type="text/javascript">
-  document.getElementById('post_email').innerHTML=getEmail("r-znvy");
-</script>

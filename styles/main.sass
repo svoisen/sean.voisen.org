@@ -1,25 +1,23 @@
 $red: #cc0000
-$light-grey: #ccc
+$light-grey: #d0d0d0
 $faint-grey: #f2f2f2
-$regular-font-family: open-sans, arial, helvetica, clean, sans-serif
+$regular-font-family: source-sans-pro, helvetica, clean, arial, sans-serif
 $code-font-family: source-code-pro, courier, monospace
 
-html
-  font: normal 90%/1.5 $regular-font-family
-
 body
+  font: normal 100%/1.5 $regular-font-family
   margin: 0
   padding: 0
-  border-top: 20px solid black
+  text-rendering: optimizeLegibility
 
 a
   color: $red
   text-decoration: none
-  background-color: $faint-grey
-  border-bottom: 1px solid $light-grey
+  border-bottom: 1px solid $faint-grey
 
 a:hover
-  background-color: #ffffcc
+  color: black
+  border-color: $light-grey
 
 acronym, abbr 
   cursor: help
@@ -58,7 +56,7 @@ h2
   margin: 1.4em 0 0 0
   padding: 0
 
-h2 + p
+h2 + p, h3 + p
   margin-top: 0.2em
 
 h2 + ul, h2 + ol
@@ -88,41 +86,62 @@ ul li, ol li
   margin-bottom: 1em
 
 .wrapper
-  width: 656px
-  margin: 0 auto 0 auto
+  margin: 0
   padding: 0
+
+.nav
+  border-width: 1px
+  border-top-style: solid
+  border-bottom-style: solid
+  border-color: $light-grey
+  padding: 1.4em 0 1.4em 0
+  margin: 2em 0 3em 0
+  font-size: 0.9em
+  a
+    border: none
+  ul
+    margin: 0
+    padding: 0
+    list-style: none
+    li
+      margin: 0 0.5em 0 0.5em 
+      padding: 0
+      display: inline-block
+  &.post-nav
+    border-top: none
+    margin-top: 0
+    padding-top: 0
 
 .header
   position: relative
   background-color: black
   color: white
-  padding: 0
+  padding: 10px 15px 10px 15px
   margin: 0
   h1
     margin: 0
-    padding: 50px 15px 15px 15px
-    font-weight: normal
+    font-weight: 200
+    font-size: 1.8em
     a
       background-color: transparent
       color: white
       border: none
       text-decoration: none
-    a:hover
-      border-bottom: 1px solid white
   .social
     position: absolute
-    bottom: 10px
+    bottom: 7px
     right: 15px
     text-align: right
-    font-size: 2em
     list-style: none
     margin: 0
     padding: 0
+    font-size: 1.6em
     li
       display: inline
       padding: 0
       margin: 0 0.1em 0 0
     a
+      font-weight: bold
       color: #666
       background: none
       border: none
@@ -131,29 +150,51 @@ ul li, ol li
       color: $light-grey
 
 .content
-  margin-top: 10px
-  border-top: 1px solid $light-grey
-  padding: 15px
+  text-align: center
+  padding: 30px 40px 40px 40px
 
 .footer
-  border-top: 1px solid $light-grey
   padding: 15px
-  text-align: right
+  text-align: center
+  border-top: 1px solid $light-grey
+  padding: 1.4em 0 3em 0
+  margin: 1.4em 40px 0 40px
+  font-size: 0.9em
   p
     margin: 0
     padding: 0
 
-.meta
-  color: #999
-  padding-left: 15px
-  margin: 0 0 1.5em 0
+.post
+  text-align: left
+  .post-title
+    margin: 1em 0 2em 0
+    padding: 0
+    text-align: center
+    .title
+      margin: 0
+      padding: 0
+      font-weight: 700
+      font-size: 1.6em
+      line-height: 1.2em
+    .meta
+      color: #999
+      margin: 1em 0 0 0 
+      padding: 0
+      font-size: 1em
+      font-weight: 200
 
 .posts 
-  padding-left: 0
-  margin-left: 0
+  margin: 0
+  padding: 0
   li
     list-style: none
-    margin-bottom: 0.5em
+    margin-bottom: 1.4em
+    line-height: 1.2em
+    a
+      border: none
+
+.more-posts
+  font-size: 0.9em
 
 .return
   margin: 0 0 10px 0
@@ -168,15 +209,12 @@ ul li, ol li
 
 .date
   color: #999
-  font-family: $code-font-family
-  font-size: 1em
+  font-size: 0.9em
 
 .summary
-  margin-top: 0
-  padding-top: 0
-
-.title
-  margin-top: 1em
+  padding: 0
+  margin: 0 0 1.4em 0
+  font-size: 0.9em
 
 .links 
   li
@@ -189,28 +227,3 @@ ul li, ol li
   display: inline-block
 
 @media screen and (max-width: 656px)
-  body
-    border-top: none
-
-  .wrapper
-    width: 100%
-
-  .header 
-    h1
-      padding: 15px
-
-  .date
-    display: none
-
-  .arrow
-    display: none
-
-  .posts
-    padding-left: 15px
-    margin-left: 15px
-
-  .posts li
-    list-style: disc outside none
-
-  .framed, .video
-    max-width: 100%

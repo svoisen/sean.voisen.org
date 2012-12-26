@@ -14,14 +14,14 @@ namespace :content do
   task :development => :clean do
     puts "Generating content for local testing"
     system('jekyll')
-    tidy
+    # tidy
   end
 
   desc "Generate production content"
   task :production => :clean do
     puts "Generating content for production"
     system('jekyll --lsi')
-    tidy
+    # tidy
   end
 end
 
