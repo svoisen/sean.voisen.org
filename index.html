@@ -3,16 +3,17 @@ layout: default
 title: Projects and Musings 
 ---
 <div id="home">
-  <p class="summary"><strong>Hello!</strong> My name is Sean. I make software and electronics with a focus on <em>engaging interactions</em> and <em>rich user experiences.</em> Currently, I work as a Sr. Experience Developer at <a href="http://www.adobe.com">Adobe</a> XD. <a class="about-link" href="/about">Learn more &rarr;</a><p>
-  <h2>Open Source Code</h2>
-  <ul class="links">
-    <li><a href="http://www.igniterealtime.org/projects/xiff">XIFF:</a> An ActionScript 3 library for <abbr title="eXtensible Messaging and Presence Protocol">XMPP</abbr> development</li>
-    <li><a href="http://github.com/svoisen/crayon">Crayon:</a> A simple programming language for Flash and the HTML 5 canvas</li>
-    <li><a href="http://github.com/svoisen/c329">Arduino C329:</a> An Arduino library in C++ for the Electronics123 C329 serial camera</li>
-    <li><a href="https://github.com/svoisen/as3_freeassociation">Free Association:</a> An AS3 library for searching the USF Free Association Norms database</li>
-    <li><a href="https://github.com/svoisen/hs_tagger">HsTagger:</a> A simplified Brill parts-of-speech tagger written in Haskell</li>
-  </ul>
+  <p class="summary"><strong>Hello!</strong> My name is Sean. I make software that helps people <em>share</em> and <em>create</em>. Currently, I work as a Senior Experience Developer at <a href="http://www.adobe.com">Adobe</a> XD. <a class="about-link" href="/about">Learn more &rarr;</a><p>
 
+  <nav id="nav" class="nav">
+    <ul>
+      <li><a href="#">Archives</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Feed</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+<!--
   <h2>&ldquo;Art&rdquo; and Electronics Projects</h2>
   <ul class="links">
     <li><a href="/projects/bluenumi">Bluenumi Clock:</a> An open-source numitron clock kit</li>
@@ -34,12 +35,11 @@ title: Projects and Musings
     <li><a href="/projects/digital-seed">Digital Seed:</a> A hybrid (online/offline) e-learning system for personal development</li>
     <li><a href="/projects/webmessenger">Webmessenger:</a> An instant messaging and chat system for AOL Userplane</li>
   </ul>
-
-  <h2>Recent Blog Posts</h2>
+  -->
   <ul class="posts">
     {% for post in site.posts limit:10 %}
-    <li><span class="date">{{ post.date | date_to_string }}</span> <span class="arrow">&raquo;</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+    <li><a href="{{ post.url }}">{{ post.title }}</a><br /><span class="date">{{ post.date | date: "%B %d, %Y" }}</span></li>
     {% endfor %}
   </ul>
-  <p>More blog posts in the <a href="/blog">archives &rarr;</a></p>
+  <p class="more-posts">More blog posts in the <a href="/blog">archives &rarr;</a></p>
 </div>
