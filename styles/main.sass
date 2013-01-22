@@ -1,14 +1,20 @@
 $red: #cc0000
+$medium-grey: #999
 $light-grey: #d0d0d0
 $faint-grey: #f2f2f2
+$background: white
+$foreground: #333
 $regular-font-family: source-sans-pro, helvetica, clean, arial, sans-serif
 $code-font-family: source-code-pro, courier, monospace
+$transition-time: 0.8s
 
 body
   font: normal 100%/1.5 $regular-font-family
   margin: 0
   padding: 0
   text-rendering: optimizeLegibility
+  background: $background
+  color: $foreground
 
 a
   color: $red
@@ -16,8 +22,13 @@ a
   border-bottom: 1px solid $faint-grey
 
 a:hover
-  color: black
+  color: lighten($foreground, 20%)
   border-color: $light-grey
+  -o-transition: $transition-time
+  -ms-transition: $transition-time
+  -moz-transition: $transition-time
+  -webkit-transition: $transition-time
+  transition: $transition-time
 
 acronym, abbr 
   cursor: help
@@ -101,8 +112,8 @@ ul li, ol li
   ul
     margin: 0
     padding: 0
-    list-style: none
     li
+      list-style: none
       margin: 0 0.5em 0 0.5em 
       padding: 0
       display: inline-block
@@ -152,7 +163,7 @@ ul li, ol li
   margin: 0 auto 0 auto
   text-align: center
   max-width: 426px
-  padding: 30px 40px 40px 40px
+  padding: 2em 1em 1em 1em
 
 .footer
   max-width: 426px
@@ -179,8 +190,8 @@ ul li, ol li
       line-height: 1.2em
       font-style: normal
     .meta
-      color: #999
-      margin: 1em 0 0 0 
+      color: $medium-grey
+      margin: 0.2em 0 0 0 
       padding: 0
       font-size: 1em
       font-weight: 200
@@ -214,7 +225,7 @@ ul li, ol li
   margin-top: 1em
 
 .date
-  color: #999
+  color: $medium-grey
   font-size: 0.9em
 
 .summary
@@ -237,16 +248,52 @@ ul li, ol li
     max-width: 576px
 
   .content
-    font-size: 110%
+    font-size: 112.5%
 
   .footer
     font-size: 1em
     max-width: 576px
 
 @media screen and (min-width: 1024px)
-  body
-    border-top: 10px solid black
+  .content
+    max-width: 740px
 
-  .header
-    max-width: 870px  
+  .footer
+    max-width: 740px
+    border: none
+  
+  .summary
+    border-bottom: 1px solid $light-grey
+    margin: 0
+    padding: 0 0 2em 0
+
+  .post
+    max-width: 576px
     margin: 0 auto 0 auto
+
+  .home
+    position: relative
+    .nav
+      float: left
+      width: 25%
+      margin: 0
+      padding: 2em 0 0 0
+      text-align: right
+      border: none
+      li
+        display: block
+        margin: 0
+    .posts
+      float: left
+      text-align: left
+      margin: 0 0 0 2em
+      padding: 2em 0 0 2em
+      border-left: 1px solid $light-grey
+      ul
+        margin: 0
+        padding: 0
+
+  .footer
+    clear: both
+    margin: 0 auto 0 auto
+    padding: 3em 0 3em 0

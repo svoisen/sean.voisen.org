@@ -2,44 +2,29 @@
 layout: default
 title: Projects and Musings 
 ---
-<div id="home" class="home">
-  <p class="summary"><strong>Hello!</strong> My name is Sean. I make software that helps people <em>share</em> and <em>create</em>. Currently, I work as a Senior Experience Developer at <a href="http://www.adobe.com">Adobe</a> XD. <a class="about-link" href="/about">Learn more &rarr;</a><p>
+<section id="content" class="content">
+  <div id="home" class="home">
+  <p class="summary"><strong>Hello!</strong> My name is Sean. I make software that helps people <em>share</em> and <em>create</em>, with a focus on digital publishing. Currently, I write at <a href="http://thekoan.org">The Koan</a> and work as a Senior Experience Developer at <a href="http://www.adobe.com">Adobe</a> XD. <a class="about-link" href="/about">Learn more &rarr;</a></p>
 
-  <nav id="nav" class="nav">
-    <ul>
-      <li><a href="#">Archives</a></li>
-      <li><a href="#">Projects</a></li>
-      <li><a href="#">Feed</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
-<!--
-  <h2>&ldquo;Art&rdquo; and Electronics Projects</h2>
-  <ul class="links">
-    <li><a href="/projects/bluenumi">Bluenumi Clock:</a> An open-source numitron clock kit</li>
-    <li><a href="/projects/webgl">WebGL Sketches:</a> Random experiments with WebGL</li>
-    <li><a href="/projects/uncanny-dream-machine">The Uncanny Dream Machine:</a> A dreaming AI system embodied as a 1940s radio</li>
-    <li><a href="/projects/mercury-retrograde">Mercury Retrograde:</a> A resistentialist nixie tube clock</li>
-    <li><a href="/projects/pigeonblog">PigeonBlog:</a> Arduino-based bird tracking</li>
-  </ul>
+    <nav id="nav" class="nav">
+      <ul>
+        <li><a href="/blog">Archives</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="http://feeds.feedburner.com/voisen">Feed</a></li>
+        <li id="contact_email">Contact</li>
+      </ul>
+    </nav>
+    <script type="text/javascript">
+      document.getElementById('contact_email').innerHTML=getEmail("Pbagnpg");
+    </script>
 
-  <h2>Selected Writings</h2>
-  <ul class="links">
-    <li><a href="/writing/voisen_computational_dream_narrative.pdf">Computational Generation of Dream-like Narrative</a> [Master&rsquo;s Thesis, UC Irvine, 2010]</li>
-  </ul>
-
-  <h2>Selected Professional Work</h2>
-  <ul class="links">
-    <li><a href="/projects/adobe-dps">Adobe&reg; Digital Publishing Suite:</a> Digital magazine publishing for tablets</li>
-    <li><a href="/projects/compassionate-communications">Compassionate Communications:</a> Greeting cards for those facing life-threatening illness</li>
-    <li><a href="/projects/digital-seed">Digital Seed:</a> A hybrid (online/offline) e-learning system for personal development</li>
-    <li><a href="/projects/webmessenger">Webmessenger:</a> An instant messaging and chat system for AOL Userplane</li>
-  </ul>
-  -->
-  <ul class="posts">
-    {% for post in site.posts limit:10 %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a><br /><span class="date">{{ post.date | date: "%B %d, %Y" }}</span></li>
-    {% endfor %}
-  </ul>
-  <p class="more-posts">More blog posts in the <a href="/blog">archives &rarr;</a></p>
-</div>
+    <div class="posts">
+      <ul>
+        {% for post in site.posts limit:10 %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a><br /><span class="date">{{ post.date | date: "%B %d, %Y" }}</span></li>
+        {% endfor %}
+      </ul>
+      <p class="more-posts">More blog posts in the <a href="/blog">archives &rarr;</a></p>
+    </div>
+  </div>
+</section>
