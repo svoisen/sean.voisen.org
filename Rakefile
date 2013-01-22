@@ -53,7 +53,7 @@ end
 
 desc "Start development server"
 task :server do
-  system('cd _site/ && python -m SimpleHTTPServer')
+  system('jekyll --server --auto')
 end
 
 desc "Builds and deploys to remote production server"

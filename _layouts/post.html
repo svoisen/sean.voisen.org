@@ -1,27 +1,22 @@
 ---
 layout: default
 ---
-<nav id="nav" class="nav post-nav">
-  <ul>
-    <li class="back"><a href="/">&larr; Home</a></li>
-    <li class="forward"><a href="/blog">Archives &rarr;</a></li>
-  </ul>
-</nav>
+<section id="content" class="content">
+  <nav id="nav" class="nav post-nav">
+    <ul>
+      <li class="back"><a href="/">&larr; Home</a></li>
+      <li class="forward"><a href="/blog">Archives &rarr;</a></li>
+    </ul>
+  </nav>
 
-<div id="post" class="post">
-  <hgroup class="post-title">
-    <h2 class="title">{{ page.title }}</h2>
-    <h3 class="meta">{{ page.date | date: "%B %d, %Y" }}</h3>
-  </hgroup>
-  {{ content }}
-</div>
-
-<div id="related" class="related">
-  <h2>Related Posts</h2>
-  <ul class="posts">
-    {% for post in site.related_posts limit:3 %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a><br /><span class="date">{{ post.date | date: "%B %d, %Y" }}</span></li>
-    {% endfor %}
-  </ul>
-  <p class="more-posts">More blog posts in the <a href="/blog">archives &rarr;</a></p>
-</div>
+  <article id="post" class="post">
+    <hgroup class="post-title">
+      <h2 class="title">{{ page.title }}</h2>
+      <h3 class="meta">{{ page.date | date: "%B %-d, %Y" }}</h3>
+    </hgroup>
+    <div class="post-body">
+      {{ content }}
+    </div>
+    <p class="more-posts">More posts in the <a href="/blog">archives &rarr;</a></p>
+  </article>
+</section>

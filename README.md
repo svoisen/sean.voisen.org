@@ -12,5 +12,8 @@ The following directories and their contents are copyright (c) Sean Voisen.
 * projects/
 * images/
 * audio/
+* about/
+* poetry/
+* writing/
 
 All other directories and files are licensed under the [MIT license](http://www.opensource.org/licenses/mit-license.php) unless specified otherwise.
