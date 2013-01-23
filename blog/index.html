@@ -1,13 +1,22 @@
 ---
 layout: default
-title: Blog Archives
+title: Archives
 ---
 
-<div id="archives" class="archives">
-  <h2 class="title">Blog Archives</h2>
-  <ul class="posts">
-    {% for post in site.posts %}
-    <li><span class="date">{{ post.date | date_to_string }}</span> <span class="arrow">&raquo;</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+<section id="content" class="content">
+  <nav id="nav" class="nav post-nav">
+    <ul>
+      <li class="back"><a href="/">&larr; Home</a></li>
+    </ul>
+  </nav>
+
+  <h2 class="title">{{ page.title }}</h2>
+
+  <div class="posts">
+    <ul>
+      {% for post in site.posts %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a><br /><span class="date">{{ post.date | date: "%B %-d, %Y" }}</span></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

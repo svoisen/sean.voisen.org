@@ -54,16 +54,18 @@ pre
   background-color: $faint-grey
   border-top: 1px solid $light-grey
   border-bottom: 1px solid $light-grey
-  padding: 1.5em 1em 0 1em
-  font-family: $code-font-family
-  font-size: 0.9em
-  line-height: 150%
+  padding: 1em 1em 0 1em
+  font: normal 75%/1 $code-font-family
+
+.highlight
+  pre
+    padding: 1em
 
 code
   font-family: $code-font-family
 
 h2
-  margin: 1.4em 0 0.4em 0
+  margin: 1.4em 0 0 0
   font-size: 1.4em
   font-weight: bold
   font-style: italic
@@ -78,7 +80,7 @@ h3
   font-weight: bold
   margin: 1.4em 0 0 0
   padding: 0
-  font-size: 1.3em
+  font-size: 1.2em
 
 h4
   font-weight: normal
@@ -168,13 +170,19 @@ ul li, ol li
 .footer
   max-width: 426px
   text-align: center
-  border-top: 1px solid $light-grey
   padding: 1.4em 0 3em 0
   margin: 1.4em auto 0 auto
   font-size: 0.9em
   p
     margin: 0
     padding: 0
+
+.title
+  margin: 0 0 2em 0
+  padding: 0
+  font-style: normal
+  font-weight: 700
+  font-size: 1.6em
 
 .post
   text-align: left
@@ -197,8 +205,9 @@ ul li, ol li
       font-weight: 200
 
 .posts 
-  margin: 0
-  padding: 0
+  ul
+    margin: 0
+    padding: 0
   li
     list-style: none
     margin-bottom: 1.4em
@@ -207,7 +216,8 @@ ul li, ol li
       border: none
 
 .more-posts
-  font-size: 0.9em
+  margin: 3em 0 0 0
+  font-style: italic
 
 .related
   text-align: center
@@ -220,6 +230,7 @@ ul li, ol li
   padding: 2px
   border: 1px solid $light-grey
   overflow: hidden
+  max-width: 100%
 
 .video
   margin-top: 1em
@@ -266,6 +277,7 @@ ul li, ol li
     border-bottom: 1px solid $light-grey
     margin: 0
     padding: 0 0 2em 0
+    font-size: 1em
 
   .post
     max-width: 576px
@@ -292,6 +304,8 @@ ul li, ol li
       ul
         margin: 0
         padding: 0
+      .more-posts
+        font-size: 0.9
 
   .footer
     clear: both

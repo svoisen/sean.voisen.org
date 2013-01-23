@@ -57,7 +57,7 @@ Gratuitous Video
 And, in case you don&rsquo;t have an Arduino handy, here&rsquo;s a short video of the final effect:
 
 <div class="video">
-<iframe src="http://player.vimeo.com/video/31449253?title=0&amp;byline=0&amp;portrait=0" width="620" height="341" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+<iframe src="http://player.vimeo.com/video/31449253?title=0&amp;byline=0&amp;portrait=0" width="570" height="313" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
 </div>
 
 Conclusion
