@@ -2,9 +2,19 @@
 layout: default
 ---
 
-<div id="project" class="project">
+<section id="content" class="content">
+  <nav id="nav" class="nav post-nav">
+    <ul>
+      <li class="back"><a href="/">&larr; Home</a></li>
+      <li class="forward"><a href="/projects">Projects &rarr;</a></li>
+    </ul>
+  </nav>
+
   <h2 class="title">{{ page.title }}</h2>
-  {{ content }}
-</div>
+
+  <article id="post" class="post">
+    {{ content }}
+  </article>
+</section>
 
 <script type="text/javascript" src="/scripts/retina.js"></script>
