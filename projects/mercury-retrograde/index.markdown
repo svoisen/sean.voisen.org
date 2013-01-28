@@ -15,7 +15,9 @@ Microcontroller code and schematics for the clock are [available on Github.](htt
 
 ### Video
 
-<div class="video"><object width="620" height="349"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=5267251&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=5267251&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="620" height="349"></embed></object></div> 
+<div class="video">
+<iframe src="http://player.vimeo.com/video/5267251?title=0&amp;byline=0&amp;portrait=0&amp;color=cc0000" width="570" height="320" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
 
 ### Photos
 
