@@ -5,7 +5,7 @@ title: The Uncanny Dream Machine
 
 <script type="text/javascript" src="/scripts/audio-player.js"></script>
 <script type="text/javascript">
-  AudioPlayer.setup("/swfs/audio_player.swf", {width:620});
+  AudioPlayer.setup("/swfs/audio_player.swf", {width:576});
 </script>
 
 The Uncanny Dream Machine is an exploration in computer-generated dreamlike narrative. An artificial intelligence (AI) system conceived as a project of “expressive AI,” The Uncanny Dream Machine uses various databases and natural language processing algorithms to “re-mix” a collection of dream transcripts into novel dream narratives in real-time. Embodied as a 1940′s-era wooden Philco radio, viewers listen to the machine as it reads its dreams over the airwaves. Knobs on the radio allow viewers to “tune in” to streams of consciousness delineated by various emotions — fear, anger, curiosity, joy, anxiety, worry, etc. — provoking conversations about the nature of emotion and consciousness in an otherwise unemotional, unconscious, and disembodied machine.
@@ -14,7 +14,9 @@ The Uncanny Dream Machine is an exploration in computer-generated dreamlike narr
 
 ### Video
 
-<div class="video"><object width="620" height="349"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=12502610&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=12502610&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="620" height="349"></embed></object></div>
+<div class="video">
+<iframe src="http://player.vimeo.com/video/12502610?title=0&amp;byline=0&amp;portrait=0&amp;color=cc0000" width="570" height="321" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
 
 ### Audio
 
