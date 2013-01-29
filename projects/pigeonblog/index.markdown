@@ -3,7 +3,7 @@ layout: project
 title: PigeonBlog 2.0
 ---
 
-PigeonBlog 2.0 is the second iteration of Professor Beatriz da Costa’s [PigeonBlog](http://pigeonblog.mapyourcity.net/) project. As a graduate student researcher, I wrote the firmware and built the hardware for this camera and GPS-enabled bird tracking unit. It was ultimately used by scientists in the field to track the flights and whereabouts of gannets — large seabirds (up to 2 meter wingspan) living off the coast of South Africa.
+PigeonBlog 2.0 is the second iteration of UCI Professor [Beatriz da Costa’s](http://www.beatrizdacosta.net) [PigeonBlog](http://pigeonblog.mapyourcity.net/) project. As a graduate student researcher, I wrote the firmware and built the hardware for this camera and GPS-enabled bird tracking unit. It was ultimately used by scientists in the field to track the flights and whereabouts of gannets — large seabirds (up to 2 meter wingspan) living off the coast of South Africa.
 
 **Hardware:** The unit consists entirely of off-the-shelf components, including a 3.3V/8MHz Arduino Pro Mini, microSD socket, subminiature GPS unit, COMedia C328R serial camera, and 3.7V lithium-ion battery.
 
