@@ -16,7 +16,7 @@ Microcontroller code and schematics for the clock are [available on Github.](htt
 ### Video
 
 <div class="video">
-<iframe src="http://player.vimeo.com/video/5267251?title=0&amp;byline=0&amp;portrait=0&amp;color=cc0000" width="570" height="320" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="http://player.vimeo.com/video/5267251?title=0&amp;byline=0&amp;portrait=0&amp;color=cc0000" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
 
 ### Photos
