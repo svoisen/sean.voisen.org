@@ -1,6 +1,8 @@
 ---
 layout: project
 title: The Uncanny Dream Machine
+next_url: mercury-retrograde
+next_title: Mercury Retrograde
 ---
 
 <script type="text/javascript" src="/scripts/audio-player.js"></script>

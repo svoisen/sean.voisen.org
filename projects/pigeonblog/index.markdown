@@ -1,6 +1,8 @@
 ---
 layout: project
 title: PigeonBlog 2.0
+next_url: compassionate-communications
+next_title: Compassionate Communications
 ---
 
 PigeonBlog 2.0 is the second iteration of UCI Professor [Beatriz da Costa’s](http://www.beatrizdacosta.net) [PigeonBlog](http://pigeonblog.mapyourcity.net/) project. As a graduate student researcher, I wrote the firmware and built the hardware for this camera and GPS-enabled bird tracking unit. It was ultimately used by scientists in the field to track the flights and whereabouts of gannets — large seabirds (up to 2 meter wingspan) living off the coast of South Africa.
