@@ -3,6 +3,8 @@ layout: post
 title: Why Haskell?
 ---
 
+<p style="text-align:center;"><small>(This post is also available in <a href="http://science.webhostinggeeks.com/zasto-haskell">Serbo-Croatian</a>. Translation by Jovana Milutinovich.)</small></p>
+
 I&rsquo;m learning [Haskell](http://www.haskell.org). Maybe you should too. Here&rsquo;s why:
 
 Every programmer has something to say on what other programmers should know in order to be standouts in their field. Back in 2004, for instance, when Python was more obscure than it is now, Paul Graham wrote an essay about something he called the [Python paradox](http://www.paulgraham.com/pypar.html). In that essay, Graham summarized the paradox as follows:
