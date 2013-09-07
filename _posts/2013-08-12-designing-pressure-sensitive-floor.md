@@ -5,7 +5,7 @@ title: Designing a pressure-sensitive floor
 
 <img src="/images/ccm_activefloor2.jpg" width="620" alt="Photo 1" class="framed" />
 
-An empty room, a cushy budget, and our imaginations: These were the only three things our small team at [Adobe](http://www.adobe.com) started out with when – about a year ago – we were asked to build “something new” for the [Children’s Creativity Museum](http://creativity.org) in San Francisco. 
+An empty room, a healthy budget, and our imaginations: These were the only three things our small team at [Adobe](http://www.adobe.com) started out with when – about a year ago – we were asked to build “something new” for the [Children’s Creativity Museum](http://creativity.org) in San Francisco. 
 
 Several months, and much soldering, coding, hammering, welding, sawing and head-scratching later, our new exhibit – a digital/physical environment for kids called “Sense It” – [is now up and running](http://www.behance.net/gallery/Childrens-Creativity-Museum/9482331). With a 14'x8' touch-enabled LED wall and a 14'x12' pressure-sensitive floor, _Sense It_ is a place for kids to run, jump, play and create in a world of “extra large” digital experiences.
 
