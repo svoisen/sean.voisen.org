@@ -3,7 +3,7 @@ layout: post
 title: Functional Reactive Programming with Bacon.js
 ---
 
-If you are a front-end developer – that is, someone who builds user interfaces for a living – and you haven’t yet explored [Functional Reactive Programming (FRP)](http://en.wikipedia.org/wiki/Functional_reactive_programming), perhaps now is the time to take a look. Never mind the fact that FRP has been labeled a [hipster development trend](http://hipsterdevstack.tumblr.com/post/39558331788/frp-yeah-we-were-doing-that-in-2012) for 2013, it is still a time-saving, bug-preventing programming paradigm worthy of all developers, mustachioed or otherwise.
+If you are a front-end developer – that is, someone who builds user interfaces for a living – and you haven’t yet explored [Functional Reactive Programming (FRP)](http://en.wikipedia.org/wiki/Functional_reactive_programming), perhaps now is the time to take a look. Never mind the fact that it has been labeled a [hipster development trend](http://hipsterdevstack.tumblr.com/post/39558331788/frp-yeah-we-were-doing-that-in-2012) for 2013, FRP is still a time-saving, bug-preventing programming paradigm worthy of all developers, mustachioed or otherwise.
 
 This post is intended to be a gentle introduction to Functional Reactive Programming using examples from a specific implementation, [Bacon.js](https://github.com/baconjs/bacon.js). If you are a seasoned developer with at least some familiarity with JavaScript, you should have no problem following along.
 
@@ -61,4 +61,99 @@ Nothing terribly exciting here; clicking the button should print to the browser 
 
 ### Event Streams
 
+An event stream is a representation of a time-based series of discrete events. Think of it as a channel that you may subscribe to in order to be notified about some kind of happening in your program. Events in the stream may happen at any time and need not occur in a regular synchronous fashion (i.e. like the ticking of a clock).
 
+<img src="/images/event_stream_1.svg" width="100%" class="framed" />
+
+Unlike traditional events (like those provided by the browser or jQuery), the power of event streams is that they may be merged, filtered, or mapped (transformed) in any number of ways before you handle and act on the events conveyed within.
+
+<img src="/images/event_stream_2.svg" width="100%" class="framed" />
+
+A concrete example may help illustrate the point. Suppose we would like to initiate a search from our form by either clicking the search button or simply pressing the enter key while in the search input field. The standard way of doing so in jQuery requires creating separate event handlers for each input event, performing necessary logic to extract the search input, then calling a separate function to initiate a search. 
+
+{% highlight javascript %}
+function setup()
+{
+  $("#searchButton").click(function() {
+    doSearch($("#searchInput").val());
+  }
+
+  $("#searchInput").keyUp(function(e) {
+    if (e.keyCode == 13) {
+      doSearch($("#searchInput").val());
+    }
+  }
+}
+{% endhighlight %}
+
+In the above example, refactoring is already cumbersome because we have two callbacks that can initiate a search. If we changed the search function’s name or argument signature, then even with this simple example we’d already have to change our code in two places. And we haven’t even written any logic to handle the search results yet. If ```doSearch``` performs a search via Ajax, it too will need a callback to return results or errors.
+
+With FRP we can work more declaratively and, in turn, design the program such that the logic is easier to follow. 
+
+Here’s how it would work with Bacon.js:
+
+{% highlight javascript %}
+function setup()
+{
+  var buttonStream = $("#searchButton").asEventStream("click");
+  var enterStream = $("#searchInput").asEventStream("keyup")
+    .filter(function(e) {
+      return e.keyCode == 13;
+    }
+  );
+
+  var searchStream = Bacon.mergeAll(buttonStream, enterStream)
+    .map(function(){return $("#searchInput").val()})
+    .flatMapLatest(doSearch);
+}
+{% endhighlight %}
+
+Here, we create two streams, one for the button clicks and one for key up events in the input field. We filter the key up events such that the stream only emits events when the key up happens to be the enter key. Next we merge the two streams and apply a map (transformation) so that our new ```searchStream``` emits events that contain the value of the search input field. Finally, we do another map that will take the results from our Ajax search function and only emit events when the asynchronous Ajax call is complete. Let’s take a look at that search function:
+
+{% highlight javascript %}
+function doSearch(query)
+{
+    var url = 'http://en.wikipedia.org/w/api.php?action=opensearch'
+      + '&format=json' 
+      + '&search=' + encodeURI(query);
+    return Bacon.fromPromise($.ajax({url:url, dataType:"jsonp"}));
+}
+{% endhighlight %}
+
+This simple Wikipedia search returns an event stream built on the jQuery promise object returned by the ```ajax``` function. This stream will only emit a single event when the promise is complete, either the search results or an error.
+
+At this point, all of our application logic is essentially composed of combining, filtering and mapping the flow of event stream. Button clicks and key presses are converted into streams that are then merged into a single stream that is then mapped into another stream that is then transformed into a final stream ```searchStream``` that only emits events when a search is complete. One linear flow. No callback spaghetti.
+
+You may be wondering about the function ```flatMapLatest.``` The ```flatMapLatest``` function takes a stream and returns a new stream that contains only events from the last spawned stream, in our case the stream created by ```Bacon.fromPromise``` in the ```doSearch``` function. To get the results of our search, we simply use ```onValue``` on our search stream:
+
+{% highlight javascript %}
+searchStream.onValue(function(results) {
+  console.log(results);
+}
+{% endhighlight %}
+
+### Properties
+
+The magic of FRP and Bacon.js does not end with event streams. Remember those “super variables” I promised that would magically change over time in response to events. In Bacon.js those are called “properties.”
+
+You create properties from event streams using either the ```scan``` function or the ```toProperty``` function. A property will always have a value (though not necessarily initially), and that value may change over time depending on what happens with its related event stream.
+
+As a simple example, let’s create a property that keeps track of the number of searches we perform with our new Bacon-powered search field.
+
+{% highlight javascript %}
+var totalSearches = searchStream.scan(0, function(value) { 
+  return ++value; 
+});
+{% endhighlight %}
+
+Here, we use the ```scan``` function to create a property that increases by 1 every time the ```searchStream``` emits an event. If you’re not familiar with ```scan``` from other functional programming experience, think of it as a kind of accumulator function that takes an initial value, and then for each event in the stream calls some function that takes the value as an argument. In our case, we start with 0 in the accumulator, then increment it by 1. The ```totalSearches``` property will always contain whatever is in the accumulator.
+
+Like event streams, we can use ```onValue``` to get the value in our property:
+
+{% highlight javascript %}
+totalSearches.onValue(function(value) {
+  console.log(value);
+}
+{% endhighlight %}
+
+Notice what we did not do that we would have to do using standard jQuery and imperative programming: we did not create a global variable that would have to store our total search count. We did not have to remember to increment that variable in our ```doSearch``` callback. And, most importantly, if we wanted to display that variable on the page, we would not have to manually check when it updated and then display it – we can use the ```onValue``` function instead to be updated of any changes.
