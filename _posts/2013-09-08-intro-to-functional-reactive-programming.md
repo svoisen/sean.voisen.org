@@ -3,7 +3,7 @@ layout: post
 title: Functional Reactive Programming with Bacon.js
 ---
 
-If you are a front-end developer – that is, someone who builds user interfaces for a living – and you haven’t yet explored [Functional Reactive Programming (FRP)](http://en.wikipedia.org/wiki/Functional_reactive_programming), perhaps now is the time to take a look. Never mind the fact that it has been labeled a [hipster development trend](http://hipsterdevstack.tumblr.com/post/39558331788/frp-yeah-we-were-doing-that-in-2012) for 2013, FRP is still a time-saving, bug-preventing programming paradigm worthy of all developers, mustachioed or otherwise.
+If you are a front-end developer – that is, someone who builds user interfaces for a living – and you haven’t yet explored [Functional Reactive Programming (FRP)](http://en.wikipedia.org/wiki/Functional_reactive_programming), perhaps now is the time to take a look. Never mind the fact that it has been labeled a [hipster development trend](http://hipsterdevstack.tumblr.com/post/39558331788/frp-yeah-we-were-doing-that-in-2012) for 2013, FRP is a time-saving, bug-preventing programming paradigm worthy of all developers, mustachioed or otherwise.
 
 This post is intended to be a gentle introduction to Functional Reactive Programming using examples from a specific implementation, [Bacon.js](https://github.com/baconjs/bacon.js). If you are a seasoned developer with at least some familiarity with JavaScript, you should have no problem following along.
 
@@ -26,7 +26,7 @@ console.log(y);
 
 Because of the way “=” works in traditional programming, we expect to see the number 2 printed in the console. The variable ```y``` was assigned the value 1 + 1, which is 2. The third line (```x = 2;```) has no effect on the output. 
 
-But suppose we changed the way that we interpreted “=” such that it meant what we learned in mathematics, namely the concept of equivalence. Then the variable ```y``` would be equivalent to whatever the value of ```x``` is at any given time, incremented by 1. In this case we‘d expect different console output – the number 3.
+But suppose we changed the way that we interpreted “=” such that it meant what we learned in mathematics, namely the concept of equivalence. Then the variable ```y``` would be equivalent to whatever the value of ```x``` is at any given time, incremented by 1. In this case we’d expect different console output – the number 3.
 
 Without data binding or event dispatching – in fact, without any special work on our part – what we have now is a new kind of super variable ```y```, one that represents a time-based relationship, and will continually change as ```x``` changes over time.  This is the kind of programming power that Reactive Programming provides.
 
@@ -34,7 +34,7 @@ Without data binding or event dispatching – in fact, without any special work 
 
 ## Diving in With Bacon.js
 
-Perhaps the best way to get a better understanding is just to dive in and write some code. Let’s build a very simple Wikipedia Ajax search tool.
+Perhaps the best way to get a better understanding is just to dive in and write some code. Let’s build a very simple Wikipedia search tool.
 
 Download [Bacon.js](https://github.com/baconjs/bacon.js) and set up a simple page using Bacon and jQuery. Add an input field and search button:
 
@@ -157,3 +157,55 @@ totalSearches.onValue(function(value) {
 {% endhighlight %}
 
 Notice what we did not do that we would have to do using standard jQuery and imperative programming: we did not create a global variable that would have to store our total search count. We did not have to remember to increment that variable in our ```doSearch``` callback. And, most importantly, if we wanted to display that variable on the page, we would not have to manually check when it updated and then display it – we can use the ```onValue``` function instead to be updated of any changes.
+
+We could also use ```toProperty``` to create another property that contains the number of search results returned by Wikipedia.
+
+{% highlight javascript %}
+var totalResults = searchStream.map(function(value){return value[1].length;}).toProperty();
+{% endhighlight %}
+
+Here’s the program in its entirety:
+
+{% highlight javascript %}
+function setup()
+{
+  var buttonStream = $("#searchButton").asEventStream("click");
+  var enterStream = $("#searchInput").asEventStream("keyup")
+    .filter(function(e){
+      return e.keyCode == 13;
+    }
+  );
+
+  var searchStream = Bacon.mergeAll(buttonStream, enterStream)
+    .map(function(){return $("#searchInput").val()})
+    .flatMapLatest(doSearch);
+
+  var totalSearches = searchStream.scan(0, function(value) { 
+    return ++value; 
+  });
+
+  totalSearches.onValue(function(total) {
+    console.log("Total searches: " + total);
+  });
+
+  var totalResults = searchStream.map(function(value){return value[1].length;}).toProperty();
+
+  totalResults.onValue(function(total) {
+    console.log("Search result count: " + total);
+  });
+}
+
+function doSearch(query)
+{
+  var url = 'http://en.wikipedia.org/w/api.php?action=opensearch'
+      + '&format=json' 
+      + '&search=' + encodeURI(query);
+  return Bacon.fromPromise($.ajax({url:url, dataType:"jsonp"}));
+}
+
+$(document).ready(setup);
+{% endhighlight %}
+
+### Conclusion
+
+This short post really only scratches the surface of what is available in FRP libraries like [Bacon.js](https://github.com/baconjs/bacon.js). I suggest you take the time to explore and see more of what FRP offers before deciding if it’s right for you. Indeed, Bacon.js is not the only FRP library available for JavaScript developers: [RxJS](https://github.com/Reactive-Extensions/RxJS) is the original and popular alternative. But whatever you choose, I think you’ll find FRP is a handy tool – even in imperative languages – for writing cleaner, simpler, more elegant code.
