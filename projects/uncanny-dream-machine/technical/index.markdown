@@ -1,6 +1,8 @@
 ---
 layout: project
 title: The Uncanny Dream Machine – Technical Docs
+next_url: mercury-retrograde
+next_title: Mercury Retrograde
 ---
 
 [The Uncanny Dream Machine](/projects/uncanny-dream-machine/) consists of two main components: an artifcial intelligence (AI) server running “behind the scenes,” and the machine itself, a customized 1940 Philco radio. The AI server is programmed using the Ruby programming language, and employs the [Princeton University Wordnet database](http://wordnet.princeton.edu/), the [University of South Florida Free Association Norms database](http://web.usf.edu/FreeAssociation/), a database of my own dream transcripts (55 different recorded dreams), and a variety of artifcial intelligence and natural language processing algorithms to weave its sometimes bizarre, sometimes mundane dreamlike creations. Once a dream text has been created, the system uses the [Cepstral](http://www.cepstral.com/) text-to-speech and [LAME MP3](http://lame.sourceforge.net/) encoding software to render the audio output. Finally, the audio is then streamed to the radio over 802.11 wifi, and played back using the mpd music player daemon running on [OpenWrt Linux](http://openwrt.org/) in the radio itself.

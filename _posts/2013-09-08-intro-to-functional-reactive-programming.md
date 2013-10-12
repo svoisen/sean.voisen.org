@@ -63,11 +63,11 @@ Nothing terribly exciting here; clicking the button should print to the browser 
 
 An event stream is a representation of a time-based series of discrete events. Think of it as a channel that you may subscribe to in order to be notified about some kind of happening in your program. Events in the stream may happen at any time and need not occur in a regular synchronous fashion (i.e. like the ticking of a clock).
 
-<img src="/images/event_stream_1.svg" width="100%" class="framed" />
+<img src="http://sean.voisen.org/images/event_stream_1.svg" width="100%" class="framed" />
 
 Unlike traditional events (like those provided by the browser or jQuery), the power of event streams is that they may be merged, filtered, or mapped (transformed) in any number of ways before you handle and act on the events conveyed within.
 
-<img src="/images/event_stream_2.svg" width="100%" class="framed" />
+<img src="http://sean.voisen.org/images/event_stream_2.svg" width="100%" class="framed" />
 
 A concrete example may help illustrate the point. Suppose we would like to initiate a search from our form by either clicking the search button or simply pressing the enter key while in the search input field. The standard way of doing so in jQuery requires creating separate event handlers for each input event, performing necessary logic to extract the search input, then calling a separate function to initiate a search. 
 
