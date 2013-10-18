@@ -13,14 +13,14 @@ namespace :content do
   desc "Generate content for local testing"
   task :development => :clean do
     puts "Generating content for local testing"
-    system('jekyll')
+    system('jekyll build')
     # tidy
   end
 
   desc "Generate production content"
   task :production => :clean do
     puts "Generating content for production"
-    system('jekyll --lsi')
+    system('jekyll build')
     # tidy
   end
 end
@@ -53,7 +53,7 @@ end
 
 desc "Start development server"
 task :server do
-  system('jekyll --server --auto')
+  system('jekyll serve --drafts --watch')
 end
 
 desc "Builds and deploys to remote production server"
