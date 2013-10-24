@@ -122,7 +122,7 @@ function doSearch(query)
 
 This simple Wikipedia search returns an event stream built on the jQuery promise object returned by the ```ajax``` function. This stream will only emit a single event when the promise is complete, either the search results or an error.
 
-At this point, all of our application logic is essentially composed of combining, filtering and mapping the flow of event stream. Button clicks and key presses are converted into streams that are then merged into a single stream that is then mapped into another stream that is then transformed into a final stream ```searchStream``` that only emits events when a search is complete. One linear flow. No callback spaghetti.
+At this point, all of our application logic is essentially composed of combining, filtering and mapping the flow of event streams. Button clicks and key presses are converted into streams that are then merged into a single stream that is then mapped into another stream that is then transformed into a final stream ```searchStream``` that only emits events when a search is complete. One linear flow. No callback spaghetti.
 
 You may be wondering about the function ```flatMapLatest.``` The ```flatMapLatest``` function takes a stream and returns a new stream that contains only events from the last spawned stream, in our case the stream created by ```Bacon.fromPromise``` in the ```doSearch``` function. To get the results of our search, we simply use ```onValue``` on our search stream:
 
@@ -164,11 +164,20 @@ We could also use ```toProperty``` to create another property that contains the 
 var totalResults = searchStream.map(function(value){return value[1].length;}).toProperty();
 {% endhighlight %}
 
-Here’s the program in its entirety:
+<a name="bugfix"></a>Finally, it turns out that **we also need properties in order to fix a small bug in our example.** Why? Because Bacon.js uses lazy evaluation, there’s no guarantee that the value of the ```searchInput``` we return as part of our mapping in the ```searchStream``` will be what we expect at the time we expect it. If we were to use our ```searchStream``` with buffering combinators in the Bacon.js library like ```zipWith``` or ```when```, then we might run into trouble. We can fix this by creating a property that updates whenever our input changes on key down, and then use Bacon’s ```sampledBy``` function to ensure our stream passes along the value of the property at the time it was sampled instead:
+
+{% highlight javascript %}
+var queryProperty = $("#searchInput").asEventStream("keydown")
+    .map('.target.value').toProperty();
+{% endhighlight %}
+
+Here’s the final program in its entirety:
 
 {% highlight javascript %}
 function setup()
 {
+  var queryProperty = $("#searchInput").asEventStream("keydown")
+    .map('.target.value').toProperty();
   var buttonStream = $("#searchButton").asEventStream("click");
   var enterStream = $("#searchInput").asEventStream("keyup")
     .filter(function(e){
@@ -176,8 +185,8 @@ function setup()
     }
   );
 
-  var searchStream = Bacon.mergeAll(buttonStream, enterStream)
-    .map(function(){return $("#searchInput").val()})
+  var searchStream = queryProperty
+    .sampledBy(Bacon.mergeAll(buttonStream, enterStream))
     .flatMapLatest(doSearch);
 
   var totalSearches = searchStream.scan(0, function(value) { 
