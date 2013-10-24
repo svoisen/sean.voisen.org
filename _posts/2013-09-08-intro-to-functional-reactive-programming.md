@@ -164,7 +164,7 @@ We could also use ```toProperty``` to create another property that contains the 
 var totalResults = searchStream.map(function(value){return value[1].length;}).toProperty();
 {% endhighlight %}
 
-<a name="bugfix"></a>Finally, it turns out that **we also need properties in order to fix a small bug in our example.** Why? Because Bacon.js uses lazy evaluation, there’s no guarantee that the value of the ```searchInput``` we return as part of our mapping in the ```searchStream``` will be what we expect at the time we expect it. If we were to use our ```searchStream``` with buffering combinators in the Bacon.js library like ```zipWith``` or ```when```, then we might run into trouble. We can fix this by creating a property that updates whenever our input changes on key down, and then use Bacon’s ```sampledBy``` function to ensure our stream passes along the value of the property at the time it was sampled instead:
+<a name="bugfix"></a>Finally, it turns out that **we also need properties in order to fix a small bug in our example.** [[1](#1)] Because Bacon.js uses lazy evaluation, there’s no guarantee that the value of the ```searchInput``` we return as part of our mapping in the ```searchStream``` will be what we expect at the time we expect it. If we were to use our ```searchStream``` with buffering combinators in the Bacon.js library like ```zipWith``` or ```when```, then we might run into trouble. We can fix this by creating a property that updates whenever our input changes on key down, and then use Bacon’s ```sampledBy``` function to ensure our stream passes along the value of the property at the time it was sampled instead:
 
 {% highlight javascript %}
 var queryProperty = $("#searchInput").asEventStream("keydown")
@@ -218,3 +218,5 @@ $(document).ready(setup);
 ### Conclusion
 
 This short post really only scratches the surface of what is available in FRP libraries like [Bacon.js](https://github.com/baconjs/bacon.js). I suggest you take the time to explore and see more of what FRP offers before deciding if it’s right for you. Indeed, Bacon.js is not the only FRP library available for JavaScript developers: [RxJS](https://github.com/Reactive-Extensions/RxJS) is the original and popular alternative. But whatever you choose, I think you’ll find FRP is a handy tool – even in imperative languages – for writing cleaner, simpler, more elegant code.
+
+> <a name="1"></a>[1] Bug fix courtesy of [@ali_pang](https://twitter.com/ali_pang)
