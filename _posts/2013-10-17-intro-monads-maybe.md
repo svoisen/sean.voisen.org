@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Gentle Intro to Monads &hellip; Maybe?
+title: A Gentle Intro to Monads … Maybe?
 ---
 
 Monads: they're incredibly useful, and also maybe a little intimidating. Beginner functional programmers often cringe when they hear the term. JavaScript legend [Douglas Crockford once said that monads are cursed](http://www.youtube.com/watch?v=dkZFtimgAcM) – that once you understand monads for yourself you lose the ability to explain them to others. In the programming language F#, monads are called “computational expressions” mostly so people aren’t scared away. 
@@ -151,6 +151,8 @@ else {
 
 Certainly this is better than before, but can we do better?
 
+> (Note: If you’re keeping score, then you’ll note the type signature of our ```bind``` differs from Haskell’s ```>>=```. Haskell’s bind operator is of type ```m a -> (a -> m b) -> m b```, whereas ours is ```m a -> (a -> b) -> m b```. That is, we should pass in a function ```fn``` that returns a non-monadic – non-Maybe – value. I do this because JavaScript’s type system is, understatedly, quite weak, so I prefer to enforce the wrapping of the function’s return value in the Maybe monad myself. You can of course elect not to do this, and instead ensure that any function you pass to ```bind``` always returns a Maybe.)
+
 ## Maybe We Can Do Better
 
 It would be nice if we could eliminate the final ```if ... else``` statement in the example above. It would also be nice if we could sequence multiple Maybes together without the need for ```bind``` in the case when we don’t plan on using the result of the bind. Fortunately, with our new Maybe type we can do all this and more. Here’s the final Maybe code with a few new methods (```then```, ```isNothing```, ```val``` and ```maybe```) that provide some additional utility:
@@ -244,7 +246,7 @@ Of course, monads may also be defined more formally. For our Maybe example to tr
 
 * Have a _type constructor_ that defines its type.
 * Have a _unit function_ that converts a value of some type to its corresponding monadic type. This is the ```Maybe``` function.
-* Have a _binding operation_ that takes a monad, a function that takes a some type and returns a monad, and returns a monad. This is our ```bind``` function. (Note that in our example, the type signature varies slightly from this definition, as we automatically wrap the result of our binding function in Maybe. I do this primarily because JavaScript’s type system is quite weak, and this helps to enforce the desired binding behavior. You can elect not to do this, and instead ensure that any function you pass to ```bind``` always returns a Maybe.)
+* Have a _binding operation_ that takes a monad, a function that takes a some type and returns a monad, and returns a monad. This is our ```bind``` function. (Again, note that in our example, the function type signature varies slightly from this definition, as we automatically wrap the result of our binding function in Maybe.)
 
 As for the three laws, these are known as: left identity, right identity, and associativity. In JavaScript, _with our example_, these laws may be written as follows:
 
