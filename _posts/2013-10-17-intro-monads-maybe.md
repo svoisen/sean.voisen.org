@@ -55,15 +55,15 @@ We can begin to model the Haskell definition in JavaScript as follows:
 
 {%highlight javascript%}
 Maybe = function(value) {
-  Nothing = {};
+  var Nothing = {};
 
-  Something = function(value) { 
+  var Something = function(value) { 
     return function() {
       return value; 
     };
   };
 
-  if (value === null || value === undefined)
+  if (typeof value === 'undefined' || value === null)
     return Nothing;
 
   return Something(value);
@@ -115,17 +115,17 @@ We can do this by introducing a method on Maybe called ```bind``` (in Haskell, t
 
 {%highlight javascript%}
 Maybe = function(value) {
-  Nothing = {
+  var Nothing = {
     bind: function(fn) { return this; }
   };
 
-  Something = function(value) { 
+  var Something = function(value) { 
     return {
       bind: function(fn) { return Maybe(fn.call(this, value)); }
     };
   };
 
-  if (value === null || value === undefined)
+  if (typeof value === 'undefined' || value === null)
     return Nothing;
 
   return Something(value);
@@ -155,11 +155,11 @@ Certainly this is better than before, but can we do better?
 
 ## Maybe We Can Do Better
 
-It would be nice if we could eliminate the final ```if ... else``` statement in the example above. It would also be nice if we could sequence multiple Maybes together without the need for ```bind``` in the case when we don’t plan on using the result of the bind. Fortunately, with our new Maybe type we can do all this and more. Here’s the final Maybe code with a few new methods (```then```, ```isNothing```, ```val``` and ```maybe```) that provide some additional utility:
+It would be nice if we could eliminate the final ```if ... else``` statement in the example above. It would also be nice if we could sequence multiple Maybes together without the need for ```bind``` in the case when we don’t plan on using the result of the bind. Fortunately, with our new Maybe type we can do all this and more. Here’s the final Maybe code with a few new methods (```isNothing```, ```val``` and ```maybe```) that provide some additional utility:
 
 {%highlight javascript%}
 Maybe = function(value) {
-  Nothing = {
+  var Nothing = {
     bind: function(fn) { 
       return this; 
     },
@@ -169,15 +169,12 @@ Maybe = function(value) {
     val: function() { 
       throw new Error("cannot call val() nothing"); 
     },
-    then: function(maybe) {
-      return this;
-    },
     maybe: function(def, fn) {
       return def;
     }
   };
 
-  Something = function(value) { 
+  var Something = function(value) { 
     return {
       bind: function(fn) { 
         return Maybe(fn.call(this, value));
@@ -188,16 +185,13 @@ Maybe = function(value) {
       val: function() { 
         return value;
       },
-      then: function(maybe) {
-        return maybe;
-      },
       maybe: function(def, fn) {
         return fn.call(this, value);
       }
     };
   };
 
-  if (value === null || value === undefined)
+  if (typeof value === 'undefined' || value === null)
     return Nothing;
 
   return Something(value);
@@ -207,18 +201,6 @@ Maybe = function(value) {
 ### isNothing() and val()
 
 The ```isNothing``` and ```val``` functions are rather self-explanatory. The ```isNothing``` function returns true if the Maybe is ```Nothing``` and false otherwise. The ```val``` function simply returns the value inside the Maybe monad if it is “something,” similar to Haskell’s ```fromJust``` function. If the Maybe is ```Nothing``` then ```val``` will throw an error. We don’t require these methods for our example (or even for Maybe to be a monad), but they often prove useful elsewhere.
-
-### then(maybe)
-
-The ```then``` function simply strings Maybes together without a binding function (similar to Haskell’s ```>>``` operator). We can use it to write code like:
-
-{%highlight javascript%}
-var state = Maybe(person)
-  .then(Maybe(person["address"])
-  .then(Maybe(person["address"]["state"])));
-{%endhighlight%}
-
-In the above example, ```state``` will be either ```Nothing``` or a ```Something``` containing the value of the state. Carried to completion, this example ends up being slightly more repetitive than the ```bind``` solution and, again, is not required, but can be more useful in other contexts.
 
 ### maybe(def, fn) 
 
@@ -305,9 +287,9 @@ Next, we will extend the Maybe constructor to check for this function on all pro
 Maybe = function(value) {
   // Nothing and Something definitions go here ...
 
-  if (value === null || 
-      value === undefined || 
-      (value.isNothing !== undefined && value.isNothing()))
+  if (typeof value === 'undefined' || 
+      value === null || 
+      (typeof value.isNothing !== 'undefined' && value.isNothing()))
   {
     return Nothing;
   }
@@ -319,7 +301,7 @@ Maybe = function(value) {
 Now we can refactor our ```null``` and empty array checks using ```bind``` as before:
 
 {%highlight javascript%}
-console.log(Maybe(people).then(Maybe(people[0])).maybe("No person", function(person) {
+console.log(Maybe(people).bind(function(people){return people[0]}).maybe("No person", function(person) {
   return person;
 }));
 {%endhighlight%}
