@@ -1,5 +1,4 @@
 require 'rubygems'
-require 'tidy_ffi'
 require 'jammit'
 
 desc "Generate content"
