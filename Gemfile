@@ -6,6 +6,6 @@ group :development do
   gem 'tidy_ffi'
   gem 'jammit', :git => 'https://github.com/dblock/jammit.git'
   gem 'jekyll', '~> 1.0'
-  gem 'gsl'
+#  gem 'gsl'
   gem 'rdiscount'
 end
