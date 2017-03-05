@@ -2,6 +2,7 @@
 layout: post
 title: Lessons From a Year as an Engineering Manager
 ---
+<blockquote><p><em>Note: This post is also available on <a href="https://medium.com/@svoisen/lessons-from-a-year-as-an-engineering-manager-871df4a762f">Medium</a>.</em></p></blockquote>
 
 <p>I entered the world of engineering management by accident. You could say I fell into it. I never sought to become a “manager,” — or even a leader per se — I just wanted to do good work. I wanted to make things of quality, things that people would find useful and valuable. Things that people would love.</p>
 
