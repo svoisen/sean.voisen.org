@@ -5,11 +5,17 @@ next_url: ccm-active-floor
 next_title: Children’s Creativity Museum Active Floor
 ---
 
-Project Context’s goal is to make in-person collaboration and content reviews more effective via instant natural file sharing, direct access to content repositories and seamless integration across multiple larger and mobile connected screens.
+Project Context’s original goal was to make in-person collaboration and content reviews more effective via instant natural file sharing, direct access to content repositories and seamless integration across multiple larger and mobile connected screens.
 
-As team lead of engineering on the project, I was (and am) responsible for developing and maintaining the proprietary touch library, multitouch gesture recognizers, and architecture for much of Context, all written in Objective-C.
+As team lead of engineering on the project, I was responsible for developing and maintaining the proprietary touch library, multitouch gesture recognizers, and architecture for much of Context, originally all written in Objective-C. The project was later ported to JavaScript using Chromium Embedded Framework (CEF).
 
 For more information on Project Context, see the project’s [Behance page](http://www.behance.net/gallery/Project-Context/9372399).
+
+### Video
+
+Project Context is now known as Adobe Experience Manager (AEM) Screens. Here’s a recent marketing video:
+
+<iframe width="576" height="324" src="https://www.youtube.com/embed/QxLYS_jEZN4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ### Images
 
