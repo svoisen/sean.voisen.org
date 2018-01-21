@@ -55,7 +55,7 @@ end
 
 desc "Builds and deploys to remote production server"
 task :deploy => [:"build:production"] do
-  system('rsync -avrz --delete -e "ssh -i /Users/svoisen/.ssh/id_rsa" _site/ svoisen@voisen.org:sean.voisen.org')
+  system('rsync -avrz --delete -e ssh _site/ svoisen@voisen.org:sean.voisen.org')
   puts "Production site deployed!"
 end
 
