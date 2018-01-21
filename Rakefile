@@ -12,15 +12,13 @@ namespace :content do
   desc "Generate content for local testing"
   task :development => :clean do
     puts "Generating content for local testing"
-    system('jekyll build')
-    # tidy
+    system('bundle exec jekyll build')
   end
 
   desc "Generate production content"
   task :production => :clean do
     puts "Generating content for production"
-    system('jekyll build')
-    # tidy
+    system('bundle exec jekyll build')
   end
 end
 
@@ -52,35 +50,13 @@ end
 
 desc "Start development server"
 task :server do
-  system('jekyll serve --drafts --watch')
+  system('bundle exec jekyll serve --drafts --watch')
 end
 
 desc "Builds and deploys to remote production server"
 task :deploy => [:"build:production"] do
   system('rsync -avrz --delete -e "ssh -i /Users/svoisen/.ssh/id_rsa" _site/ svoisen@voisen.org:sean.voisen.org')
   puts "Production site deployed!"
-end
-
-def tidy
-  puts "Tidying up HTML content"
-  Dir.glob('_site/**/*.html') do |path|
-    content = File.open(path).read
-
-    File.open(path, 'w') {|file|
-      file.write TidyFFI::Tidy.new(content,
-        :numeric_entities => 1,
-        :output_xhtml => 0,
-        :merge_divs => 0,
-        :merge_spans => 0,
-        :join_styles => 0,
-        :clean => 1,
-        :indent => 1,
-        :wrap => 0,
-        :drop_empty_paras => 1,
-        :literal_attributes => 1,
-        :char_encoding => 'utf8').clean
-    }
-  end
 end
 
 task :default => :"build:development"
