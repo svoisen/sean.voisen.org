@@ -12,7 +12,7 @@ layout: nil
  <author>
    <name>Sean Voisen</name>
  </author>
- <rights>Copyright (C) 2005-2011 Sean Voisen</rights>
+ <rights>Copyright (C) 2005-2018 Sean Voisen</rights>
 
  {% for post in site.posts limit:20 %}
  <entry>
