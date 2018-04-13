@@ -4,6 +4,8 @@ group :development do
   gem 'rake'
   gem 'compass'
   gem 'jammit'
-  gem 'jekyll', '~> 1.0'
+  gem 'jekyll'
+  gem 'rouge'
+  gem 'pygments.rb'
   gem 'rdiscount'
 end
