@@ -181,8 +181,7 @@ Bacon.fromCallback(function(callback) {
 Finally, ```fromPromise``` creates EventStreams from a Promise object. The stream will emit a single event when the promise succeeds, an error event if the promise fails, and will end immediately thereafter in either case. Here’s an example that creates an EventStream from a jQuery Ajax call to the Wikipedia API:
 
 {% highlight javascript %}
-function doSearch(query)
-{
+function doSearch(query) {
     var url = 'http://en.wikipedia.org/w/api.php?action=opensearch'
         + '&format=json' 
         + '&search=' + encodeURI(query);
@@ -191,7 +190,6 @@ function doSearch(query)
         dataType:"jsonp"
     }));
 }
-    
 doSearch('Aardvark').onValue(function(val) {
     console.log(val[1]);
 });
