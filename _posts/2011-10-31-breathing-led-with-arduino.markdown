@@ -35,7 +35,8 @@ Swap *x* for the number of seconds that have elapsed, and map the above equation
 
 Finally, 1 - e, and 255/(e - 1/e) are constants, and can be pre-calcuated to reduce overhead. The final Arduino sketch is as follows (with the LED connected to pin 11, a suitable resistor in series, yadda, yadda &hellip;):
 
-{% highlight c %}
+<div>
+{%highlight c%}
 #include <math.h>
 
 void setup()
@@ -48,8 +49,8 @@ void loop()
   float val = (exp(sin(millis()/2000.0*PI)) - 0.36787944)*108.0;
   analogWrite(11, val);
 }
-
-{% endhighlight %}
+{%endhighlight%}
+</div>
 
 Gratuitous Video
 ----------------
