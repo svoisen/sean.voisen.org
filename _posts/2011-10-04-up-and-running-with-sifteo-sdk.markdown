@@ -48,9 +48,9 @@ Once your project has been generated, open the `MyFirstApp.sln` file in MonoDeve
 **Mac:** [SDK_HOME]/Siftdev.app/Contents/Resources/Runtimes/Mono/Current/sifteo/Sifteo.dll
 **Windows:** [SDK_HOME]\bin\Runtimes\Mono\Current\sifteo\Sifteo.dll
 
-<img src="http://sean.voisen.org/images/sifteo_setup_1.png" alt="Set references in MonoDevelop" class="framed" />
+<img src="https://sean.voisen.org/images/sifteo_setup_1.png" alt="Set references in MonoDevelop" class="framed" />
 
-<img src="http://sean.voisen.org/images/sifteo_setup_2.png" alt="Select Sifteo.dll" class="framed" />
+<img src="https://sean.voisen.org/images/sifteo_setup_2.png" alt="Select Sifteo.dll" class="framed" />
 
 In order to avoid warnings at compile time, be sure to remove the broken reference to the Sifteo .NET assembly file that `project_gen` creates, leaving only the Sifteo.dll and System references.
 
@@ -59,17 +59,17 @@ Using Siftdev and Siftulator
 
 You should now have a working empty application. Open up the Siftdev application from the SDK and select &ldquo;Load Apps ...&rdquo; from the Developer menu.
 
-<img src="http://sean.voisen.org/images/sifteo_setup_3.png" alt="Select Load Apps in Siftdev" class="framed" />
+<img src="https://sean.voisen.org/images/sifteo_setup_3.png" alt="Select Load Apps in Siftdev" class="framed" />
 
 Select the root folder of your entire `MyFirstApp` project. The MyFirstApp application should now appear along with the rest of any games you have downloaded from the Sifteo store. 
 
-<img src="http://sean.voisen.org/images/sifteo_setup_4.png" alt="Select the MyFirstApp application" class="framed" />
+<img src="https://sean.voisen.org/images/sifteo_setup_4.png" alt="Select the MyFirstApp application" class="framed" />
 
 Select it and launch the Siftulator application from the SDK. Three cubes should show as connected in the status bar of Siftdev. (If you own real cubes, make sure the USB wireless transmitter is NOT connected, otherwise it will attempt to connect to your real cubes.)
 
-<img src="http://sean.voisen.org/images/sifteo_setup_5.png" alt="Not connected" class="framed" />
+<img src="https://sean.voisen.org/images/sifteo_setup_5.png" alt="Not connected" class="framed" />
 
-<img src="http://sean.voisen.org/images/sifteo_setup_6.png" alt="Connected" class="framed" />
+<img src="https://sean.voisen.org/images/sifteo_setup_6.png" alt="Connected" class="framed" />
 
 By default the project is setup to connect to MonoDevelop for debugging. So, before you can play the application you must run the project from within MonoDevelop by selecting &ldquo;Run&rdquo; from the &ldquo;Run&rdquo; menu. Once you have done so, click Play in Siftdev and the application will begin running in Siftulator. A stream of logging information will appear in the Application Output panel within MonoDevelop.
 
@@ -86,11 +86,11 @@ This means that any graphics you create for Sifteo must be converted to the prop
 
 Siftdev includes a tool for exactly this purpose.  It is called &ldquo;Image Helper&rdquo; and can be found under the Developer menu. Image Helper will convert images in PNG or JPEG format to the required .siftimg and .sftbndl formats in 8-bit color. As an example, download the following PNG strip of three 128x128px sprites. We will use it to display the letters ABC on three cubes, one letter per cube:
 
-<img src="http://sean.voisen.org/images/LetterSprites.png" alt="Sample sprite strip" class="framed" />
+<img src="https://sean.voisen.org/images/LetterSprites.png" alt="Sample sprite strip" class="framed" />
 
 Create a folder `assets/images` within your MyFirstApp project and save the above PNG to that folder. Open Image Helper and select the PNG file using the &ldquo;Select File ...&rdquo; button. Then, click &ldquo;Convert.&rdquo; This will create a new file, `LetterSprites.siftimg` in `assets/images`. Next, click &ldquo;Select Folder ...&rdquo; and select the same `assets/images` folder, and under &ldquo;Save As&rdquo; give the new bundle the name &ldquo;Sprites.&rdquo; Finally, click &ldquo;Convert All.&rdquo; 
 
-<img src="http://sean.voisen.org/images/sifteo_setup_8.png" alt="Create a bundle" class="framed" />
+<img src="https://sean.voisen.org/images/sifteo_setup_8.png" alt="Create a bundle" class="framed" />
 
 The `assets/images` folder should now contain four files in total:
 
@@ -121,7 +121,7 @@ override public void Setup ()
 
 Everything should now run as expected on real cubes. For Siftulator to correctly display the sprite images, however, it needs to be directed to the location of the folder containing the individual .siftimg files. Select the second-to-last button in Siftulator toolbar and select the `assets/images` folder in your project. Finally, run your project in Siftulator (you may need to reload the application in Siftdev from the developer menu). The output should look something like the following:
 
-<img src="http://sean.voisen.org/images/sifteo_setup_9.png" alt="Final application" class="framed" />
+<img src="https://sean.voisen.org/images/sifteo_setup_9.png" alt="Final application" class="framed" />
 
 Conclusion
 ----------

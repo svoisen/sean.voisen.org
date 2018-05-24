@@ -66,7 +66,7 @@ Here be dragons.
 
 The topic of anthropomorphism as it relates to intelligent agents has seen more than its fair share of debate. It likely all began around the 1970s when [Joseph Weizenbaum](http://en.wikipedia.org/wiki/Joseph_Weizenbaum) coined the term [ELIZA effect](https://en.wikipedia.org/wiki/ELIZA_effect) after observing anthropomorphic tendencies in users of his famed ELIZA chatbot. But it has since come a long way from there.
 
-Back in graduate school, I wrote [a paper](http://sean.voisen.org/writing/voisen_empathic_agents_120909.pdf) in which I outlined several of the theories behind agent anthropomorphism and came out on the side *against* designing an agent such that it would look and act excessively human. Jeffrey Morgan also [offers an extensive overview](http://usabilityetc.com/articles/anthropomorphism-on-trial/) of the history of debate on anthropomorphism of intelligent agents.
+Back in graduate school, I wrote [a paper](https://sean.voisen.org/writing/voisen_empathic_agents_120909.pdf) in which I outlined several of the theories behind agent anthropomorphism and came out on the side *against* designing an agent such that it would look and act excessively human. Jeffrey Morgan also [offers an extensive overview](http://usabilityetc.com/articles/anthropomorphism-on-trial/) of the history of debate on anthropomorphism of intelligent agents.
 
 The topic is simply too broad here to cover in much detail. But, the arguments can be roughly summarized as follows:
 

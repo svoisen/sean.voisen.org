@@ -7,7 +7,7 @@ next_title: Bluenumi
 
 The ActiveFloor is a 14'x12' pressure-sensitive electronic floor that is part of the larger “Sense It” exhibit at the Children’s Creativity Museum in downtown San Francisco. I designed and built the floor with much help as part of a pro-bono project with my team at [Adobe](http://www.adobe.com).
 
-At 168 square feet with one pressure sensor per square foot, it is by far the largest electronics project I have worked on to date. See [this blog post](http://sean.voisen.org/blog/2013/08/designing-pressure-sensitive-floor/) for a complete write-up on the floor’s inner workings.
+At 168 square feet with one pressure sensor per square foot, it is by far the largest electronics project I have worked on to date. See [this blog post](https://sean.voisen.org/blog/2013/08/designing-pressure-sensitive-floor/) for a complete write-up on the floor’s inner workings.
 
 ### Photos
 

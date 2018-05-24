@@ -8,4 +8,5 @@ group :development do
   gem 'rouge'
   gem 'pygments.rb'
   gem 'rdiscount'
+  gem 's3_website'
 end

@@ -14,11 +14,11 @@ The Apple patent claims that the breathing pattern is a simple sinusoid, but obs
 
 A commenter on Ladyada&rsquo;s blog suggested that the pattern is probably more accurately modeled by f(x) = e<sup>sin(x)</sup>. Plotting this equation gives the following:
 
-<img src="http://sean.voisen.org/images/breathing_pattern_1.gif" alt="Plot of exp(sin(x))" class="framed" />
+<img src="https://sean.voisen.org/images/breathing_pattern_1.gif" alt="Plot of exp(sin(x))" class="framed" />
 
 Compare the curvature characteristics of this plot with the simple sinusoid below:
 
-<img src="http://sean.voisen.org/images/sinusoid.gif" alt="Plot of sin(x)" class="framed" />
+<img src="https://sean.voisen.org/images/sinusoid.gif" alt="Plot of sin(x)" class="framed" />
 
 The plot of f(x) = e<sup>sin(x)</sup> has wider "troughs" (periods between inhale and exhale) and narrower "peaks" (periods between exhale and inhale), more accurately matching natural breathing patterns. As a simple experiment, try breathing "sinusoidally" and you&rsquo;ll see how unnatural it feels.
 
@@ -29,7 +29,7 @@ For my own experimentation, I used the ubiquitous Arduino. The Arduino supports 
 
 I took enough math in school to know that the minima and maxima of any equation occur at critical points in the equation, where the derivative of that equation is either 0 or its not differentiable. Beyond that, I left it to [Wolfram Alpha](http://www.wolframalpha.com) to do the hard work. It turns out that the minimum of the wave occurs at 1 - e, and the maximum at e - 1/e. Using this information to adjust the amplitude of the equation such that it fits within the 0 to 255 range gives the following:
 
-<img src="http://sean.voisen.org/images/breathing_equation.gif" alt="The final equation" />
+<img src="https://sean.voisen.org/images/breathing_equation.gif" alt="The final equation" />
 
 Swap *x* for the number of seconds that have elapsed, and map the above equation to PWM output on any supported Arduino pin, and you have the beginnings of a breathing pattern. The problem is that the frequency may be too high or low (depending on your preference), and so the breathing will appear fast or slow. Easy enough: Multiply *x* by any value to adjust the frequency. I like &pi;/2.
 
