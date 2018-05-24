@@ -11,7 +11,7 @@ We all need this. Where is your desert?
 
 Inspired by what I read a few weeks ago in [Leo Babauta’s manifesto on simplicity](http://focusmanifesto.com/), entitled Focus, I’ve been slowly eliminating distraction from my own life. A minimalist at heart, I’ve always been drawn to sparse environments. Yet, it has required considerable encouragement and inspiration for me to take the radical measures necessary to simplify in a meaningful way. In the 21st century, clutter has a way of seeping in.
 
-<img src="http://sean.voisen.org/images/workspace_032011.jpg" alt="My desk" class="framed" />
+<img src="https://sean.voisen.org/images/workspace_032011.jpg" alt="My desk" class="framed" />
 
 Above is a photo of my current workspace. One small standing desk. Intentionally too small, in fact, to become a resting place for errant papers or objects. Papers are digitized using the scanner on the right, and then immediately discarded (recycled). A large cinema display sits atop the desk, devoid of icons. The only item on my virtual desktop is a list of the three most important tasks I’ve set out to accomplish for the day. No chair. Standing improves my posture, encourages me to take breaks more frequently, and has proven to be better for my overall health. Very few adornments on the walls. A calendar, some photos from our wedding, a few hard-earned diplomas.
 

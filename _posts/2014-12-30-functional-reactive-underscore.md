@@ -35,9 +35,9 @@ var squared = _.map(arr, function(x) {
 
 In FRP libraries like Bacon.js, an equivalent ```map``` primitive exists. But rather than operate on arrays, Bacon’s primitives operate on and return **Observable** objects like **EventStreams.** 
 
-What, exactly, is an EventStream? I wrote about this topic in more detail in a [previous blog post](http://sean.voisen.org/blog/2013/09/intro-to-functional-reactive-programming/). But, perhaps **the easiest way to think about an EventStream is as an array that changes _over time_.** With an EventStream, new items may be added to the stream at any time (that is, asynchronously) until the stream ends, and you can choose to be notified whenever this occurs.
+What, exactly, is an EventStream? I wrote about this topic in more detail in a [previous blog post](https://sean.voisen.org/blog/2013/09/intro-to-functional-reactive-programming/). But, perhaps **the easiest way to think about an EventStream is as an array that changes _over time_.** With an EventStream, new items may be added to the stream at any time (that is, asynchronously) until the stream ends, and you can choose to be notified whenever this occurs.
 
-<img src="http://sean.voisen.org/images/event_stream_1.svg" width="100%" class="framed" />
+<img src="https://sean.voisen.org/images/event_stream_1.svg" width="100%" class="framed" />
 
 For all of the subsequent examples, we will use Bacon.js to create an EventStream that emits the items in our array every 500ms. We will use the ```Bacon.sequentially``` method to do so. (It may help to note that EventStreams need not necessarily emit events at regular intervals, but I’m using these clock-like EventStreams for sake of simplicity.)
 
@@ -201,5 +201,5 @@ Here’s [the JSFiddle](http://jsfiddle.net/svoisen/y6rz9fLw/) for all of the pr
 
 Hopefully this short post shows that diving into FRP is not as difficult as it first may seem; many developers are already familiar with many of the concepts used in FRP through other functional libraries like Underscore. 
 
-Becoming familiar with the functional building blocks that FRP libraries like Bacon.js provide is an important first step to working effectively with FRP. The next step, of course, requires thinking in a functional reactive way. That is, how do we use these building blocks to make something truly useful? I provided one example [in a previous blog post](http://sean.voisen.org/blog/2013/09/intro-to-functional-reactive-programming/). In upcoming posts, I hope to expand on this with a few more. Stay tuned.
+Becoming familiar with the functional building blocks that FRP libraries like Bacon.js provide is an important first step to working effectively with FRP. The next step, of course, requires thinking in a functional reactive way. That is, how do we use these building blocks to make something truly useful? I provided one example [in a previous blog post](https://sean.voisen.org/blog/2013/09/intro-to-functional-reactive-programming/). In upcoming posts, I hope to expand on this with a few more. Stay tuned.
 
