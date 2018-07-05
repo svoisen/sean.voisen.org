@@ -1,0 +1,36 @@
+# You can remove the first two lines to have credentials read from
+# the environment variables AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY or
+# ~/.aws/credentials.
+# s3_id: FIXME
+# s3_secret: FIXME
+s3_bucket: sean-voisen-org
+cloudfront_distribution_id: E2J20HOLF647ZD
+
+index_document: index.html
+error_document: error.html
+
+# max_age:
+#   "assets/*": 6000
+#   "*": 300
+
+gzip:
+  - .html
+  - .css
+  - .md
+
+exclude_from_upload:
+  - Rakefile
+  - s3_website.yml
+  - README.md
+
+# cloudfront_distribution_config:
+#   default_cache_behavior:
+#     min_ttl: <%= 60 * 60 * 24 %>
+#   aliases:
+#     quantity: 1
+#     items:
+#       - your.website.com
+
+# cloudfront_invalidate_root: true
+
+cloudfront_wildcard_invalidation: true
