@@ -1,6 +1,9 @@
 _site/
 _drafts/
+vendor/
+.bundle/
 .DS_Store
 .sass-cache/
 screen.css
 main.css
+s3_website.yml
