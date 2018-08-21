@@ -49,13 +49,13 @@ namespace :build do
 end
 
 desc "Start development server"
-task :server do
+task :serve do
   system('bundle exec jekyll serve --drafts --watch')
 end
 
 desc "Builds and deploys to remote production server"
 task :deploy => [:"build:production"] do
-  system('rsync -avrz --delete -e ssh _site/ svoisen@voisen.org:sean.voisen.org')
+  system('bundle exec s3_website push')
   puts "Production site deployed!"
 end
 

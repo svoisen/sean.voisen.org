@@ -2,11 +2,12 @@ $red: #cc0000
 $medium-grey: #999
 $light-grey: #d0d0d0
 $faint-grey: #f2f2f2
+$light-yellow: #fdf6e3
 $background: white
 $foreground: #333
 $regular-font-family: 'Source Sans Pro', helvetica, clean, arial, sans-serif
 $code-font-family: 'Source Code Pro', courier, monospace
-$transition-time: 0.8s
+$transition-time: 0.625s
 
 body
   font: normal 100%/1.5 $regular-font-family
@@ -22,7 +23,7 @@ a
   border-bottom: 1px solid $faint-grey
 
 a:hover
-  color: black
+  background-color: $light-yellow
   border-color: $light-grey
   -o-transition: $transition-time
   -ms-transition: $transition-time
@@ -77,7 +78,6 @@ h2
   margin: 1.4em 0 0 0
   font-size: 1.4em
   font-weight: bold
-  font-style: italic
 
 h2 + p, h3 + p
   margin-top: 0
@@ -242,6 +242,7 @@ ul li, ol li
   max-width: 100%
 
 .video
+  margin-top: 1em
   max-width: 100%
   position: relative
   padding-bottom: 56.25%
@@ -310,9 +311,6 @@ ul li, ol li
       background-image: url(../images/context_project2.jpg)
     .self-composed
       background-image: url(../images/self_composed_project.jpg)
-
-.video
-  margin-top: 1em
 
 .date
   color: $medium-grey
