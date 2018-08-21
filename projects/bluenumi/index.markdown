@@ -24,9 +24,9 @@ The firmware source code, parts list, assembly instructions, and schematics for 
 
 ### Photos
 
-<img src="/images/bluenumi_1.jpg" width="620" alt="Photo 1" class="framed" />
+<img src="/images/bluenumi_1.jpg" srcset="/images/bluenumi_1@2x.jpg 2x" width="620" alt="Photo 1" class="framed" />
 
-<img src="/images/bluenumi_2.jpg" width="620" alt="Photo 2" class="framed" />
+<img src="/images/bluenumi_2.jpg" srcset="/images/bluenumi_2@2x.jpg 2x" width="620" alt="Photo 2" class="framed" />
 
-<img src="/images/bluenumi_3.jpg" width="620" alt="Photo 3" class="framed" />
+<img src="/images/bluenumi_3.jpg" srcset="/images/bluenumi_3@2x.jpg 2x" width="620" alt="Photo 3" class="framed" />
 
