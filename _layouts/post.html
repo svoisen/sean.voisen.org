@@ -1,23 +1,22 @@
 ---
 layout: default
 ---
-<section id="content" class="content">
-  <nav id="nav" class="nav post-nav">
-    <ul>
-      <li class="back"><a href="/">&larr; Home</a></li>
-      <li class="forward"><a href="/blog">Archives &rarr;</a></li>
-    </ul>
-  </nav>
 
-  <article id="post" class="post">
-    <hgroup class="post-title">
-      <h2 class="title">{{ page.title }}</h2>
-      <h3 class="meta">{{ page.date | date: "%B %-d, %Y" }}</h3>
-    </hgroup>
-    <div class="post-body">
-      {{ content }}
-    </div>
-  </article>
+<nav class="post__nav">
+  <ul>
+    <li class="back"><a href="/">&larr; Home</a></li>
+    <li class="forward"><a href="/blog">Archives &rarr;</a></li>
+  </ul>
+</nav>
 
-  <p class="more-posts">More posts in the <a href="/blog">archives &rarr;</a></p>
-</section>
+<article class="post">
+  <hgroup class="post__header">
+    <h2 class="post__title">{{ page.title }}</h2>
+    <h3 class="post__meta">{{ page.date | date: "%B %-d, %Y" }}</h3>
+  </hgroup>
+  <div class="post__body">
+    {{ content }}
+  </div>
+</article>
+
+<p class="post__more">More posts in the <a href="/blog">archives &rarr;</a></p>

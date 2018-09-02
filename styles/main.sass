@@ -1,4 +1,5 @@
 $red: #cc0000
+$dark-grey: #666
 $medium-grey: #999
 $light-grey: #d0d0d0
 $faint-grey: #f2f2f2
@@ -38,7 +39,7 @@ acronym, abbr
 blockquote
   border-left: 5px solid $faint-grey
   padding-left: 15px
-  color: #666
+  color: $dark-grey
   margin: 0
 
 strong
@@ -134,7 +135,8 @@ ul li, ol li
     padding-top: 0
 
 .header
-  position: relative
+  display: flex
+  align-items: center
   background-color: black
   color: white
   padding: 10px 15px 10px 15px
@@ -148,6 +150,16 @@ ul li, ol li
       color: white
       border: none
       text-decoration: none
+  nav
+    ul
+      list-style: none
+      margin: 0
+      padding: 0
+      li
+        display: inline-block
+        margin: 0
+        padding: 0
+
   .social
     position: absolute
     bottom: 7px
