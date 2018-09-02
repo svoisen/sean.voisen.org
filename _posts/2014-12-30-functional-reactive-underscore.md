@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Learning FRP with Bacon.js by Way of Underscore
+title: Learning FRP with Bacon.js by way of Underscore
 ---
 
 [Functional Reactive Programming](http://en.wikipedia.org/wiki/Functional_reactive_programming) (FRP) can be difficult subject matter to grasp, particularly for programmers new to both functional and reactive concepts. 
