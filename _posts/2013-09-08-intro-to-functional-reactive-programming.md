@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Functional Reactive Programming with Bacon.js
+title: Functional reactive programming with Bacon.js
 ---
 
 If you are a front-end developer – that is, someone who builds user interfaces for a living – and you haven’t yet explored [Functional Reactive Programming (FRP)](http://en.wikipedia.org/wiki/Functional_reactive_programming), perhaps now is the time to take a look. Never mind the fact that it has been labeled a [hipster development trend](http://hipsterdevstack.tumblr.com/post/39558331788/frp-yeah-we-were-doing-that-in-2012) for 2013, FRP is a time-saving, bug-preventing programming paradigm worthy of all developers, mustachioed or otherwise.

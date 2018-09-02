@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Spurious Thoughts on the Design of Conversational UIs
+title: Spurious thoughts on the design of conversational UIs
 ---
 
 **Designers! Take heed!**

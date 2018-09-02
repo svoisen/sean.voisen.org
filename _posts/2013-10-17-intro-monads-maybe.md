@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Gentle Intro to Monads … Maybe?
+title: A gentle intro to monads … maybe?
 ---
 
 Monads: they're incredibly useful, and also maybe a little intimidating. Beginner functional programmers often cringe when they hear the term. JavaScript legend [Douglas Crockford once said that monads are cursed](http://www.youtube.com/watch?v=dkZFtimgAcM) – that once you understand monads for yourself you lose the ability to explain them to others. In the programming language F#, monads are called “computational expressions” mostly so people aren’t scared away. 
