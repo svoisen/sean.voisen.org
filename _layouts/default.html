@@ -18,23 +18,21 @@
       <nav class="header__nav">
         <ul class="header__navlist">
           <li class="header__navitem"><a href="/about">About</a></li>
-          <li class="header__navitem"><a href="/notes">Notes</a></li>
-          <li class="header__navitem"><a href="/about">Archives</a></li>
+          <li class="header__navitem"><a href="/blog">Writing</a></li>
+          <li class="header__navitem"><a href="/reading">Reading</a></li>
           <li class="header__navitem"><a href="/about">Projects</a></li>
-          <li class="header__navitem"><a href="/about">Now</a></li>
+          <li class="header__navitem"><a href="/now">Now</a></li>
         </ul>
       </nav>
     </header>
 
-    <div class="wrapper">
-      <section class="content">
-        {{ content }}
-      </section>
+    <section class="content">
+      {{ content }}
+    </section>
 
-      <footer class="footer">
-        <p>&copy; 2005-2018 Sean Voisen.<br /><span class="contact"><span id="footer_email">E-mail me</span> or find me on <a href="http://twitter.com/svoisen">Twitter.</a></span></p>
-      </footer>
-    </div>
+    <footer class="footer">
+      <p>© 2005-2018 Sean Voisen.<br /><span class="contact"><span id="footer_email">E-mail me</span> or find me on <a href="http://twitter.com/svoisen">Twitter.</a></span></p>
+    </footer>
 
     <script type="text/javascript">
       function getEmail(text) {
