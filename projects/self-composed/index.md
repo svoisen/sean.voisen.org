@@ -1,8 +1,6 @@
 ---
-layout: project
+layout: page
 title: SFMOMA Self-Composed
-next_url: context
-next_title: Adobe Project Context
 ---
 
 In May 2016, after being closed for more than 3 years, [SFMOMA](http://www.sfmoma.org) reopened, expanding its space by over 100,000 sq. ft., and tripling the exhibition space available for photography. As part of this expansion, the museum added the Photographic Interpretive Gallery, where visitors were invited to look deeper at the practice of photography through interactive experiences.

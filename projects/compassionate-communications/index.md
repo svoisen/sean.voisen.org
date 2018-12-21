@@ -1,8 +1,6 @@
 ---
-layout: project
+layout: page
 title: Compassionate Communications
-next_url: digital-seed
-next_title: Digital Seed
 ---
 
 Compassionate Communications began as a kind of dream: To build system that would allow people around the world to send messages of hope and encouragement to those facing life-threatening illnesses, while simulatenously helping the charities that fund the research to combat those illnesses. In collaboration with [Hallmark](http://www.hallmark.com) cards, we built a website that allowed anyone to do just that. Place your order, choose your recipients, and five custom-designed, pre-addressed, pre-stamped Hallmark cards would arrive in the mail ready for your words and your pen.

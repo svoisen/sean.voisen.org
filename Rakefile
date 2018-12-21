@@ -26,12 +26,7 @@ desc "Generate styles"
 namespace :styles do
   task :clean do
     puts "Deleting generated styles"
-    system('rm styles/main.css styles/screen.css')
-  end
-
-  task :compile do
-    puts "Compiling Sass"
-    system('compass compile --sass-dir styles --css-dir styles')
+    system('rm styles/screen.css')
   end
 
   task :concatenate do
@@ -39,7 +34,7 @@ namespace :styles do
     Jammit.package!({:config_path => '_assets.yml', :output_folder => 'styles'})
   end
 
-  task :build => [:clean, :compile, :concatenate]
+  task :build => [:clean, :concatenate]
 end
 
 desc "Complete build"

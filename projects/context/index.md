@@ -1,8 +1,6 @@
 ---
-layout: project
+layout: page
 title: Adobe Project Context
-next_url: ccm-active-floor
-next_title: Children’s Creativity Museum Active Floor
 ---
 
 Project Context’s original goal was to make in-person collaboration and content reviews more effective via instant natural file sharing, direct access to content repositories and seamless integration across multiple larger and mobile connected screens.

@@ -1,8 +1,6 @@
 ---
-layout: project
+layout: page
 title: Digital Seed
-next_url: self-composed
-next_title: SFMOMA Self-Composed
 ---
 
 [Digital Seed](http://www.digital-seed.com) was a hybrid e-learning system that combined online learning experiences with offline, face-to-face group collaboration and sharing. The system began from our consulting practice's need to better facilitate leadership training, personal growth programs and team building exercises for disparate teams in large organizations. As an alpha-version working prototype, Digital Seed piqued the interest of a variety of potential customers, but remains a prototype only.

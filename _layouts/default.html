@@ -10,36 +10,33 @@
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link href="/atom.xml" rel="alternate" title="Sean Voisen" type="application/rss+xml" />
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro:400,700" rel="stylesheet">
-    <link href="/styles/screen2.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="/styles/screen.css" rel="stylesheet" type="text/css" media="screen" />
   </head>
   <body>
     <header class="header">
       <h1 class="header__title"><a href="/" title="Return to home">Sean Voisen</a></h1>
-      <nav class="header__nav">
-        <ul class="header__navlist">
-          <li class="header__navitem"><a href="/about">About</a></li>
-          <li class="header__navitem"><a href="/blog">Writing</a></li>
-          <li class="header__navitem"><a href="/reading">Reading</a></li>
-          <li class="header__navitem"><a href="/about">Projects</a></li>
-          <li class="header__navitem"><a href="/now">Now</a></li>
+      <nav class="nav">
+        <ul>
+          {% assign url = page.url|remove:'index.html' %}
+          {% for link in site.navigation %}
+          <li {% if url == link.url %}class="active"{% endif %}>
+            <a href="{{link.url}}" title="{{link.title}}">{{link.text}}</a>
+          </li>
+          {% endfor %}
         </ul>
       </nav>
     </header>
 
-    <section class="content">
+    <main class="content">
       {{ content }}
-    </section>
+    </main>
 
     <footer class="footer">
-      <p>© 2005-2018 Sean Voisen.<br /><span class="contact"><span id="footer_email">E-mail me</span> or find me on <a href="http://twitter.com/svoisen">Twitter.</a></span></p>
+      <p>© 2005-2019 Sean Voisen.</p>
+      <div class="contact">
+        <a href="https://twitter.com/svoisen"><span class="ss-icon">twitter</span></a>
+        <a href="https://github.com/svoisen"><span class="ss-icon">octocat</span></a>
+      </div>
     </footer>
-
-    <script type="text/javascript">
-      function getEmail(text) {
-        return ("<n uers=\"znvygb:frna@ibvfra.bet\" ery=\"absbyybj\">" + text + "</n>").replace(/[a-zA-Z]/g, 
-        function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
-      }
-      document.getElementById('footer_email').innerHTML=getEmail("R-znvy zr");
-    </script>
   </body>
 </html>
