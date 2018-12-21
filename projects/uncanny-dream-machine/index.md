@@ -1,14 +1,7 @@
 ---
-layout: project
+layout: page
 title: The Uncanny Dream Machine
-next_url: mercury-retrograde
-next_title: Mercury Retrograde
 ---
-
-<script type="text/javascript" src="/scripts/audio-player.js"></script>
-<script type="text/javascript">
-  AudioPlayer.setup("/swfs/audio_player.swf", {width:320});
-</script>
 
 The Uncanny Dream Machine is an exploration in computer-generated dreamlike narrative. An artificial intelligence (AI) system conceived as a project of “expressive AI,” The Uncanny Dream Machine uses various databases and natural language processing algorithms to “re-mix” a collection of dream transcripts into novel dream narratives in real-time. Embodied as a 1940′s-era wooden Philco radio, viewers listen to the machine as it reads its dreams over the airwaves. Knobs on the radio allow viewers to “tune in” to streams of consciousness delineated by various emotions — fear, anger, curiosity, joy, anxiety, worry, etc. — provoking conversations about the nature of emotion and consciousness in an otherwise unemotional, unconscious, and disembodied machine.
 
@@ -28,24 +21,22 @@ The following is collection of sample dreams, chosen at random. The Uncanny Drea
 
 #### Anger
 
-<div id="audio1"></div>
-<script type="text/javascript">
-  AudioPlayer.embed("audio1", {soundFile:"/audio/anger.mp3"});
-</script>
+<audio controls>
+  <source src="/audio/anger.mp3" type="audio/mpeg">
+</audio>
 
 #### Anxiety
 
-<div id="audio2"></div>
-<script type="text/javascript">
-  AudioPlayer.embed("audio2", {soundFile:"/audio/anxiety.mp3"});
-</script>
+<audio controls>
+  <source src="/audio/anxiety.mp3" type="audio/mpeg">
+</audio>
 
 #### Frustration
 
-<div id="audio3"></div>
-<script type="text/javascript">
-  AudioPlayer.embed("audio3", {soundFile:"/audio/frustration.mp3"});
-</script>
+<audio controls>
+  <source src="/audio/frustration.mp3" type="audio/mpeg">
+</audio>
+
 
 ### Photos
 

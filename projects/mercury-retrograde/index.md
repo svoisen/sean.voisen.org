@@ -1,8 +1,6 @@
 ---
-layout: project
+layout: page
 title: Mercury Retrograde
-next_url: pigeonblog
-next_title: PigeonBlog 2.0
 ---
 
 Mercury Retrograde is a hand-built [nixie tube](http://en.wikipedia.org/wiki/Nixie_tube) alarm clock that is controlled, set and manipulated using a 3-axis accelerometer. The clock is an exploration of the role of intentionality in everyday objects, as well as an experiment in [resistentialist](http://en.wikipedia.org/wiki/Resistentialism) behavior. In order to function correctly, it demands physical attention. Ignore it for too long and it begins to rebel, intentionally slowing its internal oscillations and waking its owner at inconvenient hours of the night.

@@ -1,8 +1,6 @@
 ---
-layout: project
+layout: page
 title: Bluenumi Clock
-next_url: uncanny-dream-machine
-next_title: Uncanny Dream Machine
 ---
 
 Bluenumi began with the idea of creating an easy to assemble open-source kit clock that had nixie tube aesthetics, but without the associated cost or *potentially* dangerous high voltage. The result is a small, functional, and beautiful desktop clock featuring 100% through-hole electronic components that looks like a nixie clock, but can be built at a fraction of the price.
