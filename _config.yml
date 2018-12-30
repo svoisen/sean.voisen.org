@@ -10,7 +10,7 @@ navigation:
     title: Blog archives
     url: /blog/
   - text: Reading
-    title: Book reviews and such
+    title: Book reviews
     url: /reading/
   - text: Projects
     title: Various side projects

@@ -107,13 +107,22 @@ img {
   flex-direction: column;
 }
 
-.header__title {
+.header .title {
   margin: 0;
   padding: 0;
   font-weight: 200;
   font-size: 1.8em;
   line-height: 1;
   flex-grow: 1;
+}
+
+.header .title a {
+  color: white;
+  border: none;
+}
+
+.header .title a:hover {
+  background: none;
 }
 
 .header .nav ul {
@@ -147,15 +156,6 @@ img {
   border: none;
 }
 
-.header__title > a {
-  color: white;
-  border: none;
-}
-
-.header__title > a:hover {
-  background: none;
-}
-
 .post {
   text-align: left;
 }
@@ -180,32 +180,33 @@ img {
   padding: 0;
 }
 
-.post__more, .home__moreposts {
+.more {
   text-align: center;
   font-style: italic;
   margin-top: 3em;
 }
 
-.posts__list {
-  margin: 0;
-  padding: 0;
-}
-
-.home__summary {
+.intro {
   margin: 0 0 2em 0;
   padding: 0 0 2em 0;
   border-bottom: 1px solid var(--light-gray);
   text-align: center;
 }
 
-.home__posts {
+.archives {
   margin: 0;
   padding: 0;
   list-style: none;
   text-align: center;
 }
 
-.home__posttitle {
+.archives li {
+  margin-bottom: 1.4em;
+  display: flex;
+  align-items: center;
+}
+
+.archives .title {
   text-align: left;
   flex-grow: 1;
   text-overflow: ellipsis;
@@ -214,13 +215,7 @@ img {
   margin-right: 1em;
 }
 
-.home__postitem {
-  margin-bottom: 1.4em;
-  display: flex;
-  align-items: center;
-}
-
-.home__postdate {
+.archives .date {
   color: var(--medium-gray);
   font-size: 0.9em;
   text-align: right;
@@ -238,7 +233,6 @@ img {
   margin: 2em auto 3em auto;
   text-align: center;
   max-width: 426px;
-  font-size: 90%;
 }
 
 .footer p {
@@ -247,7 +241,8 @@ img {
 }
 
 .footer .contact {
-  margin-top: 0.5em;
+  margin-top: 0.25em;
+  font-size: 110%;
 }
 
 .footer .contact a {
@@ -258,13 +253,55 @@ img {
 }
 
 .footer .contact a:hover {
-  background: transparent;
+  background: none;
   color: var(--accent-color);
 }
 
 .framed {
   padding: 2px;
   border: 1px solid var(--light-gray);
+}
+
+.reading {
+  width: 100%;
+}
+
+.reading td {
+  padding: 4px;
+}
+
+.projects {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.projects li {
+  position: relative;
+  border: 1px solid var(--light-gray);
+  padding: 2px;
+}
+
+.projects img {
+  max-width: 100%;
+  display: block;
+}
+
+.projects li .title {
+  position: absolute;
+  bottom: 2px;
+  left: 2px;
+  background: white;
+}
+
+.projects a {
+  border: none;
+  color: black;
+}
+
+.projects a:hover {
+  background: none;
+  color: var(--accent-color);
 }
 
 @media only screen and (min-width: 768px) {
