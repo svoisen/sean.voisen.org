@@ -4,6 +4,5 @@ compress_assets: on
 
 stylesheets:
   screen:
-    - styles/ss-social.css
     - styles/main2.css
     - styles/pygments.css
