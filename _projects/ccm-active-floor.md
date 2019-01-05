@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Children’s Creativity Museum ActiveFloor
+cover_image: ccm_activefloor_project2
+year: 2013
 ---
 
 The ActiveFloor is a 14'x12' pressure-sensitive electronic floor that is part of the larger “Sense It” exhibit at the Children’s Creativity Museum in downtown San Francisco. I designed and built the floor with much help as part of a pro-bono project with my team at [Adobe](http://www.adobe.com).

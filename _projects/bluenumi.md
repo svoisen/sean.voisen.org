@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Bluenumi Clock
+cover_image: bluenumi_project2
+year: 2011
 ---
 
 Bluenumi began with the idea of creating an easy to assemble open-source kit clock that had nixie tube aesthetics, but without the associated cost or *potentially* dangerous high voltage. The result is a small, functional, and beautiful desktop clock featuring 100% through-hole electronic components that looks like a nixie clock, but can be built at a fraction of the price.
-
-The Bluenumi is available [for sale as a kit or in limited quantity pre-assembled on Etsy](http://www.etsy.com/shop/VoisenDesign).
 
 ### Features
 
@@ -27,4 +27,3 @@ The firmware source code, parts list, assembly instructions, and schematics for 
 <img src="/images/bluenumi_2.jpg" srcset="/images/bluenumi_2@2x.jpg 2x" width="620" alt="Photo 2" class="framed" />
 
 <img src="/images/bluenumi_3.jpg" srcset="/images/bluenumi_3@2x.jpg 2x" width="620" alt="Photo 3" class="framed" />
-

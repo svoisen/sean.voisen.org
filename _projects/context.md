@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Adobe Project Context
+year: 2013
+cover_image: context_project2
 ---
 
 Project Context’s original goal was to make in-person collaboration and content reviews more effective via instant natural file sharing, direct access to content repositories and seamless integration across multiple larger and mobile connected screens.

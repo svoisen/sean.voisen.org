@@ -1,6 +1,8 @@
 ---
 layout: page
 title: SFMOMA Self-Composed
+cover_image: self_composed_project
+year: 2016
 ---
 
 In May 2016, after being closed for more than 3 years, [SFMOMA](http://www.sfmoma.org) reopened, expanding its space by over 100,000 sq. ft., and tripling the exhibition space available for photography. As part of this expansion, the museum added the Photographic Interpretive Gallery, where visitors were invited to look deeper at the practice of photography through interactive experiences.
@@ -14,9 +16,9 @@ Self-Composed won a [Comm Arts Interactive Award](http://www.commarts.com/galler
 ### Video
 
 <div class="video">
-    <video width="576" height="320" controls>
-        <source src="/videos/self_composed.mp4" type="video/mp4">
-    </video>
+  <video width="576" height="320" controls>
+    <source src="/assets/self_composed.mp4" type="video/mp4">
+  </video>
 </div>
 
 ### Photos
