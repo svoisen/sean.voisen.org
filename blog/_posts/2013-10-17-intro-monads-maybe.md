@@ -21,21 +21,21 @@ The Maybe monad provides an elegant solution to the common problem of multiple n
 
 {%highlight javascript%}
 var person = {
-	"name":"Homer Simpson", 
-	"address": {
-		"street":"123 Fake St.",
-		"city":"Springfield"
-	}
+  "name":"Homer Simpson", 
+  "address": {
+    "street":"123 Fake St.",
+    "city":"Springfield"
+  }
 };
 
 if (person != null && person["address"] != null) {
-	var state = person["address"]["state"];
-	if (state != null) {
-		console.log(state);
-	}
-	else {
-		console.log("State unknown");
-	}
+  var state = person["address"]["state"];
+  if (state != null) {
+    console.log(state);
+  }
+  else {
+    console.log("State unknown");
+  }
 }	
 {%endhighlight%}
 
@@ -86,16 +86,15 @@ typeof Maybe('foo'); // 'function'
 So now we’ve put all of our ```!= null``` checks into a single function, which is the constructor for the new ```Maybe``` type. But is this enough to solve our problem? Unfortunately, no. Let’s try it out:
 
 {%highlight javascript%}
-if (Maybe(person) != Nothing && 
-  Maybe(person["address"]) != Nothing) 
+if (Maybe(person) != Nothing && Maybe(person["address"]) != Nothing) 
 {
-	var state = Maybe(person["address"]["state"]);
-	if (state != Nothing) {
-		console.log(state);
-	}
-	else {
-		console.log("State unknown");
-	}
+  var state = Maybe(person["address"]["state"]);
+  if (state != Nothing) {
+    console.log(state);
+  }
+  else {
+    console.log("State unknown");
+  }
 }
 {%endhighlight%}
 

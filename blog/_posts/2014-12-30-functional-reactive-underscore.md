@@ -29,7 +29,7 @@ Let’s say we want to square each number in the array. The functional way to ac
 
 {% highlight javascript %}
 var squared = _.map(arr, function(x) {
-    return x * x;
+  return x * x;
 });
 {% endhighlight %}
 
@@ -49,9 +49,9 @@ Once we have a an EventStream, we can use Bacon’s ```map``` method to create a
 
 {% highlight javascript %}
 stream.map(function(x) {
-    return x*x;
+  return x*x;
 }).onValue(function(val) {
-    console.log(val);
+  console.log(val);
 });
 {% endhighlight %}
 
@@ -63,17 +63,17 @@ Of course, many other primitives besides ```map``` exist. For instance, if we wa
 
 {% highlight javascript %}
 var sum = _.reduce(arr, function(x, acc) {
-    return acc + x;
+  return acc + x;
 }, 0);
 {% endhighlight %}
 
 In Bacon.js, we have two primitives analogous to ```reduce.``` The first is ```fold```.
 
 {% highlight javascript %}
- stream.fold(0, function(x, acc) {
-    return x + acc;
- }).onValue(function(val) {
-    console.log(val);
+stream.fold(0, function(x, acc) {
+  return x + acc;
+}).onValue(function(val) {
+  console.log(val);
 });
 {% endhighlight %}
 
@@ -81,9 +81,9 @@ The challenge with ```fold``` is that it waits for the stream to end before a va
 
 {% highlight javascript %}
 stream.scan(0, function(x, acc) {
-    return x + acc;
+  return x + acc;
 }).onValue(function(val) {
-    console.log(val);
+  console.log(val);
 });
 {% endhighlight %}
 
@@ -111,7 +111,7 @@ Bacon.js of course has an analogous ```zip``` function that produces a zipped Ev
 var stream1 = Bacon.sequentially(500, arr1);
 var stream2 = Bacon.sequentially(500, arr2);
 stream1.zip(stream2).onValue(function(val) {
-    console.log(val);
+  console.log(val);
 });
 {% endhighlight %}
 
@@ -124,7 +124,7 @@ Underscore also provides a ```filter``` method that takes a single array, and gi
 {% highlight javascript %}
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 var evens = _.filter(arr, function(x) {
-    return x % 2 == 0;
+  return x % 2 == 0;
 });
 {% endhighlight %}
 
@@ -133,9 +133,9 @@ Again, Bacon.js provides an analogous method operating on EventStreams:
 {% highlight javascript %}
 var stream = Bacon.sequentially(500, arr);
 stream.filter(function(x) {
-    return x % 2 == 0;
+  return x % 2 == 0;
 }).onValue(function(val) {
-    console.log(val);
+  console.log(val);
 });
 {% endhighlight %}
 
@@ -168,11 +168,11 @@ var stream = Bacon.fromArray(arr);
 
 {% highlight javascript %}
 Bacon.fromCallback(function(callback) {
-    setTimeout(function() {
-        callback("Bacon!");
-    }, 1000);
+  setTimeout(function() {
+      callback("Bacon!");
+  }, 1000);
 }).onValue(function(val) {
-    console.log(val);
+  console.log(val);
 });
 {% endhighlight %}
 
@@ -182,16 +182,16 @@ Finally, ```fromPromise``` creates EventStreams from a Promise object. The strea
 
 {% highlight javascript %}
 function doSearch(query) {
-    var url = 'http://en.wikipedia.org/w/api.php?action=opensearch'
-        + '&format=json' 
-        + '&search=' + encodeURI(query);
-    return Bacon.fromPromise($.ajax({
-        url:url, 
-        dataType:"jsonp"
-    }));
+  var url = 'http://en.wikipedia.org/w/api.php?action=opensearch'
+    + '&format=json' 
+    + '&search=' + encodeURI(query);
+  return Bacon.fromPromise($.ajax({
+    url:url, 
+    dataType:"jsonp"
+  }));
 }
 doSearch('Aardvark').onValue(function(val) {
-    console.log(val[1]);
+  console.log(val[1]);
 });
 {% endhighlight %}
 

@@ -102,6 +102,17 @@ blockquote {
   border-left: 5px solid var(--faint-gray);
   padding-left: 15px;
   margin: 0;
+  color: var(--dark-gray);
+}
+
+ul li {
+  list-style: square outside none;
+  margin-bottom: 0.5em;
+}
+
+ol li {
+  list-style: decimal outside none;
+  margin-bottom: 0.5em;
 }
 
 .body > .header {
@@ -132,14 +143,14 @@ blockquote {
 }
 
 .body > .header .nav ul {
-  list-style: none;
   margin: 0.2em 0 0 0;
   padding: 0;
 }
 
 .body > .header .nav li {
+  list-style: none;
   display: inline-block;
-  margin-right: 0.4em;
+  margin: 0 0.4em 0 0;
 }
 
 .body > header .nav a {
@@ -205,6 +216,11 @@ blockquote {
   margin-top: 0;
 }
 
+.post ul, .post ol {
+  padding-left: 1.5em;
+  margin-left: 1.5em;
+}
+
 .more {
   text-align: center;
   font-style: italic;
@@ -226,7 +242,8 @@ blockquote {
 }
 
 .archives li {
-  margin-bottom: 1.4em;
+  padding: 0;
+  margin: 0 0 1.4em 0;
   display: flex;
   align-items: center;
 }
@@ -248,33 +265,33 @@ blockquote {
   min-width: max-content;
 }
 
-body > .content {
+.content {
   max-width: 426px;
   margin: 0 auto 0 auto;
   padding: 2em 1em 1em 1em;
 }
 
-body > .content code {
+.content code {
   font-size: 0.9em;
 }
 
-body > .footer {
+.body > .footer {
   margin: 2em auto 3em auto;
   text-align: center;
   max-width: 426px;
 }
 
-body > .footer p {
+.body > .footer p {
   margin: 0;
   padding: 0;
 }
 
-body > .footer .contact {
+.body > .footer .contact {
   margin-top: 0.25em;
   font-size: 110%;
 }
 
-body > .footer .contact a {
+.body > .footer .contact a {
   color: black;
   display: inline-block;
   border: none;
@@ -284,7 +301,7 @@ body > .footer .contact a {
   border-radius: 4px;
 }
 
-body > .footer .contact a:hover {
+.body > .footer .contact a:hover {
   background: var(--highlight-color);
   color: var(--accent-color);
 }
@@ -292,6 +309,8 @@ body > .footer .contact a:hover {
 .framed {
   padding: 2px;
   border: 1px solid var(--light-gray);
+  overflow: hidden;
+  max-width: 100%;
 }
 
 .reading {
@@ -303,16 +322,16 @@ body > .footer .contact a:hover {
 }
 
 .projects {
-  list-style: none;
   margin: 0;
   padding: 0;
 }
 
 .projects li {
+  list-style: none !important;
   position: relative;
   border: 1px solid var(--light-gray);
   padding: 2px;
-  margin-bottom: 1em;
+  margin: 0 0 1em 0;
 }
 
 .projects img {
@@ -365,12 +384,20 @@ body > .footer .contact a:hover {
   padding: 1em;
   white-space: pre;
   overflow-x: auto;
-  font-size: 0.75em;
+  font-size: 0.875rem;
   line-height: 1.25;
 }
 
 .highlight pre em {
   font-style: normal;
+}
+
+.highlight p {
+  margin: 0;
+}
+
+.highlight p:empty {
+  display: none;
 }
 
 @media only screen and (min-width: 768px) {
