@@ -19,4 +19,4 @@ At 168 square feet with one pressure sensor per square foot, it is by far the la
 
 <img src="/images/ccm_activefloor7.jpg" srcset="/images/ccm_activefloor7@2x.jpg 2x" alt="Photo 7" class="framed" />
 
-<img src="/images/ccm_activefloor9.jpg" srcset="/images/ccm_activefloor9@2x.jpg 2x" alt="Photo 9" class="framed" />
+<img src="/images/ccm_activefloor9.jpg" alt="Photo 9" class="framed" />
