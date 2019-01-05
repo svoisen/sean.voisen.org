@@ -113,10 +113,10 @@ Here, we create two streams, one for the button clicks and one for key up events
 {% highlight javascript %}
 function doSearch(query)
 {
-    var url = 'http://en.wikipedia.org/w/api.php?action=opensearch'
-      + '&format=json' 
-      + '&search=' + encodeURI(query);
-    return Bacon.fromPromise($.ajax({url:url, dataType:"jsonp"}));
+  var url = 'http://en.wikipedia.org/w/api.php?action=opensearch'
+    + '&format=json' 
+    + '&search=' + encodeURI(query);
+  return Bacon.fromPromise($.ajax({url:url, dataType:"jsonp"}));
 }
 {% endhighlight %}
 
