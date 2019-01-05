@@ -98,7 +98,13 @@ img {
   display: none;
 }
 
-.header {
+blockquote {
+  border-left: 5px solid var(--faint-gray);
+  padding-left: 15px;
+  margin: 0;
+}
+
+.body > .header {
   display: flex;
   align-items: center;
   background: black;
@@ -107,7 +113,7 @@ img {
   flex-direction: column;
 }
 
-.header .title {
+.body > .header .title {
   margin: 0;
   padding: 0;
   font-weight: 200;
@@ -116,68 +122,87 @@ img {
   flex-grow: 1;
 }
 
-.header .title a {
+.body > .header .title a {
   color: white;
   border: none;
 }
 
-.header .title a:hover {
+.body > .header .title a:hover {
   background: none;
 }
 
-.header .nav ul {
+.body > .header .nav ul {
   list-style: none;
   margin: 0.2em 0 0 0;
   padding: 0;
 }
 
-.header .nav li {
+.body > .header .nav li {
   display: inline-block;
   margin-right: 0.4em;
 }
 
-.header .nav a {
+.body > header .nav a {
   color: var(--light-gray);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.header .nav a:hover {
+.body > .header .nav a:hover {
   color: white;
   background: none;
   border-bottom-color: rgba(255, 255, 255, 0.6);
 }
 
-.header .nav li.active a {
+.body > .header .nav li.active a {
   border: none;
   color: white;
 }
 
-.header .nav li.active a:hover {
+.body > .header .nav li.active a:hover {
   border: none;
 }
 
-.post {
-  text-align: left;
-}
-
-.post__header {
+.post > .header {
   text-align: center;
   margin: 1.4em 0 2em 0;
 }
 
-.post__title {
+.post > .header .title {
   font-size: 1.6em;
   font-weight: 700;
   margin: 0;
   padding: 0;
 }
 
-.post__meta {
+.post > .header .meta {
   font-weight: 300;
   color: var(--medium-gray);
   font-size: 1em;
   margin: 0;
   padding: 0;
+}
+
+.post h2 {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 1.4em 0 0 0;
+}
+
+.post h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 1.4em 0 0 0;
+}
+
+.post h4 {
+  font-weight: normal;
+  font-style: italic;
+  margin: 1.5em 0 0.5em;
+  font-size: 1em;
+}
+
+.post h2 + p, .post h3 + p, .post h2 + ul, .post h3 + ul, .post h2 + ol, .post h3 + ol {
+  margin-top: 0;
 }
 
 .more {
@@ -223,37 +248,44 @@ img {
   min-width: max-content;
 }
 
-.content {
+body > .content {
   max-width: 426px;
   margin: 0 auto 0 auto;
   padding: 2em 1em 1em 1em;
 }
 
-.footer {
+body > .content code {
+  font-size: 0.9em;
+}
+
+body > .footer {
   margin: 2em auto 3em auto;
   text-align: center;
   max-width: 426px;
 }
 
-.footer p {
+body > .footer p {
   margin: 0;
   padding: 0;
 }
 
-.footer .contact {
+body > .footer .contact {
   margin-top: 0.25em;
   font-size: 110%;
 }
 
-.footer .contact a {
+body > .footer .contact a {
   color: black;
   display: inline-block;
-  margin-right: 0.4em;
   border: none;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  border-radius: 4px;
 }
 
-.footer .contact a:hover {
-  background: none;
+body > .footer .contact a:hover {
+  background: var(--highlight-color);
   color: var(--accent-color);
 }
 
@@ -280,6 +312,7 @@ img {
   position: relative;
   border: 1px solid var(--light-gray);
   padding: 2px;
+  margin-bottom: 1em;
 }
 
 .projects img {
@@ -304,27 +337,63 @@ img {
   color: var(--accent-color);
 }
 
+.video {
+  margin-top: 1em;
+  max-width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.highlight {
+  margin: 0;
+}
+
+.highlight pre {
+  margin: 1em 0 1.5em 0;
+  border-top: 1px solid var(--light-gray);
+  border-bottom: 1px solid var(--light-gray);
+  padding: 1em;
+  white-space: pre;
+  overflow-x: auto;
+  font-size: 0.75em;
+  line-height: 1.25;
+}
+
+.highlight pre em {
+  font-style: normal;
+}
+
 @media only screen and (min-width: 768px) {
-  .content, .footer {
+  .body > .content, .body > .footer {
     max-width: 576px;
     font-size: 112.5%;
   }
 
-  .content {
+  .body > .content {
     font-size: 112.5%;
   }
 
-  .footer {
+  .body > .footer {
     font-size: 100%; 
   }
 }
 
 @media only screen and (min-width: 568px) {
-  .header {
+  .body > .header {
     flex-direction: row;
   }
 
-  .header__navlist {
+  .body > .header .nav ul {
     margin: 0;
   }
 }

@@ -1,0 +1,17 @@
+---
+layout: post
+title: Perhaps Apple will create the iNostradamus
+---
+
+This is mostly a ramble, but the question remains: It is now 2008. We have two years to go until 2010. Where the heck are all the flying cars?
+
+And for that matter, where are all the automated homes with voice recognition, household helper robots, jetpacks and the other long-promised, but obviously not-so-prescient sci-fi inventions of the now long dead 1960s retro-futurist movement? The funny thing about the future is this: It never quite seems to get here.
+
+Humans are notoriously bad at predicting the future. Moore’s Law is one of the few exceptions that seems to consistently hold. So, I’m not even sure why we try to do it, save for the psychological comfort it affords; the possibility of sleeping a little better at night when it comes to our investments on Wall St. or in pork belly futures. Computers aren’t any better at predicting the future, of course, and this, I am convinced, is because 1) computers are built and programmed by inherently faulty humans, and 2) computers don’t have any sort of intuitive sense. The first problem, I am afraid, cannot be helped. Computers rely on a finite set of discrete inputs that have been pre-determined by their designers and thus can only make predictions based on historical data sets. And since humans have already been previously noted as piss-poor soothsayers, and since the whole flow of temporal events seems to be basically just one giant nonlinear dynamical system (though quantum mechanics makes this assertion is debatable), and since the number of possible initial conditions for said nonlinear dynamical system is essentially infinite, choosing the best (small and finite) set of inputs for a predictive computer is essentially impossible. The latter issue — that having to do with intuition — however, I believe can possibly be addressed.
+
+Now, it should be known that I have yet to hear any argument that would sway me from my conviction that the ability to predict the future is generally undesirable. Primarily because it would remove a great deal of the wonder and mystery, and hence, fun, from this experience we call life. But it seems to me that if we were going to want to predict the future, and use the aid of machines in order to do so, then creating intuitive machines would be the way to do it. Call it artificial intuition.
+
+Personal experience has shown that intuition is highly unreliable for making long-term predictions. But it is comparatively very good at short-term predictions in problem domains where there are a high number of input variables — usually “fuzzy” ones. On the flip-side, historically-based predictions using computer models can be very reliable in the long-term, but are usually very poor when a high number of input variables renders the model too complex, or all the influencing factors can’t be pre-determined. So it seems to me that it should be possible to marry the two — long-term predictions based on few variables, and short-term predictions based on many — into one, generally more effective system. The real crux of the matter, however, is that intuition is poorly understood. How do you model that which you don’t understand? Even worse, suppose we could create this thing called “artificial intuition;” it still wouldn’t bring us one step closer to having any of those damn flying cars.
+
+Update: Apparently [someone is working on this](http://www.artificial-intuition.com/). The artificial intuition part. Not the flying cars part.
+
