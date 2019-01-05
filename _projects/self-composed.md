@@ -15,11 +15,9 @@ Self-Composed won a [Comm Arts Interactive Award](http://www.commarts.com/galler
 
 ### Video
 
-<div class="video">
-  <video width="576" height="320" controls>
-    <source src="/assets/self_composed.mp4" type="video/mp4">
-  </video>
-</div>
+<video style="max-width: 100%" width="576" height="320" controls>
+  <source src="/assets/self_composed.mp4" type="video/mp4">
+</video>
 
 ### Photos
 
