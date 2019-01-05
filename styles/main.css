@@ -234,7 +234,7 @@ ol li {
   text-align: center;
 }
 
-.archives {
+.archives, .post ul.archives {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -243,7 +243,7 @@ ol li {
 
 .archives li {
   padding: 0;
-  margin: 0 0 1.4em 0;
+  margin: 0 0 1em 0;
   display: flex;
   align-items: center;
 }
@@ -321,7 +321,7 @@ ol li {
   padding: 4px;
 }
 
-.projects {
+.projects, .post ul.projects {
   margin: 0;
   padding: 0;
 }
