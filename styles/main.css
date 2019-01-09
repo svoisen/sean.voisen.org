@@ -193,6 +193,14 @@ ol li {
   padding: 0;
 }
 
+.post > .header .rating {
+  color: var(--foreground-color);
+  font-style: normal;
+  margin-top: 0.5em;
+  font-weight: 300;
+  font-size: 1em;
+}
+
 .post h2 {
   font-size: 1.4em;
   font-weight: bold;
@@ -315,10 +323,25 @@ ol li {
 
 .reading {
   width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 0.75fr min-content min-content;
+  grid-column-gap: 8px;
+  align-items: center;
 }
 
-.reading td {
-  padding: 4px;
+.reading div {
+  padding: 2px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.reading .date {
+  color: var(--medium-gray);
+}
+
+.reading .rating {
+  font-size: 0.875em;
 }
 
 .projects, .post ul.projects {
