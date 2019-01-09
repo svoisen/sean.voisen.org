@@ -1,10 +1,9 @@
 source 'http://rubygems.org'
-
-group :development do
-  gem 'rake'
-  gem 'jammit'
-  gem 'jekyll'
-  gem 'rouge'
-  gem 's3_website'
-  gem 'kramdown'
-end
+gem 'jekyll'
+gem 'jekyll-paginate'
+gem 'jekyll-gist'
+gem 'jekyll-seo-tag'
+gem 'jekyll-sitemap'
+gem 'jammit'
+gem 'rouge'
+gem 'webrick'

@@ -1,23 +1,81 @@
+site: Sean Voisen
+url: https://sean.voisen.org
+title: Sean Voisen
+description: Sean Voisen is trying to make computing better for human productivity and creative expression. 
+author:
+  name: Sean Voisen
+twitter:
+  username: svoisen
+  card: summary
+
 markdown: kramdown
 highlighter: rouge
-permalink: :categories/:year/:month/:title/
-title: Sean Voisen
+
+permalink: pretty
+
+paginate: 1000
+paginate_path: "/page:num/"
+baseurl: ""
+  
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-seo-tag
+  - jekyll-sitemap  
+
 collections:
   projects:
     output: true
+    permalink: /projects/:slug
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:slug
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - 
+    scope:
+      path: "assets/images"
+    values:
+      image: true
+
 navigation:
   - text: About
-    title: About me
-    url: /about/
+    title: About the author.
+    url: /about
   - text: Writing
-    title: Blog archives
-    url: /blog/
-  # - text: Reading
-  #   title: Book reviews
-  #   url: /reading/
+    title: Blog posts, essays and other writings.
+    url: /writing
+  - text: Reading
+    title: My personal canon.
+    url: /reading
   - text: Projects
-    title: Various side projects
-    url: /projects/
-  - text: Now
-    title: Aspirations for the present moment
-    url: /now/
+    title: Various passion projects.
+    url: /projects
