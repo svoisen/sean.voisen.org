@@ -12,9 +12,9 @@ navigation:
   - text: Writing
     title: Blog archives
     url: /blog/
-  # - text: Reading
-  #   title: Book reviews
-  #   url: /reading/
+  - text: Reading
+    title: Book reviews
+    url: /reading/
   - text: Projects
     title: Various side projects
     url: /projects/

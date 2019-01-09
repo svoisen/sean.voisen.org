@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<article class="post">
+  <hgroup class="header">
+    <h2 class="title" itemprop="title">{{ page.title }} by {{ page.author }}</h2>
+    <h3 class="meta" itemprop="date">Finished reading on {{ page.date | date: "%B %-d, %Y" }}</h3>
+    <h4 class="rating" itemprop="rating">Rating: {% for i in (1..page.rating) %}<span class="fas fa-star"></span>{% endfor %}</h4>
+  </hgroup>
+  {{ content }}
+</article>
