@@ -7,7 +7,7 @@ title: Projects
   {% assign sorted_projects = site.projects | sort: 'year' | reverse %}
   {% for post in sorted_projects %}
     <li>
-      <a href="{{ post.url }}" title="{{ post.title }}"><img src="/images/{{ post.cover_image }}.jpg" srcset="/images/{{ post.cover_image }}@2x.jpg 2x"><span class="title">{{ post.title }} <span class="year">({{ post.year }})</span></span></a>
+      <a href="{{ post.url }}" title="{{ post.title }}"><img src="/assets/images/{{ post.cover_image }}.jpg" srcset="/assets/images/{{ post.cover_image }}@2x.jpg 2x"><span class="title">{{ post.title }} ({{ post.year }})</span></a>
     </li>
   {% endfor %}
 </ul>

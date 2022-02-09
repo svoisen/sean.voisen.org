@@ -69,13 +69,13 @@ defaults:
 navigation:
   - text: About
     title: About the author.
-    url: /about
+    url: /about/
   - text: Writing
     title: Blog posts, essays and other writings.
-    url: /writing
+    url: /writing/
   - text: Reading
     title: My personal canon.
-    url: /reading
+    url: /reading/
   - text: Projects
     title: Various passion projects.
-    url: /projects
+    url: /projects/
