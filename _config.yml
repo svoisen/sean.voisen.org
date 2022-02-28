@@ -1,7 +1,7 @@
 site: Sean Voisen
 url: https://sean.voisen.org
 title: Sean Voisen
-description: Sean Voisen is trying to make computing better for human productivity and creative expression. 
+description: Sean Voisen is trying to make computing more humane, convivial and creative.
 author:
   name: Sean Voisen
 twitter:
@@ -74,8 +74,5 @@ navigation:
     title: Blog posts, essays and other writings.
     url: /writing/
   - text: Reading
-    title: My personal canon.
+    title: My personal library.
     url: /reading/
-  - text: Projects
-    title: Various passion projects.
-    url: /projects/

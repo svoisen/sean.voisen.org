@@ -1,5 +1,13 @@
 :root {
-    --foreground-color: #333333;
+    --background-color: white;
+    --foreground-color: black;
+    --header-background-color: white;
+    --header-link-color: black;
+    --body-link-color: #cc0000;
+    --body-link-underline-color: #999999;
+    --body-link-hover-underline-color: black;
+    --blockquote-color: #666666;
+    --border-color: #d0d0d0;
     --accent-color: #cc0000;
     --highlight-color: #fdf6e3;
     --dark-gray: #666666;
@@ -10,35 +18,33 @@
 
 body {
     line-height: 1.5;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
-    background: white;
+    background: var(--background-color);
     color: var(--foreground-color);
 }
 
 hr {
+    border: none;
     box-sizing: content-box;
-    height: 0;
+    height: 1px;
     overflow: visible;
-}
-
-pre {
-    font-family: "Source Code Pro", monospace, courier;
-    font-size: 1rem;
+    background-color: var(--border-color);
+    margin: 2rem 0 2rem 0;
 }
 
 a {
-    color: var(--accent-color);
-    text-decoration-color: var(--medium-gray);
+    color: var(--body-link-color);
+    text-decoration-color: var(--body-link-underline-color);
     text-decoration-style: dotted;
-    text-underline-offset: 0.1em;
+    text-underline-offset: 0.125rem;
 
     &:hover {
-        text-decoration-color: black;
+        text-decoration-color: var(--body-link-hover-underline-color);
         text-decoration-style: solid;
         transition: 0.625s;
     }
@@ -52,14 +58,15 @@ abbr[title] {
 
 acronym, abbr {
     cursor: help;
-    border-bottom: 1px dotted var(--light-gray);
+    text-decoration-color: var(--body-link-underline-color);
+    text-decoration-style: dotted;
 }
 
 b, strong {
     font-weight: bold;
 }
 
-code, kbd, samp {
+pre, code, kbd, samp {
     font-family: "Source Code Pro", monospace, courier;
     font-size: 1rem;
 }
@@ -68,8 +75,7 @@ small {
     font-size: 0.75rem;
 }
 
-sub,
-sup {
+sub, sup {
     font-size: 0.75rem;
     line-height: 0;
     position: relative;
@@ -96,7 +102,7 @@ blockquote {
     border-left: 0.25rem solid var(--faint-gray);
     padding-left: 1rem;
     margin: 0;
-    color: var(--dark-gray);
+    color: var(--blockquote-color);
 }
 
 ul {
@@ -119,9 +125,6 @@ header {
     padding: 1rem;
     flex-direction: column;
     border-bottom: 1px solid var(--light-gray);
-    background-color: rgba(255, 255, 255, 0.6);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
 
     .title {
         display: none;
@@ -134,10 +137,6 @@ header {
         a {
             color: black;
             text-decoration: none;
-
-            &:hover {
-                background: none;
-            }
         }
     }
 
@@ -166,7 +165,7 @@ header {
 main {
     max-width: 40rem;
     margin: 0 auto 0 auto;
-    padding: 0 1rem 1rem 1rem;
+    padding: 0 2rem 1rem 2rem;
 
     code {
         font-size: 0.875rem;
@@ -266,7 +265,7 @@ ul.archives {
 }
 
 footer {
-    margin: 2rem auto 3rem auto;
+    margin: 2rem auto 2rem auto;
     text-align: center;
     max-width: 40rem;
 
@@ -274,24 +273,6 @@ footer {
         margin: 0;
         padding: 0;
         font-size: 0.75rem;
-    }
-
-    .contact {
-        margin-top: 0.25rem;
-        font-size: 1.125rem;
-
-        a {
-            color: black;
-            display: inline-block;
-            width: 2em;
-            height: 2em;
-            line-height: 2em;
-            border-radius: 4px;
-
-            &:hover {
-                color: var(--accent-color);
-            }
-        }
     }
 }
 
@@ -378,11 +359,34 @@ ul.projects {
 @media only screen and (min-width: 568px) {
     header {
         flex-direction: row;
-        position: sticky;
-        top: 0;
 
         .title {
             display: block;
         }
     }
 }
+
+// @media (prefers-color-scheme: dark) {
+//     body {
+//         background: #333333;
+//         color: white;
+//     }
+
+//     header {
+//         border-color: #222;
+
+//         nav {
+//             a {
+//                 color: white;
+//             }
+//         }
+//     }
+
+//     a {
+//         text-decoration-color: white;
+
+//         &:hover {
+//             text-decoration-color: white;
+//         }
+//     }
+// }
