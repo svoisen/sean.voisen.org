@@ -1,7 +1,7 @@
 site: Sean Voisen
 url: https://sean.voisen.org
 title: Sean Voisen
-description: Sean Voisen is trying to make computing more humane, convivial and creative.
+description: Sean Voisen is trying to make computing better for creative thinking and expression.
 author:
   name: Sean Voisen
 twitter:
@@ -32,15 +32,12 @@ plugins:
   - jekyll-sitemap  
 
 collections:
-  projects:
-    output: true
-    permalink: /projects/:slug
   pages:
     output: true
     permalink: /:name
   posts:
     output: true
-    permalink: /:slug
+    permalink: /writing/:slug
   
 defaults:
   -
