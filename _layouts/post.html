@@ -3,13 +3,11 @@ layout: default
 ---
 
 <article class="post">
-  <hgroup class="header">
-    <h2 class="title">{{ page.title }}</h2>
-    <h3 class="meta">{{ page.date | date: "%B %-d, %Y" }}</h3>
-  </hgroup>
-  {{ content }}
+    {% if page.title %}
+    <hgroup class="header">
+        <h2 class="title">{{ page.title }}</h2>
+        <h3 class="meta">{{ page.date | date: "%B %-d, %Y" }}</h3>
+    </hgroup>
+    {% endif %}
+    {{ content }}
 </article>
-
-{% if page.categories contains 'blog' %}
-<p class="more">More posts in the <a href="/blog" title="Visit the blog archives">archives &rarr;</a></p>
-{% endif %}

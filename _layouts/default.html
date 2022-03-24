@@ -1,46 +1,11 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>{{ site.title }} &raquo; {{ page.title }}</title>
-    <meta name="author" content="Sean Voisen" />
-    <meta name="description" content="Sean Voisen's compendium of projects and musings." />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <link href="/atom.xml" rel="alternate" title="Sean Voisen" type="application/rss+xml" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/solid.css" integrity="sha384-+0VIRx+yz1WBcCTXBkVQYIBVNEFH1eP6Zknm16roZCyeNg2maWEpk/l/KsyFKs7G" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/brands.css" integrity="sha384-1KLgFVb/gHrlDGLFPgMbeedi6tQBLcWvyNUN+YKXbD7ZFbjX6BLpMDf0PJ32XJfX" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/fontawesome.css" integrity="sha384-jLuaxTTBR42U2qJ/pm4JRouHkEDHkVqH0T1nyQXn1mZ7Snycpf6Rl25VBNthU4z0" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro:400,700" rel="stylesheet">
-    <link href="/styles/screen.css" rel="stylesheet" type="text/css" media="screen" />
-  </head>
+<html lang="en">
+  {% include head.html %}
   <body class="body">
-    <header class="header">
-      <h1 class="title"><a href="/" title="Return to home">Sean Voisen</a></h1>
-      <nav class="nav">
-        <ul>
-          {% assign url = page.url|remove:'index.html' %}
-          {% for link in site.navigation %}
-          <li {% if url == link.url %}class="active"{% endif %}>
-            <a href="{{link.url}}" title="{{link.title}}">{{link.text}}</a>
-          </li>
-          {% endfor %}
-        </ul>
-      </nav>
-    </header>
-
-    <main class="content">
+    {% include masthead.html %}
+    <main class="content" role="main">
       {{ content }}
     </main>
-
-    <footer class="footer">
-    <p>© 2005-2019 Sean Voisen.</p>
-      <div class="contact">
-        <a href="https://twitter.com/svoisen"><span class="fab fa-twitter" title="Find me on Twitter"></span></a>
-        <a href="https://github.com/svoisen"><span class="fab fa-github" title="Find me on Github"></span></a>
-        <a href="https://www.linkedin.com/in/svoisen/"><span class="fab fa-linkedin" title="Find me on LinkedIn"></span></a>
-      </div>
-    </footer>
+    {% include footer.html %}
   </body>
 </html>

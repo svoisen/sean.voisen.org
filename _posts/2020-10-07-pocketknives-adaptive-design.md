@@ -1,0 +1,29 @@
+---
+layout: post
+title: On pocket knives and adaptive design
+description: Thoughts on adaptive design as a means for encouraging confidence in tinkering and hacking.
+---
+
+What feels like long, long ago, (but was probably circa 2010 or so) I was out having lunch with a friend and former grad school advisor, [Tom Jennings](https://en.wikipedia.org/wiki/Tom_Jennings). We got on the subject — as we often did — of hacking, tinkering, making physical objects with our hands. About half of my graduate studies involved making things, usually with electronics, to produce art, so this was well-trodden subject matter. Tom is an expert at this kind of practice, the kind of person who builds random number generators with geiger counters, strange devices that communicate with each other by mimicking the cries of coyotes using pure analog electronics, [nixie clocks](https://en.wikipedia.org/wiki/Nixie_tube), and myriad other steampunk-like electronic artwork and ephemera. Oh, and he created the [FidoNet BBS](https://en.wikipedia.org/wiki/FidoNet) system too.
+
+We were walking back from lunch when Tom stopped and asked: "Did you have a pocket knife when you were growing up?" Indeed, I did. Around the age of 12 I was a bit obsessed with pocket knives, primarily those of the Swiss Army variety. My prized possession being a slim black one with an embedded clock that my parents bought for me during a trip to Europe. It had a knife, of course, and also a pair of scissors, various screwdrivers, corkscrew, can opener, and a few other sundry tools I can no longer recall. I didn't really need any of it, certainly not at 12, but man I loved that thing.
+
+I loved pocket knives for their utility and their beauty, but when I was a kid I equally loved them for what they symbolized: trust. My parents trusted me to carry them and use them responsibly, and I felt a sense of pride in honoring that trust.
+
+Tom had a theory: Kids who grew up with pocket knives tended to excel at fixing and making things. They tended to learn the practices hacking physical objects — soldering, cutting, drilling, welding, sculpting, etc. — more quickly than others. The reason, he suspected, had to do primarily with confidence; growing up with a pocketknife, and using it regularly, gave you confidence with tools, using your hands, willingness to engage in physical tasks that could be moderately dangerous. Having that tool, and having the adults in your life entrust you with it as a child, helped to eradicate fear around breaking things, opening things, building things, hacking things.
+
+As a father, I think about this a lot. I constantly encounter moments where I have to balance the desire to instill confidence in my children with the risks of exposing them to mildly dangerous situations. (They're still pre-schoolers, so we're talking about things like letting them bang objects with a real hammer, use a power screwdriver to "help" me build something, or run around the yard swinging a small metal rake.) But I also think about how the world they're growing up in is so _different_ than the one in which I grew up in. And by that, I mean how amenable to tinkering and hacking the "stuff" of our world has been designed to be.
+
+So much of the technology we buy now are hermetically sealed, disposable devices not intended to be fixed or upgraded or tampered with. In fact, in most cases it's actively discouraged or prohibited. Perhaps this stems from Apple idolatry; you can't easily open an iPad or an iPhone, for instance. And you can't even easily upgrade the memory in many laptops anymore. When things break, or become outdated, you throw them away and buy something newer. When it comes to hardware, most modern electronics and computing devices are not customizable except for the most adept and determined hacker. They're certainly not old tube radios or the Wintel desktop PC of the mid-90s. And the software side of things isn't much better these days.
+
+[Dan Hill](https://twitter.com/cityofsound) suggests:
+
+<blockquote class="quoteback" darkmode="" data-title="Architecture%20and%20interaction%20design%2C%20via%20adaptation%20and%20hackability" data-author="Dan Hill" cite="https://medium.com/a-chair-in-a-room/architecture-and-interaction-design-via-adaptation-and-hackability-a51204564a1d">
+If we are to invite the user in, we need to leave some of the seams and traces open for others to explore; some sense of what the process of design, or un-design, might entail.
+<footer>Dan Hill <cite><a href="https://medium.com/a-chair-in-a-room/architecture-and-interaction-design-via-adaptation-and-hackability-a51204564a1d">https://medium.com/a-chair-in-a-room/architecture-and-interaction-design-via-adaptation-and-hackability-a51204564a1d</a></cite></footer>
+</blockquote>
+<script note="" src="https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js"></script>
+
+I sometimes wonder if, as a result of all this design without adaptability in mind if we're slowly creating a generation of kids who don't see the technology of the world as quite as malleable. If they have even less of a reason to be "pocket knife kids" because the seams of things aren't readily exposed, the tools of the day already polished to a high shine, ready-to-use, install-the-app-and-be-done-with-it. Certainly there is maker culture and the maker movement, and there are probably kids out there still writing games on their [TI calculators](https://en.wikipedia.org/wiki/TI-86) in math class (as I once did), but those are small subcultures in the grand scheme of things.
+
+I'm starting to see adaptive design as essential to engendering the proliferation of confidence. Design for adaptability welcomes more people in to a world where they build the confidence to open things, tweak things, fix things, make them their own, to reject a design as fully complete, not-to-be-tampered-with once it's on the store shelf. 

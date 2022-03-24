@@ -1,9 +1,0 @@
-gzip_assets: off
-rewrite_relative_paths: off
-compress_assets: on
-
-stylesheets:
-  screen:
-    - styles/normalize.css
-    - styles/main.css
-    - styles/pygments.css
