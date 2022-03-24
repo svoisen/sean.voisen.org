@@ -73,6 +73,6 @@ This has implications for how well software can support all phases of the creati
 
 Is it possible for a single tool or cohesive suite of tools to support both ways of working? Perhaps.
 
-<section class="footnote">
+<aside class="footnote">
 <p><a name="1"></a>[1] Kirsh calls the structured environment in which specific tasks unfold an "activity landscape." It is a kind of conceptual construct describing the tight coupling between how an environment scaffolds or supports a person's work, and how a person projects structure and meaning onto that scaffolding. But the interesting thing about activity landscapes, even in the physical world, is that they may be superimposed on top of each other. A single place can support multiple, parallel activity landscapes. Two office workers can exist in the same space, engaged in vastly different activities, using the same equipment and materials, trying to accomplish different tasks. The same can be true in virtual workspaces.</p>
-</section>
+</aside>
