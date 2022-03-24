@@ -21,6 +21,12 @@ On this site I share insights and learnings from my research and reading related
 
 If anything I write resonates with you, please feel free to <a href="#" class="eml-protected">send me a note</a> or <a href="https://twitter.com/svoisen" title="My Twitter profile.">find me on Twitter</a>.
 
+<aside class="footnote">
+<h2>Colophon</h2>
+
+This site is set in <a href="https://fonts.google.com/specimen/Newsreader">Newsreader</a> and <a href="https://rsms.me/inter/">Inter</a>, built using <a href="https://jekyllrb.com/">Jekyll</a>, and deployed on <a href="https://www.netlify.com">Netlify</a>. Minimalist design inspired by <a href="https://paco.me">Paco Coursey</a>.
+</aside>
+
 <script>
     function decode(encodedString) {
         var email = ''; 

@@ -52,7 +52,7 @@ Flash served its purpose. The web has matured, and we certainly don't need it an
 
 I reminisce, but I don't long for the good old days. Instead, I mostly lament the lack of interesting design common on the modern web because, while much of it is clean and usable, a lot of it is also pretty damn boring. If there's one thing Flash gave us in the early 2000's, it was plenty of not boring stuff—the freedom of beginner's mind naïveté as we explored a new medium, made plenty of mistakes, and tried to figure out what a more interactive web should be.
 
-<section class="footnote">
+<aside class="footnote">
 <p><a name="1"></a>[1] Adobe has released a partial specification fo the SWF file format, but never a full spec. Additionally, until about 2008 the specification license disallowed the creation of software that played SWF files.</p>
 <p><a name="2"></a>[2] One of my former professors at UCI, <a href="https://www.artifex.org/~bonnie/">Bonnie Nardi</a>, wrote a (now long out-of-print) book on the subject of end-user programming: <a href="https://mitpress.mit.edu/books/small-matter-programming">A Small Matter of Programming</a>. In it, she argues that, while everyone can and should learn how to program computers, inadequate, complex tooling often gets in the way. The book is extremely hard to find; but Wiggins' essay summarizes the main points well.</p>
-</section>
+</aside>
