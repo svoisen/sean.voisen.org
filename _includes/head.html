@@ -2,11 +2,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ site.title }}{% if page.title %}: {{ page.title }}{% endif %}</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/favicon_32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/favicon_16x16.png">
-    <link rel="shortcut icon" href="{{ site.baseurl }}/favicon_16x16.png">
-    <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
-    <link rel="sitemap" type="application/xml" title="sitemap" href="{{ site.baseurl }}/sitemap.xml" />
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/favicon_32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.url }}/favicon_16x16.png">
+    <link rel="shortcut icon" href="{{ site.url }}/favicon_16x16.png">
+    <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.url }}/atom.xml">
+    <link rel="sitemap" type="application/xml" title="sitemap" href="{{ site.url }}/sitemap.xml" />
     <meta name="twitter:site" content="@{{ site.twitter.username }}">
     <meta name="twitter:creator" content="@{{ site.author.name }}">
     <meta name="twitter:title" content="{{ page.title }}">
@@ -20,9 +20,9 @@
     <meta name="twitter:description" content="{{ site.description }}">
     {% endif %}
 
-    {% if page.image %}
+    {% if page.title_image %}
     <meta name="twitter:card"  content="summary_large_image">
-    <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+    <meta name="twitter:image" content="{{ site.url }}/{{ page.title_image }}">
     {% else %}
     <meta name="twitter:card"  content="summary">
     <meta name="twitter:image" content="{{ site.title_image }}">
