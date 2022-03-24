@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-<img src="/assets/images/svoisen_dither.jpg" alt="A photo of the author." class="profile">
+<img src="/assets/images/svoisen_dither_orange@2x.jpg" width="128" alt="A photo of the author." class="profile">
 
 **Hello!** I'm Sean. I'm a software engineer with an interest in _making computing better for creative thinking and expression._
 
