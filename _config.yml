@@ -66,10 +66,10 @@ defaults:
 navigation:
   - text: About
     title: About the author.
-    url: /about/
+    url: /about
   - text: Writing
     title: Blog posts, essays and other writings.
-    url: /writing/
+    url: /writing
   - text: Reading
     title: My personal library.
-    url: /reading/
+    url: /reading

@@ -156,10 +156,6 @@ header {
                 list-style: none;
                 display: inline-block;
                 margin: 0 0.5rem 0 0;
-
-                &.active a {
-                   text-decoration: none; 
-                }
             }
 
             :last-child {
