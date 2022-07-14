@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Design for fidgeting
+title_image: assets/images/design_for_fidgeting_twitter.png
 ---
 
 > We are not minds that happen to have bodies to do their physical work. Rather, we are bodies that seem to have minds. We are bodies in motion that happen to produce a subjective sensation we call _consciousness_, which gives us the impression that we are something more than, or something other than, bodies. This is the remarkable illusion we call _mind._ — Simon Penny, [Making Sense](http://www.worldcat.org/oclc/1102348448)
