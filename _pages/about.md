@@ -22,6 +22,8 @@ On this site I share insights from my research and reading related to software d
 
 If anything I write resonates with you, please feel free to <a href="#" class="eml-protected">send me a note</a> or <a href="https://twitter.com/svoisen" title="My Twitter profile.">find me on Twitter</a>.
 
+Needless to say, views and opinions expressed on this site are purely my own and not representative of my employer.
+
 <aside class="footnote">
 <h2>Colophon</h2>
 
