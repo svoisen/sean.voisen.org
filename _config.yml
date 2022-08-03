@@ -73,3 +73,6 @@ navigation:
   - text: Reading
     title: My personal library.
     url: /reading
+  - text: Work
+    title: A very abbreviated resume.
+    url: /work

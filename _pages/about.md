@@ -7,15 +7,16 @@ title: About
 
 **Hello!** I'm Sean. I'm a software engineer with an interest in _making computing better for creative thinking and expression._
 
-Currently, I'm helping build new web-based creative tools at <a href="https://adobe.com">Adobe</a>. In the past, I managed engineering teams while working on Firefox at <a href="https://mozilla.org">Mozilla</a>, built web-based tools for making animated VR comics at <a href="https://techcrunch.com/2021/04/29/madefire-shuts-down/">Madefire</a>, and led prototype engineering in Adobe's <a href="https://adobe.design">Design Studio</a>. I also spent a few years designing and facilitating leadership workshops as a management consultant.
+Currently, I'm helping build new web-based creative tools at <a href="https://adobe.com">Adobe</a>. In the past, I managed engineering teams for on Firefox at <a href="https://mozilla.org">Mozilla</a>, built web-based tools for making animated VR comics at <a href="https://techcrunch.com/2021/04/29/madefire-shuts-down/">Madefire</a>, and led prototype engineering in Adobe's <a href="https://adobe.design">Design Studio</a>. 
 
-I’m originally from California, and live with my wife and kids in the San Francisco bay area. I have a B.S. in computer science from <a href="https://www.ucla.edu">UCLA</a> and an M.S. in information and computer science from the Arts Computation Engineering program at [UC Irvine](https://www.uci.edu).
+I’m originally from California, and live with my wife and kids in the San Francisco bay area. I have a B.S. in computer science from <a href="https://www.ucla.edu">UCLA</a> and an M.S. in information and computer science from the (radically interdisciplinary and sadly now shuttered) Arts Computation Engineering program at [UC Irvine](https://www.uci.edu).
 
 <hr>
 
-On this site I share insights and learnings from my research and reading related to software design, development, and leadership. The following questions guide much of my research:
+On this site I share insights from my research and reading related to software design and development. These questions help guide my explorations:
 
-* <em>How do we build better tools for augmenting human intelligence and creativity,</em> both at individual and organizational scales? What are the design principles for these tools? What characteristics do they need to have?
+* <em>How do we build better tools for augmenting human creativity,</em> both at individual and organizational scales? What are the design principles for these tools?
+* How might we <em>build open-ended, convivial platforms</em> for end-users to build their own creative tools?
 * How can we use software to better understand, reason about, and design solutions for <em>complex problems?</em>
 * How do we make <em>better decisions about what technology we allow into our lives?</em> How do we make better decisions about what computing tools we should build? What values should these tools promote? To what types of problems should software be applied? To what types of problems should software <em>not</em> be applied?
 

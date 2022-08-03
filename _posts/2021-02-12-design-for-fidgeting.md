@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Design for fidgeting
+summary: Fidgeting and fun as design principles.
 title_image: assets/images/design_for_fidgeting_twitter.png
 ---
 
