@@ -5,11 +5,11 @@ title: About
 
 <img src="/assets/images/svoisen_dither.png" width="128" height="128" alt="A photo of the author." class="profile">
 
-**Hello!** I'm Sean. I'm a software engineer with an interest in _making computing better for creative thinking and expression._
+**Hello!** I’m Sean. I’m a software engineer with an interest in _making computing better for creative thinking and expression._
 
-Currently, I'm helping build new web-based creative tools at <a href="https://adobe.com">Adobe</a>. In the past, I managed engineering teams for on Firefox at <a href="https://mozilla.org">Mozilla</a>, built web-based tools for making animated VR comics at <a href="https://techcrunch.com/2021/04/29/madefire-shuts-down/">Madefire</a>, and led prototype engineering in Adobe's <a href="https://adobe.design">Design Studio</a>. 
+Currently, I'm helping build new web-based creative tools at <a href="https://adobe.com">Adobe</a>. In the past, I managed engineering teams working on Firefox at <a href="https://mozilla.org">Mozilla</a>, built web-based tools for making animated VR and AR comics at <a href="https://techcrunch.com/2021/04/29/madefire-shuts-down/">Madefire</a>, and led prototype engineering in Adobe’s <a href="https://adobe.design">Design Studio</a>. 
 
-I’m originally from California, and live with my wife and kids in the San Francisco bay area. I have a B.S. in computer science from <a href="https://www.ucla.edu">UCLA</a> and an M.S. in information and computer science from the (radically interdisciplinary and sadly now shuttered) Arts Computation Engineering program at [UC Irvine](https://www.uci.edu).
+I’m originally from California, and live with my wife and kids in the San Francisco bay area. I studied in computer science at <a href="https://www.ucla.edu">UCLA</a> and at the (radically interdisciplinary and sadly now shuttered) [Arts Computation Engineering](https://www.ics.uci.edu/grad/degrees/degree_ace.php) program at [UC Irvine](https://www.uci.edu).
 
 <hr>
 
