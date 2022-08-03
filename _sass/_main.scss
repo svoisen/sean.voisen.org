@@ -325,6 +325,69 @@ main {
                 margin-bottom: 0;
             }
         }
+
+        .work {
+            padding: 2rem 0 2rem 0;
+            margin: 2rem 0 0 0;
+            border-top: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
+
+            details {
+                margin-bottom: 2rem;
+                padding-left: 2rem;
+            }
+
+            details:last-child {
+                margin-bottom: 0;
+            }
+
+            details[open] > summary:before {
+                transform: rotate(90deg);
+            }
+
+            details > summary::before {
+                content: '';
+                border-width: 0.4rem;
+                border-style: solid;
+                border-color: transparent transparent transparent var(--link-color);
+                position: absolute;
+                top: 0.375rem;
+                left: -1rem;
+                transform: rotate(0);
+                transform-origin: 0.2rem 50%;
+                transition: 0.125s transform ease;
+            }
+
+            details > summary::-webkit-details-marker {
+                display: none;
+            }
+
+            summary {
+                display: block;
+                position: relative;
+                cursor: pointer;
+
+                h2 {
+                    font-size: 1rem;
+                    padding: 0;
+                    margin: 0;
+                    line-height: 1.5;
+                }
+
+                h3 {
+                    line-height: 1.5;
+                    margin: 0 0 0.5rem 0;
+                    padding: 0;
+                    font-weight: 300;
+                    font-size: 1rem;
+                    color: var(--gray11);
+                }
+            }
+
+            summary::-webkit-details-marker {
+                display: block;
+            }
+        }
     }
 }
 
