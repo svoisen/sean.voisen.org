@@ -9,7 +9,7 @@ title: About
 
 Currently, I'm helping build new web-based creative tools at <a href="https://adobe.com">Adobe</a>. In the past, I managed engineering teams working on Firefox at <a href="https://mozilla.org">Mozilla</a>, built web-based tools for making animated VR and AR comics at <a href="https://techcrunch.com/2021/04/29/madefire-shuts-down/">Madefire</a>, and led prototype engineering in Adobe’s <a href="https://adobe.design">Design Studio</a>. 
 
-I’m originally from California, and live with my wife and kids in the San Francisco bay area. I studied in computer science at <a href="https://www.ucla.edu">UCLA</a> and at the (radically interdisciplinary and sadly now shuttered) [Arts Computation Engineering](https://www.ics.uci.edu/grad/degrees/degree_ace.php) program at [UC Irvine](https://www.uci.edu).
+I’m originally from California, and live with my wife and kids in the San Francisco bay area. I studied computer science at <a href="https://www.ucla.edu">UCLA</a> and at the (radically interdisciplinary and sadly now shuttered) [Arts Computation Engineering](https://www.ics.uci.edu/grad/degrees/degree_ace.php) program at [UC Irvine](https://www.uci.edu).
 
 <hr>
 
