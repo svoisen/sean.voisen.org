@@ -27,7 +27,7 @@ A very brief list of projects I've worked on and positions I've held.
         <h2>Madefire</h2>
         <h3>Creative tools engineering for comic books</h3>
     </summary>
-    Designed and built a web-based tool for authoring animated 2D and 3D comic books to run on VR and AR in Oculus and Magic Leap.
+    Led design and engineering of a web-based tool for authoring animated 2D and 3D comic books to run on VR and AR in Oculus and Magic Leap.
 </details>
 
 <details>
