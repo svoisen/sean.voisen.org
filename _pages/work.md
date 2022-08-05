@@ -9,9 +9,9 @@ A very brief list of projects I've worked on and positions I've held.
 <details>
     <summary>
         <h2>Adobe Creative Cloud</h2>
-        <h3>Engineering lead for web-based creative tools</h3>
+        <h3>Engineering lead for web and desktop creative tools</h3>
     </summary>
-    Currently managing technical partnerships with web browser vendors, and serving as an engineering lead for new web-based creative tools.
+    Currently managing technical partnerships with web browser vendors, and serving as an engineering lead for new web-based creative tools. Previously worked as a graphics engineer on Adobe XD.
 </details>
 
 <details>
