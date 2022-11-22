@@ -5,9 +5,9 @@ title: About
 
 <img src="/assets/images/svoisen_dither.png" width="128" height="128" alt="A photo of the author." class="profile">
 
-**Hello!** I’m Sean. I’m a software engineer with an interest in _making computing better for creative thinking and expression._
+**Hello!** I’m Sean. I’m a software engineering leader with an interest in _making computing better for creative thinking and expression._
 
-Currently, I'm helping build new web-based creative tools at <a href="https://adobe.com">Adobe</a>. In the past, I managed engineering teams working on Firefox at <a href="https://mozilla.org">Mozilla</a>, built web-based tools for making animated VR and AR comics at <a href="https://techcrunch.com/2021/04/29/madefire-shuts-down/">Madefire</a>, and led prototype engineering in Adobe’s <a href="https://adobe.design">Design Studio</a>. 
+Currently, I'm Director of Design Engineering at <a href="https://adobe.com">Adobe</a>. In the past, I worked on Adobe Express, managed layout and accessibility engineering teams working on <a href="https://mozilla.org">Firefox</a>, built web-based tools for making animated VR and AR comics at <a href="https://techcrunch.com/2022/04/29/madefire-shuts-down/">Madefire</a>, and led prototype engineering in Adobe’s <a href="https://adobe.design">Design Studio</a>. 
 
 I’m originally from California, and live with my wife and kids in the San Francisco bay area. I studied computer science at <a href="https://www.ucla.edu">UCLA</a> and at the (radically interdisciplinary and sadly now shuttered) [Arts Computation Engineering](https://www.ics.uci.edu/grad/degrees/degree_ace.php) program at [UC Irvine](https://www.uci.edu).
 
@@ -20,7 +20,7 @@ On this site I share insights from my research and reading related to software d
 * How can we use software to better understand, reason about, and design solutions for <em>complex problems?</em>
 * How do we make <em>better decisions about what technology we allow into our lives?</em> How do we make better decisions about what computing tools we should build? What values should these tools promote? To what types of problems should software be applied? To what types of problems should software <em>not</em> be applied?
 
-If anything I write resonates with you, please feel free to <a href="#" class="eml-protected">send me a note</a> or <a href="https://twitter.com/svoisen" title="My Twitter profile.">find me on Twitter</a>.
+If anything I write resonates with you, please feel free to <a href="#" class="eml-protected">send me a note</a> or <a href="https://front-end.social/@svoisen" title="My Mastodon profile.">find me on Mastodon</a>.
 
 Needless to say, views and opinions expressed on this site are purely my own and not representative of my employer.
 
@@ -53,3 +53,4 @@ This site is set in <a href="https://fonts.google.com/specimen/Newsreader">Newsr
         }
     });
 </script>
+
