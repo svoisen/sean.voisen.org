@@ -50,4 +50,4 @@ But this tendency towards largeness is true even in open source, where the proje
 
 I like this notion of tractability as a metric. Kell, of course, is referring to the tractability of the code itself, but could we broaden this definition to include the system as a whole? 
 
-Tractability implies malleability and controllability—systems that are understandable and easier-to-maintain. Small systems are de facto more malleable, convivial, _tractable_. Let's incentivize that! Let's focus on recognizing when the marginal utility of continuing to grow a softare system or application is causing more harm than good. Let's stay in the Goldilocks zone.
+Tractability implies malleability and controllability—systems that are understandable and easier-to-maintain. Small systems are de facto more malleable, convivial, _tractable_. Let's incentivize that! Let's focus on recognizing when the marginal utility of continuing to grow a software system or application is causing more harm than good. Let's stay in the Goldilocks zone.
