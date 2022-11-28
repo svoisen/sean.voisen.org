@@ -1,7 +1,7 @@
 ---
 layout: post
 title: When software tools get too big, remember Goldilocks
-summary: If we want more convivial software tools, we need to disincentivize them from getting too big for their own good.
+summary: If we want more convivial software tools, let's disincentivize them from getting too big for their own good.
 ---
 
 The “Goldilocks model” offers a lens for examining how the benefits of a technology balance against the harms that same technology may also cause if it is left unchecked. Like the folktale from which the name derives, it’s about finding _just the right_ amount of a technology to apply to a given situation. Too little and the technology may be ineffectual. Too much and there’s risk of exacerbating the problem one was trying to solve. 
