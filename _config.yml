@@ -1,7 +1,7 @@
 site: Sean Voisen
 url: https://sean.voisen.org
 title: Sean Voisen
-description: Sean Voisen is trying to make computing better for creative thinking and expression.
+description: Thoughts on making computing better for creative thinking and expression.
 title_image: assets/svoisen_dither_orange@2x.jpg
 author:
   name: Sean Voisen
@@ -32,6 +32,11 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap  
 
+reading_time:
+  second_plural: "second read"
+  minute_singular: "minute read"
+  minute_plural: "minute read"
+
 collections:
   pages:
     output: true
@@ -39,6 +44,9 @@ collections:
   posts:
     output: true
     permalink: /writing/:slug
+  reading:
+    output: true
+    permalink: /reading/:slug
   
 defaults:
   -
