@@ -1,11 +1,11 @@
 :root {
     --gray1: hsl(0, 0%, 99%);
     --gray1-alpha: hsla(0, 0%, 99%, 0.9);
-    --gray2: #f8f8f8;
-    --gray3: #f3f3f3;
-    --gray4: #ededed;
-    --gray5: #e8e8e8;
-    --gray6: #e2e2e2;
+    --gray2: hsl(0, 0%, 97%);
+    --gray3: hsl(0, 0%, 95%);
+    --gray4: hsl(0, 0%, 93%);
+    --gray5: hsl(0, 0%, 91%);
+    --gray6: hsl(0, 0%, 89%);
     --gray7: #dbdbdb;
     --gray8: #c7c7c7;
     --gray9: rgb(143, 143, 143);
@@ -14,6 +14,7 @@
     --gray12: rgb(23, 23, 23);
     --hot-orange: hsl(22, 100%, 50%);
     --light-orange: hsl(22, 100%, 75%);
+
     --background-color: var(--gray1);
     --foreground-color: var(--gray12);
     --link-color: var(--hot-orange);
@@ -24,6 +25,8 @@
     --border-color: var(--gray5);
     --footnote-color: var(--gray11);
     --metadata-color: var(--gray11);
+    --small-text: 0.75rem;
+    --large-text: 1.125rem;
 }
 
 body {
@@ -88,11 +91,11 @@ pre, code, kbd, samp {
 }
 
 small {
-    font-size: 0.75rem;
+    font-size: var(--small-text);
 }
 
 sub, sup {
-    font-size: 0.75rem;
+    font-size: var(--small-text);
     line-height: 0;
     position: relative;
     vertical-align: baseline;
@@ -117,10 +120,10 @@ blockquote {
     color: var(--blockquote-color);
 }
 
-header {
+.banner {
     top: 0;
     left: 0;
-    background-color: var(--gray1);
+    background-color: var(--background-color);
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
     position: sticky;
@@ -147,7 +150,7 @@ header {
         }
     }
 
-    nav {
+    .nav {
         ul {
             margin: 0;
             padding: 0;
@@ -204,7 +207,7 @@ main {
     }
 
     .post {
-        .header {
+        header.post-header {
             margin: 4rem 0 2rem 0;
 
             .title {
@@ -326,6 +329,21 @@ main {
             }
         }
 
+        .rating {
+            .star {
+                width: 0.8125rem; 
+                height: 0.75rem;
+                margin-left: 0.125rem;
+                display: inline-block;
+                background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTMiIGhlaWdodD0iMTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTYuMzA5IDkuMjJMMi40MDkgMTJsMS40NC00LjU2N0wwIDQuNTgzbDQuNzg4LS4wNDJMNi4zMDggMCA3LjgzIDQuNTRsNC43ODkuMDQ0LTMuODUgMi44NDlMMTAuMjA5IDEyeiIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+);
+                background-repeat: no-repeat;
+            }
+
+            :first-child {
+                margin-left: 0.5rem;
+            }
+        }
+
         .work {
             padding: 2rem 0 2rem 0;
             margin: 2rem 0 0 0;
@@ -408,7 +426,7 @@ footer {
 }
 
 @media only screen and (min-width: 568px) {
-    header {
+    .banner {
         background-color: var(--gray1-alpha);
 
         .title.wide {
@@ -452,6 +470,10 @@ footer {
         .post {
             img.profile {
                 filter: brightness(0.8);
+            }
+
+            .star {
+                filter: invert(1);
             }
         }
     }

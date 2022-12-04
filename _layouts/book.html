@@ -3,10 +3,20 @@ layout: default
 ---
 
 <article class="post">
-  <hgroup class="header">
+  <header class="post-header">
     <h2 class="title" itemprop="title">{{ page.title }} by {{ page.author }}</h2>
-    <h3 class="meta" itemprop="date">Finished reading on {{ page.date | date: "%B %-d, %Y" }}</h3>
-    <h4 class="rating" itemprop="rating">Rating: {% for i in (1..page.rating) %}<span class="fas fa-star"></span>{% endfor %}</h4>
-  </hgroup>
+    <div class="meta" itemprop="date">First read in {{ page.year_read }}</div>
+    <div class="rating" itemprop="rating">Review {% for i in (1..page.rating) %}<span class="star"></span>{% endfor %}</div>
+  </header>
+  <img src="{{ site.url }}/assets/covers/{{ page.cover_image }}" class="cover">
   {{ content }}
+  <section>
+      <h3>Details</h3>
+      <ul>
+          <li>ISBN: <span itemprop="isbn">{{ page.isbn }}</span></li>
+          <li>Date published: <span itemprop="datePublished">{{ page.date_published }}</span></li>
+          <li>Publisher: <span itemprop="publisher">{{ page.publisher }}</span></li>
+          <li><a href="https://openlibrary.org/books/{{ page.open_library }}">Find on Open Library</a></li>
+      </ul>
+  </section>
 </article>
