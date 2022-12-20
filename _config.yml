@@ -31,6 +31,7 @@ plugins:
   - jekyll-gist
   - jekyll-seo-tag
   - jekyll-sitemap  
+  - jekyll-minifier
 
 reading_time:
   second_plural: "second read"
@@ -80,8 +81,5 @@ navigation:
     title: Blog posts, essays and other writings.
     url: /writing
   - text: Reading
-    title: My personal library.
+    title: Books and papers that I have enjoyed reading.
     url: /reading
-  - text: Work
-    title: A very abbreviated resume.
-    url: /work

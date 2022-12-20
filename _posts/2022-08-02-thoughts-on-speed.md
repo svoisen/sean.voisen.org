@@ -69,6 +69,6 @@ Speed is fascinating precisely because it _is_ perceptual, because it sits at th
 <p><a name="3"></a>[3] A common metric used in evaluating rendering performance is called time-to-first-paint. Time-to-first-paint is irrelevant if the first thing being painted is unimportant to the person looking at it. In web browsers, more relevant metrics have been introduced: First contentful paint and <a href="https://developers.google.com/web/tools/lighthouse/audits/first-meaningful-paint">first meaningful paint</a>, the latter of which best addresses the issue of perceived relevance when painting pixels, but as such is difficult to standardize across browsers.</p>
 </aside>
 
-<aside class="credits">
+<aside class="footnote">
 <p>Photo used in Twitter card for this post by <a href="https://unsplash.com/es/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus Spiske</a> on <a href="https://unsplash.com/s/photos/speedometer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>.</p>
 </aside>

@@ -37,9 +37,6 @@
     {% endif %}
     <meta name="og:locale" content="en_US">
     <style type="text/css">
-        {% capture include_to_scssify %}
-        {% include inline.scss %}
-        {% endcapture %}
-        {{ include_to_scssify | scssify }}
+        {% include styles.css %}
     </style>
 </head>
