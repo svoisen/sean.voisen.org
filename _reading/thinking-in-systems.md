@@ -5,6 +5,10 @@ title: Thinking in Systems
 year_read: 2022
 rating: 5
 cover_image: thinking_in_systems.jpg
+isbn: 1603580557
+year_published: 2008
+publisher: Chelsea Green Publishing
+open_library: OL3737036W
 ---
 
 The best primer on how to think about and understand complex systems—approachable, entertaining, and fascinating. I recommend this book to anyone, but especially anyone involved in managing human organizations (corporations, non-profits, etc.) which are themselves complex systems.

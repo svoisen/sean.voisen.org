@@ -5,8 +5,8 @@ layout: default
 <article class="post">
     {% if page.title %}
     <header class="post-header">
-        <h2 class="title">{{ page.title }}</h2>
-        <div class="meta">{{ page.date | date: "%B %-d, %Y" }} ∙ {{ content | reading_time }}</div>
+        <h2 class="post-title">{{ page.title }}</h2>
+        <div class="post-metadata">{{ page.date | date: "%B %-d, %Y" }} ∙ {{ content | reading_time }}</div>
     </header>
     {% endif %}
     {{ content }}
