@@ -2,7 +2,6 @@ site: Sean Voisen
 url: https://sean.voisen.org
 title: Sean Voisen
 description: Thoughts on making computing better for creative thinking and expression.
-title_image: assets/svoisen_dither_orange@2x.jpg
 author:
   name: Sean Voisen
 twitter:
@@ -21,10 +20,6 @@ baseurl: ""
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
-
-sass:
-  sass_dir: _sass
-  style: :compressed
 
 plugins:
   - jekyll-paginate
