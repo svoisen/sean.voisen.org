@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Writing
+description: Blog archives.
 ---
 
 <ul class="posts-list">
