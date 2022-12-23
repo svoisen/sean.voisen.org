@@ -50,6 +50,7 @@ defaults:
       path: ""
     values:
       layout: "default"
+      image: "/assets/images/svoisen@256.png"
   -
     scope:
       path: ""
@@ -58,7 +59,6 @@ defaults:
       layout: "page"
   -
     scope:
-      path: ""
       type: "posts"
     values:
       layout: "post"

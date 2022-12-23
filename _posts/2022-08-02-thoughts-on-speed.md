@@ -1,9 +1,15 @@
 ---
-layout: post
 title: Thoughts on speed
-summary: Why we need software to be fast.
-title_image: assets/images/thoughts_on_speed_twitter-2.jpg
+description: Why we need software to be fast.
+image: assets/images/speed@640.png
 ---
+
+<figure>
+<img src="/assets/images/speed@640.png" srcset="/assets/images/speed@1280.png 1280w">
+<figcaption>
+Photo by <a href="https://unsplash.com/@planetwirth?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexa  Wirth</a> on <a href="https://unsplash.com/photos/18IuER9udWc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</figcaption>
+</figure>
 
 Fast software is more delightful to use than slow software. This fact is so obvious as to be a tautology; everyone loves and prefers to use speedy software. We expect computers to be fast. We _need_ them to be fast. **Fast software is fun!** In fact, speed and responsiveness are such critical aspects of all great user experiences that we often take them for granted. But to disregard this human need for speed is folly. The pains that software development teams sometimes endure to shave mere milliseconds off of application load time, or tune the timing of a particular user interaction, or ensure rendering frame rates are buttery smooth might astonish the average computer user. Fast is hard, and the work necessary to make software fast is often non-trivial <sup><a href="#1">1</a></sup>. But it must be done.
 
@@ -67,8 +73,4 @@ Speed is fascinating precisely because it _is_ perceptual, because it sits at th
 <p><a name="1"></a>[1] This is just a singular example, but thousands of engineer-hours are spent by web browser developers just to optimize page scrolling responsiveness alone. This fact is often under-recognized. Page scrolling responsiveness is one of the primary metrics (after page load and render) that many Internet users use to subjectively determine whether a browser is fast or not. Scrolling is the most common action one performs in a web browser, and humans are highly-sensitive to “jank” and dropped frames while scrolling.</p>
 <p><a name="2"></a>[2] From <a href="https://doi.org/10.1207/s15327884mca0501_3">The Concept of Breakdown in Heidegger, Leont'ev, and Dewey and Its Implications for Education</a></p>
 <p><a name="3"></a>[3] A common metric used in evaluating rendering performance is called time-to-first-paint. Time-to-first-paint is irrelevant if the first thing being painted is unimportant to the person looking at it. In web browsers, more relevant metrics have been introduced: First contentful paint and <a href="https://developers.google.com/web/tools/lighthouse/audits/first-meaningful-paint">first meaningful paint</a>, the latter of which best addresses the issue of perceived relevance when painting pixels, but as such is difficult to standardize across browsers.</p>
-</aside>
-
-<aside class="footnote">
-<p>Photo used in Twitter card for this post by <a href="https://unsplash.com/es/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus Spiske</a> on <a href="https://unsplash.com/s/photos/speedometer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>.</p>
 </aside>
