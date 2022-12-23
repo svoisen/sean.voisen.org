@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Flash was more than a plug-in
+description: Thoughts on Flash's end of life.
 ---
 
 ![Screenshot of the Flash uninstaller announcing end-of-life on December 31, 2020](/assets/images/flash_uninstall_eol.jpg)

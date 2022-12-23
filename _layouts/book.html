@@ -8,7 +8,6 @@ layout: default
     <div class="post-metadata" itemprop="date">First read in {{ page.year_read }}</div>
     <div class="book-rating" itemprop="rating">Review {% for i in (1..page.rating) %}<span class="star"></span>{% endfor %}</div>
   </header>
-  <img src="{{ site.url }}/assets/covers/{{ page.cover_image }}" class="book-cover">
   {{ content }}
   <aside class="book-details">
       <h3>Details</h3>

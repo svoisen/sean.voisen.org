@@ -1,7 +1,6 @@
 ---
-layout: post
 title: Neat and scruffy work in digital tools
-summary: Can we do better at building software that supports both neat and messy work?
+description: Can we do better at building software that supports both neat and messy work?
 ---
 
 Sometimes creative work is neat, orderly, tidy, but most of the time it's not—it's scruffy, messy, disorganized. I have a hunch that computing environments for creative work don't support "scruffy" work very well, nor do they make it easy for neat and scruffy work to peacefully coexist. Can we do better?
