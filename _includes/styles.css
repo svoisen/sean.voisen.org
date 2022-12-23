@@ -344,10 +344,6 @@ img.profile-image {
     color: var(--metadata-color);
 }
 
-img.book-cover {
-    margin: 0 0 1rem 0;
-}
-
 .book-rating {
     margin-top: 1rem;
 }
@@ -396,12 +392,6 @@ img.book-cover {
     img.profile-image {
         float: left;
         display: block;
-    }
-
-    img.book-cover {
-        float: left;
-        max-width: 163px;
-        margin: 0.25rem 1rem 1rem 0;
     }
 }
 

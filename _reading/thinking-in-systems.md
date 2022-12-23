@@ -1,5 +1,4 @@
 ---
-layout: book
 author: Donella Meadows
 title: Thinking in Systems
 year_read: 2022
