@@ -82,3 +82,6 @@ navigation:
   - text: Reading
     title: "Books and papers that I have read."
     url: /reading
+
+jekyll-minifier:
+  preserve_line_breaks: true
