@@ -215,7 +215,7 @@ ol li {
 }
 
 .home .intro {
-    margin: 4rem 0 0 0;
+    margin: 2rem 0 0 0;
     padding: 0 0 2rem 0;
 }
 
@@ -375,6 +375,10 @@ img.profile-image {
     .banner {
         background-color: hsla(0deg, 0%, 99%, 0.9);
         flex-direction: row;
+    }
+
+    .home .intro {
+        margin: 4rem 0 0 0;
     }
 
     img.profile-image {
