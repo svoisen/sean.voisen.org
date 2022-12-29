@@ -158,14 +158,9 @@ blockquote {
     border-bottom: 1px solid var(--border-color);
 }
 
-.banner .title.wide {
-    display: none;
-}
-
 .banner .title {
     margin: 0;
     padding: 0;
-    font-weight: normal;
     font-size: var(--medium-text);
     flex-grow: 1;
 }
@@ -379,14 +374,7 @@ img.profile-image {
 @media only screen and (min-width: 568px) {
     .banner {
         background-color: hsla(0deg, 0%, 99%, 0.9);
-    }
-
-    .banner .title.wide {
-        display: block;
-    }
-
-    .banner .title.narrow {
-        display: none;
+        flex-direction: row;
     }
 
     img.profile-image {
