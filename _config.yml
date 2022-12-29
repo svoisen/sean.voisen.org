@@ -80,5 +80,5 @@ navigation:
     title: "Blog posts, essays and other writings."
     url: /writing
   - text: Reading
-    title: "Books and papers that I have enjoyed reading."
+    title: "Books and papers that I have read."
     url: /reading

@@ -378,7 +378,7 @@ img.profile-image {
 
 @media only screen and (min-width: 568px) {
     .banner {
-        background-color: hsla(var(--gray1) 0.9);
+        background-color: hsla(0deg, 0%, 99%, 0.9);
     }
 
     .banner .title.wide {
@@ -412,7 +412,11 @@ img.profile-image {
         --link-color: var(--light-orange);
     }
 
-    img.profile-image {
+    .banner {
+        background-color: hsla(0deg, 0%, 10%, 0.9);
+    }
+
+    img.profile-image, img.post-splash {
         filter: brightness(0.8);
     }
 

@@ -1,11 +1,15 @@
 ---
 title: Thoughts on speed
 description: Why we need software to be fast.
-image: assets/images/speed@640.png
+image:
+    path: /assets/images/speed@640.gif
+    height: 320
+    width: 640
+    alt: "A top-down view of motorcycle speedometer and tachometer."
 ---
 
 <figure>
-<img src="/assets/images/speed@640.png" srcset="/assets/images/speed@1280.png 1280w">
+<img src="/assets/images/speed@640.gif" srcset="/assets/images/speed@1280.gif 1280w, /assets/images/speed@1920.gif 1920w">
 <figcaption>
 Photo by <a href="https://unsplash.com/@planetwirth?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexa  Wirth</a> on <a href="https://unsplash.com/photos/18IuER9udWc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 </figcaption>

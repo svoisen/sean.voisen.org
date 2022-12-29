@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Space vs. place in remote work
 ---
 

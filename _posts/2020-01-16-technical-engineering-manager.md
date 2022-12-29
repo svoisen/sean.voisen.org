@@ -1,5 +1,4 @@
 ---
-layout: post
 title: On being "technical" as an engineering manager
 description: Thoughts in response to Will Larson's Increment article entitled "Do engineering managers need to be technical?"
 ---

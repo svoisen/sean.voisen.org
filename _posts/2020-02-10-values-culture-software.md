@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Values, culture and the software we make
 description: Thinking about how product-defined values influence software engineering culture and architecture. 
 ---
