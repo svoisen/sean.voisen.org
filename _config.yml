@@ -85,3 +85,5 @@ navigation:
 
 jekyll-minifier:
   preserve_line_breaks: true
+  uglifier_args:
+    harmony: true
