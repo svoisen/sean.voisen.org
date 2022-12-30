@@ -9,7 +9,7 @@ image:
 ---
 
 <figure>
-<img src="/assets/images/speed@640.gif" srcset="/assets/images/speed@1280.gif 1280w, /assets/images/speed@1920.gif 1920w">
+<img src="/assets/images/speed@640.gif" srcset="/assets/images/speed@1280.gif 1280w, /assets/images/speed@1920.gif 1920w" class="post-splash">
 <figcaption>
 Photo by <a href="https://unsplash.com/@planetwirth?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexa  Wirth</a> on <a href="https://unsplash.com/photos/18IuER9udWc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 </figcaption>

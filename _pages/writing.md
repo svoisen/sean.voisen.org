@@ -3,6 +3,8 @@ title: Writing
 description: Blog archives.
 ---
 
+My blog archives, in descending chronological order.
+
 <ul class="posts-list">
     {% for post in site.posts %}
     <li>

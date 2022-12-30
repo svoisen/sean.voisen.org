@@ -13,7 +13,7 @@ I’m originally from California, and live with my wife and kids in the San Fran
 
 <hr>
 
-On this site I share insights from my research and reading related to software design and development. These questions help guide my explorations:
+On this site I share insights from my research and reading related to software design and development. You'll find a variety of writing on topics <em>mostly</em> related to human-computer interaction, UX, philosophy of technology, ethics and software engineering leadership. These questions help guide my explorations:
 
 * <em>How do we build better tools for augmenting human creativity</em>? What are the design principles for these tools?
 * How might we <em>build open-ended, convivial platforms</em> for end-users to build their own creative tools?
