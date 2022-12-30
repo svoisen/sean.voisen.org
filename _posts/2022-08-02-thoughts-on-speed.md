@@ -5,11 +5,11 @@ image:
     path: /assets/images/speed@640.gif
     height: 320
     width: 640
-    alt: "A top-down view of motorcycle speedometer and tachometer."
+    alt: "A top-down view of a motorcycle speedometer and tachometer."
 ---
 
 <figure>
-<img src="/assets/images/speed@640.gif" srcset="/assets/images/speed@1280.gif 1280w, /assets/images/speed@1920.gif 1920w" class="post-splash">
+<img src="/assets/images/speed@640.gif" srcset="/assets/images/speed@1280.gif 1280w, /assets/images/speed@1920.gif 1920w" class="post-splash" alt="A top-down view of a motorcyle speedometer and tachometer.">
 <figcaption>
 Photo by <a href="https://unsplash.com/@planetwirth?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexa  Wirth</a> on <a href="https://unsplash.com/photos/18IuER9udWc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 </figcaption>
