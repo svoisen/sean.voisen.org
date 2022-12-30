@@ -84,6 +84,5 @@ navigation:
     url: /reading
 
 jekyll-minifier:
-  preserve_line_breaks: true
   uglifier_args:
     harmony: true
