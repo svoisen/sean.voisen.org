@@ -27,7 +27,7 @@ image:
 </picture>
 </div>
 
-I enjoy recounting my past year by conducting a quick review of my annual reading. There's something about the experience of reading _books_ that helps them serve as waypoints for personal history. Indeed, I often find it easier to remember years by recounting what books I was reading at the time. Books are like thematic anchors in a sea of thoughts and memories; their length and physicality (I like paper books) have a kind of mnemonic gravity.
+It's the end of 2022, and I usually enjoy recounting my past year by conducting a quick review of my annual reading. There's something about the experience of reading a _book_ that imprints itself on the mind, serving as a waymarker for personal history. Indeed, I often find it easier to remember years by recounting what books I was reading at the time. Books are like thematic anchors in a sea of thoughts and memories; their length and physicality (I like paper books) have a kind of mnemonic gravity.
 
 I failed to account for my reading history in 2021, so this post is going to highlight a few favorite books from both 2022 _and_ 2021. I've tacked the full list of everything I read at the bottom. (I also maintain a growing list of my lifetime favorites or most-influential books on my [reading page]({{ site.url }}/reading).)
 
