@@ -1,11 +1,11 @@
 ---
-title: Favorite books of 2022 (and 2021 too)
-description: Favorite books from my reading over the past two years.
+title: Favorite books of 2022 (and 2021)
+description: A few favorite books from my reading over the past two years.
 image:
     path: /assets/images/favorite_books_2022.jpg
     height: 1280
     width: 482
-    alt: "Covers of my favorite books from 2022 and 2021."
+    alt: "Covers of a few favorite books from 2022 and 2021."
 ---
 
 <div style="display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 0.5rem;">
@@ -15,15 +15,15 @@ image:
 <img src="{{site.url}}/assets/covers/reflective_practitioner@320.png" srcset="{{site.url}}/assets/covers/reflective_practitioner@640.png 640w" alt="Cover for The Reflective Practitioner by Donald Schon">
 </div>
 
-Like many avid readers approaching the beginning of a new year, I enjoy recounting the past year by partaking in a quick review of my annual reading history—particularly my _book_ reading history. Like ... well ... pretty much everyone, I do consume words in a multiply of forms: online articles and blog posts, academic papers, sometimes magazines. But books serve as thematic anchors in the sea of ideas in which I often find myself adrift. Their length and physicality (I like paper books) have a kind of mnemonic gravity.
+I enjoy recounting my past year by conducting a quick review of my annual reading. There's something about the experience of reading _books_ that helps them serve as waypoints for personal history. Indeed, I often find it easier to remember years by recounting what books I was reading at the time. Books are like thematic anchors in a sea of thoughts and memories; their length and physicality (I like paper books) have a kind of mnemonic gravity.
 
-I failed to account for my reading history in 2021, so this post is going to highlight my favorite books of both 2022 _and_ 2021. I've tacked the full list of everything I read at the bottom. (I also maintain a growing list of my lifetime favorites or most-influential books on my [reading page]({{ site.url }}/reading).)
+I failed to account for my reading history in 2021, so this post is going to highlight a few favorite books from both 2022 _and_ 2021. I've tacked the full list of everything I read at the bottom. (I also maintain a growing list of my lifetime favorites or most-influential books on my [reading page]({{ site.url }}/reading).)
 
 ---
 
 ## 2022 favorites
 
-I have a lot of favorites from the past year—I think I made some good choices—but I'm only highlighting two books here. Other favorites in non-fiction include [Patterns of Software](https://openlibrary.org/works/OL2966531W), [Einstein's Dreams](https://openlibrary.org/works/OL2937539W), and [Finite and Infinite Games](https://openlibrary.org/works/OL2669550W). In fiction, I enjoyed Vernor Vinge's [True Names](), one of the first books to give a fully fleshed-out vision of cyberspace.
+I have several favorites from the past year, but I'm only highlighting two books here. Other notable mentions in non-fiction include [Patterns of Software](https://openlibrary.org/works/OL2966531W) and [Finite and Infinite Games](https://openlibrary.org/works/OL2669550W). In fiction, I really enjoyed [Einstein's Dreams](https://openlibrary.org/works/OL2937539W), as well as Vernor Vinge's [True Names](https://openlibrary.org/works/OL1975716W), one of the founding stories of the "cyberpunk" genre.
 
 ### Ways of Being by James Bridle
 
@@ -95,15 +95,15 @@ I found myself thinking often of George Leonard's book [Mastery](https://openlib
 * [Computer Power and Human Reason](https://openlibrary.org/works/OL5069879W) by Joseph Weizenbaum
 
 ### 2021
-* The Loneliest Americans by Jay Caspian Kang
-* Tools for Conviviality by Ivan Illich
-* Working in Public by Nadia Eghbal
-* Platform Ecosystems by Amrit Tiwana
-* The Nature of Technology by Brian Arthur
-* The Reflective Practitioner by Donald Schön
-* Evocative Objects by Sherry Turkle
-* What Technology Wants by Kevin Kelly
-* Weaving the Web by Sir Tim Berners-Lee
-* How to Take Smart Notes by Sönke Ahrens
-* Permutation City by Greg Egan
-* Red Mars by Kim Stanley Robinson
+* [The Loneliest Americans](https://openlibrary.org/works/OL25454410W) by Jay Caspian Kang
+* [Tools for Conviviality](https://openlibrary.org/works/OL19662815W) by Ivan Illich
+* [Working in Public](https://openlibrary.org/works/OL20919943W) by Nadia Eghbal
+* [Platform Ecosystems](https://openlibrary.org/works/OL20028898W) by Amrit Tiwana
+* [The Nature of Technology](https://openlibrary.org/works/OL3466926W) by Brian Arthur
+* [The Reflective Practitioner](https://openlibrary.org/works/OL7140277W) by Donald Schön
+* [Evocative Objects](https://openlibrary.org/works/OL18207209W) by Sherry Turkle
+* [What Technology Wants](https://openlibrary.org/works/OL16327712W) by Kevin Kelly
+* [Weaving the Web](https://openlibrary.org/works/OL158398W) by Tim Berners-Lee
+* [How to Take Smart Notes](https://openlibrary.org/works/OL18635700W) by Sönke Ahrens
+* [Permutation City](https://openlibrary.org/works/OL115336W) by Greg Egan
+* [Red Mars](https://openlibrary.org/works/OL81665W) by Kim Stanley Robinson

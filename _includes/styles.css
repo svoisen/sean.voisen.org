@@ -88,8 +88,19 @@ strong {
 
 h2 {
     margin-top: 3rem;
+    font-size: var(--large-text);
+    font-weight: 700;
+}
+
+h3 {
+    margin-top: 2rem;
+    margin-bottom: 0;
     font-size: var(--medium-text);
     font-weight: 700;
+}
+
+h3 + p {
+    margin-top: 0.25rem;
 }
 
 em {
