@@ -1,5 +1,4 @@
 ---
-layout: post
 title: On pocket knives and adaptive design
 description: Thoughts on adaptive design as a means for encouraging confidence in tinkering and hacking.
 ---
