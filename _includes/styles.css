@@ -14,7 +14,7 @@
     --gray11: hsl(var(--base-white), 44%);
     --gray12: hsl(var(--base-white), 9%);
     --hot-orange: hsl(var(--base-orange), 41%);
-    --light-orange: hsl(var(--base-orange), 70%);
+    --light-orange: hsl(var(--base-orange), 76%);
 
     --background-color: var(--gray1);
     --foreground-color: var(--gray12);
