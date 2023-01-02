@@ -1,6 +1,6 @@
 :root {
     --base-white: 0deg, 0%;
-    --base-orange: 22deg, 100%;
+    --base-orange: 18deg, 100%;
     --gray1: hsl(var(--base-white), 99%);
     --gray2: hsl(var(--base-white), 97%);
     --gray3: hsl(var(--base-white), 95%);
@@ -13,8 +13,8 @@
     --gray10: hsl(var(--base-white), 52%);
     --gray11: hsl(var(--base-white), 44%);
     --gray12: hsl(var(--base-white), 9%);
-    --hot-orange: hsl(var(--base-orange), 50%);
-    --light-orange: hsl(var(--base-orange), 75%);
+    --hot-orange: hsl(var(--base-orange), 41%);
+    --light-orange: hsl(var(--base-orange), 70%);
 
     --background-color: var(--gray1);
     --foreground-color: var(--gray12);
