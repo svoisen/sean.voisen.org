@@ -3,7 +3,10 @@ title: About
 description: A little about Sean Voisen.
 ---
 
-<img src="/assets/images/svoisen@128.png" srcset="/assets/images/svoisen@256.png 256w, /assets/images/svoisen@512.png 512w" alt="A photo of the author." class="profile-image">
+<picture>
+<source type="image/webp" srcset="{{ site.url }}/assets/images/sean_voisen@64.webp 64w, {{ site.url }}/assets/images/sean_voisen@128.webp 128w, {{ site.url }}/assets/images/sean_voisen@256.webp 256w">
+<img src="/assets/images/svoisen@128.jpg" alt="A photo of the author." class="profile-image">
+</picture>
 
 **Hello!** I’m Sean. I’m a software engineering leader with an interest in _making computing better for creative thinking and expression._
 

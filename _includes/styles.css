@@ -20,7 +20,7 @@
     --foreground-color: var(--gray12);
     --link-color: var(--hot-orange);
     --link-underline-color: var(--gray8);
-    --link-hover-underline-color: var(--foreground-color);
+    --link-hover-underline-color: var(--gray11);
     --blockquote-color: var(--gray11);
     --blockquote-border-color: var(--gray6);
     --border-color: var(--gray5);
@@ -63,6 +63,7 @@ a {
     color: var(--link-color);
     text-decoration-color: var(--link-underline-color);
     text-decoration-style: solid;
+    text-decoration-thickness: 1.5px;
 }
 
 a:hover {
@@ -438,10 +439,6 @@ img.profile-image {
 
     .banner {
         background-color: hsla(0deg, 0%, 10%, 0.9);
-    }
-
-    img.profile-image, img.post-splash {
-        filter: brightness(0.8);
     }
 
     .book-rating .star {
