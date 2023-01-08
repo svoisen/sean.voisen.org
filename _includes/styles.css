@@ -38,7 +38,7 @@
 
 body {
     line-height: 1.75;
-    font-family: "Inter", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
     margin: 0;
     padding: 0;
     -webkit-font-smoothing: antialiased;
@@ -105,13 +105,13 @@ h3 + p {
 }
 
 em {
-    font-family: "Newsreader", serif;
+    font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
     font-size: var(--large-text);
     line-height: 1;
 }
 
 pre, code, kbd, samp {
-    font-family: "Source Code Pro", monospace, courier;
+    font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
     font-size: var(--medium-text);
 }
 

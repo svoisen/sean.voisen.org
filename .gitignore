@@ -11,3 +11,5 @@ _site
 .git
 vendor/
 .bundle/
+# Local Netlify folder
+.netlify
