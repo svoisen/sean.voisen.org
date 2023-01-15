@@ -1,70 +1,62 @@
-- title: Where the Action Is
-  author: Paul Dourish
-  isbn_10: 0262541785
-  year_published: 2019
+- title: The Ministry of the Future
+  author: Kim Stanley Robinson
+  isbn_13: 9780356508849
+  year_published: 2020
+  year_read: 2022
   rating: 4
   type: book
-  link: https://mitpress.mit.edu/books/where-action
-
-- title: Tools for Conviviality
-  author: Ivan Illich
-  year: 2020
-  type: book
-  link: https://www.indiebound.org/book/9781842300114
-
-- title: The Embodied Mind
-  author: Francisco Varela, Eleanor Rosch & Evan Thompson
-  year: 2010
-  type: book
-  link: https://www.indiebound.org/book/9780262529365
-
-- title: "Toolforthoughts: Reexamining Thinking in the Digital Age"
-  author: David Williamson Shaffer & Katherine A. Clinton
-  year: 2020
-  type: paper
-  link: https://lchc.ucsd.edu/MCA/Journal/pdfs/13-4-williamson.pdf
-
-- title: Finite and Infinite Games
-  author: James Carse
-  type: book
-  link: https://www.indiebound.org/book/9781476731711
-
-- title: The Real World of Technology
-  author: Ursula Franklin
-  type: book
-  link: https://www.indiebound.org/book/9780887846366
-
-- title: A Foray into the Worlds of Animals and Humans
-  author: Jakob von Uexküll
-  type: book
-  link: https://xenopraxis.net/readings/uexkull_foray.pdf
-
-- title: On the Shortness of Life
-  author: Seneca
-  type: book
-  link: https://www.indiebound.org/book/9780143036326
-
-- title: Zen Mind, Beginner’s Mind
-  author: Shunryu Suzuki Roshi
-  type: book
-  link: https://www.indiebound.org/book/9781611808414
-
-- title: Sky Above, Great Wind
-  author: Ryōkan
-  type: book
-  link: https://www.indiebound.org/book/9781590309827
-
-- title: Annals of the Former World
-  author: John McPhee
-  type: book
-  link: https://www.indiebound.org/book/9780374518738
-
-- title: Shop Class as Soulcraft
-  author: Matthew B. Crawford
-  type: book
-  link: https://www.indiebound.org/book/9780143117469
+  open_library: OL21680947W
+  cover_image_slug: ministry_for_the_future
 
 - title: Thinking in Systems
   author: Donella Meadows
+  isbn_13: 9781603580557 
+  year_published: 2008
+  year_read: 2022
+  rating: 5
   type: book
-  link: https://www.indiebound.org/book/9781603580557
+  open_library: OL17052666M 
+  cover_image_slug: thinking_in_systems
+
+- title: Patterns of Software
+  author: Richard Gabriel
+  isbn_10: 019510269X
+  isbn_13:
+  year_published: 1996
+  year_read: 2022
+  rating: 4
+  open_library: OL805330M
+  cover_image_slug: patterns_of_software
+
+- title: Ways of Being
+  author: James Bridle
+  isbn_10:
+  isbn_13: 9780141994277
+  year_published: 2022
+  year_read: 2022
+  rating: 5
+  type: book
+  open_library: OL38803755M
+  cover_image_slug: ways_of_being_james_bridle
+
+- title: The Dream Machine
+  author: M. Mitchell Waldrop
+  isbn_10: 1732265119
+  isbn_13: 9781732265110
+  year_published: 2018
+  year_read: 2022
+  rating: 3
+  type: book
+  open_library:
+  cover_image_slug: the_dream_machine
+
+# - title:
+#   author:
+#   isbn_10:
+#   isbn_13:
+#   year_published:
+#   year_read:
+#   rating:
+#   type: book
+#   open_library:
+#   cover_image_slug:
