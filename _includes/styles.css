@@ -145,7 +145,7 @@ figure {
 
 figcaption {
     font-size: var(--small-text);
-    text-align: right;
+    text-align: center;
     color: var(--metadata-color)
 }
 
@@ -320,6 +320,10 @@ img {
 img.post-splash {
     width: 100%;
     aspect-ratio: 2 / 1;
+}
+
+img.bordered {
+    border: 1px solid var(--border-color);
 }
 
 img.profile-image {
