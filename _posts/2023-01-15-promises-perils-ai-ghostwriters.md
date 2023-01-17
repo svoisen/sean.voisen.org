@@ -50,7 +50,7 @@ Here, I’m interested in what this all means for creative tools, specifically _
 ---
 
 ## The value of human-produced writing in the age of the “content singularity”
-The opening of the Pandora’s box that is generative technology means we will soon be inundated with a hyper-abundance of bot-generated content.  As [Gordon Brander writes]([https://subconscious.substack.com/p/llms-and-information-post-scarcity):
+The opening of the Pandora’s box that is generative technology means we will soon be inundated with a hyper-abundance of bot-generated content.  As [Gordon Brander writes](https://subconscious.substack.com/p/llms-and-information-post-scarcity):
 
 > … AI is reducing the marginal cost of producing content to zero. Content has become like clay. LLMs can remix it, summarize it, elaborate on it, hallucinate it, combine it with other content, freely transform it between text, audio, image, and back again. It seems we have achieved a kind of information post-scarcity. A regime of radical overproduction. A content singularity.
 
