@@ -1,6 +1,6 @@
 ---
 title: The promises and perils of AI ghostwriters
-description: An exploration of the current and future challenges with AI-assisted writing tools. 
+description: AI-assisted writing tools promise to make us all better writers, but they will have to temper how they use AI to be successful.
 image:
     path: /assets/images/policemans_beard_half_constructed@640.jpg
     height: 640
