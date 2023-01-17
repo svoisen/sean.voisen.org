@@ -16,14 +16,16 @@ I’m originally from California, and live with my wife and kids in the San Fran
 
 <hr>
 
-On this site I share insights from my research and reading related to software design and development. You'll find a variety of writing on topics <em>mostly</em> related to human-computer interaction, UX, philosophy of technology, ethics and software engineering leadership. These questions help guide my explorations:
+On this site I <em>mostly</em> share insights from my research and reading related to software design and development. You'll find a variety of writing on topics related to human-computer interaction, UX, philosophy of technology, ethics and software engineering leadership. These questions help guide my writing:
 
 * <em>How do we build better tools for augmenting human creativity</em>? What are the design principles for these tools?
 * How might we <em>build open-ended, convivial platforms</em> for end-users to build their own creative tools?
 * How can we use software to better understand, reason about, and design solutions for <em>complex problems?</em>
 * How do we make <em>better decisions about what technology we allow into our lives?</em> How do we make better decisions about what computing tools we should build? What values should these tools promote? To what types of problems should software be applied? To what types of problems should software <em>not</em> be applied?
 
-If anything I write resonates with you, please feel free to <a href="#" class="eml-protected">send me a note</a> or <a href="https://front-end.social/@svoisen" title="My Mastodon profile.">find me on Mastodon</a>.
+Of course, I reserve the right to write about other things too.
+
+If anything I write resonates with you, please feel free to <a href="#" class="eml-protected">send me a note</a> or <a href="https://front-end.social/@svoisen" title="My Mastodon profile.">find me on Mastodon</a>. You can also <strong>subscribe to updates on this blog</strong> via <a href="https://buttondown.email/seanvoisen" title="Subscribe to my newsletter.">email</a> or <a href="{{ site.url }}/atom.xml" title="Link to the RSS feed.">RSS</a>.
 
 Needless to say, views and opinions expressed on this site are purely my own and not representative of my employer.
 
