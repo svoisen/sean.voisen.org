@@ -79,13 +79,13 @@ The systems that now flood the Internet with a glut of mediocre content are iron
 
 In a world where human authors are competing with machines for the attention of readers, can we leverage the powers of those machines to improve our own output and win that competition? In places where quality and authenticity matter, I believe the answer to this is yes. And I believe that authors who employ LLMs and other future AI technologies as part of their writing process will inevitably have an edge over those who don’t.
 
-But we’re not there yet. 
+But we’re not there yet. Not even close.
 
 In a rather provocative tweet, [Stephan Ango](https://twitter.com/kepano/status/1593002967577546754?s=20&t=7UhygkFHEFePVl_yQ6kGiw) says:
 
 > The test for a good AI-assisted writing tool is simple: Would this tool help the world's best writers write even better?
 
-By no means do I claim to be one of the world’s best writers, nor even a good one. But, I’ve now spent time with a number of these tools: [Lex](lex.page/), [Copysmith](https://copysmith.ai/), [Jasper](https://www.jasper.ai/), [Sudowrite](https://www.sudowrite.com/), [ParagraphAI](https://paragraphai.com/), to name just a few. Counter to the effusive praise many of these tools receive on social media, I found my experience of all of them to be rather … wanting. I don’t believe _any_ of these tools will help the world’s best writers write better. But that’s not to say they won’t in the future. These are early, heady days—it’s clear that we’re still figuring out just how to integrate this technology into tooling to make it genuinely useful and less of a gimmick. The seed of a promise is there, and we just need to help it grow.
+By no means do I claim to be one of the world’s best writers, nor even a good one. But, I’ve now spent time with a number of these tools: [Lex](lex.page/), [Copysmith](https://copysmith.ai/), [Jasper](https://www.jasper.ai/), [Sudowrite](https://www.sudowrite.com/), [ParagraphAI](https://paragraphai.com/), to name just a few. Counter to the effusive praise many of these tools receive on social media, I found my experience of all of them to be rather … wanting. I don’t believe _any_ of these tools will help the world’s best writers write better. But that’s not to say they won’t in the future. These are early, heady days—it’s clear that we’re still figuring out just how to integrate this technology into tooling to make it genuinely useful and less of a gimmick. Maybe the seed of a promise is there, and we just need to help it grow.
 
 In the meantime, allow me to enumerate a few of the obstacles to germination, as well as some possible paths forward.
 
@@ -104,7 +104,7 @@ And, perhaps most pertinent, a few pithy words from [Paul Graham](https://twitte
 
 The more we outsource writing to machines, the less likely we are to think thoroughly about what we are trying to say.
 
-The current generation of AI-assisted writing tools tend to place too much emphasis on allowing the machine to write _for_ the user (the rare exception here from my limited experimentation might be Sudowrite). Prompt the system for the text, hit the generate button, and marvel as the machine magically fills the page with words. These tools have over-automated the writing process, and not for the better. While many of these writing tools claim to be _assisting_ us in the writing process, what they actually do by virtue of their design and how they expose the abilities of the LLM is _automate_ the writing process instead.
+The current generation of AI-assisted writing tools tend to place too much emphasis on allowing the machine to write _for_ the user (the rare exception here might be Sudowrite, which takes a more measured approach). Prompt the system for the text, hit the generate button, and marvel as the machine magically fills the page with words. These tools have over-automated the writing process, and not for the better. While many of these writing tools claim to be _assisting_ us in the writing process, what they actually do by virtue of their design and how they expose the abilities of the LLM is _automate_ the writing process instead.
 
 In [AI is cognitive automation, not cognitive autonomy](https://fchollet.substack.com/p/ai-is-cognitive-automation-not-cognitive), François Chollet differentiates between what he calls “cognitive automation” and “cognitive assistance.” He describes cognitive automation as “encoding human abstractions in a piece of software, then using that software to automate tasks normally performed by humans.” In contrast, tools of cognitive assistance use “AI to help us make sense of the world and make better decisions.” Much of the way generative technologies such as GPT-3 or DALL-E or Stable Diffusion are embedded in tools today has pushed those tools too far in the direction of cognitive automation. They wrest creative control away from users and put it back in the “hands” of the AI.
 
