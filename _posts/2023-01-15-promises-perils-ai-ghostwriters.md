@@ -1,6 +1,6 @@
 ---
 title: The promises and perils of AI ghostwriters
-description: An exploration of the current and future challenges with AI-assisted writing tools. 
+description: AI-assisted writing tools promise to make us all better writers, but they will have to temper how they use AI to be successful.
 image:
     path: /assets/images/policemans_beard_half_constructed@640.jpg
     height: 640
@@ -31,7 +31,7 @@ The above is a poem by [Racter](https://en.wikipedia.org/wiki/Racter), an artifi
 > She reflects an image in a glass<br> 
 > She does not see, she does not watch.
 
-Sure, it’s not Frost or Dickinson or Wordsworth, but it’s not bad for a 30-year-old bit of code.
+Sure, it’s not Frost or Dickinson or Wordsworth, but it’s not bad for a nearly 40-year-old bit of code.
 
 In 1985, the software company Mindscape released a commercial edition of Racter for IBM PC, Amiga and Apple II computers. This commercial version failed to retain some of the full character of the original poetry generator. Instead, Mindscape converted it into a kind of interactive game where users could interact with the AI and “prompt” it to generate new text through an ongoing conversation.
 
@@ -50,7 +50,7 @@ Here, I’m interested in what this all means for creative tools, specifically _
 ---
 
 ## The value of human-produced writing in the age of the “content singularity”
-The opening of the Pandora’s box that is generative technology means we will soon be inundated with a hyper-abundance of bot-generated content.  As [Gordon Brander writes]([https://subconscious.substack.com/p/llms-and-information-post-scarcity):
+The opening of the Pandora’s box that is generative technology means we will soon be inundated with a hyper-abundance of bot-generated content.  As [Gordon Brander writes](https://subconscious.substack.com/p/llms-and-information-post-scarcity):
 
 > … AI is reducing the marginal cost of producing content to zero. Content has become like clay. LLMs can remix it, summarize it, elaborate on it, hallucinate it, combine it with other content, freely transform it between text, audio, image, and back again. It seems we have achieved a kind of information post-scarcity. A regime of radical overproduction. A content singularity.
 
@@ -64,7 +64,7 @@ Similarly, we do not write for the joy of banging our fingers on a keyboard or f
 
 Those of us who read the words written by other humans read them in order to try and gain a glimpse into the minds and thoughts of others. We do it to see a small sliver of the world through another’s eyes. We want to know what other people have to say about the shared human experience.
 
-Just like Racter’s poetry, texts composed purely by machine are sometimes amusing, but also fundamentally uninteresting for this very reason: LLMs have no communicative intent. They have nothing to say. Machines (today) cannot have communicative intent because they don’t have any sort of lived experience from which to draw from nor from which to ground the meaning of their words. The meaning behind the words we utter instead finds grounding in our shared, human lived experience. As Murray Shanahan writes in [Talking About Large Language Models](https://arxiv.org/abs/2212.03551):
+Just like Racter’s poetry, texts composed purely by machine are sometimes amusing, but also fundamentally uninteresting for this very reason: LLMs have no communicative intent. They have nothing to say. Machines (today) cannot have communicative intent because they don’t have any sort of lived experience from which to draw from nor from which to ground the meaning of their words. To have something to say means to have lived, to have struggled, to have experienced joy and pain and anguish and awe and all those other things that come from being an embodied being. The meaning behind the words we utter finds grounding in our shared, human lived experience. As Murray Shanahan writes in [Talking About Large Language Models](https://arxiv.org/abs/2212.03551):
 
 > Humans are the natural home of talk of beliefs and the like, and the behavioural expectations that go hand-in-hand with such talk are grounded in our mutual understanding, which is itself the product of a common evolutionary heritage.
 
@@ -79,13 +79,13 @@ The systems that now flood the Internet with a glut of mediocre content are iron
 
 In a world where human authors are competing with machines for the attention of readers, can we leverage the powers of those machines to improve our own output and win that competition? In places where quality and authenticity matter, I believe the answer to this is yes. And I believe that authors who employ LLMs and other future AI technologies as part of their writing process will inevitably have an edge over those who don’t.
 
-But we’re not there yet. 
+But we’re not there yet. Not even close.
 
 In a rather provocative tweet, [Stephan Ango](https://twitter.com/kepano/status/1593002967577546754?s=20&t=7UhygkFHEFePVl_yQ6kGiw) says:
 
 > The test for a good AI-assisted writing tool is simple: Would this tool help the world's best writers write even better?
 
-By no means do I claim to be one of the world’s best writers, nor even a good one. But, I’ve now spent time with a number of these tools: [Lex](lex.page/), [Copysmith](https://copysmith.ai/), [Jasper](https://www.jasper.ai/), [Sudowrite](https://www.sudowrite.com/), [ParagraphAI](https://paragraphai.com/), to name just a few. Counter to the effusive praise many of these tools receive on social media, I found my experience of all of them to be rather … wanting. I don’t believe _any_ of these tools will help the world’s best writers write better. But that’s not to say they won’t in the future. These are early, heady days—it’s clear that we’re still figuring out just how to integrate this technology into tooling to make it genuinely useful and less of a gimmick. The seed of a promise is there, and we just need to help it grow.
+By no means do I claim to be one of the world’s best writers, nor even a good one. But, I’ve now spent time with a number of these tools: [Lex](lex.page/), [Copysmith](https://copysmith.ai/), [Jasper](https://www.jasper.ai/), [Sudowrite](https://www.sudowrite.com/), [ParagraphAI](https://paragraphai.com/), to name just a few. Counter to the effusive praise many of these tools receive on social media, I found my experience of all of them to be rather … wanting. I don’t believe _any_ of these tools will help the world’s best writers write better. But that’s not to say they won’t in the future. These are early, heady days—it’s clear that we’re still figuring out just how to integrate this technology into tooling to make it genuinely useful and less of a gimmick. Maybe the seed of a promise is there, and we just need to help it grow.
 
 In the meantime, allow me to enumerate a few of the obstacles to germination, as well as some possible paths forward.
 
@@ -104,7 +104,7 @@ And, perhaps most pertinent, a few pithy words from [Paul Graham](https://twitte
 
 The more we outsource writing to machines, the less likely we are to think thoroughly about what we are trying to say.
 
-The current generation of AI-assisted writing tools tend to place too much emphasis on allowing the machine to write _for_ the user (the rare exception here from my limited experimentation might be Sudowrite). Prompt the system for the text, hit the generate button, and marvel as the machine magically fills the page with words. These tools have over-automated the writing process, and not for the better. While many of these writing tools claim to be _assisting_ us in the writing process, what they actually do by virtue of their design and how they expose the abilities of the LLM is _automate_ the writing process instead.
+The current generation of AI-assisted writing tools tend to place too much emphasis on allowing the machine to write _for_ the user (the rare exception here might be Sudowrite, which takes a more measured approach). Prompt the system for the text, hit the generate button, and marvel as the machine magically fills the page with words. These tools have over-automated the writing process, and not for the better. While many of these writing tools claim to be _assisting_ us in the writing process, what they actually do by virtue of their design and how they expose the abilities of the LLM is _automate_ the writing process instead.
 
 In [AI is cognitive automation, not cognitive autonomy](https://fchollet.substack.com/p/ai-is-cognitive-automation-not-cognitive), François Chollet differentiates between what he calls “cognitive automation” and “cognitive assistance.” He describes cognitive automation as “encoding human abstractions in a piece of software, then using that software to automate tasks normally performed by humans.” In contrast, tools of cognitive assistance use “AI to help us make sense of the world and make better decisions.” Much of the way generative technologies such as GPT-3 or DALL-E or Stable Diffusion are embedded in tools today has pushed those tools too far in the direction of cognitive automation. They wrest creative control away from users and put it back in the “hands” of the AI.
 
@@ -156,4 +156,4 @@ I suspect new approaches to prompt engineering and UIs that allow finer-tuned co
 
 Creatives in audio and visual fields—animators, graphic artists, photographers, video editors, musicians—have relied on sophisticated computing tools to aid them in their crafts for years. Computers have long been able to work adeptly with pixels, vectors, and sound waves, information easily represented mathematically. And while they have long been able to manipulate text as well, they have historically not been so adept at working with human _language_. Prior to the release of LLMs, the most advanced technology we’ve had for writing amounts to not much more than real-time collaborative word processors. When it comes to assisting in creative expression, the difference between Google Docs and a typewriter is minuscule compared to the difference between Photoshop and analog photo retouching.
 
-Fortunately, this gap is narrowing. But these improvements come hand in hand with the advent of generative technologies—technologies that, if deployed poorly, threaten to surreptitiously wrest more creative control away from writers than maybe we'd like to give. It's going to be interesting. Plenty of mistakes will be made. Nevertheless, I suspect that, if toolmakers err on the side of assistance over automation, then we might see a new generation of AI-assisted writing tools that truly do help the world's best writers write even better.
+Fortunately, this gap is narrowing. But these improvements come hand in hand with the advent of generative technologies which, if deployed poorly, threaten to surreptitiously wrest more creative control away from writers than maybe we'd like to give. It's going to be interesting. Plenty of mistakes will be made. Nevertheless, the optimistic side of me wants to believe that if toolmakers err on the side of assistance over automation, then we might actually see a new generation of AI-assisted writing tools that truly will help the world's best writers write even better.
