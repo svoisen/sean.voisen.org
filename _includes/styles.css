@@ -357,7 +357,7 @@ img.profile-image {
     margin: 2rem 0 0 0;
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     gap: 2rem;
     row-gap: 2rem;
