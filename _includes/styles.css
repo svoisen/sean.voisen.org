@@ -350,51 +350,39 @@ img.profile-image {
 }
 
 .books-grid {
-    margin: 0;
+    margin: 2rem 0 0 0;
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
-    gap: 0.5rem;
-    row-gap: 0.5rem;
+    gap: 2rem;
+    row-gap: 2rem;
+    align-items: end;
 }
 
 .books-grid-item {
+    display: grid;
     list-style: none;
+    grid-template-rows: auto 4rem;
 }
 
 .books-grid-cover {
-    border-radius: 0;
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
-}
-
-.books-grid-item > details > summary {
-    list-style: none;
+    border-radius: 0.25rem;
 }
 
 .books-grid-metadata {
     text-align: center;
-    padding: 1rem;
+    padding: 0.5rem 0 0 0;
     line-height: 1.25;
     font-size: var(--small-text);
-    background-color: var(--gray11);
-    color: var(--background-color);
-    border-bottom-left-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
 }
 
-.books-grid-metadata > .books-grid-title {
-    font-weight: bold;
-}
-
-.books-grid-rating .star {
-    width: 0.8125rem; 
-    height: 0.75rem;
-    margin-left: 0.125rem;
-    display: inline-block;
-    background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTMiIGhlaWdodD0iMTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTYuMzA5IDkuMjJMMi40MDkgMTJsMS40NC00LjU2N0wwIDQuNTgzbDQuNzg4LS4wNDJMNi4zMDggMCA3LjgzIDQuNTRsNC43ODkuMDQ0LTMuODUgMi44NDlMMTAuMjA5IDEyeiIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+);
-    background-repeat: no-repeat;
+.books-grid-metadata > .books-grid-author {
+    font-size: var(--extra-small-text);
 }
 
 .books-list {
@@ -451,6 +439,10 @@ img.profile-image {
     .banner {
         background-color: hsla(0deg, 0%, 99%, 0.9);
         flex-direction: row;
+    }
+
+    .books-grid {
+        grid-template-columns: repeat(4, 1fr);
     }
 
     img.profile-image {

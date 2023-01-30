@@ -1,4 +1,4 @@
-- title: The Ministry of the Future
+- title: The Ministry for the Future
   author: Kim Stanley Robinson
   isbn_13: 9780356508849
   year_published: 2020
@@ -6,27 +6,31 @@
   rating: 4
   type: book
   open_library: OL21680947W
-  cover_image_slug: ministry_for_the_future
+  slug: ministry_for_the_future
+  canon: false
 
 - title: Thinking in Systems
   author: Donella Meadows
-  isbn_13: 9781603580557 
+  isbn_10: 1603580557
+  isbn_13: 9781603580557
   year_published: 2008
   year_read: 2022
   rating: 5
   type: book
   open_library: OL17052666M 
-  cover_image_slug: thinking_in_systems
+  slug: thinking_in_systems
+  canon: true
 
 - title: Patterns of Software
   author: Richard Gabriel
-  isbn_10: 019510269X
-  isbn_13:
+  isbn_10: 0195121236
+  isbn_13: 9780195121230
   year_published: 1996
   year_read: 2022
   rating: 4
   open_library: OL805330M
-  cover_image_slug: patterns_of_software
+  slug: patterns_of_software_gabriel
+  canon: false
 
 - title: Ways of Being
   author: James Bridle
@@ -37,18 +41,236 @@
   rating: 5
   type: book
   open_library: OL38803755M
-  cover_image_slug: ways_of_being_james_bridle
+  slug: ways_of_being_james_bridle
+  canon: true
 
 - title: The Dream Machine
   author: M. Mitchell Waldrop
-  isbn_10: 1732265119
-  isbn_13: 9781732265110
+  isbn_10: "1732265119"
+  isbn_13: "9781732265110"
   year_published: 2018
   year_read: 2022
   rating: 3
   type: book
+  open_library: OL28302661M
+  slug: the_dream_machine_waldrop
+  canon: false
+
+- title: Thoughts on Design
+  author: Paul Rand
+  isbn_10: "1014558395"
+  isbn_13: "9781014558398"
+  year_published: 2021
+  year_read: 2022
+  rating: 3
+  type: book
+  open_library: OL10531504W
+  slug: thoughts_on_design_rand
+  canon: false
+
+- title: How Buildings Learn
+  author: Stewart Brand
+  isbn_10: "0670835153"
+  isbn_13: "9780670835157"
+  year_published: 1994
+  year_read: 2022
+  rating: 4
+  type: book
+  open_library: OL823146W
+  slug: how_buildings_learn_brand
+  canon: true
+
+- title: The More Beautiful World our Hearts Know is Possible
+  author: Charles Eisenstein
+  isbn_10: "1583947248"
+  isbn_13: "9781583947241"
+  year_published: 2013
+  year_read: 2022
+  rating: 3
+  type: book
+  open_library: OL19704516W
+  slug: more_beautiful_world_our_hearts
+  canon: false
+
+- title: The Clock of the Long Now
+  author: Stewart Brand
+  isbn_10: "0465007805"
+  isbn_13: "9780465007806"
+  year_published: 2000
+  year_read: 2022
+  rating: 4
+  type: book
+  open_library: OL823145W
+  slug: clock_of_the_long_now_brand
+  canon: false
+
+- title: Reading Writing Interfaces
+  author: Lori Emerson
+  isbn_10: "0816691266"
+  isbn_13: "9780816691265"
+  year_published: 2014
+  year_read: 2022
+  rating: 3
+  type: book
+  open_library: OL26181134M
+  slug: reading_writing_interfaces
+  canon: false
+
+- title: Four Thousand Weeks
+  author: Oliver Burkeman
+  isbn_10: "0374159122"
+  isbn_13: "9780374159122"
+  year_published: 2021
+  year_read: 2022
+  rating: 5
+  type: book
+  open_library: OL30438395M
+  slug: four_thousand_weeks
+  canon: true
+
+- title: Understanding Computers and Cognition
+  author: Terry Winograd and Fernando Flores
+  isbn_10: 0201112973 
+  isbn_13: 9780201112979
+  year_published: 1987
+  year_read: 2022
+  rating: 3
+  type: book
   open_library:
-  cover_image_slug: the_dream_machine
+  slug: understanding_computers_cognition
+  canon: false
+
+- title: Einstein's Dreams
+  author: Alan Lightman
+  isbn_10: 9781400077809
+  isbn_13: 9781400077809
+  year_published: 2004
+  year_read: 2022
+  rating: 4
+  type: book
+  open_library:
+  slug: einsteins_dreams
+  canon: false
+
+- title: Staff Engineer
+  author: Will Larson
+  isbn_10: 1736417916 
+  isbn_13: 9781736417911
+  year_published: 2021
+  year_read: 2022
+  rating: 3
+  type: book
+  open_library:
+  slug: staff_engineer
+  canon: false
+
+- title: A Foray Into the Worlds of Animals and Humans
+  author: Jakob von Uexküll 
+  isbn_10: "0816659001"
+  isbn_13: "9780816659005"
+  year_published: 2010
+  year_read: 2009
+  rating: 5
+  type: book
+  open_library: OL17442744W
+  slug: foray_worlds_animals_humans
+  canon: true
+
+- title: Annals of the Former World
+  author: John McPhee
+  isbn_10: "0374518734"
+  isbn_13: "9780374518738"
+  year_published: 2000 
+  year_read: 
+  rating: 5
+  type: book
+  open_library: OL11293225W
+  slug: annals_former_world
+  canon: true
+
+- title: Finite and Infinite Games
+  author: James Carse
+  isbn_10: "1476731713"
+  isbn_13: "9781476731711"
+  year_published: 2013 
+  year_read: 2022
+  rating: 5
+  type: book
+  open_library: OL2669550W
+  slug: finite_infinite_games
+  canon: true
+
+- title: Sky Above, Great Wind
+  author: Ryōkan
+  isbn_10: "1590309820"
+  isbn_13: "9781590309827"
+  year_published: 2012 
+  year_read: 
+  rating: 5
+  type: book
+  open_library: OL25237811M
+  slug: sky_above_great_wind
+  canon: true
+
+- title: Tools for Conviviality
+  author: Ivan Illich
+  isbn_10: "1842300113"
+  isbn_13: "9781842300114"
+  year_published: 2021 
+  year_read: 2021
+  rating: 5
+  type: book
+  open_library: OL26882248M
+  slug: tools_for_conviviality
+  canon: true
+
+- title: Shop Class as Soulcraft
+  author: Matthew Crawford
+  isbn_10: "0143117467"
+  isbn_13: "9780143117469"
+  year_published: 2010
+  year_read: 
+  rating: 5
+  type: book
+  open_library: OL13759269W
+  slug: shop_class_as_soulcraft
+  canon: true
+
+- title: The Real World of Technology
+  author: Ursula Franklin
+  isbn_10: "088784636X"
+  isbn_13: "978-0887846366"
+  year_published: 1999
+  year_read: 2019
+  rating: 5
+  type: book
+  open_library: OL669220W
+  slug: real_world_technology
+  canon: true
+
+- title: Where the Action Is
+  author: Paul Dourish
+  isbn_10: "0262541785"
+  isbn_13: "9780262541787"
+  year_published: 1999
+  year_read: 2010
+  rating: 4
+  type: book
+  open_library: OL9207460W
+  slug: where_action_is
+  canon: true
+
+- title: An Elegant Puzzle
+  author: Will Larson
+  isbn_10: "1732265186"
+  isbn_13: "978-1732265189"
+  year_published: 2019
+  year_read: 2019
+  rating: 4
+  type: book
+  open_library: OL20641522W
+  slug: an_elegant_puzzle
+  canon: true
 
 # - title:
 #   author:
