@@ -353,6 +353,42 @@ img.profile-image {
     padding-top: 0;
 }
 
+.books-grid {
+    margin: 2rem 0 0 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 2rem;
+    row-gap: 2rem;
+    align-items: end;
+}
+
+.books-grid-item {
+    display: grid;
+    list-style: none;
+    grid-template-rows: auto 4rem;
+}
+
+.books-grid-cover {
+    border-radius: 0.25rem;
+}
+
+.books-grid-metadata {
+    text-align: center;
+    padding: 0.5rem 0 0 0;
+    line-height: 1.25;
+    font-size: var(--small-text);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+}
+
+.books-grid-metadata > .books-grid-author {
+    font-size: var(--extra-small-text);
+}
+
 .books-list {
     padding: 2rem 0 2rem 0;
     margin: 2rem 0 0 0;
@@ -407,6 +443,10 @@ img.profile-image {
     .banner {
         background-color: hsla(0deg, 0%, 99%, 0.9);
         flex-direction: row;
+    }
+
+    .books-grid {
+        grid-template-columns: repeat(4, 1fr);
     }
 
     img.profile-image {
