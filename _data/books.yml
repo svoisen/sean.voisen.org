@@ -272,6 +272,18 @@
   slug: an_elegant_puzzle
   canon: true
 
+- title: The Embodied Mind
+  author: Francisco Varela, Eleanor Rosch and Evan Thompson
+  isbn_10: "9780262529365"
+  isbn_13: "978-0262529365"
+  year_published: 1992
+  year_read: 2009
+  rating: 5
+  type: book
+  open_library: OL29752648M
+  slug: embodied_mind
+  canon: true
+
 # - title:
 #   author:
 #   isbn_10:

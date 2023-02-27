@@ -367,7 +367,7 @@ img.profile-image {
 .books-grid-item {
     display: grid;
     list-style: none;
-    grid-template-rows: auto 4rem;
+    grid-template-rows: auto 3.9rem;
 }
 
 .books-grid-cover {
