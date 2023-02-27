@@ -32,7 +32,7 @@ If anything I write resonates with you, please feel free to <a href="#" class="e
 <aside class="footnote">
 <h2>Colophon</h2>
 
-This site is set in <a href="https://fonts.google.com/specimen/Newsreader">Newsreader</a> and <a href="https://rsms.me/inter/">Inter</a>, built using <a href="https://jekyllrb.com/">Jekyll</a>, and deployed on <a href="https://www.netlify.com">Netlify</a>. Minimalist design inspired by <a href="https://paco.me">Paco Coursey</a>.
+This site is built using <a href="https://jekyllrb.com/">Jekyll</a> and deployed on <a href="https://www.netlify.com">Netlify</a>. Minimalist design inspired by <a href="https://paco.me">Paco Coursey</a>.
 </aside>
 
 <script>
