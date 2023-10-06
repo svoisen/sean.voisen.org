@@ -130,7 +130,7 @@ h3 + p {
 
 em {
     font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-    font-size: calc(var(--medium-text) + 0.125rem);
+    font-size: var(--large-text)
     line-height: 1;
 }
 
