@@ -3,8 +3,18 @@ layout: default
 ---
 
 <article class="home">
-<p class="intro"><strong>Hello!</strong> I’m Sean. I’m a software engineering leader with an interest in <em>making computing better for human creativity.</em> <a href="/about" title="More about the author.">Learn more &rarr;</a></p>
+<h2>Latest</h2>
+{% for post in site.posts limit:1 %}
+<a href="{{post.url}}" class="post-preview">
+    <h3>{{ post.title }}</h3>
+    <div class="post-metadata">{{ post.date | date: "%B %-d, %Y" }} ∙ {{ post.content | reading_time }}</div>
+    <p>{{ post.content | strip_html | truncatewords: 50}} Read more &rarr;</p>
+</a>
+{% endfor %}
 
+<hr>
+
+<h2>Writing</h2>
 <ul class="posts-list">
     {% for post in site.posts limit: 10 %}
     <li>

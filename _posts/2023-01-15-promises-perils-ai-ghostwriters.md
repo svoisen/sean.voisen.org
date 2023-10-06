@@ -8,16 +8,6 @@ image:
     alt: "The front cover of the book The Policeman's Beard is Half-Constructed."
 ---
 
-<figure>
-<picture>
-<source type="image/webp" srcset="{{ site.url }}/assets/images/policemans_beard_half_constructed@640.webp 640w, {{ site.url }}/assets/images/policemans_beard_half_constructed@1280.webp 1280w, {{ site.url }}/assets/images/policemans_beard_half_constructed@1920.webp 1920w">
-<img src="{{ site.url }}/assets/images/policemans_beard_half_constructed@640.jpg" alt="The front cover of the book The Policeman's Beard is Half-Constructed by Racter" class="post-splash">
-</picture>
-<figcaption>
-The front cover of the book "The Policeman's Beard is Half-Constructed" by Racter.
-</figcaption>
-</figure>
-
 > More than iron, more than lead, more than gold I need electricity.<br> 
 > I need it more than I need lamb or pork or lettuce or cucumber.<br> 
 > I need it for my dreams.

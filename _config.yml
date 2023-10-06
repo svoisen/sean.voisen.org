@@ -1,7 +1,7 @@
 site: Sean Voisen
 url: https://sean.voisen.org
 title: Sean Voisen
-description: Thoughts on making computing better for creative thinking and expression.
+description: Thoughts on design, art and computing.
 author:
   name: Sean Voisen
 twitter:
@@ -79,9 +79,6 @@ navigation:
   - text: Writing
     title: "Blog posts, essays and other writings."
     url: /writing
-  - text: Reading
-    title: "Books and papers that I have read."
-    url: /reading
 
 jekyll-minifier:
   uglifier_args:

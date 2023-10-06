@@ -8,31 +8,27 @@ description: A little about Sean Voisen.
 <img src="/assets/images/svoisen@128.jpg" alt="A photo of the author." class="profile-image">
 </picture>
 
-**Hello!** I’m Sean. I’m a software engineering leader with an interest in _making computing better human creativity._
-
-Currently, I'm Director of Design Engineering at <a href="https://adobe.com">Adobe</a>. In the past, I worked as an engineer on <a href="https://express.adobe.com">Adobe Express</a>, managed layout and accessibility engineering teams working on <a href="https://mozilla.org">Firefox</a>, built web-based tools for making animated VR and AR comics at <a href="https://techcrunch.com/2022/04/29/madefire-shuts-down/">Madefire</a>, and led prototype engineering in Adobe’s <a href="https://adobe.design">Design Studio</a>. 
+**Hello!** I’m *Sean*. Currently, I'm Director of Design Engineering at <a href="https://adobe.com">Adobe</a>. In the past, I worked as an engineer on <a href="https://express.adobe.com">Adobe Express</a>, managed layout and accessibility engineering teams working on <a href="https://mozilla.org">Firefox</a>, built web-based tools for making animated VR and AR comics at <a href="https://techcrunch.com/2022/04/29/madefire-shuts-down/">Madefire</a>, and led prototype engineering in Adobe’s <a href="https://adobe.design">Design Studio</a>. 
 
 I’m originally from California, and live with my wife and kids in the San Francisco bay area. I studied computer science at <a href="https://www.ucla.edu">UCLA</a> and at the (radically interdisciplinary and sadly now shuttered) [Arts Computation Engineering](https://www.ics.uci.edu/grad/degrees/degree_ace.php) program at [UC Irvine](https://www.uci.edu).
 
 <hr>
 
-On this site I <em>mostly</em> share insights from my research and reading related to software design and development. You'll find a variety of writing on topics related to human-computer interaction, UX, philosophy of technology, ethics, and software engineering leadership. These are some questions that help guide my writing:
+Here are a few links to explore on this site:
 
-* How do we build better tools for <em>augmenting human creativity</em>?
-* How might we <em>build open-ended, convivial platforms</em> for end-users to build their own creative tools?
-* How can we use software to better understand, reason about, and design solutions for <em>complex problems?</em>
-* How do we make <em>better decisions about what technology we allow into our lives?</em>
+* [Writing]({{site.url}}/writing): My blog post archives.
+* [Reading]({{site.url}}/reading): Some of my favorite books and papers.
 
-Of course, I reserve the right to write about other things too.
+<hr>
 
-If anything I write resonates with you, please feel free to <a href="#" class="eml-protected">send me a note</a> or <a href="https://front-end.social/@svoisen" title="My Mastodon profile.">find me on Mastodon</a>. You can also <strong>subscribe to updates on this blog</strong> via <a href="https://buttondown.email/seanvoisen" title="Subscribe to my newsletter.">email</a> or <a href="{{ site.url }}/atom.xml" title="Link to the RSS feed.">RSS</a>.
+If anything I write resonates with you, please feel free to <a href="#" class="eml-protected">send me a note</a>. You can also subscribe to updates on this blog via <a href="https://buttondown.email/seanvoisen" title="Subscribe to my newsletter.">email</a> or <a href="{{ site.url }}/atom.xml" title="Link to the RSS feed.">RSS</a>.
 
-**Needless to say, views and opinions expressed on this site are purely my own and not representative of my employer.**
+Needless to say, *views and opinions expressed on this site are purely my own and not representative of my employer.*
 
 <aside class="footnote">
 <h2>Colophon</h2>
 
-This site is built using <a href="https://jekyllrb.com/">Jekyll</a> and deployed on <a href="https://www.netlify.com">Netlify</a>. Minimalist design inspired by <a href="https://paco.me">Paco Coursey</a>.
+This site is built using <a href="https://jekyllrb.com/">Jekyll</a> and deployed on <a href="https://www.netlify.com">Netlify</a>.
 </aside>
 
 <script>
