@@ -130,7 +130,7 @@ h3 + p {
 
 em {
     font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-    font-size: var(--large-text)
+    font-size: var(--large-text);
     line-height: 1;
 }
 
@@ -486,7 +486,7 @@ img.profile-image {
 }
 
 .footer {
-    margin: 2rem auto 4rem auto;
+    margin: 4rem auto 4rem auto;
     text-align: center;
     max-width: var(--content-width);
     font-size: var(--extra-small-text);
