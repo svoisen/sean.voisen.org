@@ -2,7 +2,7 @@
 title: Beyond chat as interface
 description: The future of user interfaces isn't chat; it's multimodal.
 image:
-    path: /assets/images/beyond_chat_cover.jpg
+    path: /assets/images/beyond_chat_cover_2.jpg
     height: 1280
     width: 720
     alt: "Beyond chat as interface"
