@@ -5,9 +5,9 @@
         {% assign url = page.url|remove:'index.html' %}
         {% for link in site.navigation %}
         {% if url == link.url %}
-            <li class="active">{{ link.text }}</li>
+            <li class="active" data-overflow="{{ link.overflow }}">{{ link.text }}</li>
         {% else %}
-            <li><a href="{{ link.url }}" title="{{ link.title }}">{{ link.text }}</a></li>
+            <li data-overflow="{{ link.overflow }}"><a href="{{ link.url }}" title="{{ link.title }}">{{ link.text }}</a></li>
         {% endif %}
         {% endfor %}
     </ul>

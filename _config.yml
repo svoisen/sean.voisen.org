@@ -76,9 +76,11 @@ navigation:
   - text: About
     title: "About the author."
     url: /about
+    overflow: false
   - text: Writing
     title: "Blog posts, essays and other writings."
     url: /writing
+    overflow: true
 
 jekyll-minifier:
   uglifier_args:

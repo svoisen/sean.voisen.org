@@ -181,9 +181,8 @@ blockquote {
 }
 
 .theme-select-container {
-    display: none;
     position: relative;
-    margin-left: 1.5rem;
+    margin-left: 1rem;
 }
 
 .theme-select {
@@ -273,11 +272,11 @@ blockquote {
 .navigation li {
     list-style: none;
     display: inline-block;
-    margin: 0 0.5rem 0 0;
+    margin: 0 0 0 0.5rem;
 }
 
-.navigation li:last-child {
-    margin: 0;
+.navigation li[data-overflow="true"] {
+    display: none;
 }
 
 .content {
@@ -504,8 +503,8 @@ img.profile-image {
 }
 
 @media only screen and (min-width: 568px) {
-    .theme-select-container {
-        display: block;
+    .navigation li[data-overflow="true"] {
+        display: inline-block;
     }
 
     .banner {
