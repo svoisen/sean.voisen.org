@@ -32,7 +32,7 @@ New and prospective managers really only need to read the first five chapters; t
 
 ### [What you give up when moving into engineering management](https://stackoverflow.blog/2022/02/23/what-you-give-up-when-moving-into-engineering-management/) (article)
 
-This is another resource that gives an honest perspective on what engineering management is like so that you can go into the decision to switch tracks with eyes wide open. Pay special attention to the part about feedback cycles. I've found this to be one of the most difficult adjustments to make for those new to the management role—namely the loss of regular dopamine hits that come from frequently landing and shipping new code.
+This is another resource that gives an honest perspective on what engineering management is like so that you can go into the decision to switch tracks with eyes wide open. Pay special attention to the part about feedback cycles. I've found this to be one of the most difficult adjustments to make for those new to the management role—namely the loss of regular dopamine hits that come from frequently landing and shipping new code. I still struggle with this from time to time.
 
 ---
 
