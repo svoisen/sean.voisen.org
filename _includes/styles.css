@@ -56,6 +56,10 @@ html[data-theme='dark'] {
     --metadata-color: var(--base0);
     --footnote-color: var(--base0);
     --theme-select-switch-color: var(--base01);
+    --button-background-color: var(--base04);
+    --button-foreground-color: var(--base1);
+    --button-hover-background-color: var(--link-hover-color);
+    --button-hover-foreground-color: var(--base3);
 }
 
 body {
@@ -493,6 +497,47 @@ img.profile-image {
 
 .footer em {
     font-size: var(--medium-text);
+}
+
+.subscribe-form {
+    margin: 1rem 0 3rem 0;
+}
+
+.subscribe-form input[type="email"] {
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    color: var(--foreground-color);
+    font-size: var(--medium-text);
+    border-bottom: 2px solid var(--border-color);
+}
+
+.subscribe-form input[type="email"]::placeholder {
+    color: var(--footnote-color);
+}
+
+.subscribe-form input[type="email"]:focus {
+    outline: none;
+    border-bottom-color: var(--link-hover-color);
+}
+
+.subscribe-form input[type="submit"] {
+    appearance: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--border-color);
+    background-color: var(--button-background-color);
+    color: var(--button-foreground-color);
+    font-size: var(--medium-text);
+    margin-left: 1rem;
+}
+
+.subscribe-form input[type="submit"]:hover {
+    cursor: pointer;
+    color: var(--button-hover-foreground-color);
+    background-color: var(--button-hover-background-color);
+    transition: all;
+    transition-duration: 0.25s;
 }
 
 @media only screen and (max-width: 860px) {
