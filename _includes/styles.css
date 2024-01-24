@@ -496,7 +496,6 @@ img.profile-image {
 }
 
 .footer {
-    border-top: 2px solid var(--border-color);
     margin: 2rem auto 4rem auto;
     max-width: var(--content-width);
 }
@@ -506,6 +505,8 @@ img.profile-image {
 }
 
 .footer h2, .footer h3 {
+    border-top: 2px solid var(--border-color);
+    padding-top: 2rem;
     margin-top: 2rem;
     margin-bottom: 0;
 }

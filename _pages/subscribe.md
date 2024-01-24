@@ -1,9 +1,10 @@
 ---
 title: Subscribe
 description: A few ways to receive updates on my latest essays, ideas and projects.
+hide_subscribe: true
 ---
 
-I send occasional email updates whenever I publish new essays or embark on new personal projects. Expect them to hit your inbox no more than twice a month. You can sign up below to receive them:
+I send occasional email updates whenever I publish new blog posts, essays or embark on new personal projects. Expect them to hit your inbox no more than twice a month. You can sign up below to receive them:
 
 {% include subscribe.html %}
 

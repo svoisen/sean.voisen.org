@@ -1,6 +1,7 @@
 ---
 title: Writing
 description: Blog archives.
+hide_subscribe: true
 ---
 
 <ul class="posts-list">

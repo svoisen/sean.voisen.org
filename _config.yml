@@ -1,7 +1,7 @@
 site: Sean Voisen
 url: https://sean.voisen.org
 title: Sean Voisen
-description: Thoughts on design, computing and software engineering management.
+description: Thoughts on software design and engineering leadership.
 author:
   name: Sean Voisen
 twitter:
@@ -78,7 +78,7 @@ navigation:
     url: /about
     overflow: false
   - text: Writing
-    title: "Essays and other writings."
+    title: "Blog posts, essays and other writings."
     url: /writing
     overflow: true
 

@@ -1,6 +1,7 @@
 ---
 title: About
 description: A little about Sean Voisen.
+hide_subscribe: true
 ---
 
 <picture>
@@ -21,7 +22,7 @@ Here are a few links to explore on this site:
 
 <hr>
 
-If anything I write resonates with you, please feel free to <a href="#" class="eml-protected">send me a note</a>.
+If anything I write resonates with you, please feel free to <a href="#" class="eml-protected">send me a note</a>. You can also <a href="{{ site.url }}/subscribe">subscribe</a> for regular updates or <a href="https://front-end.social/@svoisen">find me on Mastodon</a>.
 
 Needless to say, *views and opinions expressed on this site are purely my own and not representative of my employer.*
 

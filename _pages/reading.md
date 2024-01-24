@@ -1,9 +1,10 @@
 ---
 title: Reading
 description: A reading list.
+hide_subscribe: true
 ---
 
-The following is a list of books and papers that have had a profound impact on how I think or view the world. This list is forever evolving, but is what I currently consider part of my _personal canon_.
+The following is a list of books and papers that have had a profound impact on my personal worldview. This list is forever evolving, but is what I currently consider part of my _personal canon_.
 
 <ul class="books-grid">
     {% assign books = site.data.books | where:"canon", "true" | sort:"title" %}
