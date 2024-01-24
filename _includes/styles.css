@@ -570,6 +570,10 @@ img.profile-image {
     transition-duration: 0.25s;
 }
 
+.subscribe-form input[type="submit"]:focus {
+    outline: 2px solid var(--link-hover-color);
+}
+
 @media only screen and (max-width: 860px) {
     :root {
         --content-wrap: 88vw;
