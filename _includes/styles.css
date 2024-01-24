@@ -41,6 +41,10 @@ html[data-theme='light'] {
     --footnote-color: var(--base01);
     --metadata-color: var(--base01);
     --theme-select-switch-color: var(--base1);
+    --button-background-color: var(--base01);
+    --button-foreground-color: var(--base2);
+    --button-hover-background-color: var(--link-hover-color);
+    --button-hover-foreground-color: var(--base3);
 }
 
 html[data-theme='dark'] {
@@ -56,8 +60,8 @@ html[data-theme='dark'] {
     --metadata-color: var(--base0);
     --footnote-color: var(--base0);
     --theme-select-switch-color: var(--base01);
-    --button-background-color: var(--base04);
-    --button-foreground-color: var(--base1);
+    --button-background-color: var(--base01);
+    --button-foreground-color: var(--base2);
     --button-hover-background-color: var(--link-hover-color);
     --button-hover-foreground-color: var(--base3);
 }
@@ -351,9 +355,8 @@ a.post-preview:hover h3 {
 
 .posts-list {
     margin: 0;
-    padding: 0 0 2rem 0;
+    padding: 0;
     list-style: disc;
-    border-bottom: 2px solid var(--border-color);
 }
 
 .posts-list li {
@@ -424,6 +427,10 @@ img.profile-image {
     color: var(--footnote-color);
 }
 
+.footnote p {
+    margin-top: 0;
+}
+
 .footnote em {
     font-size: 1rem;
 }
@@ -489,9 +496,32 @@ img.profile-image {
 }
 
 .footer {
-    margin: 4rem auto 4rem auto;
-    text-align: center;
+    border-top: 2px solid var(--border-color);
+    margin: 2rem auto 4rem auto;
     max-width: var(--content-width);
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer h2, .footer h3 {
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+.footer h3 a {
+    text-decoration: none;
+    color: var(--foreground-color);
+}
+
+.footer h3 a:hover {
+    color: var(--link-hover-color);
+}
+
+.footer .copyright {
+    margin-top: 4rem;
+    text-align: center;
     font-size: var(--extra-small-text);
 }
 
@@ -525,7 +555,7 @@ img.profile-image {
     appearance: none;
     border-radius: 0.25rem;
     padding: 0.5rem 1rem;
-    border: 2px solid var(--border-color);
+    border: none;
     background-color: var(--button-background-color);
     color: var(--button-foreground-color);
     font-size: var(--medium-text);

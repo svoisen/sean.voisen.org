@@ -21,12 +21,12 @@ Here are a few links to explore on this site:
 
 <hr>
 
-If anything I write resonates with you, please feel free to <a href="#" class="eml-protected">send me a note</a>. You can also subscribe to updates on this blog via <a href="https://buttondown.email/seanvoisen" title="Subscribe to my newsletter.">email</a> or <a href="{{ site.url }}/atom.xml" title="Link to the RSS feed.">RSS</a>.
+If anything I write resonates with you, please feel free to <a href="#" class="eml-protected">send me a note</a>.
 
 Needless to say, *views and opinions expressed on this site are purely my own and not representative of my employer.*
 
 <aside class="footnote">
-<h2>Colophon</h2>
+<h3>Colophon</h3>
 
 This site is built using <a href="https://jekyllrb.com/">Jekyll</a> and deployed on <a href="https://www.netlify.com">Netlify</a>. Color scheme based on <a href="https://meat.io/oksolar">OK Solar</a>. Minimalist site design inspired by <a href="https://stephango.com/">Steph Ango</a>.
 </aside>
