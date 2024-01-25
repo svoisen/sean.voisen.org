@@ -497,6 +497,7 @@ img.profile-image {
 
 .footer {
     margin: 2rem auto 4rem auto;
+    width: var(--content-wrap);
     max-width: var(--content-width);
 }
 
