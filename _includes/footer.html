@@ -1,11 +1,13 @@
 <footer class="footer">
-    {% if page.hide_subscribe == nil %}
-    <h3><a href="{{ site.url }}/subscribe">Subscribe for updates</a></h3>
-    <p>You can follow me via email, <a href="{{ site.url }}/atom.xml">RSS</a> or <a href="https://front-end.social/@svoisen">find me on Mastodon</a>.</p>
-    {% include subscribe.html %}
-    {% endif %}
-    <div class="copyright">
-        <a href="{{ site.url }}/uncopyright" title="Read my uncopyright message.">Uncopyrighted</a> by <strong>Sean Voisen</strong>. 
+    <div class="footer-content">
+        {% if page.hide_subscribe == nil %}
+        <h3><a href="{{ site.url }}/subscribe">Subscribe for updates</a></h3>
+        <p>You can follow me via email, <a href="{{ site.url }}/atom.xml">RSS</a> or <a href="https://front-end.social/@svoisen">find me on Mastodon</a>.</p>
+        {% include subscribe.html %}
+        {% endif %}
+        <div class="copyright">
+            <a href="{{ site.url }}/uncopyright" title="Read my uncopyright message.">Uncopyrighted</a> by <strong>Sean Voisen</strong>. 
+        </div>
     </div>
 </footer>
 
