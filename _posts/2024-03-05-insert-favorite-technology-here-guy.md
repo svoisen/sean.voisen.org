@@ -1,5 +1,5 @@
 ---
-title: On being &lt;insert favorite technology here&gt; "guy"
+title: On being a &lt;insert favorite technology here&gt; "guy"
 image:
     path: /assets/images/not_a_door_guy_cover@1280.jpg
     height: 1280
