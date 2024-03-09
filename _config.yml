@@ -26,7 +26,7 @@ plugins:
   - jekyll-gist
   - jekyll-seo-tag
   - jekyll-sitemap  
-  - jekyll-minifier
+  # - jekyll-minifier
 
 reading_time:
   second_plural: "second read"
