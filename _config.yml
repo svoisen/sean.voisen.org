@@ -26,7 +26,12 @@ plugins:
   - jekyll-gist
   - jekyll-seo-tag
   - jekyll-sitemap  
+  - jekyll-og-image
+  - jekyll-feed
   # - jekyll-minifier
+
+feed:
+  path: /atom.xml
 
 reading_time:
   second_plural: "second read"
@@ -50,7 +55,6 @@ defaults:
       path: ""
     values:
       layout: "default"
-      image: "/assets/images/svoisen@256.png"
   -
     scope:
       type: "pages"
@@ -85,3 +89,24 @@ navigation:
 jekyll-minifier:
   uglifier_args:
     harmony: true
+
+og_image:
+  output_dir: "/assets/images"
+  image: "/assets/images/sean_voisen@512.jpg"
+  canvas:
+    background_color: "#002d38"
+  header:
+    font_family: "SF Pro Text Bold"
+    color: "#f1e9d2"
+  content:
+    font_family: "SF Pro Text"
+    color: "#8faaab"
+  force: false
+  border_bottom:
+    width: 20
+    fill:
+      - "#ac8300"
+      - "#d56500"
+      - "#f23749"
+      - "#dd459d"
+      - "#2b90d8"

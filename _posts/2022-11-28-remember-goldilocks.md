@@ -1,11 +1,6 @@
 ---
 title: When software tools get too big, remember Goldilocks
 description: If we want more convivial software tools, let's disincentivize them from getting too big for their own good.
-image:
-    path: /assets/images/cabin@640.jpg
-    height: 320
-    width: 640
-    alt: "A rustic log cabin in the woods."
 ---
 
 <figure>

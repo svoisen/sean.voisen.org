@@ -1,11 +1,6 @@
 ---
 title: A reading list for new (or would be) engineering managers
 description: A collection of books and articles that I wish I had when I was first starting out on the management path.
-image:
-    path: /assets/images/reading_list_new_engineering_managers.jpg
-    height: 1280
-    width: 720
-    alt: "A reading list for new (or would be) engineering managers."
 ---
 
 Nearly every time I have a conversation with someone who is either new to engineering management or considering engineering management, I end up sending that person a list of things to read. I’ve done it so many times now that I figured I should this list down in a public place and update it from time to time. Maybe others will find it helpful.

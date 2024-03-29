@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Thoughts on the design of conversational UIs
 ---
 

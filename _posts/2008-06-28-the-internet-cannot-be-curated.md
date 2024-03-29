@@ -6,7 +6,7 @@ There is a hypothesis that says that the purpose of sleep is to reinforce certai
 
 When it comes to the preservation of culture, time, I think, works quite similarly. Take literature, for instance. Of the many millions of bodies of text that have been created over the thousands of years since man first invented writing, only a very few have been continually preserved and set aside as "classics." The rest were beaten into sand and washed away by the ocean of time.
 
-This isn' a random process either. The Iliad or the Old Testament or Beowulf or Hamlet aren't available to us today by mere fortunate happenstance. Society made great efforts to keep them in circulation and preserve them. If culture is like a brain distributed across a certain population, and time is its sleep, then these cultural works are the synapses that matter. Somehow. Even though when you read them in high school it doesn' seem that way.
+This isn't a random process either. The Iliad or the Old Testament or Beowulf or Hamlet aren't available to us today by mere fortunate happenstance. Society made great efforts to keep them in circulation and preserve them. If culture is like a brain distributed across a certain population, and time is its sleep, then these cultural works are the synapses that matter. Somehow. Even though when you read them in high school it doesn' seem that way.
 
 Will the Internet and digital storage media do away with this form of cultural sleep? If everything can be preserved, whether or not it is of significant cultural value, will it? Where then will classics come from? Or will culture break down into nervous chaos — where everything is of equal importance and so nothing is of importance at all — perhaps like the mind of a chronic insomniac?
 

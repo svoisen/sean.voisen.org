@@ -1,11 +1,6 @@
 ---
 title: Favorite books of 2022 (and 2021)
 description: A few favorite books from my reading over the past two years.
-image:
-    path: /assets/images/favorite_books_2022.jpg
-    height: 1280
-    width: 482
-    alt: "Covers of a few favorite books from 2022 and 2021."
 ---
 
 <div style="display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 0.5rem; aspect-ratio: 2.7">

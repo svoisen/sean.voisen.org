@@ -1,11 +1,6 @@
 ---
 title: The promises and perils of AI ghostwriters
 description: AI-assisted writing tools promise to make us all better writers, but they will have to temper how they use AI to be successful.
-image:
-    path: /assets/images/policemans_beard_half_constructed@640.jpg
-    height: 640
-    width: 320
-    alt: "The front cover of the book The Policeman's Beard is Half-Constructed."
 ---
 
 > More than iron, more than lead, more than gold I need electricity.<br> 

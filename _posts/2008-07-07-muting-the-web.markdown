@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Muting the web
 ---
 

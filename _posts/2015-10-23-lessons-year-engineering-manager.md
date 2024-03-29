@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Lessons from a year as an engineering manager
 ---
 <blockquote><p><em>Note: This post is also available on <a href="https://medium.com/@svoisen/lessons-from-a-year-as-an-engineering-manager-871df4a762f">Medium</a>.</em></p></blockquote>

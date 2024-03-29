@@ -1,11 +1,6 @@
 ---
 title: Analog tools for visible listening (or why I take hand-written meeting notes)
 description: Especially in one-on-one meetings, hand writing notes is the way to go.
-image:
-    path: /assets/images/analog_tools_for_visible_listening.jpg
-    height: 1280
-    width: 720
-    alt: "Analog tools for visible listening (or why I take hand-written meeting notes)."
 ---
 
 I believe one of the most important qualities in any leader is a well-cultivated ability to listen. As someone in a leadership position, I try to spend a good portion of my time in any meeting *actively* listening. I emphasize the adverb *actively* here because listening well requires effort. It’s not a passive activity. It’s a skill you can always continuously improve through repeated practice—there is no pinnacle of listening ability. You can always get better.

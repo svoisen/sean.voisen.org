@@ -1,11 +1,6 @@
 ---
 title: Some books I enjoyed in 2023
 description: A short list of a few favorite books from the past year.
-image:
-    path: /assets/images/books_2023_cover.jpg
-    height: 1280
-    width: 720
-    alt: "Some books I enjoyed in 2023."
 ---
 
 

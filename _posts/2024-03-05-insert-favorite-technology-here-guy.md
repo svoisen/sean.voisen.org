@@ -1,10 +1,5 @@
 ---
 title: "On being a ‹insert favorite technology here› “guy”"
-image:
-    path: /assets/images/not_a_door_guy_cover@1280.jpg
-    height: 1280
-    width: 720
-    alt: "Thoughts on the advantages and disadvantages of identifying too strongly with a technology or framework."
 description: Thoughts on the advantages and disadvantages of identifying too strongly with a technology or framework.
 ---
 

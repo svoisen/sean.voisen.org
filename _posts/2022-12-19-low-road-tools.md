@@ -1,5 +1,4 @@
 ---
-layout: post
 title: The Low Road as a metaphor for building sticky software
 description: In which I ponder Stewart Brand's Low Road architecture as a metaphor for approaching software design.
 ---

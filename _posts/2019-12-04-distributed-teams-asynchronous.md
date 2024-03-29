@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Distributed teams and asynchronous work
 description: Some thoughts on the nature of distributed teams spurned by reading Ursula Franklin's "The Real World of Technology."
 ---
