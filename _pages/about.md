@@ -5,11 +5,23 @@ hide_subscribe: true
 ---
 
 <picture>
-<source type="image/webp" srcset="{{ site.url }}/assets/images/sean_voisen@64.webp 64w, {{ site.url }}/assets/images/sean_voisen@128.webp 128w, {{ site.url }}/assets/images/sean_voisen@256.webp 256w">
-<img src="/assets/images/svoisen@128.jpg" alt="A photo of the author." class="profile-image">
+<source type="image/webp" srcset="{{ site.url }}/assets/images/sean_voisen_wide@480.webp 480w, {{ site.url }}/assets/images/sean_voisen_wide@960.webp 960w, {{ site.url }}/assets/images/sean_voisen_wide@1920.webp 1920w">
+<img src="/assets/images/sean_voisen_wide@960.jpg" style="aspect-ratio: 16/9" alt="A photo of the author.">
 </picture>
 
-**Hello!** I’m *Sean*. Currently, I'm Director of Design Engineering at <a href="https://adobe.com">Adobe</a>. In the past, I built real-time collaboration and accessibility features for <a href="https://express.adobe.com">Adobe Express</a>, managed layout and accessibility engineering teams working on <a href="https://mozilla.org">Firefox</a>, built web-based tools for making animated VR and AR comics at <a href="https://techcrunch.com/2022/04/29/madefire-shuts-down/">Madefire</a>, and led prototype engineering in Adobe’s <a href="https://adobe.design">Design Studio</a>. 
+**Hello!** I’m *Sean*. 
+
+My professional mission is to *make computing better for human creative expression*.
+
+Currently, I'm the Director of Design Engineering at [Adobe](https://adobe.com), where I have the privilege of leading teams of design engineers who prototype new product experiences and build Adobe's design system, [Spectrum](https://spectrum.adobe.com). 
+
+In the past I have:
+
+* Built real-time collaboration and accessibility features for [Adobe Express](https://express.adobe.com)
+* Managed layout and accessibility engineering teams working on [Firefox](https://mozilla.org)
+* Built web-based tools for making animated VR and AR comics at [Madefire](https://techcrunch.com/2022/04/29/madefire-shuts-down/)
+* Led prototype engineering inside [Adobe’s Design Studio](https://adobe.design)
+* Developed chat and instant messaging applications at [Userplane](https://en.wikipedia.org/wiki/Userplane)
 
 I’m originally from California, and live with my wife and kids in the San Francisco bay area. I studied computer science at <a href="https://www.ucla.edu">UCLA</a> and at the (radically interdisciplinary and sadly now shuttered) [Arts Computation Engineering](https://www.ics.uci.edu/grad/degrees/degree_ace.php) program at [UC Irvine](https://www.uci.edu).
 
