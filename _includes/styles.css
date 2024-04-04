@@ -188,7 +188,6 @@ strong {
     margin: 0 auto var(--space-2xl) auto;
 }
 
-
 .post h2, .home h2 {
     margin-top: var(--space-3xl);
     font-size: var(--font-size-2);
@@ -202,8 +201,14 @@ strong {
     line-height: 1.25;
 }
 
-.post h3 + p {
+.post h3 + p, .post h4 + p {
     margin-top: var(--space-3xs);
+}
+
+.post h4 {
+    font-size: var(--font-size-0);
+    font-weight: 700;
+    margin-bottom: 0;
 }
 
 .post em {
