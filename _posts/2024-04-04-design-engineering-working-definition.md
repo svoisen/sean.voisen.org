@@ -5,7 +5,7 @@ description: A few thoughts on how we define the role of "design engineer."
 
 Design engineering seems to be, as [Chris Coyier has noted](https://frontendmasters.com/blog/design-engineers/), "having a moment." 
 
-It could be the [Baader-Meinhof phenomenon](https://en.wikipedia.org/wiki/Frequency_illusion) at play, but I've noticed a recent uptick in the number of blog posts discussing the role of design engineer and its impact on the software design and development process. Here's a sample of some of the articles I've run across in the past few weeks:
+It could just be the [frequency illusion](https://en.wikipedia.org/wiki/Frequency_illusion) at play, but I've noticed a recent uptick in the number of blog posts discussing the design engineering and its impact on the software design and development process. Here's a sample of some of the articles I've run across in the past few weeks:
 
 - David Hoang describing [the role of the design engineer](https://www.proofofconcept.pub/p/design-engineering) in his newsletter
 - Folks at Vercel writing about [how design engineering works there](https://vercel.com/blog/design-engineering-at-vercel)
