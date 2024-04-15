@@ -11,7 +11,7 @@ hide_subscribe: true
 
 **Hello!** I’m *Sean*. 
 
-My professional mission is to *make computing better for human creative expression*.
+My professional mission is to *make computing better for human creative thinking and expression*. 
 
 Currently, I'm the Director of Design Engineering at [Adobe](https://adobe.com), where I have the privilege of leading teams of design engineers who prototype new product experiences and build Adobe's design system, [Spectrum](https://spectrum.adobe.com). 
 
@@ -21,7 +21,7 @@ In the past I have:
 * Managed layout and accessibility engineering teams working on [Firefox](https://mozilla.org)
 * Built web-based tools for making animated VR and AR comics at [Madefire](https://techcrunch.com/2022/04/29/madefire-shuts-down/)
 * Led prototype engineering inside [Adobe’s Design Studio](https://adobe.design)
-* Developed chat and instant messaging applications at [Userplane](https://en.wikipedia.org/wiki/Userplane)
+* Developed chat and instant messaging applications at [AOL Userplane](https://en.wikipedia.org/wiki/Userplane)
 
 I’m originally from California, and live with my wife and kids in the San Francisco bay area. I studied computer science at [UCLA](https://www.ucla.edu) and at the (radically interdisciplinary and sadly now shuttered) [Arts Computation Engineering](https://www.ics.uci.edu/grad/degrees/degree_ace.php) program at [UC Irvine](https://www.uci.edu).
 

@@ -1,6 +1,5 @@
-GIT
-  remote: https://github.com/svoisen/jekyll-og-image
-  revision: 7161a1d18f6995f22cd11c706483b0e9b8a19bb0
+PATH
+  remote: ../jekyll-og-image
   specs:
     jekyll-og-image (1.3.0)
       jekyll (>= 3.4, < 5.0)

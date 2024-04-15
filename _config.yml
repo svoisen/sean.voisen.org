@@ -92,9 +92,11 @@ jekyll-minifier:
 
 og_image:
   output_dir: "/assets/images"
-  image: "/assets/images/sean_voisen@512.jpg"
+  # image: "/assets/images/sean_voisen@512.jpg"
+  # domain: "sean.voisen.org"
   canvas:
-    background_color: "#002d38"
+    background_image: "/assets/images/og_background_svoisen.jpg"
+    # background_color: "#002d38"
   header:
     font_family: "SF Pro Text Bold"
     color: "#f1e9d2"
@@ -102,11 +104,11 @@ og_image:
     font_family: "SF Pro Text"
     color: "#8faaab"
   force: false
-  border_bottom:
-    width: 20
-    fill:
-      - "#ac8300"
-      - "#d56500"
-      - "#f23749"
-      - "#dd459d"
-      - "#2b90d8"
+  # border_bottom:
+    # width: 10
+    # fill:
+      # - "#ac8300"
+      # - "#d56500"
+      # - "#f23749"
+      # - "#dd459d"
+      # - "#2b90d8"
