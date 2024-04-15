@@ -11,7 +11,9 @@ hide_subscribe: true
 
 **Hello!** I’m *Sean*. 
 
-My professional mission is to *make computing better for human creative thinking and expression*. 
+My professional mission is to *make computing better for human creativity*. I'm deeply interested in, and often write about, issues related to creative tools, tools for thought, the open web, designer-developer workflows, human-computer interaction, and anything related to making computing more inclusive, empowering, creative and convivial.
+
+---
 
 Currently, I'm the Director of Design Engineering at [Adobe](https://adobe.com), where I have the privilege of leading teams of design engineers who prototype new product experiences and build Adobe's design system, [Spectrum](https://spectrum.adobe.com). 
 
