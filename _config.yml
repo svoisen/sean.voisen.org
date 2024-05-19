@@ -48,6 +48,9 @@ collections:
   reading:
     output: true
     permalink: /reading/:slug
+  notes:
+    output: true
+    permalink: /notes/:year-:month-:day-:slug
   
 defaults:
   -
@@ -78,12 +81,13 @@ defaults:
 
 navigation:
   - text: About
-    title: "About the author."
     url: /about
     overflow: false
   - text: Writing
-    title: "Blog posts, essays and other writings."
     url: /writing
+    overflow: true
+  - text: Notes
+    url: /notes
     overflow: true
 
 jekyll-minifier:

@@ -182,10 +182,14 @@ strong {
     background-color: var(--background-color);
 }
 
-.post {
+.post, .notes {
     width: var(--content-wrap);
     max-width: var(--content-width);
     margin: 0 auto var(--space-2xl) auto;
+}
+
+.notes {
+    margin-top: var(--space-3xl);
 }
 
 .post h2, .home h2 {
@@ -536,6 +540,33 @@ img.bordered {
 
 .books-grid .books-grid-metadata > .books-grid-author {
     font-size: var(--font-size--2);
+}
+
+.note {
+    border: 2px solid var(--border-color)
+}
+
+.note-heading {
+    display: flex;
+    align-items: center;
+    padding: var(--space-xs);
+    background-color: var(--base04);
+}
+
+.note-contents {
+    padding: var(--space-xs)
+}
+
+.note-date {
+    text-align: right;
+    font-size: var(--font-size--1);
+}
+
+.note-title {
+    flex: 1;
+    margin: 0;
+    font-size: var(--font-size-0);
+    line-height: 1;
 }
 
 .footer {
