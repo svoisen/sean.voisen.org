@@ -7,13 +7,14 @@ hide_subscribe: true
 
 <div class="notes">
     {% for note in site.notes %}
-    <div class="note">
-        <div class="note-heading">
+    <article class="note">
+        <header class="note-heading">
             <h3 class="note-title">{{ note.title }} <a href="{{ note.url }}">#</a></h3>
             <time class="note-date" datetime="{{ note.date | date: '%F' }}">{{ note.date | date: "%b %-d, %Y" }}</time>
-        </div>
+        </header>
         <div class="note-contents">
-        {{ note.content }}
-    </div>
+        {{ note.content | markdownify }}
+        </div>
+    </article>
     {% endfor %}
 </div>

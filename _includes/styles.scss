@@ -93,6 +93,7 @@ html[data-theme='light'] {
     --metadata-color: var(--base01);
     --theme-select-switch-color: var(--base1);
     --footer-background-color: var(--base03);
+    --note-header-background-color: var(--base2);
 }
 
 html[data-theme='dark'] {
@@ -109,6 +110,7 @@ html[data-theme='dark'] {
     --footnote-color: var(--base0);
     --theme-select-switch-color: var(--base01);
     --footer-background-color: var(--base04);
+    --note-header-background-color: var(--base04);
 }
 
 body {
@@ -215,33 +217,33 @@ strong {
     margin-bottom: 0;
 }
 
-.post em {
+.post em, .note em {
     font-family: var(--font-family-serif);
     font-size: calc(var(--font-size-0) + 0.1rem);
     line-height: 1;
 }
 
-.post pre, .post code, .post kbd, .post samp {
+.post pre, .post code, .post kbd, .post samp, .note pre, .node code, .note kbd, .note samp {
     font-family: var(--font-family-mono);
     font-size: var(--font-size-0);
 }
 
-.post small {
+.post small, .note small {
     font-size: var(--font-size--1);
 }
 
-.post sub, .post sup {
+.post sub, .post sup, .note sub, .note sup {
     font-size: var(--font-size--1);
     line-height: 0;
     position: relative;
     vertical-align: baseline;
 }
 
-.post sub {
+.post sub, .note sub {
     bottom: -0.25rem;
 }
 
-.post sup {
+.post sup, .note sup {
     top: -0.5rem;
 }
 
@@ -260,29 +262,29 @@ figure {
     color: var(--metadata-color)
 }
 
-.post blockquote {
+.post blockquote, .note blockquote {
     border-left: 0.25rem solid var(--blockquote-border-color);
     padding-left: 1rem;
     margin: 2rem 0 2rem 0;
     color: var(--blockquote-color);
 }
 
-.post ul, .post ol {
+.post ul, .post ol, .note ul, .note ol {
     padding-left: 1rem;
     margin-left: 1rem;
 }
 
-.post ul li {
+.post ul li, .note ul li {
     list-style: disc outside none;
     margin-bottom: 0.5rem;
 }
 
-.post ol li {
+.post ol li, .note ol li {
     list-style: decimal outside none;
     margin-bottom: 0.5rem;
 }
 
-.post li::marker {
+.post li::marker, .note li::marker {
     color: var(--link-underline-color);
 }
 
@@ -549,24 +551,37 @@ img.bordered {
 .note-heading {
     display: flex;
     align-items: center;
-    padding: var(--space-xs);
-    background-color: var(--base04);
+    padding: var(--space-xs) var(--space-s) var(--space-xs) var(--space-s);
+    background-color: var(--note-header-background-color);
+    border-bottom: 2px solid var(--border-color);
+    gap: var(--space-xs);
 }
 
 .note-contents {
-    padding: var(--space-xs)
+    padding: var(--space-s)
+}
+
+.note-contents :first-child {
+    margin-top: 0;
+}
+
+.note-contents :last-child {
+    margin-bottom: 0;
 }
 
 .note-date {
     text-align: right;
     font-size: var(--font-size--1);
+    min-width: max-content;
 }
 
 .note-title {
     flex: 1;
     margin: 0;
     font-size: var(--font-size-0);
-    line-height: 1;
+    text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .footer {

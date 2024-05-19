@@ -1,7 +1,7 @@
 site: Sean Voisen
 url: https://sean.voisen.org
 title: Sean Voisen
-description: Thoughts on software design and engineering leadership.
+description: Spurious thoughts on making computing better for humans.
 author:
   name: Sean Voisen
 twitter:
@@ -16,6 +16,9 @@ permalink: pretty
 paginate: 1000
 paginate_path: "/page:num/"
 baseurl: ""
+
+sass:
+  style: compressed
   
 compress_html:
   clippings: all
@@ -32,6 +35,9 @@ plugins:
 
 feed:
   path: /atom.xml
+  collections:
+    notes:
+      path: /notes/feed.xml
 
 reading_time:
   second_plural: "second read"
@@ -73,6 +79,11 @@ defaults:
       type: "reading"
     values:
       layout: "book"
+  -
+    scope:
+      type: "notes"
+    values:
+      layout: "note"
   - 
     scope:
       path: "assets/images"
@@ -96,11 +107,11 @@ jekyll-minifier:
 
 og_image:
   output_dir: "/assets/images"
-  # image: "/assets/images/sean_voisen@512.jpg"
+  image: "/assets/images/sean_voisen@512.jpg"
   # domain: "sean.voisen.org"
   canvas:
-    background_image: "/assets/images/og_background_svoisen.jpg"
-    # background_color: "#002d38"
+    # background_image: "/assets/images/og_background_svoisen.jpg"
+    background_color: "#002d38"
   header:
     font_family: "SF Pro Text Bold"
     color: "#f1e9d2"
@@ -108,11 +119,11 @@ og_image:
     font_family: "SF Pro Text"
     color: "#8faaab"
   force: false
-  # border_bottom:
-    # width: 10
-    # fill:
-      # - "#ac8300"
-      # - "#d56500"
-      # - "#f23749"
-      # - "#dd459d"
-      # - "#2b90d8"
+  border_bottom:
+    width: 10
+    fill:
+      - "#ac8300"
+      - "#d56500"
+      - "#f23749"
+      - "#dd459d"
+      - "#2b90d8"
