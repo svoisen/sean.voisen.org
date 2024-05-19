@@ -2,7 +2,6 @@
 layout: default
 title: Notes
 description: Short thoughts and notes.
-hide_subscribe: true
 ---
 
 <div class="notes">
