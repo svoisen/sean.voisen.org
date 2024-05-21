@@ -191,7 +191,7 @@ strong {
 }
 
 .notes {
-    margin-top: var(--space-3xl);
+    margin-top: var(--space-2xl);
 }
 
 .post h2, .home h2 {
@@ -545,7 +545,8 @@ img.bordered {
 }
 
 .note {
-    border: 2px solid var(--border-color)
+    border: 2px solid var(--border-color);
+    margin-bottom: var(--space-2xl);
 }
 
 .note-heading {

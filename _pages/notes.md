@@ -5,7 +5,7 @@ description: Short thoughts and notes.
 ---
 
 <div class="notes">
-    {% for note in site.notes %}
+    {% for note in site.notes reversed %}
     <article class="note">
         <header class="note-heading">
             <h3 class="note-title">{{ note.title }} <a href="{{ note.url }}">#</a></h3>
