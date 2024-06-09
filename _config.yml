@@ -118,7 +118,7 @@ og_image:
   content:
     font_family: "SF Pro Text"
     color: "#8faaab"
-  force: false
+  force: true
   border_bottom:
     width: 10
     fill:
