@@ -31,17 +31,18 @@ progressing; more on this project later.
 
 ---
 
-Over the past few months, I’ve been reading a lot of Stoic philosophy. It all
-began with William Irvine’s [A Guide to the Good
+In May, I started reading more deeply in Stoic philosophy. It all began with
+William Irvine’s [A Guide to the Good
 Life](https://bookshop.org/p/books/a-guide-to-the-good-life-the-ancient-art-of-stoic-joy-william-b-irvine/7418429?ean=9780195374612),
 which I picked up on a whim, and that led me down the path of reading early
 Stoic philosophers, primarily Seneca and Epictetus. As a long-time Zen
 practitioner, Stoicism strikes me as astonishingly compatible with and
 complimentary to Zen practice. Both philosophies focus on cultivating inner
-tranquility and personal liberation, but whereas Zen advocates for mindfulness
-and meditation, Stoicism pushes rational techniques like negative visualization.
-Combined, each practice plays on and adds value to the other in ways I've found
-already beneficial in my own life.
+tranquility and personal liberation, but whereas Zen advocates for
+"non-rational" approaches of mindfulness and meditation, Stoicism pushes
+rational techniques like negative visualization.  Combined, each practice plays
+on and adds value to the other in ways I've found already beneficial in my own
+life.
 
 Despite its growing popularity, I feel Stoicism remains mostly misunderstood.
 It's not just grim-faced resolve, pessimism and grit in the face of adversity.
@@ -50,10 +51,26 @@ joy, appreciation and deep life satisfaction.
 
 ---
 
-I started listening to [The Gradient](https://thegradient.pub/about/), a podcast
-on AI. Not every episode is a winner, but if you're looking for a podcast that
-goes deep on AI in new and interesting and balanced ways, it's a good one. I
-really enjoyed [the interview with Sasha
+In May I also read
+[Technofeudalism](https://bookshop.org/p/books/technofeudalism-what-killed-capitalism-yanis-varoufakis/20435382?ean=9781685891244),
+which argues that we've moved beyond the age of capitalism to a post-capitalist
+world centered on rent extraction rather than profit-seeking, with owners of
+"cloud capital" (i.e. computing infrastructure) reaping the rewards of this
+economic transformation.  I stumbled on the writing of Yanis Varoufakis during
+the peak of the Web3/blockchain hype-cycle, but until this book I hadn't read
+much of his work beyond a few articles. Lots of really insightful writing on
+economics and what Varoufakis calls the "dual nature of money," including a
+solid primer on economic history that I found very helpful. If there's one area
+I found the book lacking, though, it was its treatment of technical developments
+in cloud computing, which were almost too cursory given the thesis.
+
+---
+
+In podcasts, I started listening to [The
+Gradient](https://thegradient.pub/about/), a podcast on AI. Not every episode is
+a winner, but if you're looking for a podcast that goes deep on AI in new and
+interesting and balanced ways, it's a good one. I really enjoyed [the interview
+with Sasha
 Luccioni](https://thegradientpub.substack.com/p/sasha-luccioni-ai-climate-change-bias-ethics)
 on the environmental impacts of AI. One thing really stood out in listening:
 [Jevon’s paradox](https://en.wikipedia.org/wiki/Jevons_paradox) is a real
