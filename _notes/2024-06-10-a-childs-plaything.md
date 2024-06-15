@@ -17,5 +17,5 @@ where amazing capabilities have become rapidly commoditized, but where high
 levels of quality and craft remain scarce. With templates and boilerplate and
 starter packs and generative AI we can more easily spin-up complicated working
 systems than ever before—including tools with an astonishing simulacrum of
-intelligence—but to build something of beauty still requires ingredients that remain
-in short supply: time, attention, and care.
+intelligence—but to build something of beauty still requires ingredients that
+remain in short supply: time, attention, and care.
