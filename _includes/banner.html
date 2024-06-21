@@ -1,23 +1,25 @@
-<header class="banner" role="banner">
-    <h1 class="title"><a href="/" title="Return home.">Sean Voisen</a></h1>
-    <nav class="navigation">
-    <ul>
-        {% assign url = page.url|remove:'index.html' %}
-        {% for link in site.navigation %}
-        {% if url == link.url %}
-            <li class="active" data-overflow="{{ link.overflow }}">{{ link.text }}</li>
-        {% else %}
-            <li data-overflow="{{ link.overflow }}"><a href="{{ link.url }}" title="{{ link.title }}">{{ link.text }}</a></li>
-        {% endif %}
-        {% endfor %}
-    </ul>
-    </nav>
-    <div class="theme-select-container">
-        <input type="checkbox" class="theme-select" id="theme-select">
-        <label for="theme-select" class="theme-select-label" title="Toggle light/dark mode.">
-        <span class="moon"></span>
-        <span class="sun"></span>
-        <span class="ball"></span>
-        </label>
+<header class="header" role="banner">
+    <div class="header-contents">
+        <h1 class="header-title"><a href="/" title="Home">Sean Voisen</a></h1>
+        <nav class="navigation">
+            <ul>
+                {% assign url = page.url|remove:'index.html' %}
+                {% for link in site.navigation %}
+                {% if url == link.url %}
+                <li class="active">{{ link.text }}</li>
+                {% else %}
+                <li><a href="{{ link.url }}" title="{{ link.title }}">{{ link.text }}</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </nav>
+        <div class="theme-select-container">
+            <input type="checkbox" class="theme-select" id="theme-select">
+            <label for="theme-select" class="theme-select-label" title="Toggle light/dark mode.">
+                <span class="moon"></span>
+                <span class="sun"></span>
+                <span class="ball"></span>
+            </label>
+        </div>
     </div>
 </header>

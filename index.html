@@ -3,26 +3,26 @@ layout: default
 ---
 
 <article class="post home">
-<h2>Latest</h2>
-{% for post in site.posts limit:1 %}
-<a href="{{ post.url }}" class="post-preview">
-    <h3>{{ post.title }}</h3>
-    <div class="post-metadata"><time datetime="{{ post.date | date: '%F'}}">{{ post.date | date: "%b %-d, %Y" }}</time> ∙ {{ post.content | reading_time }}</div>
-    <p>{{ post.description }}</p>
-</a>
-{% endfor %}
-
-<hr>
-
-<h2>Writing</h2>
-<ul class="posts-list">
-    {% for post in site.posts limit: 10 %}
-    <li>
-        <span class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></span>
-        <span class="post-metadata">{{ post.date | date: "%b %-d, %Y" }}</span>
-    </li>
+    <h2 class="post-title">Latest</h2>
+    {% for post in site.posts limit:1 %}
+    <a href="{{ post.url }}" class="post-preview">
+        <h3>{{ post.title }}</h3>
+        <div class="post-metadata"><time datetime="{{ post.date | date: '%F'}}">{{ post.date | date: "%b %-d, %Y" }}</time> ∙ {{ post.content | reading_time }}</div>
+        <p>{{ post.description }}</p>
+    </a>
     {% endfor %}
-</ul>
 
-<p class="more">More writing <a href="{{ site.url }}/writing">in the archives &rarr;</a></p>
+    <hr>
+
+    <h2>Writing</h2>
+    <ul class="posts-list">
+        {% for post in site.posts limit: 10 %}
+        <li>
+            <span class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></span>
+            <span class="post-metadata">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <p class="more">More writing <a href="{{ site.url }}/writing">in the archives &rarr;</a></p>
 </article>

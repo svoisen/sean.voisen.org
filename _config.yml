@@ -93,13 +93,12 @@ defaults:
 navigation:
   - text: About
     url: /about
-    overflow: false
   - text: Writing
     url: /writing
-    overflow: true
+  - text: Reading
+    url: /reading
   - text: Notes
     url: /notes
-    overflow: true
 
 jekyll-minifier:
   uglifier_args:
