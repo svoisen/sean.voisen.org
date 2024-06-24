@@ -91,14 +91,14 @@ defaults:
       image: true
 
 navigation:
-  - text: About
-    url: /about
   - text: Writing
     url: /writing
   - text: Reading
     url: /reading
   - text: Notes
     url: /notes
+  - text: About
+    url: /about
 
 jekyll-minifier:
   uglifier_args:
