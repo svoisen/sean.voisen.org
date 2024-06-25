@@ -43,7 +43,7 @@ Needless to say, *views and opinions expressed on this site are purely my own an
 <aside class="footnote">
 <h3>Colophon</h3>
 
-This site is built using <a href="https://jekyllrb.com/">Jekyll</a> and deployed on <a href="https://www.netlify.com">Netlify</a>. Color scheme based on <a href="https://meat.io/oksolar">OK Solar</a>. Minimalist site design inspired by <a href="https://stephango.com/">Steph Ango</a>.
+This site is built using <a href="https://jekyllrb.com/">Jekyll</a> and deployed on <a href="https://www.netlify.com">Netlify</a>. Minimalist site design inspired by <a href="https://stephango.com/">Steph Ango</a> and <a href="https://macwright.com">Tom MacWright</a>.
 </aside>
 
 <script>
