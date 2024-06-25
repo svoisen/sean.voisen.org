@@ -105,11 +105,11 @@ html[data-theme='light'] {
 
 html[data-theme='dark'] {
   --background-color: var(--gray-900);
-  --foreground-color: var(--brown-200);
+  --foreground-color: var(--brown-100);
 
-  --link-color: var(--brown-200);
+  --link-color: var(--brown-100);
   --link-underline-color: var(--brown-500);
-  --link-hover-color: var(--brown-200);
+  --link-hover-color: var(--brown-100);
   --link-hover-underline-color: var(--brown-200);
 
   --metadata-color: var(--brown-500);
