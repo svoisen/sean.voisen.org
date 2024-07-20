@@ -17,7 +17,7 @@ image:
 >you are alive is watching on every side your generation's short time falling
 >away as fast as rivers drop through air, and feeling it hit. 
 >
->— Annie Dillard, An American Childhood
+>— Annie Dillard, [An American Childhood](https://bookshop.org/p/books/an-american-childhood-annie-dillard/1441342)
 
 What can we learn from children on how to feel alive? Much, I think.
 
@@ -85,7 +85,7 @@ This is the first lesson children give us on how to feel alive: Let go of time.
 Extracting kids from deep play is always hard, but I've found it to be twice as
 difficult when my kids are playing in nature. It seems to be less of a challenge
 when we're at a museum or the neighborhood park. Why? Why do children seem to
-come most alive away from the built environment, when their only toys are a few
+come most alive in nature, when their only toys are a few
 sticks and rocks, or a single leaf idly floating down a creek?
 
 {% include picture.html filename="boys_playing_on_the_shore_albert_edelfelt" aspect_ratio="1.2" caption="Boys playing on the shore by Albert Edelfelt (1884)." %}
@@ -136,7 +136,7 @@ experiences of awe and instill within us the deep humility of our
 insignificance, but to learn either of these lessons we must first be willing to
 accept the risks that come with entering the doors of her school.
 
-In his book "The Hero's Journey," Joseph Campbell writes:
+In [The Hero's Journey](https://bookshop.org/p/books/the-hero-s-journey-joseph-campbell-on-his-life-and-work-joseph-campbell/10949720), Joseph Campbell writes:
 
 >People say that what we’re all seeking is a meaning for life. I don’t think
 >that’s what we’re really seeking. I think that what we’re seeking is an
