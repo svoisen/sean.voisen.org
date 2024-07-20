@@ -99,16 +99,6 @@ The obvious approach will involve relying on LLMs as editors, empowering them to
 
 Similarly, [Sudowrite](https://www.sudowrite.com/) takes a more measured approach to integrating AI than many of its competitors, including brainstorm functionality that allows you to use GPT as a partner in _thinking through_ what you want to write, rather than simply giving it full license to write on your behalf. Few things intimidate writers more than the blank stare of an empty page. Enrolling AI as a partner in the ideation and brainstorming process promises to boost creative confidence, help us overcome writer’s block, and help more people get writing faster.
 
-<figure>
-<picture>
-<source type="image/webp" srcset="{{ site.url }}/assets/images/sudowrite_brainstorm@640.webp 640w, {{ site.url }}/assets/images/sudowrite_brainstorm@1280.webp 1280w">
-<img src="{{ site.url }}/assets/images/sudowrite_brainstorm.png" alt="Sudowrite's brainstorm user interface." class="bordered" loading="lazy">
-</picture>
-<figcaption>
-Sudowrite's brainstorming UI begins by asking users what they want to brainstorm.
-</figcaption>
-</figure>
-
 This way of thinking about AI-assisted writing tools not as machine-powered ghostwriters, but instead as powerful tools for thought, is exactly the right approach.
 
 ### Custom models and filters for your unique voice

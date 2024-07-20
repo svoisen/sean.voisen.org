@@ -1,7 +1,13 @@
 ---
 title: "On being a ‹insert favorite technology here› “guy”"
 description: Thoughts on the advantages and disadvantages of identifying too strongly with a technology or framework.
+image:
+    path: /assets/images/blacksmiths_studio@1200x630.jpg
+    width: 1200
+    height: 630
 ---
+
+{% include picture.html filename="blacksmiths_studio_albert_brument" aspect_ratio="1.54" caption="The Blacksmith's Studio by Albert Brument (late 19th century)." %}
 
 When I was in graduate school, my thesis advisor, [Simon Penny](https://simonpenny.net), once told me a story about an encounter he had with a locksmith during the renovation of one of the buildings on our side of campus:
 

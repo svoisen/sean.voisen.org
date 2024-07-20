@@ -1,17 +1,13 @@
 ---
 title: When software tools get too big, remember Goldilocks
 description: If we want more convivial software tools, let's disincentivize them from getting too big for their own good.
+image:
+    path: /assets/images/mountain_cabin_george_luks_1928@1200x630.jpg
+    width: 1200
+    height: 630
 ---
 
-<figure>
-<picture>
-<source type="image/webp" srcset="{{ site.url }}/assets/images/cabin@640.webp 640w, {{ site.url }}/assets/images/cabin@1280.webp 1280w, {{ site.url }}/assets/images/cabin@1920.webp 1920w">
-<img src="{{ site.url }}/assets/images/cabin@640.jpg" alt="A rustic, old log cabin in the woods, with a wooden ladder leaning on one side adjacent a rock chimney." class="post-splash">
-</picture>
-<figcaption>
-Photo by <a href="https://unsplash.com/@olivier_twwli?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Olivier Guillard</a> on <a href="https://unsplash.com/photos/FKJgBUDoVC0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-</figcaption>
-</figure>
+{% include picture.html filename="mountain_cabin_george_luks_1928" aspect_ratio="1.21" caption="Mountain cabin by George Luks (1928)." %}
 
 The “Goldilocks model” offers a lens for examining how the benefits of a technology balance against the harms that same technology may also cause if it is left unchecked. Like the folktale from which the name derives, it’s about finding _just the right_ amount of a technology to apply to a given situation. Too little and the technology may be ineffectual. Too much and there’s risk of exacerbating the problem one was trying to solve. 
 

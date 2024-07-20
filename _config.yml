@@ -1,7 +1,7 @@
 site: Sean Voisen
 url: https://sean.voisen.org
 title: Sean Voisen
-description: Spurious thoughts on making computing better for humans.
+description: Thoughts on mindfulness, leadership, virtue and living a good life in the modern world.
 author:
   name: Sean Voisen
 twitter:
@@ -29,9 +29,7 @@ plugins:
   - jekyll-gist
   - jekyll-seo-tag
   - jekyll-sitemap  
-  - jekyll-og-image
   - jekyll-feed
-  # - jekyll-minifier
 
 feed:
   path: /atom.xml
@@ -99,30 +97,3 @@ navigation:
     url: /notes
   - text: About
     url: /about
-
-jekyll-minifier:
-  uglifier_args:
-    harmony: true
-
-og_image:
-  output_dir: "/assets/images"
-  image: "/assets/images/sean_voisen@512.jpg"
-  # domain: "sean.voisen.org"
-  canvas:
-    # background_image: "/assets/images/og_background_svoisen.jpg"
-    background_color: "#002d38"
-  header:
-    font_family: "SF Pro Text Bold"
-    color: "#f1e9d2"
-  content:
-    font_family: "SF Pro Text"
-    color: "#8faaab"
-  force: false
-  border_bottom:
-    width: 10
-    fill:
-      - "#ac8300"
-      - "#d56500"
-      - "#f23749"
-      - "#dd459d"
-      - "#2b90d8"

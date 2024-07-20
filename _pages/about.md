@@ -4,10 +4,7 @@ description: A little about Sean Voisen.
 hide_subscribe: true
 ---
 
-<picture>
-<source type="image/webp" srcset="{{ site.url }}/assets/images/sean_voisen_wide@480.webp 480w, {{ site.url }}/assets/images/sean_voisen_wide@960.webp 960w, {{ site.url }}/assets/images/sean_voisen_wide@1920.webp 1920w">
-<img src="/assets/images/sean_voisen_wide@960.jpg" style="aspect-ratio: 16/9" alt="A photo of the author.">
-</picture>
+{% include picture.html filename="sean_voisen_wide" caption="" %}
 
 **Hello!** I’m *Sean*. 
 
@@ -19,7 +16,7 @@ Currently, I'm the Director of Design Engineering at [Adobe](https://adobe.com),
 
 In the past I have:
 
-* Built real-time collaboration and accessibility features for [Adobe Express](https://express.adobe.com)
+* Built real-time collaboration and accessibility features for [Adobe Express](https://express.adobe.com)  
 * Managed layout and accessibility engineering teams working on [Firefox](https://mozilla.org)
 * Built web-based tools for making animated VR and AR comics at [Madefire](https://techcrunch.com/2022/04/29/madefire-shuts-down/)
 * Led prototype engineering inside [Adobe’s Design Studio](https://adobe.design)
@@ -43,7 +40,7 @@ Needless to say, *views and opinions expressed on this site are purely my own an
 <aside class="footnote">
 <h3>Colophon</h3>
 
-This site is built using <a href="https://jekyllrb.com/">Jekyll</a> and deployed on <a href="https://www.netlify.com">Netlify</a>. Minimalist site design inspired by <a href="https://stephango.com/">Steph Ango</a> and <a href="https://macwright.com">Tom MacWright</a>.
+This site is built using <a href="https://jekyllrb.com/">Jekyll</a> and deployed on <a href="https://www.netlify.com">Netlify</a>. Text is set in <a href="https://fonts.google.com/specimen/Alegreya">Alegraya</a> and <a href="https://fonts.google.com/specimen/Alegreya+Sans">Alegraya Sans</a>.
 </aside>
 
 <script>

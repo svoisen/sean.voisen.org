@@ -1,7 +1,13 @@
 ---
 title: Design engineering writing and resources
 description: A growing collection of articles, books, blog posts and other resources about design engineering.
+image:
+  path: /assets/images/eames_house@1200x630.jpg
+  width: 1200
+  height: 630
 ---
+
+{% include picture.html filename="eames_house" aspect_ratio="4 / 3" caption="Eames Case Study House by Edward Stojakovic." %}
 
 This is a short list of articles, books, blog posts and other resources about the practice of design engineering. 
 
