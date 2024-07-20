@@ -40,7 +40,7 @@ are rare here in summer. Better to come in September or October, when the
 extreme temperature differential between coast and inland subsides and the fog
 belt dissipates for a few glorious, sun-soaked weeks.
 
-This past week, however, climate change gave us the gift of a record-breaking
+This past week, however, climate change gave us the "gift" of a record-breaking
 heat wave. It was hot nearly everywhere in California. So we packed the car and
 headed to our favorite spot on a thin strip of sand along the Point Reyes
 National Seashore to try and cool down.
