@@ -1,5 +1,6 @@
 ---
 title: What I've been reading this summer
+description: A list of a few books I read and enjoyed in Summer 2024.
 layout: note
 ---
 
