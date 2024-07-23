@@ -20,7 +20,8 @@ layout: default
     <section>
         <h2><a href="{{ site.url }}/notes">Notes</a></h2>
         <ul class="posts-list">
-            {% for note in site.notes reversed limit: 5 %}
+            {% assign notes = site.notes | reverse %}
+            {% for note in notes limit: 5 %}
             <li>
                 <span class="post-title"><a href="{{ note.url }}">{{ note.title }}</a></span>
                 <span class="post-metadata">{{ note.date | date: "%b %-d, %Y" }}</span>

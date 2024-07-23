@@ -246,7 +246,8 @@ strong {
 }
 
 .post h3,
-.home h3 {
+.home h3,
+.note-contents h3 {
   margin: var(--space-2xl) 0 var(--space-2xs) 0;
   font-size: var(--font-size-2);
   font-weight: 700;
@@ -254,8 +255,14 @@ strong {
   font-family: var(--font-family-sans-serif);
 }
 
+.note-contents h3 {
+  font-size: var(--font-size-1);
+}
+
 .post h3+p,
-.post h4+p {
+.post h4+p,
+.note-contents h3+p,
+.note-contents h4+p {
   margin-top: var(--space-3xs);
 }
 
@@ -636,6 +643,12 @@ figure {
   border-bottom: 2px solid var(--border-color);
   gap: var(--space-s);
   font-family: var(--font-family-sans-serif);
+}
+
+.note-heading h2 {
+  margin: 0;
+  font-size: var(--font-size-1);
+  font-weight: 900;
 }
 
 .note-heading a {
