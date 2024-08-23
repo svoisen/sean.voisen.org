@@ -1,0 +1,93 @@
+.footer {
+  min-height: 4rem;
+  background-color: var(--header-footer-background-color);
+  color: var(--header-footer-foreground-color);
+}
+
+.footer a {
+  color: var(--header-footer-link-color);
+}
+
+.footer p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer a:hover {
+  color: var(--header-footer-link-hover-color);
+  text-decoration-color: var(--header-footer-link-hover-underline-color);
+}
+
+.footer-content {
+  margin-top: var(--space-2xl);
+  margin-bottom: var(--space-2xl);
+}
+
+.footer h2,
+.footer h3 {
+  font-weight: 900;
+  font-size: var(--font-size-2);
+}
+
+.footer h3 a {
+  text-decoration: none;
+  color: var(--footer-foreground-color);
+}
+
+.footer h3 a:hover {
+  color: var(--link-hover-color);
+}
+
+.footer-copyright {
+  margin-top: var(--space-2xl);
+  font-size: var(--font-size-0);
+}
+
+.subscribe-form {
+  margin: 1rem 0 3rem 0;
+}
+
+.subscribe-form input[type="email"] {
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  color: var(--footer-link-color);
+  font-size: var(--font-size-0);
+  border-bottom: 2px solid var(--header-footer-input-color);
+  margin-right: var(--space-2xs);
+  font-family: var(--font-family-sans-serif);
+}
+
+.subscribe-form input[type="email"]::placeholder {
+  color: var(--placeholder-color);
+}
+
+.subscribe-form input[type="email"]:focus {
+  outline: none;
+  border-bottom-color: var(--header-footer-input-focus-color);
+}
+
+.subscribe-form input[type="submit"] {
+  appearance: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: var(--button-background-color);
+  color: var(--button-foreground-color);
+  font-size: var(--font-size-0);
+  font-family: var(--font-family-sans-serif);
+}
+
+.subscribe-form input[type="submit"]:hover {
+  cursor: pointer;
+  color: var(--button-hover-foreground-color);
+  background-color: var(--button-hover-background-color);
+  transition: all;
+  transition-duration: 0.25s;
+}
+
+.subscribe-form input[type="submit"]:focus {
+  outline: 1px solid var(--foreground-color);
+  outline-offset: 4px;
+}
+

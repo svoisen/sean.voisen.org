@@ -36,6 +36,8 @@ feed:
   collections:
     notes:
       path: /notes/feed.xml
+    reading:
+      path: /reading/feed.xml
 
 reading_time:
   second_plural: "second read"
@@ -51,7 +53,7 @@ collections:
     permalink: /writing/:slug
   reading:
     output: true
-    permalink: /reading/:slug
+    permalink: /reading/marginalia/:slug
   notes:
     output: true
     permalink: /notes/:year-:month-:day-:slug
@@ -76,7 +78,7 @@ defaults:
     scope:
       type: "reading"
     values:
-      layout: "book"
+      layout: "post"
   -
     scope:
       type: "notes"
@@ -89,11 +91,13 @@ defaults:
       image: true
 
 navigation:
+  - text: Marginalia
+    url: /reading/marginalia
   - text: Writing
     url: /writing
-  - text: Reading
-    url: /reading
   - text: Notes
     url: /notes
+  - text: Bookshelf
+    url: /reading/bookshelf
   - text: About
     url: /about

@@ -22,4 +22,15 @@
     {% endcapture %}
     {{ sass_file | scssify }}
     </style>
+
+    {% if page.custom_css %}
+    {% for style in page.custom_css %}
+    {% capture sass_file %}
+    {% include {{ style }}.scss %}
+    {% endcapture %}
+    <style type="text/css">
+    {{ sass_file | scssify }}
+    </style>
+    {% endfor %}
+    {% endif %}
 </head>

@@ -1,0 +1,58 @@
+.theme-select-container {
+  position: absolute;
+  right: 0;
+}
+
+.theme-select {
+  opacity: 0;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+.theme-select-label {
+  box-sizing: border-box;
+  background-color: var(--theme-select-background-color);
+  width: 3rem;
+  height: 1.5rem;
+  border-radius: 1.5rem;
+  position: relative;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.theme-select-label .moon {
+  position: absolute;
+  width: 1.25rem;
+  height: 1.25rem;
+  left: 1.625rem;
+  background: var(--foreground-color);
+  mask-image: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20fill='currentColor'%20viewBox='0%200%2024%2024'%20%3E%3Cpath%20d='M20.354%2015.354A9%209%200%20018.646%203.646%209.003%209.003%200%200012%2021a9.003%209.003%200%20008.354-5.646z'%20/%3E%3C/svg%3E");
+}
+
+.theme-select-label .sun {
+  position: absolute;
+  width: 1.25rem;
+  height: 1.25rem;
+  left: 2px;
+  background: var(--foreground-color);
+  mask-image: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2020%2020'%20fill='currentColor'%20%3E%3Cpath%20fill-rule='evenodd'%20d='M10%202a1%201%200%20011%201v1a1%201%200%2011-2%200V3a1%201%200%20011-1zm4%208a4%204%200%2011-8%200%204%204%200%20018%200zm-.464%204.95l.707.707a1%201%200%20001.414-1.414l-.707-.707a1%201%200%2000-1.414%201.414zm2.12-10.607a1%201%200%20010%201.414l-.706.707a1%201%200%2011-1.414-1.414l.707-.707a1%201%200%20011.414%200zM17%2011a1%201%200%20100-2h-1a1%201%200%20100%202h1zm-7%204a1%201%200%20011%201v1a1%201%200%2011-2%200v-1a1%201%200%20011-1zM5.05%206.464A1%201%200%20106.465%205.05l-.708-.707a1%201%200%2000-1.414%201.414l.707.707zm1.414%208.486l-.707.707a1%201%200%2001-1.414-1.414l.707-.707a1%201%200%20011.414%201.414zM4%2011a1%201%200%20100-2H3a1%201%200%20000%202h1z'%20clip-rule='evenodd'%20/%3E%3C/svg%3E")
+}
+
+.theme-select-label .ball {
+  background-color: var(--theme-select-switch-color);
+  width: 1.25rem;
+  height: 1.25rem;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  border-radius: 50%;
+  transition: transform 0.1s linear;
+}
+
+.theme-select:checked+.theme-select-label .ball {
+  transform: translateX(1.5rem);
+}
+

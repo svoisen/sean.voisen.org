@@ -1,0 +1,44 @@
+---
+layout: default
+title: Reading
+description: Reflections on recent reading, along with lists of favorite books and papers.
+hide_description: true
+custom_css: reading
+---
+
+<article>
+    <header class="content">
+        <h2>{{ page.title }}</h2>
+    </header>
+
+    <section class="content-grid">
+        <h3>Marginalia</h3>
+        <p>Brief reflections on books and papers I've read recently, mostly on what it means to be human in our technological world.</p>
+        <ul class="posts-grid wide">
+            {% for post in site.reading reversed %}
+            {% include posts_grid_item.html post=post %}
+            {% endfor %}
+        </ul>
+    </section>
+
+    <section class="content-grid">
+        <h3>Bookshelf</h3>
+
+        <h4>By Year</h4>
+        <ul class="year-list horizontal">
+            <li><a href="{{ site.url }}/reading/bookshelf#2024">2024</a></li>
+            <li><a href="{{ site.url }}/reading/bookshelf#2023">2023</a></li>
+            <li><a href="{{ site.url }}/reading/bookshelf#2022">2022</a></li>
+        </ul>
+
+        <h4>Favorites</h4>
+        <p>Books and papers that have had a profound impact on my personal worldview. This list is forever evolving, but is what I currently consider part of my <em>personal canon</em>.
+
+        <ul class="books-grid wide">
+            {% assign books = site.data.books | where:"favorite", "true" | sort:"title" %}
+            {% for book in books %}
+            {% include books_grid_item.html book=book %}
+            {% endfor %}
+        </ul>
+    </section>
+</article>

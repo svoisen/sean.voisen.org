@@ -1,0 +1,62 @@
+.books-grid {
+  margin: var(--space-l) 0 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  grid-template-rows: auto;
+  gap: var(--space-m);
+  row-gap: var(--space-m);
+  align-items: end;
+}
+
+.books-grid-item {
+  position: relative;
+  display: grid;
+  list-style: none;
+  grid-template-rows: auto 6rem;
+}
+
+.books-grid-cover {
+  border-radius: 0.25rem;
+  max-width: 100%;
+  width: 100%;
+  display: block;
+}
+
+.books-grid-metadata {
+  padding: 0.5rem 0 0 0;
+  line-height: 1.25;
+  font-size: var(--font-size-0);
+  font-family: var(--font-family-sans-serif);
+}
+
+.books-grid-title::after {
+  content: "";
+  display: block;
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.books-grid-author {
+  display: block;
+  font-size: var(--font-size--1);
+}
+
+.books-grid-rating {
+  display: block;
+  font-size: var(--font-size--1);
+}
+
+ul.year-list {
+  margin-top: var(--space-2xs);
+}
+
+@media only screen and (min-width: 568px) {
+  .books-grid {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  }
+}

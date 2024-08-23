@@ -1,0 +1,13 @@
+<li class="books-grid-item">
+    <img src="{{ site.url }}/assets/covers/{{ include.book.slug }}@320.webp" alt="{{ include.book.title }}" class="books-grid-cover" loading="lazy">
+    <div class="books-grid-metadata">
+        <a href="{{ include.book.link }}">
+            <span class="books-grid-title">{{ book.title }}</span>
+        </a>
+        <br>
+        <span class="books-grid-author">by {{ include.book.author }}</span>
+        <span class="books-grid-rating">
+			{{ include.book.rating|star_rating }}
+		</span>
+    </div>
+</li>

@@ -1,240 +1,240 @@
-- title: The Ministry for the Future
-  author: Kim Stanley Robinson
-  isbn_13: 9780356508849
-  year_published: 2020
-  year_read: 2022
+- title: Good Strategy, Bad Strategy
+  author: Richard Rumelt
+  year: 2024
+  rating: 4.5
+  type: book
+  link: "https://bookshop.org/a/106240/9780307886231"
+  slug: good_strategy_bad_strategy
+  favorite: false
+
+- title: Design as Art
+  author: Bruno Munari
+  year: 2023
+  rating: 3
+  type: book
+  link: "https://bookshop.org/a/106240/9780141035819"
+  slug: design_as_art
+  favorite: false
+
+- title: The Art of Leadership
+  author: Michael Lopp
+  year: 2023
+  rating: 2.5
+  type: book
+  link: "https://bookshop.org/a/106240/9781492045694"
+  slug: art_of_leadership
+  favorite: false
+
+- title: Mastery
+  author: George Leonard
+  year: 2022
   rating: 4
   type: book
-  open_library: OL21680947W
+  link: "https://archive.org/details/masterykeystolon00leon"
+  slug: mastery_leonard
+  favorite: false
+
+- title: True Names
+  author: Vernor Vinge
+  year: 2022
+  rating: 3
+  type: book
+  link: "https://bookshop.org/a/106240/9780312862077"
+  slug: true_names
+  favorite: false
+
+- title: Computer Power and Human Reason
+  author: Joseph Weizenbaum
+  year: 2022
+  rating: 3.5
+  type: book
+  link: "https://archive.org/details/computerpowerhum0000weiz_v0i3"
+  slug: computer_power_human_reason
+  favorite: false
+
+- title: Where Good Ideas Come From
+  author: Steven Johnson
+  year: 2022
+  rating: 3
+  type: book
+  link: "https://bookshop.org/a/106240/9781594485381"
+  slug: where_good_ideas_come_from
+  favorite: false
+
+- title: The Ministry for the Future
+  author: Kim Stanley Robinson
+  year: 2022
+  rating: 3
+  type: book
+  link: "https://bookshop.org/a/106240/9781732265189"
   slug: ministry_for_the_future
-  canon: false
+  favorite: false
 
 - title: Thinking in Systems
   author: Donella Meadows
-  isbn_10: 1603580557
-  isbn_13: 9781603580557
-  year_published: 2008
-  year_read: 2022
+  year: 2022
   rating: 5
   type: book
-  open_library: OL17052666M 
+  link: "https://bookshop.org/a/106240/9781603580557"
   slug: thinking_in_systems
-  canon: true
+  favorite: true
 
 - title: Patterns of Software
   author: Richard Gabriel
-  isbn_10: 0195121236
-  isbn_13: 9780195121230
-  year_published: 1996
-  year_read: 2022
-  rating: 4
-  open_library: OL805330M
-  slug: patterns_of_software_gabriel
-  canon: false
+  year: 2022
+  rating: 4.5
+  type: book
+  link: "https://openlibrary.org/books/OL805330M/Patterns_of_software"
+  slug: patterns_of_software
+  favorite: false
 
 - title: Ways of Being
   author: James Bridle
-  isbn_10:
-  isbn_13: 9780141994277
-  year_published: 2022
-  year_read: 2022
+  year: 2022
   rating: 5
   type: book
-  open_library: OL38803755M
+  link: "https://bookshop.org/a/106240/9781250872968"
   slug: ways_of_being_james_bridle
-  canon: true
+  favorite: true
 
 - title: The Dream Machine
   author: M. Mitchell Waldrop
-  isbn_10: "1732265119"
-  isbn_13: "9781732265110"
-  year_published: 2018
-  year_read: 2022
+  year: 2022
   rating: 3
   type: book
-  open_library: OL28302661M
-  slug: the_dream_machine_waldrop
-  canon: false
+  link: "https://bookshop.org/a/106240/9781732265110"
+  slug: dream_machine_waldrop
+  favorite: false
 
 - title: Thoughts on Design
   author: Paul Rand
-  isbn_10: "1014558395"
-  isbn_13: "9781014558398"
-  year_published: 2021
-  year_read: 2022
+  year: 2022
   rating: 3
   type: book
-  open_library: OL10531504W
+  link: "https://www.paulrand.design/writing/books/thoughts-on-design-1st-edition.html"
   slug: thoughts_on_design_rand
-  canon: false
+  favorite: false
 
 - title: How Buildings Learn
   author: Stewart Brand
-  isbn_10: "0670835153"
-  isbn_13: "9780670835157"
-  year_published: 1994
-  year_read: 2022
+  year: 2022
   rating: 4
   type: book
-  open_library: OL823146W
+  link: "https://bookshop.org/a/106240/9780140139969"
   slug: how_buildings_learn_brand
-  canon: true
+  favorite: true
 
 - title: The More Beautiful World our Hearts Know is Possible
   author: Charles Eisenstein
-  isbn_10: "1583947248"
-  isbn_13: "9781583947241"
-  year_published: 2013
-  year_read: 2022
-  rating: 3
+  year: 2022
+  rating: 2
   type: book
-  open_library: OL19704516W
-  slug: more_beautiful_world_our_hearts
-  canon: false
+  link: "https://bookshop.org/a/106240/9781583947241"
+  slug: a_more_beautiful_world_eisenstein
+  favorite: false
 
 - title: The Clock of the Long Now
   author: Stewart Brand
-  isbn_10: "0465007805"
-  isbn_13: "9780465007806"
-  year_published: 2000
-  year_read: 2022
+  year: 2022
   rating: 4
   type: book
-  open_library: OL823145W
-  slug: clock_of_the_long_now_brand
-  canon: false
+  link: "https://bookshop.org/a/106240/9780465007806"
+  slug: clock_of_the_long_now
+  favorite: false
 
 - title: Reading Writing Interfaces
   author: Lori Emerson
-  isbn_10: "0816691266"
-  isbn_13: "9780816691265"
-  year_published: 2014
-  year_read: 2022
+  year: 2022
   rating: 3
   type: book
-  open_library: OL26181134M
+  link: "https://bookshop.org/a/106240/9780816691265"
   slug: reading_writing_interfaces
-  canon: false
+  favorite: false
 
 - title: Four Thousand Weeks
   author: Oliver Burkeman
-  isbn_10: "0374159122"
-  isbn_13: "9780374159122"
-  year_published: 2021
-  year_read: 2022
+  year: 2022
   rating: 5
   type: book
-  open_library: OL30438395M
+  link: "https://bookshop.org/a/106240/9781250849359"
   slug: four_thousand_weeks
-  canon: true
+  favorite: true
 
 - title: Understanding Computers and Cognition
   author: Terry Winograd and Fernando Flores
-  isbn_10: 0201112973 
-  isbn_13: 9780201112979
-  year_published: 1987
-  year_read: 2022
+  year: 2022
   rating: 3
   type: book
-  open_library:
+  link: "https://bookshop.org/a/106240/9780201112979"
   slug: understanding_computers_cognition
-  canon: false
+  favorite: false
 
 - title: Einstein's Dreams
   author: Alan Lightman
-  isbn_10: 9781400077809
-  isbn_13: 9781400077809
-  year_published: 2004
-  year_read: 2022
-  rating: 4
+  year: 2022
+  rating: 3.5
   type: book
-  open_library:
+  link: "https://bookshop.org/a/106240/9781400077809"
   slug: einsteins_dreams
-  canon: false
+  favorite: false
 
 - title: Staff Engineer
   author: Will Larson
-  isbn_10: 1736417916 
-  isbn_13: 9781736417911
-  year_published: 2021
-  year_read: 2022
+  year: 2022
   rating: 3
   type: book
-  open_library:
+  link: "https://staffeng.com/book/"
   slug: staff_engineer
-  canon: false
-
-- title: A Foray Into the Worlds of Animals and Humans
-  author: Jakob von Uexküll 
-  isbn_10: "0816659001"
-  isbn_13: "9780816659005"
-  year_published: 2010
-  year_read: 2009
-  rating: 5
-  type: book
-  open_library: OL17442744W
-  slug: foray_worlds_animals_humans
-  canon: true
-
-- title: Annals of the Former World
-  author: John McPhee
-  isbn_10: "0374518734"
-  isbn_13: "9780374518738"
-  year_published: 2000 
-  year_read: 
-  rating: 5
-  type: book
-  open_library: OL11293225W
-  slug: annals_former_world
-  canon: true
+  favorite: false
 
 - title: Finite and Infinite Games
   author: James Carse
-  isbn_10: "1476731713"
-  isbn_13: "9781476731711"
-  year_published: 2013 
-  year_read: 2022
+  year: 2022
   rating: 5
   type: book
-  open_library: OL2669550W
+  link: "https://bookshop.org/a/106240/9781476731711"
   slug: finite_infinite_games
-  canon: true
+  favorite: true
+
+- title: A Foray Into the Worlds of Animals and Humans
+  author: Jakob von Uexküll 
+  year: 2009
+  rating: 5
+  type: book
+  slug: foray_worlds_animals_humans
+  favorite: true
+
+- title: Annals of the Former World
+  author: John McPhee
+  year: 
+  rating: 5
+  type: book
+  slug: annals_former_world
+  favorite: true
 
 - title: Sky Above, Great Wind
   author: Ryōkan
-  isbn_10: "1590309820"
-  isbn_13: "9781590309827"
-  year_published: 2012 
-  year_read: 
+  year: 
   rating: 5
   type: book
-  open_library: OL25237811M
   slug: sky_above_great_wind
-  canon: true
+  favorite: true
 
 - title: Tools for Conviviality
-  author: Ivan Illich
-  isbn_10: "1842300113"
-  isbn_13: "9781842300114"
-  year_published: 2021 
-  year_read: 2021
+  year: 2021
   rating: 5
   type: book
-  open_library: OL26882248M
   slug: tools_for_conviviality
-  canon: true
+  favorite: true
 
 - title: Shop Class as Soulcraft
   author: Matthew Crawford
-  isbn_10: "0143117467"
-  isbn_13: "9780143117469"
-  year_published: 2010
-  year_read: 
+  year: 
   rating: 5
   type: book
-  open_library: OL13759269W
+  link: "https://bookshop.org/a/106240/9780143117469"
   slug: shop_class_as_soulcraft
-  canon: true
+  favorite: true
 
 - title: The Real World of Technology
   author: Ursula Franklin
@@ -246,51 +246,31 @@
   type: book
   open_library: OL669220W
   slug: real_world_technology
-  canon: true
+  favorite: true
 
 - title: Where the Action Is
   author: Paul Dourish
-  isbn_10: "0262541785"
-  isbn_13: "9780262541787"
-  year_published: 1999
   year_read: 2010
   rating: 4
   type: book
   open_library: OL9207460W
   slug: where_action_is
-  canon: true
+  favorite: false
 
 - title: An Elegant Puzzle
   author: Will Larson
-  isbn_10: "1732265186"
-  isbn_13: "978-1732265189"
-  year_published: 2019
   year_read: 2019
   rating: 4
   type: book
   open_library: OL20641522W
   slug: an_elegant_puzzle
-  canon: true
+  favorite: true
 
 - title: The Embodied Mind
   author: Francisco Varela, Eleanor Rosch and Evan Thompson
-  isbn_10: "9780262529365"
-  isbn_13: "978-0262529365"
-  year_published: 1992
   year_read: 2009
   rating: 5
   type: book
   open_library: OL29752648M
   slug: embodied_mind
-  canon: true
-
-# - title:
-#   author:
-#   isbn_10:
-#   isbn_13:
-#   year_published:
-#   year_read:
-#   rating:
-#   type: book
-#   open_library:
-#   cover_image_slug:
+  favorite: true
