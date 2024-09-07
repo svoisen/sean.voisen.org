@@ -1,6 +1,7 @@
 ---
 title: Favorite books of 2022 (and 2021)
 description: A few favorite books from my reading over the past two years.
+category: blog
 ---
 
 <div style="display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 0.5rem; aspect-ratio: 2.7">

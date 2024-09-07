@@ -1,5 +1,6 @@
 ---
 title: Muting the web
+category: blog
 ---
 
 What would an Internet without language feel like?

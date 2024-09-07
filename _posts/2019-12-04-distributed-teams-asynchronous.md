@@ -1,6 +1,7 @@
 ---
 title: Distributed teams and asynchronous work
 description: Some thoughts on the nature of distributed teams spurned by reading Ursula Franklin's "The Real World of Technology."
+category: blog
 ---
 
 Inspired by [Ethan Marcotte's excellent talk](https://ethanmarcotte.com/wrote/the-world-wide-work/) on power and justice in tech, I've been reading a lot of [Ursula Franklin](https://en.wikipedia.org/wiki/Ursula_Franklin) recently.

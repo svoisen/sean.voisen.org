@@ -1,5 +1,6 @@
 ---
 title: Reading outside the feedback loop
+category: blog
 ---
 
 Two facts: 1) Serendipity is the engine that powers the wonder of life and 2) when you read, life is often measured in periods demarcated by the dates before and the dates after the reading of a life-altering book.

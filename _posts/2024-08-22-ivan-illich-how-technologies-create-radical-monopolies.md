@@ -1,5 +1,6 @@
 ---
 title: Ivan Illich on how technologies create radical monopolies
+category: marginalia
 image_prefix: ivan_illich
 image:
   path: /assets/images/ivan_illich@1200x630.jpg

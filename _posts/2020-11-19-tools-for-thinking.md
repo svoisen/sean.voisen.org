@@ -1,6 +1,7 @@
 ---
 title: Paper, pen and tools for thinking
 description: A few thoughts on how paper and pen are still often better than computational tools for thought.
+category: blog
 ---
 
 > "The art of thinking is grounded in the mind's astonishing capacity to create beyond what it intends, beyond what it can foresee." — Theodore Roszak, [The Cult of Information](https://www.ucpress.edu/book/9780520085848/the-cult-of-information)

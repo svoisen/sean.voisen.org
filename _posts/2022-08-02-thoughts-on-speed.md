@@ -1,6 +1,7 @@
 ---
 title: Thoughts on speed
 description: Why we need software to be fast.
+category: blog
 image:
     path: /assets/images/bicycle_race_scene@1200x630.jpg
     width: 1200

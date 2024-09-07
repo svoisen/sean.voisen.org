@@ -1,6 +1,7 @@
 ---
 title: When software tools get too big, remember Goldilocks
 description: If we want more convivial software tools, let's disincentivize them from getting too big for their own good.
+category: blog
 image:
     path: /assets/images/mountain_cabin_george_luks_1928@1200x630.jpg
     width: 1200

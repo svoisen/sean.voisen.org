@@ -1,6 +1,6 @@
 ---
 title: Subscribe
-description: A few ways to receive updates on my latest essays, ideas and projects.
+description: A few ways to receive updates on my latest notes, essays, ideas and projects.
 hide_subscribe: true
 ---
 

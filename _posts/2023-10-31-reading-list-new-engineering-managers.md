@@ -1,5 +1,6 @@
 ---
 title: A reading list for new (or would be) engineering managers
+category: blog
 description: >-
   A collection of books and articles that I wish I had when I was first starting
   out on the management path.

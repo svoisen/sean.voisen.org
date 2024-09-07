@@ -5,9 +5,9 @@ layout: default
 <article class="home">
     <section class="content-grid">
         <h2><a href="{{ site.url }}/reading/marginalia">Marginalia</a></h2>
-		<p>Brief reflections on topics from books and papers, mostly about what it means to be human in our technological world.</p>
+		<p>Brief reflections on topics from books and papers, mostly exploring how technology is shaping the modern human condition.</p>
         <ul class="posts-grid wide">
-            {% assign posts = site.reading | reverse %}
+            {% assign posts = site.posts | where: "category","marginalia" %}
             {% for post in posts limit: 3 %}
             {% include posts_grid_item.html post=post %}
             {% endfor %}
@@ -15,10 +15,11 @@ layout: default
     </section>
 
     <section class="content">
-        <h2><a href="{{ site.url }}/writing">Writing</a></h2>
+        <h2><a href="{{ site.url }}/writing">Blog</a></h2>
 		<p>Essays and personal updates.</p>
         <ul class="posts-list">
-            {% for post in site.posts limit: 5 %}
+            {% assign posts = site.posts | where: "category","blog" %}
+            {% for post in posts limit: 5 %}
             {% include posts_list_item.html post=post %}
             {% endfor %}
         </ul>

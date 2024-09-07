@@ -1,5 +1,6 @@
 ---
 title: Thoughts on prototype engineering
+category: blog
 ---
 
 In software, prototype engineering is a necessity of innovation, but many organizations do it wrong. They do it wrong because they look at prototypes not as prototypes, but as new alpha- or beta-version products. As a result, they over-design and they over-engineer. It's worth emphasizing: **prototypes are not products.** The value of a prototype lies in the experience and knowledge gained through rapidly investigating a problem-space, not in the final output. 

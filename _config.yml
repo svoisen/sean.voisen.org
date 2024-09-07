@@ -1,7 +1,7 @@
 site: Sean Voisen
 url: https://sean.voisen.org
 title: Sean Voisen
-description: Thoughts on mindfulness, leadership, virtue and living a good life in the modern world.
+description: Thoughts on leadership, software development, technology and living a good life in the modern world.
 author:
   name: Sean Voisen
 twitter:
@@ -36,8 +36,6 @@ feed:
   collections:
     notes:
       path: /notes/feed.xml
-    reading:
-      path: /reading/feed.xml
 
 reading_time:
   second_plural: "second read"
@@ -50,10 +48,7 @@ collections:
     permalink: /:name
   posts:
     output: true
-    permalink: /writing/:slug
-  reading:
-    output: true
-    permalink: /reading/marginalia/:slug
+    permalink: /:slugified_categories/:slug
   notes:
     output: true
     permalink: /notes/:year-:month-:day-:slug
@@ -76,11 +71,6 @@ defaults:
       layout: "post"
   -
     scope:
-      type: "reading"
-    values:
-      layout: "post"
-  -
-    scope:
       type: "notes"
     values:
       layout: "note"
@@ -92,12 +82,12 @@ defaults:
 
 navigation:
   - text: Marginalia
-    url: /reading/marginalia
-  - text: Writing
-    url: /writing
+    url: /marginalia
+  - text: Blog
+    url: /blog
   - text: Notes
     url: /notes
   - text: Bookshelf
-    url: /reading/bookshelf
+    url: /bookshelf
   - text: About
     url: /about

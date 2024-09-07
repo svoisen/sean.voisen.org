@@ -1,5 +1,6 @@
 ---
 title: Thoughts on the design of conversational UIs
+category: blog
 ---
 
 **Designers! Take heed!**

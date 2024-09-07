@@ -1,6 +1,7 @@
 ---
 title: Recently, April/May 2024
 description: Favorite reading, listens and miscellanea from April and May.
+category: blog
 ---
 
 I failed to post an update in April—and here we are approaching mid-June!—so I’m

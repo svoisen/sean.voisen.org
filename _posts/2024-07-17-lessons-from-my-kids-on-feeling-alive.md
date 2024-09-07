@@ -1,6 +1,7 @@
 ---
 title: Lessons from my kids on how to feel alive
 description: A few things we can remember just by watching kids at play in the natural world.
+category: blog
 image:
   path: /assets/images/david_and_emily_frank_reynolds@1200x630.jpg
   width: 1200
