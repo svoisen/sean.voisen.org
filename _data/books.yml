@@ -7,6 +7,86 @@
   slug: good_strategy_bad_strategy
   favorite: false
 
+- title: The Nature and Art of Workmanship
+  author: David Pye
+  year: 2023
+  rating: 3.5
+  type: book
+  link: "https://bookshop.org/a/106240/9780713689310"
+  slug: nature_art_workmanship
+  isbn_13: 9780713689310
+  favorite: false
+
+- title: Tao Te Ching
+  author: Lao Tzu, Ursula Le Guin
+  year: 2023
+  rating: 5
+  type: book
+  link: "https://bookshop.org/a/106240/9781611807240"
+  slug: tao_te_ching
+  isbn_13: 9781611807240
+  favorite: true
+
+- title: The Prophet
+  author: Kahlil Gibran
+  year: 2023
+  rating: 4
+  type: book
+  link: "https://bookshop.org/a/106240/9781441338365"
+  slug: the_prophet
+  isbn_13: 9781441338365
+  favorite: false
+
+- title: Decolonizing Design
+  author: Elizabeth (Dori) Tunstall
+  year: 2023
+  rating: 3
+  type: book
+  link: "https://bookshop.org/a/106240/9780262047692"
+  slug: decolonizing_design
+  isbn_13: 9780262047692
+  favorite: false
+
+- title: "Happiness: A Philosopher's Guide"
+  author: Frédéric Lenoir
+  year: 2023
+  rating: 4
+  type: book
+  link: "https://archive.org/details/happinessphiloso0000leno"
+  slug: happiness_philosophers_guide
+  isbn_13: 9781612195209
+  favorite: false
+
+- title: The Medusa and the Snail
+  author: Lewis Thomas
+  year: 2023
+  rating: 3.5
+  type: book
+  link: "https://bookshop.org/a/106240/9780140243192"
+  slug: medusa_and_the_snail
+  isbn_13: 9780140243192
+  favorite: false
+
+- title: All Things Shining
+  author: Hubert Dreyfus and Sean Kelly
+  year: 2023
+  rating: 3
+  link: "https://bookshop.org/a/106240/9781416596165"
+  slug: all_things_shining
+  type: book
+  isbn_13: 9781416596165
+  favorite: false
+
+- title: Atlas of AI
+  author: Kate Crawford
+  year: 2023
+  rating: 3.5
+  type: book
+  link: "https://bookshop.org/a/106240/9780300264630"
+  isbn_13: 9780300264630
+  slug: atlas_of_ai
+  favorite: false
+
 - title: Design as Art
   author: Bruno Munari
   year: 2023

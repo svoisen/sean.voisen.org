@@ -55,7 +55,7 @@ ul.year-list {
   margin-top: var(--space-2xs);
 }
 
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   .books-grid {
     grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
   }
