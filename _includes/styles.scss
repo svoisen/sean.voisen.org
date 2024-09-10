@@ -36,6 +36,10 @@ hr {
   margin: var(--space-xl) 0 var(--space-xl) 0;
 }
 
+hr+p {
+  margin-top: 0;
+}
+
 a {
   color: var(--link-color);
   text-decoration-color: var(--link-underline-color);
@@ -97,7 +101,6 @@ h4+p {
 
 p, ul, ol, blockquote, pre {
   margin-top: var(--space-l);
-  margin-bottom: var(--space-l);
 }
 
 blockquote {
@@ -249,6 +252,7 @@ img.full-width {
   display: block;
   border-radius: 0.5rem;
   width: 100%;
+  margin-top: var(--space-l);
 }
 
 img.float-left {

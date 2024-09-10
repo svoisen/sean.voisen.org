@@ -8,7 +8,7 @@ image:
     height: 630
 ---
 
-{% include picture.html filename="mountain_cabin_george_luks_1928" aspect_ratio="1.21" caption="Mountain cabin by George Luks (1928)." %}
+{% include picture.html class="normal" filename="mountain_cabin_george_luks_1928" aspect_ratio="1.21" caption="Mountain cabin by George Luks (1928)." %}
 
 The “Goldilocks model” offers a lens for examining how the benefits of a technology balance against the harms that same technology may also cause if it is left unchecked. Like the folktale from which the name derives, it’s about finding _just the right_ amount of a technology to apply to a given situation. Too little and the technology may be ineffectual. Too much and there’s risk of exacerbating the problem one was trying to solve. 
 

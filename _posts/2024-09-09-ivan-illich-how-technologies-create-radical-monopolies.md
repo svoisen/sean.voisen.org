@@ -1,22 +1,20 @@
 ---
 title: Ivan Illich on how technologies create radical monopolies
 category: marginalia
-image_prefix: ivan_illich
+image_prefix: ivan_illich_2
 image:
-  path: /assets/images/ivan_illich@1200x630.jpg
+  path: /assets/images/ivan_illich_2@1200x630.jpg
   width: 1200
   height: 630
 ---
 
-{% include book_cover_right.html filename="tools_for_conviviality" aspect_ratio="2 / 3" link="https://bookshop.org/a/106240/9781842300114" title="Tools for Conviviality by Ivan Illich" %} 
-
-As society moves to replace traditionally analog processes and infrastructure with digital equivalents—a phenomenon rapidly accelerated by the COVID-19 pandemic and our desire for “touch free” interactions—it has become increasingly difficult to get by without access to a smartphone. From restaurants foisting QR codes for access to menus on patrons, to digital boarding passes, to museum and concert tickets now requiring bespoke apps, smartphone ownership is often a deciding factor for access to many cultural experiences, or at the very least, a differentiator in the level of service one may receive in a greater multitude of commercial interactions. The pain of this is compounded by the fact that owning just *any* smartphone is often insufficient—one must own a smartphone tied to one of only two major application ecosystems: Apple's or Google's.
+{% include book_cover_right.html class="wide" filename="tools_for_conviviality" aspect_ratio="2 / 3" link="https://bookshop.org/a/106240/9781842300114" title="Tools for Conviviality by Ivan Illich" %} As society moves to replace traditionally analog processes and infrastructure with digital equivalents—a phenomenon rapidly accelerated by the COVID-19 pandemic and our desire for “touch free” interactions—it has become increasingly difficult to get by without access to a smartphone. From restaurants foisting QR codes for access to menus on patrons, to digital boarding passes, to museum and concert tickets now requiring bespoke apps, smartphone ownership is often a deciding factor for access to many cultural experiences, or at the very least, a differentiator in the level of service one may receive in a greater multitude of commercial interactions. The pain of this is compounded by the fact that owning just *any* smartphone is often insufficient—one must own a smartphone tied to one of only two major application ecosystems: Apple's or Google's.
 
 In 1973, cultural critic [Ivan Illich](https://en.wikipedia.org/wiki/Ivan_Illich) (1926-2002) warned us about this phenomenon in [Tools for Conviviality](https://bookshop.org/a/106240/9781842300114), calling the exclusive control a technology can come to exert over aspects of daily living a "radical monopoly." Defining the term, he wrote:
 
 > Generally we mean by "monopoly" the exclusive control by one corporation over the means of producing (or selling) a commodity or service ... By "radical monopoly" I mean the dominance of one type of product rather than the dominance of one brand. I speak about radical monopoly when one industrial production process exercises an exclusive control over the satisfaction of a pressing need, and excludes nonindustrial activities from competition ... The establishment of a radical monopoly happens when people give up their native ability to do what they can do for themselves and for each other, in exchange for something “better” that can be done for them only by a major tool.
 
-{% include picture.html filename="ivan_illich" aspect_ratio="1.34" caption="Ivan Illich" %}
+{% include picture.html class="wide" filename="ivan_illich" aspect_ratio="1.94" caption="A portrait of Ivan Illich." %}
 
 Smartphones did not exist in 1973 of course. But Illich gives us an example of another familiar technology that now exerts a radical monopoly over modern daily living: the automobile. Over mere decades, the proliferation of the automobile radically altered the infrastructure of cities so that they were designed to best accommodate this single mode of transportation, often to the exclusion or detriment of other, more ecologically sound alternatives—namely, walking, bicycling, or public transportation. Especially in the US during the middle and latter half of the 20th century, cities were developed with ever-wider roads, longer blocks, limited or non-existent sidewalks, encircling superhighways, and vast sprawl that was impossible or extremely inconvenient to traverse without access to a car. Commenting on this, Illich wrote:
 
@@ -40,4 +38,4 @@ Is it too late? Do we care?
 
 ---
 
-For anyone looking to dig more into Ivan Illich beyond [Tools for Conviviality](https://bookshop.org/a/106240/9781842300114) consider the work and writing of L.M. Sacasas, including his excellent newsletter, [The Convivial Society](https://theconvivialsociety.substack.com), as well as his [his interview discussing Illich on the Hope in Source podcast](https://hopeinsource.com/convivial/).
+If you're looking to dig more into the Illich's ideas and philosophy beyond [Tools for Conviviality](https://bookshop.org/a/106240/9781842300114) consider the work and writing of Illich scholar L.M. Sacasas, including his excellent newsletter, [The Convivial Society](https://theconvivialsociety.substack.com), as well as [his interview discussing Illich on the Hope in Source podcast](https://hopeinsource.com/convivial/).

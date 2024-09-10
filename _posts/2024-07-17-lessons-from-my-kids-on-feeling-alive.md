@@ -8,7 +8,7 @@ image:
   height: 630
 ---
 
-{% include picture.html filename="david_and_emily_frank_reynolds" aspect_ratio="1.2" caption="David and Emily from David Copperfield by Frank Reynolds (1910)." %}
+{% include picture.html class="normal" filename="david_and_emily_frank_reynolds" aspect_ratio="1.2" caption="David and Emily from David Copperfield by Frank Reynolds (1910)." %}
 
 >What does it feel like to be alive? Living, you stand under a waterfall. You
 >leave the sleeping shore deliberately; you shed your dusty clothes, pick your
@@ -89,7 +89,7 @@ when we're at a museum or the neighborhood park. Why? Why do children seem to
 come most alive in nature, when their only toys are a few
 sticks and rocks, or a single leaf idly floating down a creek?
 
-{% include picture.html filename="boys_playing_on_the_shore_albert_edelfelt" aspect_ratio="1.2" caption="Boys playing on the shore by Albert Edelfelt (1884)." %}
+{% include picture.html class="normal" filename="boys_playing_on_the_shore_albert_edelfelt" aspect_ratio="1.2" caption="Boys playing on the shore by Albert Edelfelt (1884)." %}
 
 We shouldn't feel surprised that Dillard's metaphor for living draws from her
 own memories of nature. Nature envelopes us with sensory texture unmatched by

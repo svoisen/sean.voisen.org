@@ -1,4 +1,4 @@
-<figure class="wide">
+<figure class="{{ include.class }}">
     <picture>
         <source type="image/webp" srcset="{{ site.url }}/assets/images/{{ include.filename }}@640.webp 640w, {{ site.url }}/assets/images/{{ include.filename }}@1280.webp 1280w, {{ site.url }}/assets/images/{{ include.filename }}@1920.webp 1920w">
         <img src="{{ site.url }}/assets/images/{{ include.filename }}@640.jpg" alt="{{ include.caption }}" class="full-width" style="aspect-ratio: {{ include.aspect_ratio }}">
