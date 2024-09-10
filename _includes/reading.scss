@@ -55,8 +55,16 @@ ul.year-list {
   margin-top: var(--space-2xs);
 }
 
+.bookshelf h2+p {
+  margin-top: 0;
+}
+
 @media only screen and (min-width: 768px) {
   .books-grid {
     grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  }
+
+  .bookshelf h2+p {
+    margin-top: var(--space-2xs);
   }
 }

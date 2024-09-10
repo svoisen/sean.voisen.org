@@ -260,7 +260,7 @@ img.float-left {
   float: left;
   width: clamp(160px, 30%, 200px);
   margin: var(--space-xs) var(--space-l) var(--space-s) 0;
-  border-radius: 0.5rem;
+  border-radius: 0.25rem;
 }
 
 img.float-right {
@@ -268,7 +268,7 @@ img.float-right {
   float: right;
   width: clamp(160px, 30%, 200px);
   margin: var(--space-xs) 0 var(--space-s) var(--space-l);
-  border-radius: 0.5rem;
+  border-radius: 0.25rem;
 }
 
 ul.horizontal {

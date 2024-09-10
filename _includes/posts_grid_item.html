@@ -1,5 +1,7 @@
 <li class="posts-grid-item">
-	<img src="{{ site.url }}/assets/images/{{ include.post.image_prefix }}@640.webp" class="posts-grid-item-image" loading="lazy">
+    <div class="posts-grid-item-content">
+        <img src="{{ site.url }}/assets/images/{{ include.post.image_prefix }}@640.webp" class="posts-grid-item-image" loading="lazy">
+    </div>
     <div class="posts-grid-item-content">
         <a href="{{ include.post.url }}" class="posts-grid-item-link">
             <span class="posts-grid-item-title">{{ include.post.title }}</span>
