@@ -1,0 +1,65 @@
+:root {
+  /**
+   * Colors
+   */
+  --brown-50: rgb(242, 240, 229);
+  --brown-100: rgb(230, 228, 217);
+  --brown-150: rgb(218, 216, 206);
+  --brown-200: rgb(206, 205, 195);
+  --brown-300: rgb(183, 181, 172);
+  --brown-500: rgb(135, 133, 128);
+  --brown-600: rgb(111, 110, 105);
+  --brown-700: rgb(87, 86, 83);
+  --gray-50: rgb(249 250 251);
+  --gray-100: rgb(243 244 246);
+  --gray-200: rgb(229 231 235);
+  --gray-300: rgb(209 213 219);
+  --gray-400: rgb(156 163 175);
+  --gray-500: rgb(107 114 128);
+  --gray-600: rgb(75 85 99);
+  --gray-700: rgb(55 65 81);
+  --gray-800: rgb(31 41 55);
+  --gray-900: rgb(17 24 39);
+  --gray-950: rgb(3 7 18);
+
+  /**
+   * Font families
+   */
+  --font-family-sans-serif: Alegreya Sans, sans-serif;
+  --font-family-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+  --font-family-serif: Alegreya, serif;
+
+  /**
+   * Font sizes
+   */
+  /* Step -2: 12.642px → 11.52px */
+  --font-size--2: clamp(0.72rem, 0.8145rem + -0.122vi, 0.7901rem);
+  /* Step -1: 14.2222px → 14.4px */
+  --font-size--1: clamp(0.8889rem, 0.885rem + 0.0193vi, 0.9rem);
+  /* Step 0: 16px → 18px */
+  --font-size-0: clamp(1rem, 0.9565rem + 0.2174vi, 1.125rem);
+  /* Step 1: 18px → 22.5px */
+  --font-size-1: clamp(1.125rem, 1.0272rem + 0.4891vi, 1.4063rem);
+  /* Step 2: 20.25px → 28.125px */
+  --font-size-2: clamp(1.2656rem, 1.0944rem + 0.856vi, 1.7578rem);
+  /* Step 3: 22.7813px → 35.1563px */
+  --font-size-3: clamp(1.4238rem, 1.1548rem + 1.3451vi, 2.1973rem);
+  /* Step 4: 25.6289px → 43.9453px */
+  --font-size-4: clamp(1.6018rem, 1.2036rem + 1.9909vi, 2.7466rem);
+  /* Step 5: 28.8325px → 54.9316px */
+  --font-size-5: clamp(1.802rem, 1.2347rem + 2.8369vi, 3.4332rem);
+
+  /**
+   * Spacing
+   */
+  --space-3xs: clamp(0.25rem, 0.2283rem + 0.1087vi, 0.3125rem);
+  --space-2xs: clamp(0.5rem, 0.4783rem + 0.1087vi, 0.5625rem);
+  --space-xs: clamp(0.75rem, 0.7065rem + 0.2174vi, 0.875rem);
+  --space-s: clamp(1rem, 0.9565rem + 0.2174vi, 1.125rem);
+  --space-m: clamp(1.25rem, 1.1848rem + 0.3261vi, 1.4375rem);
+  --space-l: clamp(1.5rem, 1.4348rem + 0.3261vi, 1.6875rem);
+  --space-xl: clamp(2rem, 1.913rem + 0.4348vi, 2.25rem);
+  --space-2xl: clamp(3rem, 2.8696rem + 0.6522vi, 3.375rem);
+  --space-3xl: clamp(4rem, 3.8261rem + 0.8696vi, 4.5rem);
+}
+

@@ -1,13 +1,14 @@
 ---
 title: Thoughts on speed
 description: Why we need software to be fast.
+category: blog
 image:
     path: /assets/images/bicycle_race_scene@1200x630.jpg
     width: 1200
     height: 630
 ---
 
-{% include picture.html filename="bicycle_race_scene" caption="Bicycle race scene, print by Calvert Lithographic Co. (ca 1895)" %}
+{% include picture.html class="normal" filename="bicycle_race_scene" caption="Bicycle race scene, print by Calvert Lithographic Co. (ca 1895)" %}
 
 Fast software is more delightful to use than slow software. This fact is so obvious as to be a tautology; everyone loves and prefers to use speedy software. We expect computers to be fast. We _need_ them to be fast. **Fast software is fun!** In fact, speed and responsiveness are such critical aspects of all great user experiences that we often take them for granted. But to disregard this human need for speed is folly. The pains that software development teams sometimes endure to shave mere milliseconds off of application load time, or tune the timing of a particular user interaction, or ensure rendering frame rates are buttery smooth might astonish the average computer user. Fast is hard, and the work necessary to make software fast is often non-trivial <sup><a href="#1">1</a></sup>. But it must be done.
 

@@ -1,10 +1,11 @@
 ---
+layout: page_grid
 title: About
 description: A little about Sean Voisen.
-hide_subscribe: true
+hide_description: true
 ---
 
-{% include picture.html filename="sean_voisen_wide" caption="" %}
+{% include picture.html class="wide" filename="sean_voisen_wide" caption="" aspect_ratio="" %}
 
 **Hello!** I’m *Sean*. 
 
@@ -24,16 +25,9 @@ In the past I have:
 
 I’m originally from California, and live with my wife and kids in the San Francisco bay area. I studied computer science at [UCLA](https://www.ucla.edu) and at the (radically interdisciplinary and sadly now shuttered) [Arts Computation Engineering](https://www.ics.uci.edu/grad/degrees/degree_ace.php) program at [UC Irvine](https://www.uci.edu).
 
-<hr>
+---
 
-Here are a few links to explore on this site:
-
-* [Writing]({{site.url}}/writing): My blog post archives.
-* [Reading]({{site.url}}/reading): Some of my favorite books and papers.
-
-<hr>
-
-If anything I write resonates with you, please feel free to <a href="#" class="eml-protected">send me a note</a>. You can also <a href="{{ site.url }}/subscribe">subscribe</a> for regular updates or <a href="https://front-end.social/@svoisen">find me on Mastodon</a>.
+If anything I write resonates with you, please feel free to <a href="#" class="eml-protected">send me a note</a>. You can also <a href="{{ site.url }}/subscribe">subscribe</a> for regular updates or [find me on Mastodon](https://front-end.social/@svoisen).
 
 Needless to say, *views and opinions expressed on this site are purely my own and not representative of my employer.*
 

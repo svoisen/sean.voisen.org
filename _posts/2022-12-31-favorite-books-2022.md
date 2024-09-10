@@ -1,25 +1,14 @@
 ---
 title: Favorite books of 2022 (and 2021)
 description: A few favorite books from my reading over the past two years.
+category: blog
 ---
 
 <div style="display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 0.5rem; aspect-ratio: 2.7">
-<picture>
-    <source type="image/webp" srcset="{{ site.url }}/assets/covers/ways_of_being_james_bridle@160.webp 160w, {{ site.url }}/assets/covers/ways_of_being_james_bridle@320.webp 320w">
-    <img src="{{site.url}}/assets/covers/ways_of_being_james_bridle@160.jpg" alt="Cover of Ways of Being by James Bridle" style="min-height: 100%">
-</picture>
-<picture>
-    <source type="image/webp" srcset="{{ site.url }}/assets/covers/four_thousand_weeks@160.webp 160w, {{ site.url }}/assets/covers/four_thousand_weeks@320.webp 320w">
-    <img src="{{site.url}}/assets/covers/four_thousand_weeks@160.jpg" alt="Cover of Four Thousand Weeks by Oliver Burkeman" style="min-height: 100%; height: 0">
-</picture>
-<picture>
-    <source type="image/webp" srcset="{{ site.url }}/assets/covers/tools_for_conviviality@160.webp 160w, {{ site.url }}/assets/covers/tools_for_conviviality@320.webp 320w">
-    <img src="{{site.url}}/assets/covers/tools_for_conviviality@160.jpg" alt="Cover of Tools for Conviviality by Ivan Illich" style="min-height: 100%; height: 0">
-</picture>
-<picture>
-    <source type="image/webp" srcset="{{ site.url }}/assets/covers/reflective_practitioner@160.webp 160w, {{ site.url }}/assets/covers/reflective_practitioner@320.webp 320w">
-    <img src="{{site.url}}/assets/covers/reflective_practitioner@160.jpg" alt="Cover for The Reflective Practitioner by Donald Schon" style="min-height: 100%; height: 0">
-</picture>
+    <img src="{{site.url}}/assets/covers/ways_of_being_james_bridle@320.webp" alt="Cover of Ways of Being by James Bridle" style="min-height: 100%" loading="lazy">
+    <img src="{{site.url}}/assets/covers/four_thousand_weeks@320.webp" alt="Cover of Four Thousand Weeks by Oliver Burkeman" style="min-height: 100%; height: 0" loading="lazy">
+    <img src="{{site.url}}/assets/covers/tools_for_conviviality@320.webp" alt="Cover of Tools for Conviviality by Ivan Illich" style="min-height: 100%; height: 0" loading="lazy">
+    <img src="{{site.url}}/assets/covers/reflective_practitioner@320.webp" alt="Cover for The Reflective Practitioner by Donald Schon" style="min-height: 100%; height: 0" loading="lazy">
 </div>
 
 It's the end of 2022, and I usually enjoy recounting my past year by conducting a quick review of my annual reading. There's something about the experience of reading a _book_ that imprints itself on the mind, serving as a waymarker for personal history. Indeed, I often find it easier to remember years by recounting what books I was reading at the time. Books are like thematic anchors in a sea of thoughts and memories; their length and physicality (I like paper books) have a kind of mnemonic gravity.

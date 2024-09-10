@@ -1,5 +1,6 @@
 ---
 title: The internet cannot be curated
+category: blog
 ---
 
 There is a hypothesis that says that the purpose of sleep is to reinforce certain memories, or rather, neural connections, that were created during the previous day. Sleep does this not in a way that one might expect — by actually strengthening the connections — but rather by subtly washing away the neural connections created during the day that are deemed trivial or unimportant. Leaving only the most important ones remaining. A bit like waves washing gently on a rocky beach over thousands of years — eventually most of the rocks are turned to sand and only the largest rocks remain.

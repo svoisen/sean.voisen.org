@@ -1,6 +1,7 @@
 ---
 title: Beyond chat as interface
 description: The future of user interfaces isn't chat; it's multimodal.
+category: blog
 ---
 
 One of the great failures of modern computing is how it has largely ignored the presence of the human body beyond the slightest acknowledgement that humans have a pair of eyeballs and a few fingertips. Largely, we sit in chairs staring at screens, our hands relegated to pecking away at a keyboard or poking at a tiny touchscreen. Compared to the way we employ and use other tools and instruments—from spatulas to screwdrivers to accordions to violins—the way we use computers today is a gross underutilization of both the expressiveness and sensitivity of our bodies. 

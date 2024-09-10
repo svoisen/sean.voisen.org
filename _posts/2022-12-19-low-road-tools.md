@@ -1,6 +1,7 @@
 ---
 title: The Low Road as a metaphor for building sticky software
 description: In which I ponder Stewart Brand's Low Road architecture as a metaphor for approaching software design.
+category: blog
 ---
 
 Some of the world's most beloved software tools—those with rabid cult followings and low user turnover—are often the most extensible. Tools that support rich plug-in ecosystems and strong interoperability, tools that allow you as a user to modify their behavior—these tools often exhibit the unusual property of incredible *stickiness*. While such tools may require time to love, users are reluctant to abandon them once they have dedicated the energy to customizing, configuring, hacking, or extending them to fit their workflow. 

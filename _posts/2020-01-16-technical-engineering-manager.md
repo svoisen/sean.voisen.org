@@ -1,6 +1,7 @@
 ---
 title: On being "technical" as an engineering manager
 description: Thoughts in response to Will Larson's Increment article entitled "Do engineering managers need to be technical?"
+category: blog
 ---
 
 In [a recent article on Increment](https://increment.com/teams/do-engineering-managers-need-to-be-technical/), [Will Larson](https://lethain.com) asks: "Do engineering managers need to be technical?" It's a strange question because, as Larson points out, the answer seems an obvious "yes," yet it's surprising how often, and how surreptitiously, this question comes up.

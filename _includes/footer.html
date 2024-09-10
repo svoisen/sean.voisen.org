@@ -1,11 +1,11 @@
-<footer class="footer">
+<footer class="footer content">
     <div class="footer-content">
         {% if page.hide_subscribe == nil %}
         <h3><a href="{{ site.url }}/subscribe">Subscribe for updates</a></h3>
         <p>You can follow me via email, <a href="{{ site.url }}/atom.xml">RSS</a> or <a href="https://front-end.social/@svoisen">find me on Mastodon</a>.</p>
         {% include subscribe.html %}
         {% endif %}
-        <div class="copyright">
+        <div class="footer-copyright">
             <p>Copyright &copy; 2024 Sean Voisen.</p>
             <p xmlns:cc="http://creativecommons.org/ns#">All content licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="license noopener noreferrer">CC BY-SA 4.0</a>.</p> 
         </div>

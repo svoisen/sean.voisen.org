@@ -1,6 +1,7 @@
 ---
 title: Values, culture and the software we make
 description: Thinking about how product-defined values influence software engineering culture and architecture. 
+category: blog
 ---
 
 Returning from last week's Mozilla all hands in Berlin, I ended up spending a good chunk of time on my (long) flight home thinking about values, how they guide a product, and how they guide a software engineering culture. I recently started taking on management of accessibility engineering for Firefox, so given these recent changes to my role at Mozilla, I suppose my wayward pondering on this topic was inevitable. For accessibility to thrive — to be more than just an afterthought in feature development — it needs to be a core part of engineering culture, something everyone thinks about not at the end, but at the beginning of an engineering process.

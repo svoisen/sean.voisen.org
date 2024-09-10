@@ -1,5 +1,6 @@
 ---
 title: Space vs. place in remote work
+category: blog
 ---
 
 Some of my recent reading on [adaptive design](https://medium.com/a-chair-in-a-room/architecture-and-interaction-design-via-adaptation-and-hackability-a51204564a1d) reminded me of the existence of Paul Dourish's [Where the Action Is](https://mitpress.mit.edu/books/where-action), so I've been re-reading it. Dourish was an advisor of mine back when I was at [UCI](https://uci.edu/), and his book was required reading for an HCI course I can't remember the name of, but focused mostly on phenomenology and embodiment as grounding theory for software design. It's been more than 10 years since I touched the material, and it's been fun to revisit.

@@ -1,0 +1,6 @@
+<ul class="books-grid wide">
+    {% assign books = site.data.books | where:"year",include.year | sort:"title" %}
+    {% for book in books %}
+    {% include books_grid_item.html book=book %}
+    {% endfor %}
+</ul>

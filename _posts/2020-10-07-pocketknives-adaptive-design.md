@@ -1,6 +1,7 @@
 ---
 title: On pocket knives and adaptive design
 description: Thoughts on adaptive design as a means for encouraging confidence in tinkering and hacking.
+category: blog
 ---
 
 What feels like long, long ago, (but was probably circa 2010 or so) I was out having lunch with a friend and former grad school advisor, [Tom Jennings](https://en.wikipedia.org/wiki/Tom_Jennings). We got on the subject — as we often did — of hacking, tinkering, making physical objects with our hands. About half of my graduate studies involved making things, usually with electronics, to produce art, so this was well-trodden subject matter. Tom is an expert at this kind of practice, the kind of person who builds random number generators with geiger counters, strange devices that communicate with each other by mimicking the cries of coyotes using pure analog electronics, [nixie clocks](https://en.wikipedia.org/wiki/Nixie_tube), and myriad other steampunk-like electronic artwork and ephemera. Oh, and he created the [FidoNet BBS](https://en.wikipedia.org/wiki/FidoNet) system too.

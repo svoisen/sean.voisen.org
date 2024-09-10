@@ -1,0 +1,30 @@
+---
+layout: default
+description: Books I have read, sorted by year.
+custom_css: reading
+---
+
+<article>
+    <header class="content">
+        <h2>{{ page.title }}</h2>
+        <p>{{ page.description }}</p>
+    </header>
+
+	<section class="content-grid">
+        <a name="2024"></a>
+		<h3>2024</h3>
+		{% include books_grid.html year="2024" %}
+	</section>
+
+	<section class="content-grid">
+        <a name="2023"></a>
+		<h3>2023</h3>
+		{% include books_grid.html year="2023" %}
+	</section>
+
+	<section class="content-grid">
+        <a name="2022"></a>
+		<h3>2022</h3>
+		{% include books_grid.html year="2022" %}
+	</section>
+</article>

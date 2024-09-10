@@ -1,0 +1,54 @@
+.notes {
+  margin-top: var(--space-2xl);
+}
+
+.note-contents h3 {
+  font-size: var(--font-size-1);
+}
+
+.note {
+  border: 2px solid var(--border-color);
+  margin-bottom: var(--space-2xl);
+}
+
+.note-heading {
+  display: flex;
+  padding: var(--space-xs) var(--space-s) var(--space-xs) var(--space-s);
+  background-color: var(--note-header-background-color);
+  color: var(--note-header-foreground-color);
+  border-bottom: 2px solid var(--border-color);
+  gap: var(--space-s);
+  font-family: var(--font-family-sans-serif);
+}
+
+.note-heading a {
+  color: var(--note-header-foreground-color);
+}
+
+.note-contents {
+  padding: var(--space-s)
+}
+
+.note-contents :first-child {
+  margin-top: 0;
+}
+
+.note-contents :last-child {
+  margin-bottom: 0;
+}
+
+.note-date {
+  text-align: right;
+  font-size: var(--font-size-0);
+  min-width: max-content;
+  line-height: 2;
+}
+
+.note-title {
+  margin: 0;
+  line-height: inherit;
+  font-weight: 900;
+  flex: 1;
+  font-size: var(--font-size-1);
+}
+

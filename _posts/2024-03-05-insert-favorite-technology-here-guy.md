@@ -1,6 +1,7 @@
 ---
 title: "On being a ‹insert favorite technology here› “guy”"
 description: Thoughts on the advantages and disadvantages of identifying too strongly with a technology or framework.
+category: blog
 image:
     path: /assets/images/blacksmiths_studio@1200x630.jpg
     width: 1200

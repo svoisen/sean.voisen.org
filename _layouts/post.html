@@ -2,11 +2,13 @@
 layout: default
 ---
 
-<article class="post">
+<article class="post content-grid">
     {% if page.title %}
     <header class="post-header">
         <h2 class="post-title">{{ page.title }}</h2>
-        <div class="post-metadata"><time datetime="{{page.date | date: '%F'}}">{{ page.date | date: "%b %-d, %Y" }}</time> ∙ {{ content | reading_time }}</div>
+        <div class="post-metadata">
+            <time datetime="{{ page.date | date: '%F' }}">{{ page.date | date: "%b %-d, %Y" }}</time> ∙ {{ page.content | reading_time }}</div>
+        </div>
     </header>
     {% endif %}
     {{ content }}
