@@ -1,2 +1,2 @@
-/writing/*    /blog/:splat
-/reading      /bookshelf
+/writing/* /blog/:splat 301
+/reading   /bookshelf   301
