@@ -20,10 +20,10 @@ Books remain my mainstay and most preferred form of media precisely because they
 So yes, I have a special fondness for books. I even keep [a public list of books that have had a profound impact own worldview]({{ site.url }}/reading). I don't think anything I read in 2023 is going to make that list, but I'll share a few standouts.
 
 <div style="display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 0.5rem; aspect-ratio: 2.7">
-<img src="{{site.url}}/assets/covers/all_things_shining@300.jpg" alt="Cover of All Things Shining by Hubert Dreyfus" style="min-height: 100%">
-<img src="{{site.url}}/assets/covers/wanting@263.jpg" alt="Cover of Wanting by Luke Burgis" style="min-height: 100%; height: 0">
-<img src="{{site.url}}/assets/covers/the_prophet@256.jpg" alt="Cover of The Prophet by Khalil Gibran" style="min-height: 100%; height: 0">
-<img src="{{site.url}}/assets/covers/the_coaching_habit@350.jpg" alt="Cover for The Coaching Habit by Michael Bungay Stanier" style="min-height: 100%; height: 0">
+<img src="{{site.url}}/assets/covers/all_things_shining@320.webp" alt="Cover of All Things Shining by Hubert Dreyfus" style="min-height: 100%">
+<img src="{{site.url}}/assets/covers/wanting_burgis@320.webp" alt="Cover of Wanting by Luke Burgis" style="min-height: 100%; height: 0">
+<img src="{{site.url}}/assets/covers/the_prophet@320.webp" alt="Cover of The Prophet by Khalil Gibran" style="min-height: 100%; height: 0">
+<img src="{{site.url}}/assets/covers/the_coaching_habit@320.webp" alt="Cover for The Coaching Habit by Michael Bungay Stanier" style="min-height: 100%; height: 0">
 </div>
 
 

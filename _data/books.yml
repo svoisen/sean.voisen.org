@@ -1,3 +1,49 @@
+- title: Pilgrim at Tinker Creek
+  author: Annie Dillard
+  year: 2024
+  rating: 3
+  type: book
+  link: "https://bookshop.org/a/106240/9780061233326"
+  isbn_13: 9780061233326
+  slug: pilgrim_at_tinker_creek
+  favorite: false
+
+- title: Lives of the Stoics
+  author: Ryan Holiday
+  year: 2024
+  rating: 3
+  type: book
+  link: "https://bookshop.org/a/106240/9780525541875"
+  slug: lives_of_the_stoics
+  favorite: false
+
+- title: Wind, Sand and Stars
+  author: Antoine de Saint-Exupéry
+  year: 2024
+  rating: 4.5
+  type: book
+  link: "https://bookshop.org/a/106240/9780156027496"
+  slug: wind_sand_stars
+  favorite: true
+
+- title: The Pleasures of Reading in an Age of Distraction
+  author: Alan Jacobs
+  year: 2024
+  rating: 4
+  type: book
+  link: "https://bookshop.org/a/106240/9780199747498"
+  slug: pleasures_reading_age_distraction
+  favorite: false
+
+- title: Meditations
+  author: Marcus Aurelius, Robin Waterfield
+  year: 2024
+  rating: 5
+  type: book
+  link: "https://bookshop.org/a/106240/9781541673854"
+  slug: meditations
+  favorite: true
+
 - title: Good Strategy, Bad Strategy
   author: Richard Rumelt
   year: 2024
@@ -7,10 +53,128 @@
   slug: good_strategy_bad_strategy
   favorite: false
 
+- title: The Antidote
+  author: Oliver Burkeman
+  year: 2024
+  rating: 3
+  type: book
+  link: "https://bookshop.org/a/106240/9781250860408"
+  isbn_13: 9781250860408
+  slug: the_antidote
+  favorite: false
+
+- title: The Religion of Technology
+  author: David F. Noble
+  year: 2024
+  rating: 2.5
+  type: book
+  link: "https://bookshop.org/a/106240/9780140279160"
+  isbn_13: 9780140279160
+  slug: religion_of_technology
+  favorite: false
+
+- title: The Phoenix Project
+  author: Gene Kim, Kevin Behr, George Spafford
+  year: 2024
+  rating: 2
+  type: book
+  link: "https://bookshop.org/a/106240/9781942788294"
+  isbn_13: 9781942788294
+  slug: the_phoenix_project
+  favorite: false
+
+- title: The Crux
+  author: Richard Rumelt
+  year: 2024
+  rating: 3
+  type: book
+  link: "https://bookshop.org/a/106240/9781541701243"
+  slug: the_crux
+  favorite: false
+
+- title: Discourses
+  author: Epictetus
+  year: 2024
+  rating: 4.5
+  type: book
+  link: "https://standardebooks.org/ebooks/epictetus/discourses/george-long"
+  slug: discourses_epictetus
+  favorite: true
+
+- title: Technofeudalism
+  author: Yanis Varoufakis
+  year: 2024
+  rating: 3
+  type: book
+  link: "https://bookshop.org/a/106240/9781685891244"
+  slug: technofeudalism
+  isbn_13: 9781685891244
+  favorite: false
+
+- title: How Big Things Get Done
+  author: Dan Gardner and Bent Flyvbjerg
+  year: 2024
+  rating: 3.5
+  type: book
+  link: "https://bookshop.org/a/106240/9780593239513"
+  slug: how_big_things_get_done
+  isbn_13: 9780593239513
+  favorite: false
+
+- title: Technopoly
+  author: Neil Postman
+  year: 2024
+  rating: 4.5
+  type: book
+  link: "https://bookshop.org/a/106240/9780679745402"
+  slug: technopoly
+  isbn_13: 9780679745402
+  favorite: true
+
+- title: A Guide to the Good Life
+  author: William Irvine
+  year: 2024
+  rating: 5
+  type: book
+  link: "https://bookshop.org/a/106240/9780195374612"
+  slug: guide_to_the_good_life
+  isbn_13: 9780195374612 
+  favorite: false
+
+- title: The Coaching Habit
+  author: Michael Bungay Stanier
+  year: 2023
+  rating: 3.5
+  type: book
+  link: "https://www.mbs.works/coaching-habit-book/"
+  slug: the_coaching_habit
+  isbn_13: 9780978440749
+  favorite: false
+
+- title: Wanting
+  author: Luke Burgis
+  year: 2023
+  rating: 2.5
+  type: book
+  link: "https://bookshop.org/a/106240/9781250262486"
+  slug: wanting_burgis
+  isbn_13: 9781250262486
+  favorite: false
+
+- title: The Art of Simple Living
+  author: Shunmyo Masuno
+  year: 2023
+  rating: 4
+  type: book
+  link: "https://bookshop.org/a/106240/9780143134046"
+  slug: art_of_simple_living
+  isbn_13: 9780143134046
+  favorite: false
+
 - title: The Nature and Art of Workmanship
   author: David Pye
   year: 2023
-  rating: 3.5
+  rating: 2.5
   type: book
   link: "https://bookshop.org/a/106240/9780713689310"
   slug: nature_art_workmanship
