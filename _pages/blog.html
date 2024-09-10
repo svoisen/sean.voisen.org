@@ -4,7 +4,8 @@ description: Essays and personal updates.
 ---
 
 <ul class="posts-list">
-    {% for post in site.posts %}
+    {% assign posts = site.posts | where: "category","blog" %}
+    {% for post in posts %}
     {% include posts_list_item.html post=post %}
     {% endfor %}
 </ul>
