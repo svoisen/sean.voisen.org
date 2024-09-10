@@ -17,10 +17,10 @@
 }
 
 .books-grid-cover {
-  border-radius: 0.25rem;
   max-width: 100%;
   width: 100%;
   display: block;
+  clip-path: inset(1px round 0.25rem);
 }
 
 .books-grid-metadata {

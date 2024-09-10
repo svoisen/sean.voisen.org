@@ -1,3 +1,23 @@
+- title: The Accidental Universe
+  author: Alan Lightman
+  year: 2024
+  rating: 3
+  type: book
+  link: "https://bookshop.org/a/106240/9780345805959"
+  slug: accidental_universe
+  isbn_13: 9780345805959
+  favorite: false
+
+- title: A Psalm for the Wild-Built
+  author: Becky Chambers
+  year: 2024
+  rating: 3.5
+  type: book
+  link: "https://bookshop.org/a/106240/9781250236210"
+  slug: psalm_for_the_wild_built
+  isbn_13: 9781250236210
+  favorite: false
+
 - title: Pilgrim at Tinker Creek
   author: Annie Dillard
   year: 2024
