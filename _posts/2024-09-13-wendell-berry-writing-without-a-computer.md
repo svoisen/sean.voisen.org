@@ -1,5 +1,5 @@
 ---
-title: Wendell Berry on the value and pleasures of writing without a computer
+title: Wendell Berry on the benefits of writing without a computer
 description: Thoughts on what we lose when we default to crafting our words in a purely digital medium.
 category: marginalia
 image_prefix: wendell_berry_writing
