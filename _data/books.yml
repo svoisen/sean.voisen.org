@@ -1,3 +1,13 @@
+- title: Why I Am Not Going to Buy a Computer
+  author: Wendell Berry
+  year: 2024
+  rating: 3.5
+  type: book
+  link: "https://bookshop.org/a/106240/9781640094574"
+  slug: why_not_computer
+  isbn_13: 9781640094574
+  favorite: false
+
 - title: The Accidental Universe
   author: Alan Lightman
   year: 2024
@@ -86,7 +96,7 @@
 - title: The Religion of Technology
   author: David F. Noble
   year: 2024
-  rating: 2.5
+  rating: 3
   type: book
   link: "https://bookshop.org/a/106240/9780140279160"
   isbn_13: 9780140279160
