@@ -50,15 +50,15 @@ The same is true in numerous other contexts. In bringing order to our complex wo
 
 It’s also worth contemplating this in the context of generative AI. Randomness turns out to be critical for machine learning, for instance. [Gaussian noise](https://en.wikipedia.org/wiki/Gaussian_noise), a kind of random noise signal that follows a Gaussian or normal distribution, is used when training machine learning models to improve robustness and prevent overfitting. This randomness is necessary to ensure that AI can handle the kinds of fuzzy, imprecise input we humans automatically handle without difficulty.
 
-The output of generative models often feels random, almost like a slot machine. Given the same prompt you can and will get multiple variations of output from the same model. But a closer inspection reveals that generative AI, too, can act as a force for homogenization. Nothing it produces is truly random. After all, anything generative AI produces is novel insofar as its training data allows, which means it can only “remix” that which it has already “seen” in the past. It feels novel to us because none of us has seen nor read the entirety of the Internet. To [use Margaret Boden’s terminology](https://www.sciencedirect.com/science/article/pii/S0004370298000551), generative AI is more P-creative than H-creative. 
+The output of generative models often feels random, almost like a slot machine. Given the same prompt you can and will get multiple variations of output from the same model. But a closer inspection reveals that generative AI, too, can act as a force for homogenization. Nothing any model produces is truly random. After all, generative AI is only novel insofar as its training data allows, which means it can only “remix” that which it has already “seen” in the past. It feels novel to us because none of us has seen nor read the entirety of the Internet. To [use Margaret Boden’s terminology](https://www.sciencedirect.com/science/article/pii/S0004370298000551), generative AI is more P-creative than H-creative. 
 
 ---
 
-Towards the end of their chapter, Bridle reminds us how critical randomness is to the sheer joy of life itself:
+Towards the end of their chapter, Bridle reminds us how critical randomness is to the experience of life itself:
 
 > ... meaning resides less in the data at the end of the path and more in the path travelled. We learn, change, develop and grow when we move and entangle ourselves with the world in unexpected ways, and we do so best when we are fully engaged participants in that journey, not passive recipients of algorithmic and corporate diktats.
 
-Randomness matters in more ways than we often appreciate. And as computing comes to dominate more and more of our lived experience, I find myself wondering if we can we find more ways to keep the beauty of random encounters and chance experiences alive and well for us all. And, just perhaps, unlike my friend Tom, we can do so without the mild dose of radiation. 
+Randomness matters in more ways than we often appreciate. And as computing comes to dominate more and more of our lived experience, I find myself wondering if we can we find more ways to keep the beauty of chance encounters and experiences alive and well for us all. (And, perhaps, unlike my friend Tom, we might be able to do so without the mild dose of radiation.)
 
 <aside class="footnote">
 <p><a name="1"></a>[1] <a href="https://www.amazon.com/Million-Random-Digits-Normal-Deviates/dp/0833030477/">The Amazon reviews for A Million Random Digits with 100,000 Normal Deviates</a> hilariously complain about the poor plot and lack of character development. Definitely worth a read.</p>
