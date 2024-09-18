@@ -8,14 +8,13 @@
     <link rel="alternate" type="application/atom+xml" title="{{ site.title }} | Notes" href="{{ site.url }}/notes/feed.xml">
     <link rel="sitemap" type="application/xml" title="sitemap" href="{{ site.url }}/sitemap.xml" />
     <link rel="me" href="https://front-end.social/@svoisen">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-    href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700;900&family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap"
-    rel="stylesheet">
     <script defer data-domain="sean.voisen.org" src="https://plausible.io/js/script.js"></script>
 
     {% seo %}
+
+	<style type="text/css">
+	{% include fonts.css %}
+	</style>
 
     <style type="text/css">
     {% capture sass_file %}
