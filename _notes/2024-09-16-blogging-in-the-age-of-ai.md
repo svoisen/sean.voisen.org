@@ -1,7 +1,7 @@
 ---
 title: Blogging in the age of generative AI
 description: Thinking on Jim Nielsen’s recent reflections on the value and purpose of blogging in the age of generative AI.
-layout: note
+custom_css: notes
 ---
 
 I really enjoyed Jim Nielsen’s [recent reflections on the value and purpose of blogging in the age of generative AI](https://blog.jim-nielsen.com/2024/impressionist-blogging/), itself a reflection on [a piece by iA](https://ia.net/topics/design-as-thought) on the same subject:

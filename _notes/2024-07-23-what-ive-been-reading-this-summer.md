@@ -1,7 +1,7 @@
 ---
 title: What I've been reading this summer
 description: A list of a few books I read and enjoyed in Summer 2024.
-layout: note
+custom_css: notes
 ---
 
 ### [The Antidote by Oliver Burkeman](https://bookshop.org/p/books/the-antidote-happiness-for-people-who-can-t-stand-positive-thinking-oliver-burkeman/6820301)

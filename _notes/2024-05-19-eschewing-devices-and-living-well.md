@@ -1,6 +1,7 @@
 ---
 title: On eschewing devices and living well
 description: Reflections on L.M. Sacasas reflections on the recent iPad ad
+custom_css: notes
 ---
 
 From [The Stuff of (a Well-Lived) Life](https://theconvivialsociety.substack.com/p/the-stuff-of-a-well-lived-life), where L.M. Sacasas reflects on the furor around the [recent iPad ad](https://www.theverge.com/2024/5/9/24152987/apple-crush-ad-piano-ipad):

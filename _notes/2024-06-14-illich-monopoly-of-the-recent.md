@@ -1,5 +1,6 @@
 ---
 title: Software and the monopoly of the recent
+custom_css: notes
 ---
 
 Every now and then, I end up revisiting the ideas of Ivan Illich's [Tools for

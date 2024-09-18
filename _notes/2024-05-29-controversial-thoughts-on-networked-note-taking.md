@@ -1,6 +1,7 @@
 ---
 title: Controversial thoughts on networked note-taking
 description: Controversial thoughts on networked note-taking 
+custom_css: notes
 ---
 
 Like [Casey Newton](https://www.theverge.com/2023/8/25/23845590/note-taking-apps-ai-chat-distractions-notion-roam-mem-obsidian), I've found networked note-taking to be a practice that mostly overpromises and under-delivers.

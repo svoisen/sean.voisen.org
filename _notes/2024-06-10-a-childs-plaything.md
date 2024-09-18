@@ -1,6 +1,7 @@
 ---
 title: Thoughts inspired by "A Child's Plaything"
 description:
+custom_css: notes
 ---
 
 Read [A Child's Plaything](https://www.tobyord.com/writing/a-childs-plaything)
