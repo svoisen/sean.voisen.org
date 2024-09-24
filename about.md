@@ -22,7 +22,7 @@ If anything I write resonates with you, please feel free to <a href="#" class="e
 <aside class="footnote">
 <h3>Colophon</h3>
 
-This site is built using <a href="https://jekyllrb.com/">Jekyll</a> and deployed on <a href="https://www.netlify.com">Netlify</a>. Text is set in <a href="https://fonts.google.com/specimen/Alegreya">Alegraya</a> and <a href="https://fonts.google.com/specimen/Alegreya+Sans">Alegraya Sans</a>.
+This site is built using <a href="https://jekyllrb.com/">Jekyll</a> and deployed on <a href="https://www.netlify.com">Netlify</a>. Text is set in <a href="https://fonts.google.com/specimen/Alegreya">Alegreya</a> and <a href="https://fonts.google.com/specimen/Alegreya+Sans">Alegreya Sans</a>.
 </aside>
 
 <script>
