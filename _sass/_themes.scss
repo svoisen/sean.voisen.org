@@ -1,12 +1,13 @@
 html[data-theme='light'] {
-  --background-color: var(--gray-50);
+  --background-color: var(--brown-50);
   --foreground-color: var(--gray-900);
   --link-color: var(--gray-900);
   --link-underline-color: var(--gray-400);
   --link-hover-color: var(--gray-900);
   --link-hover-underline-color: var(--gray-900);
   --metadata-color: var(--gray-500);
-  --border-color: var(--gray-900);
+  --book-cover-border-color: var(--brown-100);
+  --border-color: var(--brown-300);
   --blockquote-color: var(--gray-500);
   --blockquote-border-color: var(--gray-300);
   --button-foreground-color: var(--gray-50);
@@ -38,6 +39,7 @@ html[data-theme='dark'] {
   --link-hover-underline-color: var(--brown-200);
   --metadata-color: var(--brown-500);
   --border-color: var(--gray-700);
+  --book-cover-border-color: var(--gray-700);
   --blockquote-color: var(--brown-500);
   --blockquote-border-color: var(--brown-700);
   --button-foreground-color: var(--gray-200);

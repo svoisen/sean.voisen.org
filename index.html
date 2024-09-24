@@ -2,41 +2,10 @@
 layout: default
 ---
 
-<article class="home">
-    <section class="content-grid">
-        <h2><a href="{{ site.url }}/marginalia">Marginalia</a></h2>
-		<p>Brief reflections on topics from books and papers, mostly exploring how technology is shaping the modern human condition.</p>
-        <ul class="posts-grid wide">
-            {% assign posts = site.posts | where: "category","marginalia" %}
-            {% for post in posts limit: 3 %}
-            {% include posts_grid_item.html post=post %}
-            {% endfor %}
-        </ul>
-    </section>
-
-    <section class="content">
-        <h2><a href="{{ site.url }}/blog">Blog</a></h2>
-		<p>Essays and personal updates.</p>
-        <ul class="posts-list">
-            {% assign posts = site.posts | where: "category","blog" %}
-            {% for post in posts limit: 5 %}
-            {% include posts_list_item.html post=post %}
-            {% endfor %}
-        </ul>
-
-        <p class="more">More writing in <a href="{{ site.url }}/blog">the archives ⇢</a></p>
-    </section>
-
-    <section class="content">
-        <h2><a href="{{ site.url }}/notes">Notes</a></h2>
-        <p>Short thoughts on various topics and links around the web.</p>
-        <ul class="posts-list">
-            {% assign notes = site.notes | reverse %}
-            {% for note in notes limit: 5 %}
-            {% include notes_list_item.html note=note %}
-            {% endfor %}
-        </ul>
-
-        <p class="more">More notes in <a href="{{ site.url }}/notes">the notes list ⇢</a></p>
-    </section>
+<article class="home content">
+    <ul class="posts-list">
+        {% for post in site.posts limit: 10 %}
+        {% include posts_list_item.html post=post %}
+        {% endfor %}
+    </ul>
 </article>

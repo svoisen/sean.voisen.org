@@ -376,36 +376,57 @@ ul.horizontal > li {
   font-family: var(--font-family-sans-serif);
 }
 
-.posts-list li {
-  margin-bottom: var(--space-s);
-  display: block;
+.posts-list-item {
+  padding-bottom: var(--space-m);
+  margin-bottom: var(--space-m);
   align-items: center;
   gap: var(--space-l);
   line-height: 1.35;
+  border-bottom: 1.5px solid var(--border-color);
+  display: flex;
+  align-items: flex-start;
+  position: relative;
 }
 
-.posts-list li .post-title {
-  text-align: left;
-  flex-grow: 1;
-  text-overflow: ellipsis;
-  overflow: hidden;
+.posts-list-item-title::after {
+  content: "";
   display: block;
-  white-space: nowrap;
-  font-size: var(--font-size-1);
-  font-weight: 400;
-  line-height: auto;
-  margin: 0;
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
 }
 
-.posts-list li .post-metadata {
-  color: var(--metadata-color);
-  font-size: var(--font-size-0);
-  text-align: right;
-  min-width: max-content;
+.posts-list-item-cover {
+  float: left;
+  margin: 0 var(--space-xs) 0 0;
+  width: 160px;
+  border: 8px solid var(--book-cover-border-color);
+}
+
+.posts-list-item-title {
+  font-size: var(--font-size-1);
+  font-weight: 700;
+  margin: 0 0 var(--space-2xs) 0;
 }
 
 .posts-list li:last-child {
   margin-bottom: 0;
+  border-bottom: none;
+}
+
+.posts-list-item-metadata {
+  text-align: right;
+  font-size: var(--font-size-0);
+  flex: 1;
+  line-height: 1.5;
+  color: var(--metadata-color);
+}
+
+.posts-list-item-contents {
+  flex: 4;
 }
 
 .footnote {
@@ -500,10 +521,5 @@ ul.horizontal > li {
 @media only screen and (min-width: 568px) {
   .home h2+p, .post-header h2+p {
     margin-top: var(--space-2xs);
-  }
-
-  .posts-list li {
-    display: flex;
-    align-items: center;
   }
 }

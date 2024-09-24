@@ -1,11 +1,11 @@
 ---
-layout: page_grid
+title: Marginalia
 description: Brief reflections on topics from books and papers, mostly exploring how technology is shaping the modern human condition.
 ---
 
-<ul class="posts-grid wide">
+<ul class="posts-list">
     {% assign posts = site.posts | where: "category","marginalia" %}
     {% for post in posts %}
-    {% include posts_grid_item.html post=post %}
+    {% include posts_list_item.html post=post %}
     {% endfor %}
 </ul>

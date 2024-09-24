@@ -1,7 +1,9 @@
 ---
 title: Ivan Illich on how technologies create radical monopolies
+description: From smartphones to cars, the exclusive control a technology can exert over aspects of daily living is a "radical monopoly."
 category: marginalia
-image_prefix: ivan_illich_2
+cover: tools_for_conviviality
+cover_alt: Cover for the book Tools for Conviviality by Ivan Illich.
 image:
   path: /assets/images/ivan_illich@1200x630.jpg
   width: 1200

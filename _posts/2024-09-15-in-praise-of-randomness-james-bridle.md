@@ -1,8 +1,9 @@
 ---
 title: "In praise of randomness: inspiration from James Bridle’s Ways of Being"
-description: Reconciling with the fact that computing is fundamentally incompatible with true randomness.
+description: Reconciling with the fact that computing is fundamentally incompatible with “true randomness.”
 category: marginalia
-image_prefix: table_of_random_digits
+cover: ways_of_being_james_bridle
+cover_alt: Cover image for Ways of Being by James Bridle.
 image:
   path: /assets/images/random_digits@1200x630.jpg
   width: 1200
