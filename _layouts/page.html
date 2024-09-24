@@ -3,11 +3,11 @@ layout: default
 ---
 
 <article class="post content">
+    {% if paginator.page == 1 %}
     <header class="post-header">
         <h2 class="post-title">{{ page.title }}</h2>
-        {% if page.hide_description == nil %}
         <p>{{ page.description }}</p>
-        {% endif %}
     </header>
+    {% endif %}
     {{ content }}
 </article>

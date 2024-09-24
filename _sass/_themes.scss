@@ -1,13 +1,14 @@
 html[data-theme='light'] {
-  --background-color: var(--gray-50);
+  --background-color: var(--brown-50);
   --foreground-color: var(--gray-900);
   --link-color: var(--gray-900);
   --link-underline-color: var(--gray-400);
   --link-hover-color: var(--gray-900);
   --link-hover-underline-color: var(--gray-900);
-  --metadata-color: var(--gray-500);
-  --border-color: var(--gray-900);
-  --blockquote-color: var(--gray-500);
+  --metadata-color: var(--gray-600);
+  --book-cover-border-color: var(--brown-200);
+  --border-color: var(--brown-200);
+  --blockquote-color: var(--gray-600);
   --blockquote-border-color: var(--gray-300);
   --button-foreground-color: var(--gray-50);
   --button-background-color: var(--gray-600);
@@ -16,7 +17,7 @@ html[data-theme='light'] {
   --placeholder-color: var(--base0);
   --theme-select-switch-color: var(--gray-800);
   --theme-select-background-color: var(--gray-500);
-  --note-header-background-color: var(--gray-200);
+  --note-header-background-color: var(--brown-100);
   --note-header-foreground-color: var(--gray-900);
   --header-footer-background-color: var(--gray-900);
   --header-footer-foreground-color: var(--gray-50);
@@ -26,7 +27,7 @@ html[data-theme='light'] {
   --header-footer-link-hover-underline-color: var(--gray-100);
   --header-footer-input-color: var(--gray-600);
   --header-footer-input-focus-color: var(--gray-400);
-  --footnote-color: var(--gray-500);
+  --footnote-color: var(--gray-600);
 }
 
 html[data-theme='dark'] {
@@ -36,9 +37,10 @@ html[data-theme='dark'] {
   --link-underline-color: var(--brown-500);
   --link-hover-color: var(--brown-100);
   --link-hover-underline-color: var(--brown-200);
-  --metadata-color: var(--brown-500);
+  --metadata-color: var(--brown-300);
   --border-color: var(--gray-700);
-  --blockquote-color: var(--brown-500);
+  --book-cover-border-color: var(--gray-700);
+  --blockquote-color: var(--brown-300);
   --blockquote-border-color: var(--brown-700);
   --button-foreground-color: var(--gray-200);
   --button-background-color: var(--gray-600);
@@ -52,9 +54,10 @@ html[data-theme='dark'] {
   --header-footer-background-color: var(--gray-800);
   --header-footer-foreground-color: var(--brown-50);
   --header-footer-link-color: var(--brown-50);
+  --header-footer-link-hover-color: var(--brown-50);
   --header-footer-link-underline-color: var(--brown-500);
   --header-footer-link-hover-underline-color: var(--brown-100);
   --header-footer-input-color: var(--brown-500);
   --header-footer-input-focus-color: var(--brown-300);
-  --footnote-color: var(--brown-500);
+  --footnote-color: var(--brown-300);
 }

@@ -13,8 +13,13 @@ highlighter: rouge
 
 permalink: pretty
 
-paginate: 1000
-paginate_path: "/page:num/"
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: "/:num/"
+  title: ":title"
+  sort_reverse: true
+
 baseurl: ""
 
 sass:
@@ -25,7 +30,7 @@ compress_html:
   comments: ["<!-- ", " -->"]
 
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-gist
   - jekyll-seo-tag
   - jekyll-sitemap  
@@ -82,12 +87,12 @@ defaults:
 
 navigation:
   - text: Marginalia
-    url: /marginalia
+    url: /marginalia/
   - text: Blog
-    url: /blog
+    url: /blog/
   - text: Notes
-    url: /notes
+    url: /notes/
   - text: Bookshelf
     url: /bookshelf
   - text: About
-    url: /about
+    url: /about/

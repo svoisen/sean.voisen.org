@@ -1,0 +1,15 @@
+---
+layout: page
+title: Blog
+description: Short essays and personal updates.
+pagination:
+  enabled: true
+  category: blog
+---
+
+<ul class="posts-list">
+    {% for post in paginator.posts %}
+    {% include posts_list_item.html post=post %}
+    {% endfor %}
+</ul>
+{% include pagination.html %}

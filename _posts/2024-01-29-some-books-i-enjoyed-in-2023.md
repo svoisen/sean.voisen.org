@@ -1,6 +1,6 @@
 ---
 title: Some books I enjoyed in 2023
-description: A short list of a few favorite books from the past year.
+description: A short list of a few favorite books I read in 2023.
 category: blog
 ---
 

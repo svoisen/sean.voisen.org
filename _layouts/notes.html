@@ -1,12 +1,9 @@
 ---
 layout: default
-title: Notes
-description: Short thoughts and notes.
-custom_css: notes
 ---
 
 <div class="notes content">
-    {% for note in site.notes reversed %}
+    {% for note in paginator.posts %}
     <article class="note">
         <header class="note-heading">
             <h2 class="note-title">{{ note.title }} <a href="{{ note.url }}">#</a></h2>

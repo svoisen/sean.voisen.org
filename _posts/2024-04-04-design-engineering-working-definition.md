@@ -1,6 +1,6 @@
 ---
 title: Design engineering, a working definition
-description: A few thoughts on how we define the role of "design engineer."
+description: A few thoughts on how we define the role of design engineer in the tech industry.
 category: blog
 ---
 

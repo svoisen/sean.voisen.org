@@ -1,0 +1,16 @@
+---
+layout: page
+title: Marginalia
+description: Brief reflections on topics from books and papers.
+pagination:
+  enabled: true
+  category: marginalia
+  permalink: "/marginalia/:num/"
+---
+
+<ul class="posts-list">
+    {% for post in paginator.posts %}
+    {% include posts_list_item.html post=post %}
+    {% endfor %}
+</ul>
+{% include pagination.html %}

@@ -1,4 +1,17 @@
 <li class="posts-list-item">
-    <span class="post-title"><a href="{{ include.post.url }}">{{ include.post.title }}</a></span>
-    <span class="post-metadata">{{ include.post.date | date: "%b %-d, %Y" }}</span>
+    <div class="posts-list-item-metadata">
+        <time datetime="{{ include.post.date | date: '%F' }}">{{ include.post.date | date: "%b %-d, %Y" }}</time>
+    </div>
+    {% if include.post.category == "marginalia" %}
+    <div class="posts-list-item-contents posts-list-item-has-cover">
+        <picture>
+            <source type="image/webp" srcset="{{ site.url }}/assets/covers/{{ include.post.cover }}@160.webp 160w, {{ site.url }}/assets/covers/{{ include.post.cover }}@320.webp 320w">
+            <img class="posts-list-item-cover" src="{{ site.url }}/assets/images/{{ include.post.cover }}@160.webp" alt="{{ include.post.cover_alt }}">
+        </picture>
+    {% else %}
+    <div class="posts-list-item-contents">
+    {% endif %}
+        <a href="{{ include.post.url }}"><h3 class="posts-list-item-title">{{ include.post.title }}</h3></a>
+        <span class="posts-list-item-description">{{ include.post.description }}</span>
+    </div>
 </li>

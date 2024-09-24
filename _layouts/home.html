@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<article class="content">
+    {% if paginator.page == 1 %}
+    <header class="post-header">
+        <h2 class="post-title">Hello!</h2>
+        <p><a href="{{ site.url }}/about">I'm <em>Sean</em>.</a> On this site I mostly write about software development and how technology shapes the modern human experience. You'll find my latest <a href="{{ site.url }}/blog">blog posts</a> and <a href="{{ site.url }}/marginalia">marginalia</a> below.</p>
+    </header>
+    {% endif %}
+    <ul class="posts-list">
+        {% for post in paginator.posts %}
+        {% include posts_list_item.html post=post %}
+        {% endfor %}
+    </ul>
+    {% include pagination.html %}
+</article>

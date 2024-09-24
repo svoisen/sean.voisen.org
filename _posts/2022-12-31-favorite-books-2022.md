@@ -1,6 +1,6 @@
 ---
 title: Favorite books of 2022 (and 2021)
-description: A few favorite books from my reading over the past two years.
+description: A few favorite books I read during the years 2021 and 2022.
 category: blog
 ---
 
