@@ -11,9 +11,7 @@ hide_description: true
 
 My professional mission is to *make computing better for human creativity*. I'm a software developer who is deeply interested in creative tools, tools for thought, the open web, human-computer interaction, low-tech and sustainable solutions, and anything else related to making computing more inclusive, empowering, and [convivial](https://archive.org/details/illich-conviviality).
 
-Currently, I lead teams of front-end and design engineers building new user experiences for web, mobile and desktop.
-
-I’m originally from California, and live with my wife and kids in the San Francisco bay area. I studied computer science at [UCLA](https://www.ucla.edu) and at the (radically interdisciplinary and sadly now shuttered) Arts Computation Engineering program at [UC Irvine](https://www.uci.edu).
+I’m originally from California, and live with my wife and kids in the San Francisco bay area. I studied computer science at [UCLA](https://www.ucla.edu) and at the (radically interdisciplinary and sadly now shuttered) Arts Computation Engineering program at [UC Irvine](https://www.uci.edu). Currently, I lead teams of front-end and design engineers building new user experiences for web, mobile and desktop.
 
 ---
 
