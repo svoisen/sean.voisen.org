@@ -1,6 +1,6 @@
 ---
 title: In praise of randomness
-description: Thoughts inspired by Ways of Being by James Bridle on how computing is fundamentally incompatible with “true” randomness.
+description: James Bridle on the value of randomness, and how modern computing is fundamentally incompatible with the very idea of it.
 category: marginalia
 cover: ways_of_being_james_bridle
 cover_alt: Cover image for Ways of Being by James Bridle.

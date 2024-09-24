@@ -1,6 +1,6 @@
 ---
 title: Wendell Berry on the benefits of writing without a computer
-description: Thoughts on what we lose when we default to crafting our words using purely digital tools.
+description: What do we lose when we default to crafting our written words using purely digital tools?
 category: marginalia
 cover: why_not_computer
 cover_alt: Cover image for Why I Am Not Going to Buy a Computer by Wendell Berry.
