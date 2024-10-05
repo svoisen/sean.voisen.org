@@ -1,3 +1,13 @@
+- title: God Human Animal Machine
+  author: Megan O'Gieblyn
+  year: 2024
+  rating: 3
+  type: book
+  link: "https://bookshop.org/a/106240/9780525562719"
+  slug: god_human_animal_machine
+  isbn_13: 9780525562719
+  favorite: false
+
 - title: Why I Am Not Going to Buy a Computer
   author: Wendell Berry
   year: 2024
@@ -168,7 +178,7 @@
   type: book
   link: "https://bookshop.org/a/106240/9780195374612"
   slug: guide_to_the_good_life
-  isbn_13: 9780195374612 
+  isbn_13: 9780195374612
   favorite: false
 
 - title: The Coaching Habit
@@ -471,7 +481,7 @@
   favorite: true
 
 - title: A Foray Into the Worlds of Animals and Humans
-  author: Jakob von Uexküll 
+  author: Jakob von Uexküll
   year: 2009
   rating: 5
   type: book
@@ -480,7 +490,7 @@
 
 - title: Annals of the Former World
   author: John McPhee
-  year: 
+  year:
   rating: 5
   type: book
   slug: annals_former_world
@@ -488,7 +498,7 @@
 
 - title: Sky Above, Great Wind
   author: Ryōkan
-  year: 
+  year:
   rating: 5
   type: book
   slug: sky_above_great_wind
@@ -503,7 +513,7 @@
 
 - title: Shop Class as Soulcraft
   author: Matthew Crawford
-  year: 
+  year:
   rating: 5
   type: book
   link: "https://bookshop.org/a/106240/9780143117469"
