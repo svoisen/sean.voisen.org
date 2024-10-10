@@ -5,11 +5,11 @@ description: A little about Sean Voisen.
 hide_description: true
 ---
 
-**Hello!** I’m *Sean*. 
+**Hello!** I’m _Sean_.
 
 {% include picture.html class="wide" filename="sean_voisen_wide" caption="" aspect_ratio="" %}
 
-My professional mission is to *make computing better for human creativity*. I'm a software developer who is deeply interested in creative tools, tools for thought, the open web, human-computer interaction, low-tech and sustainable solutions, and anything else related to making computing more inclusive, empowering, and [convivial](https://archive.org/details/illich-conviviality).
+My professional mission is to _make computing better for human creativity_. I'm a software designer and developer who is deeply interested in creative tools, tools for thought, the open web, human-computer interaction, low-tech and sustainable computing, and anything else related to making computers more inclusive, empowering, and [convivial](https://archive.org/details/illich-conviviality).
 
 I’m originally from California, and live with my wife and kids in the San Francisco bay area. I studied computer science at [UCLA](https://www.ucla.edu) and at the (radically interdisciplinary and sadly now shuttered) Arts Computation Engineering program at [UC Irvine](https://www.uci.edu). Currently, I lead teams of front-end engineers and design technologists building new user experiences for web, mobile and desktop.
 
@@ -17,12 +17,13 @@ I’m originally from California, and live with my wife and kids in the San Fran
 
 If anything I write resonates with you, please feel free to <a href="#" class="eml-protected">send me a note</a>. You can also <a href="{{ site.url }}/subscribe">subscribe</a> for regular updates or [find me on Mastodon](https://front-end.social/@svoisen).
 
-*Views and opinions expressed on this site are purely my own and not representative of my employer.*
+_Views and opinions expressed on this site are purely my own and not representative of my employer._
 
 <aside class="footnote">
 <h3>Colophon</h3>
 
 This site is built using <a href="https://jekyllrb.com/">Jekyll</a> and deployed on <a href="https://www.netlify.com">Netlify</a>. Text is set in <a href="https://fonts.google.com/specimen/Alegreya">Alegreya</a> and <a href="https://fonts.google.com/specimen/Alegreya+Sans">Alegreya Sans</a>.
+
 </aside>
 
 <script>
@@ -48,4 +49,3 @@ This site is built using <a href="https://jekyllrb.com/">Jekyll</a> and deployed
         }
     });
 </script>
-
