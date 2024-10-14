@@ -6,7 +6,7 @@ custom_css: notes
 
 In [The Glass Cage](https://bookshop.org/a/106240/9780393351637), Nicholas Carr describes how over-reliance on computerized automation is a force for deskilling. In outsourcing our labor and our thinking to machines, we come to increasingly depend on those same machines to the point that we cannot make do in the world without them. One such example is GPS. The sad truth is that most of us can no longer find our own way, even within the confines of our own cities, without GPS.
 
-Carr describes how Inuit hunters in Igloolik, once able to navigate "vast stretches of barren arctic terrain" with through "profound understanding of winds, snowdrift patterns, animal behavior, stars, tides, and currents" now increasingly depend on GPS to do the same. The result is increased risk of disaster for younger generations of Inuit:
+Carr describes how Inuit hunters in Igloolik, once able to navigate "vast stretches of barren arctic terrain" through "profound understanding of winds, snowdrift patterns, animal behavior, stars, tides, and currents" now increasingly depend on GPS to do the same. The result is increased risk of disaster for younger generations of Inuit:
 
 > When a receiver breaks or its batteries freeze, a hunter who hasn't developed strong wayfinding skills can easily become lost in the featureless waste and fall victim to exposure.
 
