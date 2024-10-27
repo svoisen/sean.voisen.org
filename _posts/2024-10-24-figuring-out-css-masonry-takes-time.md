@@ -1,5 +1,5 @@
 ---
-title: CSS masonry takes time, and that's just fine
+title: CSS masonry will take time, and that's just fine
 description: Reflections on CSS masonry's early origins and the slow evolution of the web.
 category: blog
 image:

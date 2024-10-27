@@ -1,3 +1,23 @@
+- title: A Prayer for the Crown-Shy
+  author: Becky Chambers
+  year: 2024
+  rating: 3
+  type: book
+  link: "https://bookshop.org/a/106240/9781250236234"
+  slug: prayer_for_the_crown_shy
+  isbn_13: 9781250236234
+  favorite: false
+
+- title: The Glass Cage
+  author: Nicholas Carr
+  year: 2024
+  rating: 4
+  type: book
+  link: "https://bookshop.org/a/106240/9780393351637"
+  slug: glass_cage
+  isbn_13: 9780393351637
+  favorite: false
+
 - title: God Human Animal Machine
   author: Megan O'Gieblyn
   year: 2024
