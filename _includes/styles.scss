@@ -1,7 +1,7 @@
-@import '_variables';
-@import '_themes';
-@import '_theme_select';
-@import '_footer';
+@import "_variables";
+@import "_themes";
+@import "_theme_select";
+@import "_footer";
 
 * {
   box-sizing: border-box;
@@ -35,7 +35,7 @@ hr {
   margin: var(--space-xl) 0 var(--space-xl) 0;
 }
 
-hr+p {
+hr + p {
   margin-top: 0;
 }
 
@@ -49,7 +49,7 @@ a {
 a:hover {
   color: var(--link-hover-color);
   text-decoration-color: var(--link-hover-underline-color);
-  transition: 0.250s;
+  transition: 0.25s;
 }
 
 abbr[title] {
@@ -93,12 +93,16 @@ h4 {
   font-family: var(--font-family-sans-serif);
 }
 
-h3+p,
-h4+p {
+h3 + p,
+h4 + p {
   margin-top: var(--space-3xs);
 }
 
-p, ul, ol, blockquote, pre {
+p,
+ul,
+ol,
+blockquote,
+pre {
   margin-top: var(--space-l);
 }
 
@@ -127,7 +131,8 @@ small {
   font-size: var(--font-size-1);
 }
 
-.main > article, .main > div {
+.main > article,
+.main > div {
   margin: var(--space-xl) auto var(--space-2xl) auto;
 }
 
@@ -194,10 +199,11 @@ figcaption {
   font-size: var(--font-size-0);
   font-family: var(--font-family-sans-serif);
   text-align: center;
-  color: var(--metadata-color)
+  color: var(--metadata-color);
 }
 
-ul, ol {
+ul,
+ol {
   padding-left: var(--space-s);
   margin-left: var(--space-s);
 }
@@ -236,7 +242,7 @@ img.float-left {
   margin: var(--space-2xs) var(--space-l) var(--space-s) 0;
 }
 
-img.float-right {
+.float-right {
   display: block;
   float: right;
   width: clamp(160px, 30%, 200px);
@@ -294,12 +300,14 @@ ul.horizontal > li {
   text-decoration: none;
 }
 
-.header-title a, .navigation a {
+.header-title a,
+.navigation a {
   color: var(--header-footer-link-color);
   text-decoration: none;
 }
 
-.header-title a:hover, .navigation a:hover {
+.header-title a:hover,
+.navigation a:hover {
   color: var(--header-footer-link-hover-underline-color);
   text-decoration: underline;
   text-decoration-color: var(--header-footer-link-hover-underline-color);
@@ -325,11 +333,11 @@ ul.horizontal > li {
   margin-bottom: var(--space-xl);
 }
 
-.post-header h2+p {
+.post-header h2 + p {
   margin-top: 0;
 }
 
-.content-grid > .post-header {
+.content > .post-header, .content-grid > .post-header {
   margin-bottom: 0;
 }
 
@@ -472,7 +480,10 @@ ul.horizontal > li {
   }
 
   .content-grid {
-    grid-template-columns: minmax(var(--space-xl), 1fr) minmax(0, 3.5rem) 43rem minmax(0, 3.5rem) minmax(var(--space-xl), 1fr);
+    grid-template-columns: minmax(var(--space-xl), 1fr) minmax(0, 3.5rem) 43rem minmax(
+        0,
+        3.5rem
+      ) minmax(var(--space-xl), 1fr);
   }
 
   .content-grid > * {
@@ -512,7 +523,8 @@ ul.horizontal > li {
     margin-left: var(--space-s);
   }
 
-  .main > article, .main > div {
+  .main > article,
+  .main > div {
     margin: var(--space-3xl) auto var(--space-2xl) auto;
   }
 }
@@ -522,7 +534,7 @@ ul.horizontal > li {
     margin-bottom: var(--space-2xl);
   }
 
-  .post-header h2+p {
+  .post-header h2 + p {
     margin-top: var(--space-3xs);
   }
 
