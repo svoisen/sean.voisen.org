@@ -1,7 +1,7 @@
 site: Sean Voisen
 url: https://sean.voisen.org
 title: Sean Voisen
-description: Software development, technology, and living a good life in the modern world.
+description: Writing about software design, development, and how computers shape what it means to be human.
 author:
   name: Sean Voisen
 twitter:
@@ -24,7 +24,7 @@ baseurl: ""
 
 sass:
   style: compressed
-  
+
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
@@ -33,7 +33,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-gist
   - jekyll-seo-tag
-  - jekyll-sitemap  
+  - jekyll-sitemap
   - jekyll-feed
 
 feed:
@@ -57,30 +57,25 @@ collections:
   notes:
     output: true
     permalink: /notes/:year-:month-:day-:slug
-  
+
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       type: "pages"
     values:
       layout: "page"
-  -
-    scope:
+  - scope:
       type: "posts"
     values:
       layout: "post"
-  -
-    scope:
+  - scope:
       type: "notes"
     values:
       layout: "note"
-  - 
-    scope:
+  - scope:
       path: "assets/images"
     values:
       image: true
