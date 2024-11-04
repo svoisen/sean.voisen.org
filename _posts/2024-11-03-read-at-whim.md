@@ -1,6 +1,6 @@
 ---
 title: Reading at Whim
-description: Choosing what to read isn't always easy. Alan Jacobs recommends indulging your Whim.
+description: Choosing what to read isn't always easy. Alan Jacobs recommends reading for pleasure and indulging your Whim.
 category: marginalia
 cover: pleasures_reading_age_distraction
 cover_alt: Cover image for The Pleasures of Reading in an Age of Distraction.
