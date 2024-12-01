@@ -9,9 +9,11 @@ hide_description: true
 
 {% include picture.html class="wide" filename="sean_voisen_wide" caption="" aspect_ratio="" %}
 
-My professional mission is to _make computing better for human creativity_. I'm a software designer and developer who is deeply interested in creative tools, tools for thought, the open web, human-computer interaction, low-tech and sustainable computing, and anything else related to making computers more inclusive, empowering, and [convivial](https://archive.org/details/illich-conviviality).
+My professional mission is to _make computing better for human creativity_. I'm a design technologist and software engineering leader who is deeply interested in creative tools, tools for thought, malleable systems, the open web, human-computer interaction, sustainable computing, and generally anything related to making computers more inclusive, empowering, and [convivial](https://archive.org/details/illich-conviviality).
 
-I’m originally from California, and live with my wife and kids in the San Francisco bay area. I studied computer science at [UCLA](https://www.ucla.edu) and at the (radically interdisciplinary and sadly now shuttered) Arts Computation Engineering program at [UC Irvine](https://www.uci.edu). Currently, I lead teams of front-end engineers and design technologists building new user experiences for web, mobile and desktop.
+I’m originally from California, and live with my wife and kids in the San Francisco bay area. I studied computer science at [UCLA](https://www.ucla.edu) and at the (radically interdisciplinary and sadly now shuttered) Arts Computation Engineering program at [UC Irvine](https://www.uci.edu). 
+
+Currently, I lead teams of front-end engineers and design technologists building design systems and new user experiences for web, mobile and desktop.
 
 ---
 
