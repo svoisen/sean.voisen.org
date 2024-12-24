@@ -465,6 +465,22 @@ ul.horizontal > li {
   padding-top: 0;
 }
 
+.external-link {
+  position: relative;
+  padding-right: var(--space-2xs);
+}
+
+.external-link::after {
+  position: absolute;
+  top: 2px;
+  right: -4px;
+  line-height: 0;
+  content: "↗";
+  font-size: var(--font-size-0);
+  margin-left: 0;
+  color: var(--external-link-icon-color);
+}
+
 @media only screen and (min-width: 768px) {
   .header-contents {
     align-items: center;

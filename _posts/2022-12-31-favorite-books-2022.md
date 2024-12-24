@@ -4,11 +4,20 @@ description: A few favorite books I read during the years 2021 and 2022.
 category: blog
 ---
 
-<div style="display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 0.5rem; aspect-ratio: 2.7">
-    <img src="{{site.url}}/assets/covers/ways_of_being_james_bridle@320.webp" alt="Cover of Ways of Being by James Bridle" style="min-height: 100%" loading="lazy">
-    <img src="{{site.url}}/assets/covers/four_thousand_weeks@320.webp" alt="Cover of Four Thousand Weeks by Oliver Burkeman" style="min-height: 100%; height: 0" loading="lazy">
-    <img src="{{site.url}}/assets/covers/tools_for_conviviality@320.webp" alt="Cover of Tools for Conviviality by Ivan Illich" style="min-height: 100%; height: 0" loading="lazy">
-    <img src="{{site.url}}/assets/covers/reflective_practitioner@320.webp" alt="Cover for The Reflective Practitioner by Donald Schon" style="min-height: 100%; height: 0" loading="lazy">
+<div style="display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap:
+    0.5rem; aspect-ratio: 2.7; margin-top:var(--space-l)">
+    <img src="{{site.url}}/assets/covers/ways_of_being_james_bridle@320.webp"
+        alt="Cover of Ways of Being by James Bridle" style="min-height: 100%;
+        height: 0; border-radius: 0.5rem;" loading="lazy">
+    <img src="{{site.url}}/assets/covers/four_thousand_weeks@320.webp"
+        alt="Cover of Four Thousand Weeks by Oliver Burkeman" style="min-height:
+            100%; height: 0; border-radius: 0.5rem;" loading="lazy">
+    <img src="{{site.url}}/assets/covers/tools_for_conviviality@320.webp"
+        alt="Cover of Tools for Conviviality by Ivan Illich" style="min-height:
+            100%; height: 0; border-radius: 0.5rem;" loading="lazy">
+    <img src="{{site.url}}/assets/covers/reflective_practitioner@320.webp"
+        alt="Cover for The Reflective Practitioner by Donald Schon"
+        style="min-height: 100%; height: 0; border-radius: 0.5rem;" loading="lazy">
 </div>
 
 It's the end of 2022, and I usually enjoy recounting my past year by conducting a quick review of my annual reading. There's something about the experience of reading a _book_ that imprints itself on the mind, serving as a waymarker for personal history. Indeed, I often find it easier to remember years by recounting what books I was reading at the time. Books are like thematic anchors in a sea of thoughts and memories; their length and physicality (I like paper books) have a kind of mnemonic gravity.

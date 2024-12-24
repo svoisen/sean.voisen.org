@@ -1,3 +1,13 @@
+- title: Letters to a Young Poet
+  author: Ranier Maria Rilke
+  year: 2024
+  rating: 5
+  type: book
+  link: "https://bookshop.org/a/106240/9781611806861"
+  slug: letters_to_a_young_poet
+  isbn_13: 9781611806861
+  favorite: true
+
 - title: Moonbound
   author: Robin Sloan
   year: 2024

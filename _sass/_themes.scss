@@ -28,6 +28,7 @@ html[data-theme='light'] {
   --header-footer-input-color: var(--gray-600);
   --header-footer-input-focus-color: var(--gray-400);
   --footnote-color: var(--gray-600);
+  --external-link-icon-color: var(--gray-200);
 }
 
 html[data-theme='dark'] {
@@ -60,4 +61,5 @@ html[data-theme='dark'] {
   --header-footer-input-color: var(--brown-500);
   --header-footer-input-focus-color: var(--brown-300);
   --footnote-color: var(--brown-300);
+  --external-link-icon-color: var(--brown-200);
 }
