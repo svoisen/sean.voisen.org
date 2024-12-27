@@ -10,7 +10,7 @@ In [My little games workshop](https://daverupert.com/2024/12/my-little-games-wor
 
 Man, I feel this.
 
-There's much to be said about making "not work" not feel like work. Side-projects can feel like a kind of hyper-employment if you're not careful. I've learned this the hard way too many times. Trying to turn a side-project into a business is but one example (a lesson I once Iearned on an open source hardware project). But another characteristic of side-projects I've found that triggers this feeling for me is the use of programming languages, frameworks or technologies that are identical to, or very close to, the technologies that I use during my day job.
+There's much to be said about making "not work" not feel like work. Side-projects can feel like a kind of hyper-employment if you're not careful. I've learned this the hard way too many times. Trying to turn a side-project into a business is but one example (a lesson I once learned on an open source hardware project). But another characteristic of side-projects I've found that triggers this feeling for me is the use of programming languages, frameworks or technologies that are identical to, or very close to, the technologies that I use during my day job.
 
 I'm currently fortunate (?) that I don't write ~~much~~ any code these days at work, which has left me with an abundance of mental energy for writing code after hours. But, even now, I still try to use side-projects as an excuse to dip my toes in completely foreign soils—learning new programming languages (currently Go) and frameworks or building things on parts of the stack I'd likely never touch otherwise.
 
