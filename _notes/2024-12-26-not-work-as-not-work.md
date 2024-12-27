@@ -4,7 +4,7 @@ description: Some thoughts on keeping side-projects fun
 custom_css: notes
 ---
 
-In [My Little Games Workshop](https://daverupert.com/2024/12/my-little-games-workshop/) Dave Rupert writes:
+In [My little games workshop](https://daverupert.com/2024/12/my-little-games-workshop/) Dave Rupert writes:
 
 >I default to web tech because it’s what I know best and staying in your wheelhouse means you can move faster with less mystery roadblocks ... But I’d like *NOT WORK* to not feel like work and see value in that, so this may change going forward.
 
