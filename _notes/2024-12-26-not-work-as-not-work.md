@@ -1,5 +1,5 @@
 ---
-title: Not work as not work
+title: Not work as "not work"
 description: Some thoughts on keeping side-projects fun
 custom_css: notes
 ---
