@@ -1,3 +1,13 @@
+- title: The Art of Living
+  author: Thich Nhat Hanh
+  year: 2025
+  rating: 4.5
+  type: book
+  link: "https://bookshop.org/a/106240/9780062434661"
+  slug: art_of_living
+  isbn_13: 9780062434661
+  favorite: false
+
 - title: Letters to a Young Poet
   author: Ranier Maria Rilke
   year: 2024
