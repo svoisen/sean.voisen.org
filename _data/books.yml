@@ -1,7 +1,27 @@
+- title: "Seneca: A Life"
+  author: Emily Wilson
+  year: 2025
+  rating: 3.5
+  type: book
+  link: "https://bookshop.org/a/106240/9780199926640"
+  slug: seneca_a_life
+  isbn_13: 9780199926640
+  favorite: false
+
+- title: In My Time of Dying
+  author: Sebastian Junger
+  year: 2025
+  rating: 4
+  type: book
+  link: "https://bookshop.org/a/106240/9781668050835"
+  slug: my_time_of_dying
+  isbn_13: 9781668050835
+  favorite: false
+
 - title: The Art of Living
   author: Thich Nhat Hanh
   year: 2025
-  rating: 4.5
+  rating: 4
   type: book
   link: "https://bookshop.org/a/106240/9780062434661"
   slug: art_of_living
