@@ -1,2 +1,4 @@
-/writing/* /blog/:splat 301
-/reading   /bookshelf   301
+/writing/* https://seanvoisen.com/blog/:splat 301
+/reading   https://seanvoisen.com/bookshelf   301
+/blog/*    https://seanvoisen.com/blog/:splat 301
+/notes/*   https://seanvoisen.com/stream/:splat 301
